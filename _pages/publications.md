@@ -5,7 +5,7 @@ permalink: /publications/
 author_profile: true
 ---
 
-You can find my publications at [Google Scholar]https://scholar.google.com/citations?user=RQTJ_aIAAAAJ&hl=en&oi=ao) and [Research Gate](https://www.researchgate.net/profile/Prateek-Chhikara).
+You can find my publications at [Google Scholar](https://scholar.google.com/citations?user=RQTJ_aIAAAAJ&hl=en&oi=ao) and [ResearchGate](https://www.researchgate.net/profile/Prateek-Chhikara).
 
 
 
@@ -13,37 +13,56 @@ You can find my publications at [Google Scholar]https://scholar.google.com/citat
 
 ## Quartile 1 (Q1) 
 
-* **P Chhikara**, R Tekchandani, N Kumar, M Guizani, and MM Hassan. *'Federated learning and autonomous UAVs for hazardous zone detection and AQI prediction in IoT environment'*, 2021. IEEE Internet of Things Journal. [[Impact Factor: 10.238](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=6488907)] [[Published Version](https://ieeexplore.ieee.org/abstract/document/9409140)]
+* **P Chhikara**, R Tekchandani, N Kumar, M Guizani, and MM Hassan. *'Federated learning and autonomous UAVs for hazardous zone detection and AQI prediction in IoT environment'*, 2021. **IEEE Internet of Things Journal**. \
+[[Impact Factor: 10.238](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=6488907)] [[Published Version](https://ieeexplore.ieee.org/abstract/document/9409140)]
 
-* A Barnawi, **P Chhikara**, R Tekchandani, N Kumar, and B Alzahrani. *'Artificial intelligence-enabled Internet of Things-based system for COVID-19 screening using aerial thermal imaging'*, 2021. Future Generation Computer Systems. [[Impact Factor: 7.307](https://www.sciencedirect.com/journal/future-generation-computer-systems)] [[Published Version](https://www.sciencedirect.com/science/article/pii/S0167739X21001692)]
+* A Barnawi, **P Chhikara**, R Tekchandani, N Kumar, and B Alzahrani. *'Artificial intelligence-enabled Internet of Things-based system for COVID-19 screening using aerial thermal imaging'*, 2021. **Future Generation Computer Systems**.\
+[[Impact Factor: 7.307](https://www.sciencedirect.com/journal/future-generation-computer-systems)] [[Published Version](https://www.sciencedirect.com/science/article/pii/S0167739X21001692)]
 
-* **P Chhikara**, R Tekchandani, N Kumar, V Chamola, and M Guizani. *'DCNN-GA: A Deep Neural Net Architecture for Navigation of UAV in Indoor Environment'*, 2020. IEEE Internet of Things Journal. [[Impact Factor: 10.238](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=6488907)] [[Published Version](https://ieeexplore.ieee.org/abstract/document/9207753)]
+* **P Chhikara**, R Tekchandani, N Kumar, V Chamola, and M Guizani. *'DCNN-GA: A Deep Neural Net Architecture for Navigation of UAV in Indoor Environment'*, 2020. **IEEE Internet of Things Journal**. \
+[[Impact Factor: 10.238](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=6488907)] [[Published Version](https://ieeexplore.ieee.org/abstract/document/9207753)]
 
-* **P Chhikara**, P Singh, R Tekchandani, N Kumar, and M Guizani. *'Federated Learning meets Human Emotions: a Decentralized Framework for Human-Computer Interaction for IoT Applications'*, 2020. IEEE Internet of Things Journal. [[Impact Factor: 10.238](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=6488907)] [[Published Version](https://ieeexplore.ieee.org/abstract/document/9253631)]
+* **P Chhikara**, P Singh, R Tekchandani, N Kumar, and M Guizani. *'Federated Learning meets Human Emotions: a Decentralized Framework for Human-Computer Interaction for IoT Applications'*, 2020. **IEEE Internet of Things Journal**. \
+[[Impact Factor: 10.238](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=6488907)] [[Published Version](https://ieeexplore.ieee.org/abstract/document/9253631)]
 
-* **P Chhikara**, R Tekchandani, N Kumar, and MS Obaidat. *'An Efficient Container Management Scheme for Resource Constrained Intelligent IoT Devices'*, 2020. IEEE Internet of Things Journal. [[Impact Factor: 10.238](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=6488907)] [[Published Version](https://ieeexplore.ieee.org/abstract/document/9253547)]
+* **P Chhikara**, R Tekchandani, N Kumar, and MS Obaidat. *'An Efficient Container Management Scheme for Resource Constrained Intelligent IoT Devices'*, 2020. **IEEE Internet of Things Journal**. \
+[[Impact Factor: 10.238](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=6488907)] [[Published Version](https://ieeexplore.ieee.org/abstract/document/9253547)]
 
 ## Quartile 2 (Q2)
+
+* A Barnawi, **P Chhikara**, R Tekchandani, N Kumar, and M Boulares. *'A CNN-based scheme for COVID-19 detection with emergency services provisions using an optimal path planning'*, 2021. **Multimedia Systems**. \
+[[Impact Factor: 2.603](https://www.springer.com/journal/530)] [[Published Version](https://link.springer.com/article/10.1007/s00530-021-00833-2)]
+
+* **P Chhikara**, N Jain, R Tekchandani, and N Kumar. *'Data dimensionality reduction techniques for Industry 4.0: Research results, challenges, and future research directions'*, 2020. **Software: Practice and Experience**. \
+[[Impact Factor: 3.200](https://onlinelibrary.wiley.com/journal/1097024x)] [[Published Version](https://onlinelibrary.wiley.com/doi/abs/10.1002/spe.2876)]
 
 
 ## Quartile 3 (Q3)
 
-
-## International Conferences
-* **A. Goyal**, J. Khiari, **Diversity-Aware Weighted Majority Vote Classifier for Imbalanced Data**, [IJCNN](https://wcci2020.org/), 2020 [[Published Version](https://ieeexplore.ieee.org/document/9207261)] [[arXiv](https://arxiv.org/abs/2004.07605)] [[Code](https://github.com/goyalanil/DAMVI)]
-
-* **A. Goyal**, E. Morvant, M.R. Amini, **"Multiview Learning of Weighted Majority Vote by Bregman Divergence Minimization"**, [IDA](https://ida2018.org/), 2018 [[Published Version](https://link.springer.com/chapter/10.1007/978-3-030-01768-2_11)] [[arXiv](https://arxiv.org/abs/1805.10212)]
-
-* **A. Goyal**, E. Morvant, P. Germain, M.R. Amini, **"PAC-Bayesian Analysis for a two-step Hierarchical Mutliview Learning Approach"**, [ECML-PKDD](http://ecmlpkdd2017.ijs.si/), 2017 [[Published Version](https://link.springer.com/chapter/10.1007/978-3-319-71246-8_13)] [[arXiv](http://arxiv.org/abs/1606.07240)]
+* **P Chhikara**, P Gupta, P Singh, and T Bhatia. *'A Deep Transfer Learning based model for Automatic Detection of COVID-19 from Chest X-Rays'*, 2021. **Turkish Journal of Electrical Engineering and Computer Sciences**. \
+[[Impact Factor: 0.853](https://journals.tubitak.gov.tr/elektrik/)] [[Published Version](https://journals.tubitak.gov.tr/elektrik/vol29/iss8/6/)]
 
 
-## National Conferences
-* **A. Goyal**, E. Morvant, M.R. Amini, **"Une borne Apprentissage d’un vote de majorité hiérarchique pour l’apprentissage multivue"**, French Conference on Machine Learning ([CAp](http://cap2018.litislab.fr/)), 2018
+<center>  <h1> Conferences </h1> </center>
 
-* **A. Goyal**, E. Morvant, P. Germain, **Une borne PAC-Bayésienne en espérance et son extension à l'apprentissage multivues**, French Conference on Machine Learning ([CAp](http://cap2017.imag.fr/index-en.html)), 2017
+## CORE A*
+* **P Chhikara**, R Tekchandani, N Kumar, and S Tanwar. *'Federated Learning-based Aerial Image Segmentation for collision-free Movement and Landing'*, 2021. **Proceedings of the 4th ACM MobiCom Workshops**. \
+[[Published Version](https://dl.acm.org/doi/abs/10.1145/3477090.3481051)]
 
-* **A. Goyal**, E. Morvant, P. Germain, M.R. Amini, **Théorèmes PAC-Bayésiens pour l'apprentissage multi-vues**, French Conference on Machine Learning ([CAp](http://cap16.lif.univ-mrs.fr/)), 2016
+## CORE B
+* **P Chhikara**, R Tekchandani, N Kumar, S Tanwar, and JJPC Rodrigues. *'Federated Learning for Air Quality Index Prediction using UAV Swarm Networks'*, 2021. **IEEE Globecom**. \
+[[Published Version](https://ieeexplore.ieee.org/abstract/document/9685991)]
 
-* **A. Goyal**, G. Balikas,  P. Goswami,  M.R. Amini,  E. Gaussier, **Transfer Learning for IR Model Parameter Tuning**, French Conference on Machine Learning ([CAp](http://cap2015.sciencesconf.org/)), 2015
+* S Arora, S Goel, **P Chhikara**, H Singh, N Kumar, and PS Rana. *'An efficient scheme for wireless charging of electric vehicles using RFID with an optimal path planning'*, 2019. **IEEE Globecom**. \
+[[Published Version](https://ieeexplore.ieee.org/abstract/document/9024537)]
 
-* **A. Goyal**, M.K. Jadon, A.K. Pujari, **Spectral Approach to find Number of Clusters of Short-text Documents**, [NCVPRIPG](https://www.cse.iitb.ac.in/~sharat/icvgip.org/ncvpripg2013/index.html), 2013 [[Published Version](https://ieeexplore.ieee.org/document/6776152)]
+## National Conference
+* P Singh, **P Chhikara**, and J Singh. *'An ensemble approach for extractive text summarization'*, 2020. **International Conference on Emerging Trends in Information Technology and Engineering**. \
+[[Published Version](https://ieeexplore.ieee.org/abstract/document/9077805)]
+
+
+<center>  <h1> Book Chapter </h1> </center>
+
+* **P Chhikara**, P Singh, P Gupta, and T Bhatia. *'Deep convolutional neural network with transfer learning for detecting pneumonia on chest X-rays
+'*, 2019. **Advances in Bioinformatics, Multimedia, and Electronics Circuits and Signals**. \
+[[Published Version](https://link.springer.com/chapter/10.1007/978-981-15-0339-9_13)]
