@@ -9,7 +9,7 @@ You can find my publications at [Google Scholar](https://scholar.google.com/cita
 
 
 
-<center>  <h1> Journals </h1> </center>
+<center>  <h1> <u> Journals </u> </h1> </center>
 
 ## Quartile 1 (Q1) 
 
@@ -36,14 +36,13 @@ You can find my publications at [Google Scholar](https://scholar.google.com/cita
 * **P Chhikara**, N Jain, R Tekchandani, and N Kumar. *'Data dimensionality reduction techniques for Industry 4.0: Research results, challenges, and future research directions'*, 2020. **Software: Practice and Experience**. \
 [[Impact Factor: 3.200](https://onlinelibrary.wiley.com/journal/1097024x)] [[Published Version](https://onlinelibrary.wiley.com/doi/abs/10.1002/spe.2876)]
 
-
 ## Quartile 3 (Q3)
 
 * **P Chhikara**, P Gupta, P Singh, and T Bhatia. *'A Deep Transfer Learning based model for Automatic Detection of COVID-19 from Chest X-Rays'*, 2021. **Turkish Journal of Electrical Engineering and Computer Sciences**. \
 [[Impact Factor: 0.853](https://journals.tubitak.gov.tr/elektrik/)] [[Published Version](https://journals.tubitak.gov.tr/elektrik/vol29/iss8/6/)]
 
-
-<center>  <h1> Conferences </h1> </center>
+<br>
+<center>  <h1> <u> Conferences </u> </h1> </center>
 
 ## CORE A*
 * **P Chhikara**, R Tekchandani, N Kumar, and S Tanwar. *'Federated Learning-based Aerial Image Segmentation for collision-free Movement and Landing'*, 2021. **Proceedings of the 4th ACM MobiCom Workshops**. \
@@ -60,8 +59,8 @@ You can find my publications at [Google Scholar](https://scholar.google.com/cita
 * P Singh, **P Chhikara**, and J Singh. *'An ensemble approach for extractive text summarization'*, 2020. **International Conference on Emerging Trends in Information Technology and Engineering**. \
 [[Published Version](https://ieeexplore.ieee.org/abstract/document/9077805)]
 
-
-<center>  <h1> Book Chapter </h1> </center>
+<br>
+<center>  <h1> <u> Book Chapter </u> </h1> </center>
 
 * **P Chhikara**, P Singh, P Gupta, and T Bhatia. *'Deep convolutional neural network with transfer learning for detecting pneumonia on chest X-rays
 '*, 2019. **Advances in Bioinformatics, Multimedia, and Electronics Circuits and Signals**. \

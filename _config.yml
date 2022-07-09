@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Home Page"
+title                    : "Prateek Chhikara"
 title_separator          : "-"
 name                     : &name "Prateek Chhikara"
 description              : &description "yooo"
@@ -82,12 +82,12 @@ analytics:
 author:
   name             : "Prateek Chhikara"
   avatar           : "profile.png"
-  bio              : "Master of Science student in Computer Science at University of Southern California"
+  bio              : "Graduate Student in Computer Science at University of Southern California"
   location         : "Los Angeles"
   employer         :
   pubmed           : # "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   googlescholar    : "https://scholar.google.com/citations?user=RQTJ_aIAAAAJ&hl=en&oi=ao"
-  email            :
+  email            : "prateekchhikara24@gmail.com"
   researchgate     :  "https://www.researchgate.net/profile/Prateek-Chhikara"
   uri              :
   bitbucket        :

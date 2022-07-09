@@ -9,20 +9,23 @@ redirect_from:
 ---
 
 
-<img src="/images/usc-logo.png" alt="USC logo" style="height: 100px; width:100px; background-size: cover"/>
+<img src="/images/usc-banner.png" alt="USC logo" style="height: 180px; width:100%; background-size: cover"/>
 
-I am a graduate student pursuing my Master of Science in Computer Sciencce at Viterbi School of Engineering at University of Southern California. 
 
-<br clear="left"/>
+<!-- <img src="/images/usc-logo.png" alt="USC logo" style="height: 100px; width:100px; background-size: cover"/> -->
+
+I am a graduate student pursuing my Master of Science in Computer Science (*specialization in Artificial Intelligence*) at Viterbi School of Engineering at USC. 
 
 <p style='text-align: justify;'> 
-
-I am a Data Scientist professional with more than two years of experience in advanced analytics, machine learning, and computer vision in the real-estate domain. Proficient in machine learning and its applications; adept at solving complex use-cases through data.
+Previous to that, I have worked as a Data Scientist professional for more than two years in advanced analytics, machine learning, and computer vision in the real-estate domain. I am proficient in machine learning and its applications and adept at solving complex use-cases through data.
 </p>
 
 <p style='text-align: justify;'> 
-I apply curiosity to learn new approaches and tools in Artificial Intelligence and Machine Learning. This eagerness to learn enables me to act as a bridge between the development team, analytics team, and business. Being a person who has empathy and loves harmony, I have become an active team player and contributed to the smooth execution of multiple projects at Housing.com. 
+I apply curiosity to learn new approaches and tools in Artificial Intelligence and Machine Learning. This eagerness to learn enables me to act as a bridge between the development team, analytics team, and business. Being a person who has empathy and loves harmony, I have become an active team player and contributed to the smooth execution of multiple projects at my previous organization. 
+</p>
 
+<p style='text-align: justify;'> 
+To give back to the community, I write articles detailing things I have learned and post them on Medium. If you are a data science aspirant, please check out my <a href="https://medium.com/@prateekchhikara">Medium</a> account.
 </p>
 
 <!-- A data-driven personal website
