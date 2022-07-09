@@ -6,7 +6,7 @@ author_profile: true
 ---
 
 <img src="/images/housing_logo.png" alt="USC logo" style=" align: top; height: 60px; width:60px; background-size: cover; border-radius: 98px"/>
-<b> Data Scientist </b> - [Housing.com](www.housing.com) (*July 2020 - August 2022*) 
+<b> Data Scientist </b> - [Housing.com](https://www.housing.com) (*July 2020 - August 2022*) 
 
 * Utilized analytical and technical expertise to deliver insights and suggestions for business progress.
 * Developed a fraud engine with **92% precision** that takes historical and session-level attributes to block users from dropping fake leads on the platform and prevent them from exploiting it.
@@ -15,7 +15,7 @@ author_profile: true
 * Fully automated the labeling of images into real-estate tags (bedroom, kitchen, etc.) by devising a real-estate image classifier with **93% precision** and **89% recall** using CNN. The model offers **6 FPS** on CPU and works in real-time.
 <hr />
 <img src="/images/proptiger.png" alt="USC logo" style="height: 60px; width:60px; background-size: cover;"/>
-<b> Data Scientist (Intern) </b> - [PropTiger.com](www.proptiger.com) (*Jan 2020 - July 2020*)
+<b> Data Scientist (Intern) </b> - [PropTiger.com](https://www.proptiger.com) (*Jan 2020 - July 2020*)
 
 * Created a pipeline that enhances image quality in terms of contrast, brightness, sharpness, blur, and noise. The pipeline returns an image quality score via statistical analysis, which helped increase the **CTR by 8%** on social media campaigns.
 * Developed a service that extracts real-estate entity tags from WhatsApp group messages with **87% f1-score**. The created named entity recognition model uses BERT to extract embeddings, and further, a bi-affine classifier is used for prediction.
