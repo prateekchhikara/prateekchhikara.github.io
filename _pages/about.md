@@ -8,9 +8,9 @@ redirect_from:
   - /about.html
 ---
 
-
-<img src="/images/usc-banner.png" alt="USC logo" style="height: 180px; width:100%; background-size: cover"/>
-
+<center>
+<img src="/images/usc-banner.png" alt="USC logo" style="height: 90%; width:90%; background-size: cover"/>
+</center>
 
 <!-- <img src="/images/usc-logo.png" alt="USC logo" style="height: 100px; width:100px; background-size: cover"/> -->
 

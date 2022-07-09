@@ -5,7 +5,7 @@ permalink: /publications/
 author_profile: true
 ---
 
-You can find my publications at [Google Scholar](https://scholar.google.com/citations?user=RQTJ_aIAAAAJ&hl=en&oi=ao) and [ResearchGate](https://www.researchgate.net/profile/Prateek-Chhikara).
+You can find my publications at [Google Scholar](https://scholar.google.com/citations?user=RQTJ_aIAAAAJ&hl=en&oi=ao) or [ResearchGate](https://www.researchgate.net/profile/Prateek-Chhikara).
 
 
 
