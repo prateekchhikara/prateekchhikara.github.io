@@ -14,7 +14,7 @@ redirect_from:
 
 <!-- <img src="/images/usc-logo.png" alt="USC logo" style="height: 100px; width:100px; background-size: cover"/> -->
 
-I am a graduate student pursuing my Master of Science in Computer Science (*specialization in Artificial Intelligence*) at Viterbi School of Engineering at USC. 
+I am an incoming (Fall'22) graduate student of Master of Science in Computer Science (*specialization in Artificial Intelligence*) at Viterbi School of Engineering at USC. 
 
 <p style='text-align: justify;'> 
 Previous to that, I have worked as a Data Scientist professional for more than two years in advanced analytics, machine learning, and computer vision in the real-estate domain. I am proficient in machine learning and its applications and adept at solving complex use-cases through data.
@@ -27,6 +27,14 @@ I apply curiosity to learn new approaches and tools in Artificial Intelligence a
 <p style='text-align: justify;'> 
 To give back to the community, I write articles detailing things I have learned and post them on Medium. If you are a data science aspirant, please check out my <a href="https://medium.com/@prateekchhikara">Medium</a> account.
 </p>
+
+# Skills
+
+<b> <u> Programming Languages:</u> </b> Python, C++, R, Matlab, SQL. <br>
+<b> <u> Development Tools: </u> </b> HTML, CSS, Javascript. <br>
+<b> <u> Machine Learning & Deep Learning Frameworks: </u></b> Keras, Tensorflow, PyTorch, NLTK, OpenCV, Spacy, Scikit-learn, Pandas, PySpark, Flask, Fast-API. <br>
+<b> <u> Tools: </u></b> Databricks, Jenkins, Git, Docker, OpenVINO, SonarQube, Postman. <br>
+<b> <u> Cloud Platforms: </u></b> AWS and GCP.
 
 <!-- A data-driven personal website
 ======

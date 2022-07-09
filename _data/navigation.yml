@@ -1,13 +1,13 @@
 # main links links
 main:
+  - title: "Education"
+    url: /education/  
+
   - title: "Work Experience"
     url: /work_ex/  
 
   - title: "Publications"
-    url: /publications/  
-
-  # - title: "Teaching"
-  #   url: /teaching/    
+    url: /publications/    
     
   # - title: "Portfolio"
   #   url: /portfolio/

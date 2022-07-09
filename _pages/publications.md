@@ -40,7 +40,7 @@ You can find my publications at [Google Scholar](https://scholar.google.com/cita
 
 * **P Chhikara**, P Gupta, P Singh, and T Bhatia. *'A Deep Transfer Learning based model for Automatic Detection of COVID-19 from Chest X-Rays'*, 2021. **Turkish Journal of Electrical Engineering and Computer Sciences**. \
 [[Impact Factor: 0.853](https://journals.tubitak.gov.tr/elektrik/)] [[Published Version](https://journals.tubitak.gov.tr/elektrik/vol29/iss8/6/)]
-
+<hr />
 <br>
 <center>  <h1> <u> Conferences </u> </h1> </center>
 
@@ -58,7 +58,7 @@ You can find my publications at [Google Scholar](https://scholar.google.com/cita
 ## National Conference
 * P Singh, **P Chhikara**, and J Singh. *'An ensemble approach for extractive text summarization'*, 2020. **International Conference on Emerging Trends in Information Technology and Engineering**. \
 [[Published Version](https://ieeexplore.ieee.org/abstract/document/9077805)]
-
+<hr />
 <br>
 <center>  <h1> <u> Book Chapter </u> </h1> </center>
 
