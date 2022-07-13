@@ -48,6 +48,10 @@ You can find my publications at [Google Scholar](https://scholar.google.com/cita
 * **P Chhikara**, R Tekchandani, N Kumar, and S Tanwar. *'Federated Learning-based Aerial Image Segmentation for collision-free Movement and Landing'*, 2021. **Proceedings of the 4th ACM MobiCom Workshops**. \
 [[Published Version](https://dl.acm.org/doi/abs/10.1145/3477090.3481051)]
 
+## CORE A
+* **P Chhikara**, A Goyal, and C Sharma. *'RE-Tagger: A light-weight Real-Estate Image Classifier'*, 2022. **European Conference on Machine Learning and Principles and Practice of Knowledge Discovery in Databases**. \
+[[Accepted Version](https://arxiv.org/abs/2207.05696)]
+
 ## CORE B
 * **P Chhikara**, R Tekchandani, N Kumar, S Tanwar, and JJPC Rodrigues. *'Federated Learning for Air Quality Index Prediction using UAV Swarm Networks'*, 2021. **IEEE Globecom**. \
 [[Published Version](https://ieeexplore.ieee.org/abstract/document/9685991)]
