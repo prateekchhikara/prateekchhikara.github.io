@@ -49,7 +49,7 @@ You can find my publications at [Google Scholar](https://scholar.google.com/cita
 [[Published Version](https://dl.acm.org/doi/abs/10.1145/3477090.3481051)]
 
 ## CORE A
-* **P Chhikara**, A Goyal, and C Sharma. *'RE-Tagger: A light-weight Real-Estate Image Classifier'*, 2022. **European Conference on Machine Learning and Principles and Practice of Knowledge Discovery in Databases**. \
+* **P Chhikara**, A Goyal, and C Sharma. *'RE-Tagger: A light-weight Real-Estate Image Classifier'*, 2022. **European Conference on Machine Learning and Principles and Practice of Knowledge Discovery in Databases (ECML-PKDD)**. \
 [[Accepted Version](https://arxiv.org/abs/2207.05696)]
 
 ## CORE B
