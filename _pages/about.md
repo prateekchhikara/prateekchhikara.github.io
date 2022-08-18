@@ -14,7 +14,7 @@ redirect_from:
 
 <!-- <img src="/images/usc-logo.png" alt="USC logo" style="height: 100px; width:100px; background-size: cover"/> -->
 
-I am an incoming (Fall'22) graduate student of Master of Science in Computer Science (*specialization in Artificial Intelligence*) at Viterbi School of Engineering at USC. 
+I am a Graduate student of Master of Science in Computer Science (*specialization in Artificial Intelligence*) at Viterbi School of Engineering at USC. 
 
 <p style='text-align: justify;'> 
 Previous to that, I have worked as a Data Scientist professional for more than two years in advanced analytics, machine learning, and computer vision in the real-estate domain. I am proficient in machine learning and its applications and adept at solving complex use-cases through data.
