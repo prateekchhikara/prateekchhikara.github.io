@@ -8,6 +8,10 @@ author_profile: true
 <img src="/images/usc-logo.png" alt="usc logo" style=" align: top; height: 60px; width:60px; background-size: cover;"/>
 <b> Master of Science in Computer Science </b> - [University of Southern California](https://www.usc.edu) (*August 2022 - May 2024*) 
 
+### Couresework
+* Foundations of Artificial Intelligence
+* Web Technologies
+
 <hr />
 
 <img src="/images/thapar.png" alt="thapar logo" style=" align: top; height: 70px; width:70px; background-size: cover;"/>
