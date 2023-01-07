@@ -31,7 +31,7 @@ To give back to the community, I write articles detailing things I have learned 
 # Skills
 
 <b> <u> Programming Languages:</u> </b> Python, C++, R, Matlab, SQL. <br>
-<b> <u> Development Tools: </u> </b> HTML, CSS, Javascript. <br>
+<b> <u> Development Tools: </u> </b> HTML, CSS, Javascript, Angular, NodeJS, SwiftUI. <br>
 <b> <u> Machine Learning & Deep Learning Frameworks: </u></b> Keras, Tensorflow, PyTorch, NLTK, OpenCV, Spacy, Scikit-learn, Pandas, PySpark, Flask, Fast-API. <br>
 <b> <u> Tools: </u></b> Databricks, Jenkins, Git, Docker, OpenVINO, SonarQube, Postman. <br>
 <b> <u> Cloud Platforms: </u></b> AWS and GCP.
