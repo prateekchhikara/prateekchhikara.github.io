@@ -30,6 +30,9 @@ You can find my publications at [Google Scholar](https://scholar.google.com/cita
 
 ## Quartile 2 (Q2)
 
+* **P Chhikara**, R Tekchandani, and N Kumar. *'Adaptive federated learning scheme for recognition of malicious attacks in an IoT network'*, 2023. **Computing**. \
+[[Impact Factor: 2.420](https://www.springer.com/journal/607)] [[Published Version](https://link.springer.com/article/10.1007/s00607-022-01146-6)]
+
 * A Barnawi, **P Chhikara**, R Tekchandani, N Kumar, and M Boulares. *'A CNN-based scheme for COVID-19 detection with emergency services provisions using an optimal path planning'*, 2021. **Multimedia Systems**. \
 [[Impact Factor: 2.603](https://www.springer.com/journal/530)] [[Published Version](https://link.springer.com/article/10.1007/s00530-021-00833-2)]
 
@@ -53,6 +56,10 @@ You can find my publications at [Google Scholar](https://scholar.google.com/cita
 [[Accepted Version](https://arxiv.org/abs/2207.05696)]
 
 ## CORE B
+
+* **P Chhikara**, H Kuhar, A Goyal, and C Sharma. *'DIGITOUR: Automatic Digital Tours for Real-Estate Properties'*, 2023. **ACM CODS-COMAD**. \
+[[Published Version](https://dl.acm.org/doi/10.1145/3570991.3571060)]
+
 * **P Chhikara**, R Tekchandani, N Kumar, S Tanwar, and JJPC Rodrigues. *'Federated Learning for Air Quality Index Prediction using UAV Swarm Networks'*, 2021. **IEEE Globecom**. \
 [[Published Version](https://ieeexplore.ieee.org/abstract/document/9685991)]
 

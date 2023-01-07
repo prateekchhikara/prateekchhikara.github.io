@@ -9,7 +9,11 @@ author_profile: true
 <b> Master of Science in Computer Science </b> - [University of Southern California](https://www.usc.edu) (*August 2022 - May 2024*) 
 
 ### Major Coursework
-Foundations of Artificial Intelligence, Web Technologies.
+* Foundations of Artificial Intelligence (CSCI 561)
+* Web Technologies (CSCI 571)
+* Applied Natural Language Processing (CSCI 544)
+* Deep Learning and Its Applications (CSCI 566)
+
 
 <hr />
 
