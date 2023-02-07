@@ -8,6 +8,9 @@ author_profile: true
 <img src="/images/usc-isi.png" alt="USC-ISI logo" style=" align: top; height: 50px; width:50px; background-size: cover;"/>
 <b> Graduate Researcher </b> - [Information Sciences Institute](https://www.isi.edu/) (*August 2022 - Present*) 
 
+* Designing and teaching agents to play text-based games using deep reinforcement learning and commonsense reasoning.
+* Employed a range of language models to determine the optimal next action for the agent within a constrained environment.
+  
 <hr />
 <img src="/images/housing_logo.png" alt="Housing logo" style=" align: top; height: 60px; width:60px; background-size: cover; border-radius: 98px"/>
 <b> Data Scientist </b> - [Housing.com](https://www.housing.com) (*July 2020 - August 2022*) 

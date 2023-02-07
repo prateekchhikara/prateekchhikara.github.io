@@ -14,14 +14,14 @@ redirect_from:
 
 <!-- <img src="/images/usc-logo.png" alt="USC logo" style="height: 100px; width:100px; background-size: cover"/> -->
 
-I am a Master of Science student in Computer Science (*specialization in Artificial Intelligence*) at Viterbi School of Engineering at USC. 
+<!-- I am a Master of Science student in Computer Science (*specialization in Artificial Intelligence*) at Viterbi School of Engineering at USC.  -->
 
 <p style='text-align: justify;'> 
-Previous to that, I have worked as a Data Scientist professional for more than two years in advanced analytics, machine learning, and computer vision in the real-estate domain. I am proficient in machine learning and its applications and adept at solving complex use-cases through data.
+As a Master of Science student in Computer Science with a specialization in Artificial Intelligence at USC's Viterbi School of Engineering, I bring a wealth of experience and knowledge to the table. With over two years of professional experience as a Data Scientist in the real-estate industry, I am well-versed in advanced analytics, machine learning, and computer vision. My expertise in these areas, combined with my ability to solve complex problems through data, has led to the publication of 16 research papers in top-tier conferences and journals with over 200 citations.
 </p>
 
 <p style='text-align: justify;'> 
-I apply curiosity to learn new approaches and tools in Artificial Intelligence and Machine Learning. This eagerness to learn enables me to act as a bridge between the development team, analytics team, and business. Being a person who has empathy and loves harmony, I have become an active team player and contributed to the smooth execution of multiple projects at my previous organization. 
+I am passionate about staying up-to-date with the latest developments in Artificial Intelligence and Machine Learning, and apply this curiosity to learn new approaches and tools. This drive has allowed me to act as a liaison between development, analytics, and business teams. As a person who values empathy and collaboration, I am a team player and have contributed to the successful execution of multiple projects at my previous organization.
 </p>
 
 <p style='text-align: justify;'> 
