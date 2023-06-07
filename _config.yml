@@ -82,11 +82,11 @@ analytics:
 author:
   name             : "Prateek Chhikara"
   avatar           : "profile.png"
-  bio              : "Graduate Student in Computer Science at University of Southern California"
+  bio              : "Masters Student in Computer Science at University of Southern California"
   location         : "Los Angeles, California"
   employer         :
   pubmed           : # "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
-  googlescholar    : "https://scholar.google.com/citations?user=RQTJ_aIAAAAJ&hl=en&oi=ao"
+  googlescholar    : "https://scholar.google.com/citations?user=RQTJ_aIAAAAJ&hl"
   email            : "prateekchhikara24@gmail.com"
   researchgate     :  "https://www.researchgate.net/profile/Prateek-Chhikara"
   uri              :
@@ -99,7 +99,7 @@ author:
   github           : "prateekchhikara"
   google_plus      :
   keybase          :
-  instagram        : "pckraftwerk"
+  instagram        : "pcwarudo"
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
   linkedin         : "prateekchhikara"

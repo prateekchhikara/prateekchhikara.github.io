@@ -6,7 +6,7 @@ author_profile: true
 ---
 
 <img src="/images/usc-logo.png" alt="usc logo" style=" align: top; height: 60px; width:60px; background-size: cover;"/>
-<b> Master of Science in Computer Science </b> - [University of Southern California](https://www.usc.edu) (*August 2022 - May 2024*) 
+<b> Master of Science in Computer Science </b> - [University of Southern California](https://www.usc.edu) (*August 2022 - May 2024*) **[GPA: 3.75/4.00]**
 
 ### Major Coursework
 * Foundations of Artificial Intelligence (CSCI 561)
