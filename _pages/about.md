@@ -18,10 +18,10 @@ redirect_from:
 
 <p style='text-align: justify;'> 
 As a Master of Science student in Computer Science at USC's Viterbi School of Engineering, I bring a wealth of experience and knowledge to the table. With over two and half years of professional experience as a Data Scientist in the real-estate industry, I am well-versed in advanced analytics, machine learning, language modeling, and computer vision. My expertise in these areas, combined with my ability to solve complex problems through data, has led to the publication of 17 research papers in top-tier conferences and journals with over 300 citations.
+</p>
 
 **Conferences/Workshops:** ACL, ECML, CODS-COMAD, GLOBECOM, MOBICOM, etc.
 **Journals:** IEEE Internet of Things, Elsevier Future Generation Computer Systems, etc.
-</p>
 
 <p style='text-align: justify;'> 
 I am passionate about staying up-to-date with the latest developments in Artificial Intelligence and Machine Learning, and apply this curiosity to learn new approaches and tools. This drive has allowed me to act as a liaison between development, analytics, and business teams. As a person who values empathy and collaboration, I am a team player and have contributed to the successful execution of multiple projects at my previous organization.

@@ -69,19 +69,19 @@ You can find my publications at [Google Scholar](https://scholar.google.com/cita
 * S Arora, S Goel, **P Chhikara**, H Singh, N Kumar, and PS Rana. *'An efficient scheme for wireless charging of electric vehicles using RFID with an optimal path planning'*, 2019. **IEEE Globecom**. \
 [[Published Version](https://ieeexplore.ieee.org/abstract/document/9024537)]
 
-## Unranked Conference
+## Unranked
 * P Singh, **P Chhikara**, and J Singh. *'An ensemble approach for extractive text summarization'*, 2020. **International Conference on Emerging Trends in Information Technology and Engineering**. \
 [[Published Version](https://ieeexplore.ieee.org/abstract/document/9077805)]
-<hr />
-<br>
 
 ## Pre-prints
-* **P Chhikara**, J Zhang, F Ilievski, J Francis, and K Ma. *'Knowledge-enhanced Agents for Interactive Text Games'*, 2023.\
+* **P Chhikara**, J Zhang, F Ilievski, J Francis, and K Ma. *'Knowledge-enhanced Agents for Interactive Text Games'*, 2023.
 [[ArXiv Version](https://arxiv.org/abs/2305.05091)]
 
-* J Zhang, M Khayatkhoei, **P Chhikara**, and F Ilievski. *'Using Visual Cropping to Enhance Fine-Detail Question Answering of BLIP-Family Models'*, 2023. \
+* J Zhang, M Khayatkhoei, **P Chhikara**, and F Ilievski. *'Using Visual Cropping to Enhance Fine-Detail Question Answering of BLIP-Family Models'*, 2023. 
 [[ArXiv Version](https://arxiv.org/abs/2306.00228)]
 
+<hr />
+<br>
 <center>  <h1> <u> Book Chapter </u> </h1> </center>
 
 * **P Chhikara**, P Singh, P Gupta, and T Bhatia. *'Deep convolutional neural network with transfer learning for detecting pneumonia on chest X-rays
