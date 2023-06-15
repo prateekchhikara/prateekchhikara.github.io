@@ -7,6 +7,48 @@ author_profile: true
 
 You can find my publications at [Google Scholar](https://scholar.google.com/citations?user=RQTJ_aIAAAAJ&hl) or [ResearchGate](https://www.researchgate.net/profile/Prateek-Chhikara).
 
+<center>  <h1> <u> Prer-prints </u> </h1> </center>
+
+* **P Chhikara**, J Zhang, F Ilievski, J Francis, and K Ma. *'Knowledge-enhanced Agents for Interactive Text Games'*, 2023.
+[[ArXiv Version](https://arxiv.org/abs/2305.05091)]
+
+* J Zhang, M Khayatkhoei, **P Chhikara**, and F Ilievski. *'Using Visual Cropping to Enhance Fine-Detail Question Answering of BLIP-Family Models'*, 2023. 
+[[ArXiv Version](https://arxiv.org/abs/2306.00228)]
+
+<hr />
+<br>
+
+<center>  <h1> <u> Conferences / Workshops</u> </h1> </center>
+
+## CORE A*
+* **P Chhikara**, U Pasupulety, J Marshall, D Chaurasia, and S Kumari. *'Privacy Aware Question-Answering System for Online Mental Health Risk Assessment'*, 2023. **ACL Proceedings of the 22nd Workshop on Biomedical Language Processing**. \
+[[Accepted Version](https://arxiv.org/abs/2306.05652)][[Presentation ](https://drive.google.com/file/d/1tubM-8KApksVXA4pNzFCMR1VlvN7fB-2/view?usp=sharing)][[Poster ](https://drive.google.com/file/d/1f-G1bvK2EvSkPW2cJfVacUQ3gJk64MQx/view?usp=sharing)]
+
+* **P Chhikara**, R Tekchandani, N Kumar, and S Tanwar. *'Federated Learning-based Aerial Image Segmentation for collision-free Movement and Landing'*, 2021. **Proceedings of the 4th ACM MobiCom Workshops**. \
+[[Published Version](https://dl.acm.org/doi/abs/10.1145/3477090.3481051)]
+
+## CORE A
+* **P Chhikara**, A Goyal, and C Sharma. *'RE-Tagger: A light-weight Real-Estate Image Classifier'*, 2022. **European Conference on Machine Learning and Principles and Practice of Knowledge Discovery in Databases (ECML-PKDD)**. \
+[[Accepted Version](https://arxiv.org/abs/2207.05696)]
+
+## CORE B
+
+* **P Chhikara**, H Kuhar, A Goyal, and C Sharma. *'DIGITOUR: Automatic Digital Tours for Real-Estate Properties'*, 2023. **ACM CODS-COMAD**. \
+[[Published Version](https://dl.acm.org/doi/10.1145/3570991.3571060)]
+
+* **P Chhikara**, R Tekchandani, N Kumar, S Tanwar, and JJPC Rodrigues. *'Federated Learning for Air Quality Index Prediction using UAV Swarm Networks'*, 2021. **IEEE Globecom**. \
+[[Published Version](https://ieeexplore.ieee.org/abstract/document/9685991)]
+
+* S Arora, S Goel, **P Chhikara**, H Singh, N Kumar, and PS Rana. *'An efficient scheme for wireless charging of electric vehicles using RFID with an optimal path planning'*, 2019. **IEEE Globecom**. \
+[[Published Version](https://ieeexplore.ieee.org/abstract/document/9024537)]
+
+## Unranked
+* P Singh, **P Chhikara**, and J Singh. *'An ensemble approach for extractive text summarization'*, 2020. **International Conference on Emerging Trends in Information Technology and Engineering**. \
+[[Published Version](https://ieeexplore.ieee.org/abstract/document/9077805)]
+
+<hr />
+<br>
+
 
 
 <center>  <h1> <u> Journals </u> </h1> </center>
@@ -45,43 +87,8 @@ You can find my publications at [Google Scholar](https://scholar.google.com/cita
 [[Impact Factor: 0.853](https://journals.tubitak.gov.tr/elektrik/)] [[Published Version](https://journals.tubitak.gov.tr/elektrik/vol29/iss8/6/)]
 <hr />
 <br>
-<center>  <h1> <u> Conferences / Workshops</u> </h1> </center>
 
-## CORE A*
-* **P Chhikara**, U Pasupulety, J Marshall, D Chaurasia, and S Kumari. *'Privacy Aware Question-Answering System for Online Mental Health Risk Assessment'*, 2023. **ACL Proceedings of the 22nd Workshop on Biomedical Language Processing**. \
-[[Accepted]]
 
-* **P Chhikara**, R Tekchandani, N Kumar, and S Tanwar. *'Federated Learning-based Aerial Image Segmentation for collision-free Movement and Landing'*, 2021. **Proceedings of the 4th ACM MobiCom Workshops**. \
-[[Published Version](https://dl.acm.org/doi/abs/10.1145/3477090.3481051)]
-
-## CORE A
-* **P Chhikara**, A Goyal, and C Sharma. *'RE-Tagger: A light-weight Real-Estate Image Classifier'*, 2022. **European Conference on Machine Learning and Principles and Practice of Knowledge Discovery in Databases (ECML-PKDD)**. \
-[[Accepted Version](https://arxiv.org/abs/2207.05696)]
-
-## CORE B
-
-* **P Chhikara**, H Kuhar, A Goyal, and C Sharma. *'DIGITOUR: Automatic Digital Tours for Real-Estate Properties'*, 2023. **ACM CODS-COMAD**. \
-[[Published Version](https://dl.acm.org/doi/10.1145/3570991.3571060)]
-
-* **P Chhikara**, R Tekchandani, N Kumar, S Tanwar, and JJPC Rodrigues. *'Federated Learning for Air Quality Index Prediction using UAV Swarm Networks'*, 2021. **IEEE Globecom**. \
-[[Published Version](https://ieeexplore.ieee.org/abstract/document/9685991)]
-
-* S Arora, S Goel, **P Chhikara**, H Singh, N Kumar, and PS Rana. *'An efficient scheme for wireless charging of electric vehicles using RFID with an optimal path planning'*, 2019. **IEEE Globecom**. \
-[[Published Version](https://ieeexplore.ieee.org/abstract/document/9024537)]
-
-## Unranked
-* P Singh, **P Chhikara**, and J Singh. *'An ensemble approach for extractive text summarization'*, 2020. **International Conference on Emerging Trends in Information Technology and Engineering**. \
-[[Published Version](https://ieeexplore.ieee.org/abstract/document/9077805)]
-
-## Pre-prints
-* **P Chhikara**, J Zhang, F Ilievski, J Francis, and K Ma. *'Knowledge-enhanced Agents for Interactive Text Games'*, 2023.
-[[ArXiv Version](https://arxiv.org/abs/2305.05091)]
-
-* J Zhang, M Khayatkhoei, **P Chhikara**, and F Ilievski. *'Using Visual Cropping to Enhance Fine-Detail Question Answering of BLIP-Family Models'*, 2023. 
-[[ArXiv Version](https://arxiv.org/abs/2306.00228)]
-
-<hr />
-<br>
 <center>  <h1> <u> Book Chapter </u> </h1> </center>
 
 * **P Chhikara**, P Singh, P Gupta, and T Bhatia. *'Deep convolutional neural network with transfer learning for detecting pneumonia on chest X-rays
