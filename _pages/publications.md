@@ -7,7 +7,7 @@ author_profile: true
 
 You can find my publications at [Google Scholar](https://scholar.google.com/citations?user=RQTJ_aIAAAAJ&hl) or [ResearchGate](https://www.researchgate.net/profile/Prateek-Chhikara).
 
-<center>  <h1> <u> Prer-prints </u> </h1> </center>
+<center>  <h1> <u> Pre-prints </u> </h1> </center>
 
 * **P Chhikara**, J Zhang, F Ilievski, J Francis, and K Ma. *'Knowledge-enhanced Agents for Interactive Text Games'*, 2023.
 [[ArXiv Version](https://arxiv.org/abs/2305.05091)]
@@ -22,7 +22,7 @@ You can find my publications at [Google Scholar](https://scholar.google.com/cita
 
 ## CORE A*
 * **P Chhikara**, U Pasupulety, J Marshall, D Chaurasia, and S Kumari. *'Privacy Aware Question-Answering System for Online Mental Health Risk Assessment'*, 2023. **ACL Proceedings of the 22nd Workshop on Biomedical Language Processing**. \
-[[Accepted Version](https://arxiv.org/abs/2306.05652)][[Presentation ](https://drive.google.com/file/d/1tubM-8KApksVXA4pNzFCMR1VlvN7fB-2/view?usp=sharing)][[Poster ](https://drive.google.com/file/d/1f-G1bvK2EvSkPW2cJfVacUQ3gJk64MQx/view?usp=sharing)]
+[[Accepted Version](https://arxiv.org/abs/2306.05652)][[Presentation](https://drive.google.com/file/d/1tubM-8KApksVXA4pNzFCMR1VlvN7fB-2/view?usp=sharing)][[Poster](https://drive.google.com/file/d/1f-G1bvK2EvSkPW2cJfVacUQ3gJk64MQx/view?usp=sharing)]
 
 * **P Chhikara**, R Tekchandani, N Kumar, and S Tanwar. *'Federated Learning-based Aerial Image Segmentation for collision-free Movement and Landing'*, 2021. **Proceedings of the 4th ACM MobiCom Workshops**. \
 [[Published Version](https://dl.acm.org/doi/abs/10.1145/3477090.3481051)]
