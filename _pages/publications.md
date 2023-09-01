@@ -12,8 +12,13 @@ You can find my publications at [Google Scholar](https://scholar.google.com/cita
 * **P Chhikara**, J Zhang, F Ilievski, J Francis, and K Ma. *'Knowledge-enhanced Agents for Interactive Text Games'*, 2023.
 [[ArXiv Version](https://arxiv.org/abs/2305.05091)]
 
+* **P Chhikara**, D Chaurasia, Y Jiang, O Masur, and F Ilievski. *'FIRE: Food Image to REcipe generation'*, 2023. 
+[[ArXiv Version](https://arxiv.org/abs/2308.14391)]
+
 * J Zhang, M Khayatkhoei, **P Chhikara**, and F Ilievski. *'Using Visual Cropping to Enhance Fine-Detail Question Answering of BLIP-Family Models'*, 2023. 
 [[ArXiv Version](https://arxiv.org/abs/2306.00228)]
+
+
 
 <hr />
 <br>
