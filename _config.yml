@@ -313,7 +313,7 @@ compress_html:
 
 carousels:
   - images: 
-    - image: images/carousal1-4.png
-    - image: images/carousal1-3.png
-    - image: images/carousal1-2.png
-    - image: images/carousal1-1.png
+    - image: ../images/carousal1-4.png
+    - image: ../images/carousal1-3.png
+    - image: ../images/carousal1-2.png
+    - image: ../images/carousal1-1.png
