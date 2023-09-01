@@ -20,6 +20,9 @@ author_profile: true
 * Formulated and automated a computer vision pipeline that creates a 3D floor plan using multiple equirectangular images, **saving 400 hours** of manual work per month.
 * Downsized the manual effort by more than 90% by automating the auditing process of accepting/rejecting images uploaded on the platform, which resulted in operational savings of **USD 40,000/year** and a **12%** increment in online traffic.
 * Fully automated the labeling of images into real-estate tags (bedroom, kitchen, etc.) by devising a real-estate image classifier with **93% precision** and **89% recall** using CNN. The model offers **6 FPS** on CPU and works in real-time.
+  
+{% include carousel.html height="50" unit="%" duration="7" number="1" %}
+
 <hr />
 <img src="/images/proptiger.png" alt="Proptiger logo" style="height: 60px; width:60px; background-size: cover;"/>
 <b> Data Scientist (Intern) </b> - [PropTiger.com](https://www.proptiger.com) (*Jan 2020 - July 2020*)
