@@ -7,25 +7,18 @@ author_profile: true
 
 You can find my publications at [Google Scholar](https://scholar.google.com/citations?user=RQTJ_aIAAAAJ&hl) or [ResearchGate](https://www.researchgate.net/profile/Prateek-Chhikara).
 
-<center>  <h1> <u> Pre-prints </u> </h1> </center>
-
-* **P Chhikara**, J Zhang, F Ilievski, J Francis, and K Ma. *'Knowledge-enhanced Agents for Interactive Text Games'*, 2023.
-[[ArXiv Version](https://arxiv.org/abs/2305.05091)]
-
-* **P Chhikara**, D Chaurasia, Y Jiang, O Masur, and F Ilievski. *'FIRE: Food Image to REcipe generation'*, 2023. 
-[[ArXiv Version](https://arxiv.org/abs/2308.14391)]
-
-* J Zhang, M Khayatkhoei, **P Chhikara**, and F Ilievski. *'Using Visual Cropping to Enhance Fine-Detail Question Answering of BLIP-Family Models'*, 2023. 
-[[ArXiv Version](https://arxiv.org/abs/2306.00228)]
+<!-- <center>  <h1> <u> Pre-prints </u> </h1> </center> -->
 
 
-
-<hr />
-<br>
+<!-- <hr />
+<br> -->
 
 <center>  <h1> <u> Conferences / Workshops</u> </h1> </center>
 
 ## CORE A*
+* J Zhang, M Khayatkhoei, **P Chhikara**, and F Ilievski. *'Visual Cropping Improves Zero-Shot Question Answering of Multimodal Large Language Models'*, 2023. **NeurIPS Workshop on Robustness of Few-shot and Zero-shot Learning in Foundation Models**
+[[Accepted Version](https://arxiv.org/abs/2310.16033)]
+
 * **P Chhikara**, U Pasupulety, J Marshall, D Chaurasia, and S Kumari. *'Privacy Aware Question-Answering System for Online Mental Health Risk Assessment'*, 2023. **ACL Proceedings of the 22nd Workshop on Biomedical Language Processing**. \
 [[Accepted Version](https://arxiv.org/abs/2306.05652)][[Presentation](https://drive.google.com/file/d/1tubM-8KApksVXA4pNzFCMR1VlvN7fB-2/view?usp=sharing)][[Poster](https://drive.google.com/file/d/1f-G1bvK2EvSkPW2cJfVacUQ3gJk64MQx/view?usp=sharing)]
 
@@ -33,10 +26,15 @@ You can find my publications at [Google Scholar](https://scholar.google.com/cita
 [[Published Version](https://dl.acm.org/doi/abs/10.1145/3477090.3481051)]
 
 ## CORE A
+* **P Chhikara**, D Chaurasia, Y Jiang, O Masur, and F Ilievski. *'FIRE: Food Image to REcipe generation'*, 2024. **IEEE/CVF Winter Conference on Applications of Computer Vision (WACV)**.
+[[Accepted Version](https://arxiv.org/abs/2308.14391)]
+
 * **P Chhikara**, A Goyal, and C Sharma. *'RE-Tagger: A light-weight Real-Estate Image Classifier'*, 2022. **European Conference on Machine Learning and Principles and Practice of Knowledge Discovery in Databases (ECML-PKDD)**. \
 [[Accepted Version](https://arxiv.org/abs/2207.05696)]
 
 ## CORE B
+* **P Chhikara**, J Zhang, F Ilievski, J Francis, and K Ma. *'Knowledge-enhanced Agents for Interactive Text Games'*, 2023. **International Conference on Knowledge Capture (KCap)**.
+[[Accepted Version](https://arxiv.org/abs/2305.05091)]
 
 * **P Chhikara**, H Kuhar, A Goyal, and C Sharma. *'DIGITOUR: Automatic Digital Tours for Real-Estate Properties'*, 2023. **ACM CODS-COMAD**. \
 [[Published Version](https://dl.acm.org/doi/10.1145/3570991.3571060)]

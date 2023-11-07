@@ -20,7 +20,7 @@ redirect_from:
 As a Master of Science student in Computer Science at USC's Viterbi School of Engineering, I bring a wealth of experience and knowledge to the table. With around three years of professional experience as a full-stack Data Scientist in the real-estate industry, I am well-versed in advanced analytics, machine learning, language modeling, and computer vision. My expertise in these areas, combined with my ability to solve complex problems through data, has led to the publication of more than 20 research papers in top-tier conferences and journals with over 400 citations.
 </p>
 
-**Conferences/Workshops:** ACL, NeurIPS, WACV, ECML, KCap, CODS-COMAD, GLOBECOM, MOBICOM, etc.
+**Conferences/Workshops:** ACL, NeurIPS, WACV, ECML, KCap, CODS-COMAD, GLOBECOM, MOBICOM, etc.<br>
 **Journals:** IEEE Internet of Things, Elsevier Future Generation Computer Systems, etc.
 
 <p style='text-align: justify;'> 
