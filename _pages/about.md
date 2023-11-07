@@ -17,10 +17,10 @@ redirect_from:
 <!-- I am a Master of Science student in Computer Science (*specialization in Artificial Intelligence*) at Viterbi School of Engineering at USC.  -->
 
 <p style='text-align: justify;'> 
-As a Master of Science student in Computer Science at USC's Viterbi School of Engineering, I bring a wealth of experience and knowledge to the table. With over two and half years of professional experience as a Data Scientist in the real-estate industry, I am well-versed in advanced analytics, machine learning, language modeling, and computer vision. My expertise in these areas, combined with my ability to solve complex problems through data, has led to the publication of 17 research papers in top-tier conferences and journals with over 300 citations.
+As a Master of Science student in Computer Science at USC's Viterbi School of Engineering, I bring a wealth of experience and knowledge to the table. With around three years of professional experience as a full-stack Data Scientist in the real-estate industry, I am well-versed in advanced analytics, machine learning, language modeling, and computer vision. My expertise in these areas, combined with my ability to solve complex problems through data, has led to the publication of more than 20 research papers in top-tier conferences and journals with over 400 citations.
 </p>
 
-**Conferences/Workshops:** ACL, ECML, CODS-COMAD, GLOBECOM, MOBICOM, etc.
+**Conferences/Workshops:** ACL, NeurIPS, WACV, ECML, KCap, CODS-COMAD, GLOBECOM, MOBICOM, etc.
 **Journals:** IEEE Internet of Things, Elsevier Future Generation Computer Systems, etc.
 
 <p style='text-align: justify;'> 
@@ -35,7 +35,7 @@ To give back to the community, I write articles detailing things I have learned 
 
 <b> <u> Programming Languages:</u> </b> Python, C++, R, Matlab, SQL. <br>
 <b> <u> Development Tools: </u> </b> HTML, CSS, Javascript, Angular, NodeJS, SwiftUI. <br>
-<b> <u> Machine Learning & Deep Learning Frameworks: </u></b> Keras, Tensorflow, PyTorch, NLTK, OpenCV, Spacy, Scikit-learn, Pandas, PySpark, Flask, Fast-API. <br>
+<b> <u> Machine Learning & Deep Learning Frameworks: </u></b> PyTorch, Keras, Tensorflow, NLTK, OpenCV, Spacy, Scikit-learn, Pandas, PySpark, Flask, Fast-API. <br>
 <b> <u> Tools: </u></b> Databricks, Jenkins, Git, Docker, OpenVINO, SonarQube, Postman. <br>
 <b> <u> Cloud Platforms: </u></b> AWS and GCP.
 
