@@ -8,13 +8,13 @@ author_profile: true
 
 
 
-<img src="/images/usc-isi.png" alt="USC-ISI logo" style=" align: top; height: 50px; width:50px; background-size: cover;"/>
+<img src="/images/usc-isi.png" alt="USC-ISI logo" style=" align: top; height: 50px; width:50px; background-size: cover; border-radius: 10px"/>
 <b> Graduate Researcher </b> - [Information Sciences Institute](https://www.isi.edu/) (*August 2022 - Present*) 
 
 * Utilizing prompt engineering and memory-based approaches in large language models for text-based game playing.
-* Designed reinforcement learning agents with enhanced memory, language grounding, and object affordances. [[ArXiv]](https://arxiv.org/abs/2305.05091) -- *Accepted at KCap 2023*
-* Enhanced visual question answering system by implementing visual cropping methods to focus specific region in images. [[ArXiv]](https://arxiv.org/abs/2310.16033) -- *Accepted at NeurIPS Workshop 2023*
-* Developed a multimodal approach for recipe generation from food images using attention-based vision and language models. [[ArXiv]](https://arxiv.org/abs/2308.14391) -- *Accepted at WACV 2024*
+* Designed reinforcement learning agents with enhanced memory, language grounding, and object affordances. [[ArXiv]](https://arxiv.org/abs/2305.05091) -- *Published at KCap 2023*
+* Enhanced visual question answering system by implementing visual cropping methods to focus specific region in images. [[ArXiv]](https://arxiv.org/abs/2310.16033) -- *Published at NeurIPS Workshop 2023*
+* Developed a multimodal approach for recipe generation from food images using attention-based vision and language models. [[ArXiv]](https://arxiv.org/abs/2308.14391) -- *Published at WACV 2024*
   
 <hr />
 <img src="/images/housing_logo.png" alt="Housing logo" style=" align: top; height: 60px; width:60px; background-size: cover; border-radius: 98px"/>

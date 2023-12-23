@@ -6,15 +6,19 @@ author_profile: true
 ---
 
 <img src="/images/usc-logo.png" alt="usc logo" style=" align: top; height: 60px; width:60px; background-size: cover;"/>
-<b> Master of Science in Computer Science </b> - [University of Southern California](https://www.usc.edu) (*August 2022 - May 2024*) **[GPA: 3.75/4.00]**
+<b> Master of Science in Computer Science </b> - [University of Southern California](https://www.usc.edu) (*August 2022 - May 2024*) **[GPA: 3.83/4.00]**
 
 ### Coursework
-* Foundations of Artificial Intelligence (CSCI 561)
-* Web Technologies (CSCI 571)
-* Applied Natural Language Processing (CSCI 544)
-* Deep Learning and Its Applications (CSCI 566)
 * Analysis of Algorithms (CSCI 570)
 * Database Systems (CSCI 585)
+* Web Technologies (CSCI 571)
+* Foundations of Artificial Intelligence (CSCI 561)
+* Machine Learning for Data Science (DSCI 552)
+* Applied Natural Language Processing (CSCI 544)
+* Deep Learning and Its Applications (CSCI 566)
+
+
+
 
 
 <hr />

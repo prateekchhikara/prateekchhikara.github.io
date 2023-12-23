@@ -5,7 +5,6 @@ permalink: /publications/
 author_profile: true
 ---
 
-You can find my publications at [Google Scholar](https://scholar.google.com/citations?user=RQTJ_aIAAAAJ&hl) or [ResearchGate](https://www.researchgate.net/profile/Prateek-Chhikara).
 
 <!-- <center>  <h1> <u> Pre-prints </u> </h1> </center> -->
 
@@ -13,11 +12,101 @@ You can find my publications at [Google Scholar](https://scholar.google.com/cita
 <!-- <hr />
 <br> -->
 
+## Selected Publications
+
+<table style="width: 100%; border-collapse: collapse; border: none;">
+  
+  <tr>
+    <td style="padding: 8px; vertical-align: top; border: none;">
+      <img src="../images/wacv.png" alt="Paper 1 Image" style="width: 350px; height: auto; box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);">
+    </td>
+    <td style="width: 650px; padding: 8px; vertical-align: top; border: none;">
+      <div style="font-weight: bold;">FIRE: Food Image to REcipe generation</div>
+      <div style="font-style: italic;">IEEE/CVF Winter Conference on Applications of Computer Vision (WACV) -- 2024</div>
+      This paper introduces FIRE, a novel multimodal methodology for generating recipes from food images, contributing to the growing field of food computing. FIRE effectively produces food titles, ingredients, and cooking instructions using the BLIP model, a Vision Transformer with a decoder, and the T5 model. The paper also explores practical applications like recipe customization and recipe-to-code generation for automated cooking. 
+    </td>
+  </tr>
+
+  <tr>
+    <td style="padding: 8px; vertical-align: top; border: none;">
+      <img src="../images/kcap.png" alt="Paper 1 Image" style="width: 350px; height: auto; box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);">
+    </td>
+    <td style="width: 650px; padding: 8px; vertical-align: top; border: none;">
+        <div style="font-weight: bold;">Knowledge-enhanced Agents for Interactive Text Games</div>
+        <div style="display: flex; align-items: center;">
+            <div style="font-style: italic; margin-right: 10px;">
+                International Conference on Knowledge Capture (KCap) -- 2023
+            </div>
+            <span style="color: red;">🏆🏆 Best Student Paper Award 🏆🏆 </span>
+        </div>
+
+      This paper introduces a knowledge-injection framework to enhance the functional grounding of agents in text-based games, addressing existing limitations in coherence, contextual awareness, and learning. It incorporates domain knowledge through memory of past actions and object affordances, aiding two types of agents: reinforcement learning and language model agents. The framework employs strategies like knowledge graphs and input encoding augmentations. Tested on 10 tasks in the ScienceWorld environment, the study reveals how task properties, model architectures, and domain knowledge interact in interactive contexts.
+    </td>
+  </tr>
+
+  <tr>
+    <td style="padding: 8px; vertical-align: top; border: none;">
+      <img src="../images/acl_bionlp.png" alt="Paper 1 Image" style="width: 350px; height: auto; box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);">
+    </td>
+    <td style="width: 650px; padding: 8px; vertical-align: top; border: none;">
+      <div style="font-weight: bold;">Privacy Aware Question-Answering System for Online Mental Health Risk Assessment</div>
+      <div style="font-style: italic;">ACL Workshop on Biomedical Natural Language Processing (BioNLP) -- 2023</div>
+      This paper explores using pre-trained Language Models (LMs) for assessing mental health risk from social media data. A Question-Answering (QA) approach, utilizing the Unified-QA model, is proposed for analyzing two large mental health datasets. To ensure user privacy, the model is trained with differential privacy techniques. The results show that treating risk assessment as a QA task is effective for mental health scenarios, with minimal performance loss (less than 1%) due to privacy safeguards. This approach signifies a promising direction for creating privacy-conscious diagnostic systems in mental health.
+    </td>
+  </tr>
+
+  <tr>
+    <td style="padding: 8px; vertical-align: top; border: none;">
+      <img src="../images/nips_romo.png" alt="Paper 1 Image" style="width: 350px; height: auto; box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);">
+    </td>
+    <td style="width: 650px; padding: 8px; vertical-align: top; border: none;">
+      <div style="font-weight: bold;">Visual Cropping Improves Zero-Shot Question Answering of Multimodal Large Language Models</div>
+      <div style="font-style: italic;">NeurIPS Workshop on Robustness of Few-shot and Zero-shot Learning in Foundation Models -- 2023</div>
+      This paper examines the limitations of Multimodal Large Language Models (LLMs) in visual question answering (VQA), particularly their sensitivity to the size of visual details in images. The study finds that the zero-shot accuracy of these models decreases by up to 46% with smaller visual subjects. Human visual cropping is shown to mitigate this issue, indicating a causal relationship. The paper proposes three automatic visual cropping methods to enhance zero-shot performance in multimodal LLMs. These methods are evaluated on four VQA datasets and a VQAv2 subset focused on fine details. The results highlight the need for caution in using multimodal LLMs for detail-sensitive VQA tasks and suggest visual cropping as a viable solution for improving performance.
+    </td>
+  </tr>
+
+
+  <tr>
+    <td style="padding: 8px; vertical-align: top; border: none;">
+      <img src="../images/cods.png" alt="Paper 1 Image" style="width: 350px; height: auto; box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);">
+    </td>
+    <td style="width: 650px; padding: 8px; vertical-align: top; border: none;">
+      <div style="font-weight: bold;">DIGITOUR: Automatic Digital Tours for Real-Estate Properties</div>
+      <div style="font-style: italic;">International Conference on Data Science & Management of Data (CODS-COMAD) -- 2023</div>
+      This paper presents an automated pipeline for creating 3D virtual tours in real estate, addressing the time and cost challenges of manual annotation in traditional methods. It introduces a novel HSV-based coloring scheme for paper tags, placed in locations before capturing 360° equirectangular images. These tags are uniquely numbered and bi-colored, enhancing tag detection and digit recognition using YOLOv5 and a custom MobileNet architecture, respectively. The method links equirectangular images based on these detected tags, demonstrating its efficiency with a real-world dataset from Housing.com.
+    </td>
+  </tr>
+
+  <tr>
+    <td style="padding: 8px; vertical-align: top; border: none;">
+      <img src="../images/ecml.png" alt="Paper 1 Image" style="width: 350px; height: auto; box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);">
+    </td>
+    <td style="width: 650px; padding: 8px; vertical-align: top; border: none;">
+      <div style="font-weight: bold;">RE-Tagger: A light-weight Real-Estate Image Classifier</div>
+      <div style="font-style: italic;">European Conference on Machine Learning (ECML) -- 2022</div>
+      Real-estate image tagging is one of the essential use-cases to save efforts involved in manual annotation and enhance the user experience. This paper proposes an end-to-end pipeline (referred to as RE-Tagger) for the real-estate image classification problem. We present a two-stage transfer learning approach using custom InceptionV3 architecture to classify images into different categories (i.e., bedroom, bathroom, kitchen, balcony, hall, and others). 
+    </td>
+  </tr>
+
+  <!-- Repeat the pattern for more papers -->
+</table>
+
+
+
+
+<hr />
+
+## All Publications
+
+
+You can find all my publications at [Google Scholar](https://scholar.google.com/citations?user=RQTJ_aIAAAAJ&hl) or [ResearchGate](https://www.researchgate.net/profile/Prateek-Chhikara).
+
 <center>  <h1> <u> Conferences / Workshops</u> </h1> </center>
 
 ## CORE A*
 * J Zhang, M Khayatkhoei, **P Chhikara**, and F Ilievski. *'Visual Cropping Improves Zero-Shot Question Answering of Multimodal Large Language Models'*, 2023. **NeurIPS Workshop on Robustness of Few-shot and Zero-shot Learning in Foundation Models**\
-[[Accepted Version](https://arxiv.org/abs/2310.16033)]
+[[Published Version](https://openreview.net/forum?id=YrYcoV2dAk)][[Poster](https://drive.google.com/file/d/1CXwK4IQqOrEWjD_huOiOnrhzoN3sphZD/view?usp=sharing)]
 
 * **P Chhikara**, U Pasupulety, J Marshall, D Chaurasia, and S Kumari. *'Privacy Aware Question-Answering System for Online Mental Health Risk Assessment'*, 2023. **ACL Proceedings of the 22nd Workshop on Biomedical Language Processing**. \
 [[Published Version](https://aclanthology.org/2023.bionlp-1.18/)][[Presentation](https://drive.google.com/file/d/1tubM-8KApksVXA4pNzFCMR1VlvN7fB-2/view?usp=sharing)][[Poster](https://drive.google.com/file/d/1f-G1bvK2EvSkPW2cJfVacUQ3gJk64MQx/view?usp=sharing)]
@@ -27,14 +116,14 @@ You can find my publications at [Google Scholar](https://scholar.google.com/cita
 
 ## CORE A
 * **P Chhikara**, D Chaurasia, Y Jiang, O Masur, and F Ilievski. *'FIRE: Food Image to REcipe generation'*, 2024. **IEEE/CVF Winter Conference on Applications of Computer Vision (WACV)**.\
-[[Accepted Version](https://arxiv.org/abs/2308.14391)]
+[[Published Version](https://openaccess.thecvf.com/content/WACV2024/html/Chhikara_FIRE_Food_Image_to_REcipe_Generation_WACV_2024_paper.html)][[Poster](https://drive.google.com/file/d/1zf2NA6ga8PWndZAgu5QjSwO8EPsvt-yt/view?usp=sharing)][[Presentation](https://docs.google.com/presentation/d/1bRYwpjBn6cgybcvtev1BNlqLS3iAbwr_8EA5vZ2wRHc/edit?usp=sharing)]
 
 * **P Chhikara**, A Goyal, and C Sharma. *'RE-Tagger: A light-weight Real-Estate Image Classifier'*, 2022. **European Conference on Machine Learning and Principles and Practice of Knowledge Discovery in Databases (ECML-PKDD)**. \
-[[Published Version](https://link.springer.com/chapter/10.1007/978-3-031-26422-1_44)]
+[[Published Version](https://link.springer.com/chapter/10.1007/978-3-031-26422-1_44)][[Video](https://www.youtube.com/watch?v=eVWkU7yb-3M)]
 
 ## CORE B
-* **P Chhikara**, J Zhang, F Ilievski, J Francis, and K Ma. *'Knowledge-enhanced Agents for Interactive Text Games'*, 2023. **International Conference on Knowledge Capture (KCap)**.\
-[[Accepted Version](https://arxiv.org/abs/2305.05091)]
+* **P Chhikara**, J Zhang, F Ilievski, J Francis, and K Ma. *'Knowledge-enhanced Agents for Interactive Text Games'*, 2023. **International Conference on Knowledge Capture (KCap)**.   <span style="color: red;">🏆🏆 Best Student Paper Award 🏆🏆</span>\
+[[Published Version](https://dl.acm.org/doi/10.1145/3587259.3627561)][[Presentation](https://docs.google.com/presentation/d/1G8KG8qNLnWITcdfIONhAQDGnd2uqaO_djqGh7hwIXmo/edit?usp=sharing)]
 
 * **P Chhikara**, H Kuhar, A Goyal, and C Sharma. *'DIGITOUR: Automatic Digital Tours for Real-Estate Properties'*, 2023. **ACM CODS-COMAD**. \
 [[Published Version](https://dl.acm.org/doi/10.1145/3570991.3571060)]
@@ -57,6 +146,9 @@ You can find my publications at [Google Scholar](https://scholar.google.com/cita
 <center>  <h1> <u> Journals </u> </h1> </center>
 
 ## Quartile 1 (Q1) 
+
+* D Chaurasia and **P Chhikara**. *'Sea-Pix-GAN: Underwater image enhancement using adversarial neural network'*, 2024. **Journal of Visual Communication and Image Representation**. \
+[[Impact Factor: 2.600](https://www.sciencedirect.com/journal/journal-of-visual-communication-and-image-representation)] [[Published Version](https://www.sciencedirect.com/science/article/pii/S1047320323002717)]
 
 * **P Chhikara**, R Tekchandani, N Kumar, M Guizani, and MM Hassan. *'Federated learning and autonomous UAVs for hazardous zone detection and AQI prediction in IoT environment'*, 2021. **IEEE Internet of Things Journal**. \
 [[Impact Factor: 10.238](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=6488907)] [[Published Version](https://ieeexplore.ieee.org/abstract/document/9409140)]
