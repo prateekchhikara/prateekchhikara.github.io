@@ -21,7 +21,11 @@ author_profile: true
       <img src="../images/wacv.png" alt="Paper 1 Image" style="width: 350px; height: auto; box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);">
     </td>
     <td style="width: 650px; padding: 8px; vertical-align: top; border: none;">
-      <div style="font-weight: bold;">FIRE: Food Image to REcipe generation</div>
+      <div style="font-weight: bold;">
+        <a href="https://openaccess.thecvf.com/content/WACV2024/html/Chhikara_FIRE_Food_Image_to_REcipe_Generation_WACV_2024_paper.html" target="_blank" rel="noopener noreferrer">
+          FIRE: Food Image to REcipe generation
+        </a>
+      </div>
       <div style="font-style: italic;">IEEE/CVF Winter Conference on Applications of Computer Vision (WACV) -- 2024</div>
       This paper introduces FIRE, a novel multimodal methodology for generating recipes from food images, contributing to the growing field of food computing. FIRE effectively produces food titles, ingredients, and cooking instructions using the BLIP model, a Vision Transformer with a decoder, and the T5 model. The paper also explores practical applications like recipe customization and recipe-to-code generation for automated cooking. 
     </td>
@@ -32,7 +36,11 @@ author_profile: true
       <img src="../images/kcap.png" alt="Paper 1 Image" style="width: 350px; height: auto; box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);">
     </td>
     <td style="width: 650px; padding: 8px; vertical-align: top; border: none;">
-        <div style="font-weight: bold;">Knowledge-enhanced Agents for Interactive Text Games</div>
+        <div style="font-weight: bold;">
+            <a href="https://dl.acm.org/doi/10.1145/3587259.3627561" target="_blank" rel="noopener noreferrer">
+              Knowledge-enhanced Agents for Interactive Text Games
+            </a>
+        </div>
         <div style="display: flex; align-items: center;">
             <div style="font-style: italic; margin-right: 10px;">
                 International Conference on Knowledge Capture (KCap) -- 2023
@@ -49,7 +57,11 @@ author_profile: true
       <img src="../images/acl_bionlp.png" alt="Paper 1 Image" style="width: 350px; height: auto; box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);">
     </td>
     <td style="width: 650px; padding: 8px; vertical-align: top; border: none;">
-      <div style="font-weight: bold;">Privacy Aware Question-Answering System for Online Mental Health Risk Assessment</div>
+      <div style="font-weight: bold;">
+        <a href="https://aclanthology.org/2023.bionlp-1.18/" target="_blank" rel="noopener noreferrer">
+          Privacy Aware Question-Answering System for Online Mental Health Risk Assessment
+        </a>
+      </div>
       <div style="font-style: italic;">ACL Workshop on Biomedical Natural Language Processing (BioNLP) -- 2023</div>
       This paper explores using pre-trained Language Models (LMs) for assessing mental health risk from social media data. A Question-Answering (QA) approach, utilizing the Unified-QA model, is proposed for analyzing two large mental health datasets. To ensure user privacy, the model is trained with differential privacy techniques. The results show that treating risk assessment as a QA task is effective for mental health scenarios, with minimal performance loss (less than 1%) due to privacy safeguards. This approach signifies a promising direction for creating privacy-conscious diagnostic systems in mental health.
     </td>
@@ -60,7 +72,11 @@ author_profile: true
       <img src="../images/nips_romo.png" alt="Paper 1 Image" style="width: 350px; height: auto; box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);">
     </td>
     <td style="width: 650px; padding: 8px; vertical-align: top; border: none;">
-      <div style="font-weight: bold;">Visual Cropping Improves Zero-Shot Question Answering of Multimodal Large Language Models</div>
+      <div style="font-weight: bold;">
+          <a href="https://openreview.net/forum?id=YrYcoV2dAk" target="_blank" rel="noopener noreferrer">
+            Visual Cropping Improves Zero-Shot Question Answering of Multimodal Large Language Models
+          </a>
+      </div>
       <div style="font-style: italic;">NeurIPS Workshop on Robustness of Few-shot and Zero-shot Learning in Foundation Models -- 2023</div>
       This paper examines the limitations of Multimodal Large Language Models (LLMs) in visual question answering (VQA), particularly their sensitivity to the size of visual details in images. The study finds that the zero-shot accuracy of these models decreases by up to 46% with smaller visual subjects. Human visual cropping is shown to mitigate this issue, indicating a causal relationship. The paper proposes three automatic visual cropping methods to enhance zero-shot performance in multimodal LLMs. These methods are evaluated on four VQA datasets and a VQAv2 subset focused on fine details. The results highlight the need for caution in using multimodal LLMs for detail-sensitive VQA tasks and suggest visual cropping as a viable solution for improving performance.
     </td>
@@ -72,7 +88,11 @@ author_profile: true
       <img src="../images/cods.png" alt="Paper 1 Image" style="width: 350px; height: auto; box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);">
     </td>
     <td style="width: 650px; padding: 8px; vertical-align: top; border: none;">
-      <div style="font-weight: bold;">DIGITOUR: Automatic Digital Tours for Real-Estate Properties</div>
+      <div style="font-weight: bold;">
+        <a href="https://dl.acm.org/doi/10.1145/3570991.3571060" target="_blank" rel="noopener noreferrer">
+          DIGITOUR: Automatic Digital Tours for Real-Estate Properties
+        </a>
+      </div>
       <div style="font-style: italic;">International Conference on Data Science & Management of Data (CODS-COMAD) -- 2023</div>
       This paper presents an automated pipeline for creating 3D virtual tours in real estate, addressing the time and cost challenges of manual annotation in traditional methods. It introduces a novel HSV-based coloring scheme for paper tags, placed in locations before capturing 360° equirectangular images. These tags are uniquely numbered and bi-colored, enhancing tag detection and digit recognition using YOLOv5 and a custom MobileNet architecture, respectively. The method links equirectangular images based on these detected tags, demonstrating its efficiency with a real-world dataset from Housing.com.
     </td>
@@ -83,7 +103,11 @@ author_profile: true
       <img src="../images/ecml.png" alt="Paper 1 Image" style="width: 350px; height: auto; box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);">
     </td>
     <td style="width: 650px; padding: 8px; vertical-align: top; border: none;">
-      <div style="font-weight: bold;">RE-Tagger: A light-weight Real-Estate Image Classifier</div>
+      <div style="font-weight: bold;">
+          <a href="https://link.springer.com/chapter/10.1007/978-3-031-26422-1_44" target="_blank" rel="noopener noreferrer">
+            RE-Tagger: A light-weight Real-Estate Image Classifier
+          </a>
+      </div>
       <div style="font-style: italic;">European Conference on Machine Learning (ECML) -- 2022</div>
       Real-estate image tagging is one of the essential use-cases to save efforts involved in manual annotation and enhance the user experience. This paper proposes an end-to-end pipeline (referred to as RE-Tagger) for the real-estate image classification problem. We present a two-stage transfer learning approach using custom InceptionV3 architecture to classify images into different categories (i.e., bedroom, bathroom, kitchen, balcony, hall, and others). 
     </td>

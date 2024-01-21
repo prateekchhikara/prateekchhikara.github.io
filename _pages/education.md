@@ -6,7 +6,9 @@ author_profile: true
 ---
 
 <img src="/images/usc-logo.png" alt="usc logo" style=" align: top; height: 60px; width:60px; background-size: cover;"/>
-<b> Master of Science in Computer Science </b> - [University of Southern California](https://www.usc.edu) (*August 2022 - May 2024*) **[GPA: 3.83/4.00]**
+<b> Master of Science in Computer Science </b> - [University of Southern California](https://www.usc.edu) (*August 2022 - May 2024*)
+
+**[GPA: 3.83/4.00]**
 
 ### Coursework
 * Analysis of Algorithms (CSCI 570)
@@ -24,7 +26,9 @@ author_profile: true
 <hr />
 
 <img src="/images/thapar.png" alt="thapar logo" style=" align: top; height: 70px; width:70px; background-size: cover;"/>
-<b> Bachelor of Engineering in Computer Engineering </b> - [Thapar Institute of Engineering and Technology](https://www.thapar.edu) (*July 2016 - July 2020*) **[GPA: 9.64/10.00]**
+<b> Bachelor of Engineering in Computer Engineering </b> - [Thapar Institute of Engineering and Technology](https://www.thapar.edu) (*July 2016 - July 2020*) 
+
+**[GPA: 9.64/10.00]**
 
 ### Major Coursework
 Machine Learning, Artificial Intelligence, Data Analytics & Visualization, Image Processing, Natural Language Processing, and Deep Learning.

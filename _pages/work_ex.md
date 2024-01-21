@@ -5,13 +5,16 @@ permalink: /work_ex/
 author_profile: true
 ---
 
+<img src="/images/autoenhance.png" alt="Autoenhance logo" style=" align: top; height: 50px; width:50px; background-size: cover; border-radius: 10px"/>
+<b> Artificial Intelligence (AI) Engineer Intern </b> - [Autoenhance.ai](https://www.autoenhance.ai) (*January 2024 - May 2024*) 
 
-
-
+* Enhancing RAW image quality with advanced deep learning techniques for optimal dynamic range, color accuracy, and fine details.
+  
+<hr />
 <img src="/images/usc-isi.png" alt="USC-ISI logo" style=" align: top; height: 50px; width:50px; background-size: cover; border-radius: 10px"/>
-<b> Graduate Researcher </b> - [Information Sciences Institute](https://www.isi.edu/) (*August 2022 - Present*) 
+<b> Graduate Researcher </b> - [Information Sciences Institute](https://www.isi.edu/) (*August 2022 - December 2023*) 
 
-* Utilizing prompt engineering and memory-based approaches in large language models for text-based game playing.
+* Utilized prompt engineering and memory-based approaches in large language models for text-based game playing.
 * Designed reinforcement learning agents with enhanced memory, language grounding, and object affordances. [[ArXiv]](https://arxiv.org/abs/2305.05091) -- *Published at KCap 2023*
 * Enhanced visual question answering system by implementing visual cropping methods to focus specific region in images. [[ArXiv]](https://arxiv.org/abs/2310.16033) -- *Published at NeurIPS Workshop 2023*
 * Developed a multimodal approach for recipe generation from food images using attention-based vision and language models. [[ArXiv]](https://arxiv.org/abs/2308.14391) -- *Published at WACV 2024*
