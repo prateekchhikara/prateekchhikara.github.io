@@ -23,7 +23,7 @@ Actively looking for Spring 2024 coop/intern and full-time opportunities beginni
 <div style="background-color: #ff0; color: #f00; padding: 10px; border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); max-width: 600px; margin: 0 auto;">
 
         <p style="font-size: 16px; margin: 10px 0;">
-            Actively looking for Spring 2024 co-op/intern and full-time opportunities beginning May 2024
+            Actively looking for full-time opportunities beginning May 2024
             in the field of <strong style="color: #f00;">Data Science</strong> and 
             <strong style="color: #f00;">Machine Learning</strong>.
         </p>
