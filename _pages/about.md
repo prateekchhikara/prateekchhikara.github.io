@@ -34,33 +34,93 @@ Actively looking for Spring 2024 coop/intern and full-time opportunities beginni
 </div>
 <br>
 
-<p style='text-align: justify;'> 
+<p style='text-align: justify; font-size: 16px;'> 
 As a Master of Science student in Computer Science at USC, I bring a wealth of experience and knowledge to the table. With around three years of professional experience as a full-stack Data Scientist in the real-estate industry, I am well-versed in advanced analytics, machine learning, language modeling, and computer vision. My expertise in these areas, combined with my ability to solve complex problems through data, has led to the publication of more than 20 research papers in top-tier conferences and journals with over 400 citations.
 </p>
 
-**Conferences/Workshops:** ACL, NeurIPS, WACV, ECML, KCap, CODS-COMAD, GLOBECOM, MOBICOM, etc.<br>
-**Journals:** IEEE Internet of Things, Elsevier Future Generation Computer Systems, etc.
+<p style='text-align: justify; font-size: 16px;'> 
+<b>Conferences/Workshops:</b> ACL, NeurIPS, WACV, ECML, KCap, CODS-COMAD, GLOBECOM, MOBICOM, etc.<br>
+<b>Journals:</b> IEEE Internet of Things, Elsevier Future Generation Computer Systems, etc.
+</p>
 
-<p style='text-align: justify;'> 
+<p style='text-align: justify; font-size: 16px;'> 
 I am passionate about staying up-to-date with the latest developments in Artificial Intelligence and Machine Learning, and apply this curiosity to learn new approaches and tools. This drive has allowed me to act as a liaison between development, analytics, and business teams. As a person who values empathy and collaboration, I am a team player and have contributed to the successful execution of multiple projects at my previous organization.
 </p>
 
-<p style='text-align: justify;'> 
+<p style='text-align: justify; font-size: 16px;'> 
 To give back to the community, I write articles detailing things I have learned and post them on Medium. If you are a data science aspirant, please check out my <a href="https://medium.com/@prateekchhikara">Medium</a> account.
 </p>
 
+<hr />
+
 # Skills
 
+<p style='text-align: justify; font-size: 16px;'> 
 <b> <u> Programming Languages:</u> </b> Python, C++, R, Matlab, SQL. <br>
 <b> <u> Development Tools: </u> </b> HTML, CSS, Javascript, Angular, NodeJS, SwiftUI. <br>
 <b> <u> Machine Learning & Deep Learning Frameworks: </u></b> PyTorch, Keras, Tensorflow, HuggingFace, NLTK, OpenCV, Spacy, LangChain, Scikit-learn, Flask, PySpark, MLFlow. <br>
 <b> <u> Tools: </u></b> Databricks, Jenkins, Git, Docker, OpenVINO, SonarQube, Postman. <br>
 <b> <u> Cloud Platforms: </u></b> AWS and GCP.
+</p>
+
+<hr />
+
+# Recommendations
+
+<div style="display: flex; flex-wrap: wrap; justify-content: center;">
+        <!-- First recommendation card -->
+        <div style="width: 300px; margin: 20px; text-align: center;">
+            <div style="width: 70px; height: 70px; border-radius: 50%; margin: 0 auto 10px; overflow: hidden;">
+                <img src="/images/filip.jpeg" alt="Person 1" style="width: 100%; height: 100%; object-fit: cover;">
+            </div>
+            <div style="font-weight: bold;">
+              Filip Ilievski 
+              <a href="https://www.linkedin.com/in/filipilievski91">
+              <img src="/images/linkedin.png" alt="LinkedIn" style="width: 15px; height: 15px; vertical-align: middle;"> 
+              </a>
+            </div>
+            <div style="font-size: 12px; font-weight: 4; margin-bottom: 5px;">Assistant Professor (Sr.) at VU Amsterdam</div>
+            <div style="font-size: 13px; color: #666;">Prateek worked with me as a research assistant for 1.5 years at USC's Information Sciences Institute, on several projects covering both interactive text-based tasks and computer vision tasks. Prateek came in already as a mature researcher, with the most solid publication history of a Master's student I've ever seen. Week by week, he was extremely respectful, hard-working, and very well-organized. His reports were always extensive with experimental results, findings, and future steps. Besides coding and discussions, he also excelled in writing - he has a clear and informative writing style, at the level of a third-year PhD student. Finally, he is a great team player, very understandable and constructive in the research process.</div>
+        </div>
+
+        <!-- Second recommendation card -->
+        <div style="width: 300px; margin: 20px; text-align: center;">
+            <div style="width: 70px; height: 70px; border-radius: 50%; margin: 0 auto 10px; overflow: hidden;">
+                <img src="/images/chirag.jpeg" alt="Person 1" style="width: 100%; height: 100%; object-fit: cover;">
+            </div>
+            <div style="font-weight: bold;">
+              Chirag Sharma 
+              <a href="https://www.linkedin.com/in/chiraggemini">
+              <img src="/images/linkedin.png" alt="LinkedIn" style="width: 15px; height: 15px; vertical-align: middle;"> 
+              </a>
+            </div>
+            
+            <div style="font-size: 12px; font-weight: 4; margin-bottom: 5px;">Product @ Reliance Retail </div>
+            <div style="font-size: 13px; color: #666;">I managed Prateek at Housing.com for a couple of years. His work and die hard problem solving attitude always impressed his stakeholders. Every project given to him had elements of complexity which he navigated very well. Prateek’s technical skills, his ability to learn on the go and research driven attitude are going to take him a long way. He will definitely be an asset to any team he joins!</div>
+        </div>
 
 
 
 
+        <!-- Add more recommendation cards as needed -->
+        <div style="width: 300px; margin: 20px; text-align: center;">
+            <div style="width: 70px; height: 70px; border-radius: 50%; margin: 0 auto 10px; overflow: hidden;">
+                <img src="/images/anil.jpeg" alt="Person 1" style="width: 100%; height: 100%; object-fit: cover;">
+            </div>
+            <div style="font-weight: bold;">
+              Anil Goyal 
+              <a href="https://www.linkedin.com/in/anilgoyal91">
+              <img src="/images/linkedin.png" alt="LinkedIn" style="width: 15px; height: 15px; vertical-align: middle;"> 
+              </a>
+            </div>
+            <div style="font-size: 12px; font-weight: 4; margin-bottom: 5px;">Principal Data Scientist @ Housing.com </div>
+            <div style="font-size: 13px; color: #666;">Prateek is a meticulous data scientist and brilliant researcher. He has a deep understanding of data science concepts and understands how machine learning can generate value for real-world problems. We have collaborated on multiple projects (Image classification, fraud detection, etc.) and submitted multiple research papers at top conferences. I wish him all the best and success for his future career.</div>
+        </div>
+</div>
 
+<hr />
+<br>
+<br>
 
 <p style='text-align: center;'> 
 <a href="http://s01.flagcounter.com/more/nxX"><img src="https://s01.flagcounter.com/count2/nxX/bg_FFFFFF/txt_000000/border_CCCCCC/columns_5/maxflags_20/viewers_0/labels_0/pageviews_0/flags_0/percent_0/" alt="Flag Counter" border="0"></a>

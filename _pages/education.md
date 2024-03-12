@@ -33,6 +33,10 @@ author_profile: true
 ### Major Coursework
 Machine Learning, Artificial Intelligence, Data Analytics & Visualization, Image Processing, Natural Language Processing, and Deep Learning.
 ### Responsibilities
-* Worked in labs under the supervision of professors from the Computer Engineering Department. Conducted successful research and published papers in high-impact journals and conferences.
-* Devised a course curriculum of 40 hrs under the Experiential Learning Centre of college, which introduced use-cases of robotic arm to first-year students. Prepared pre-workshop lectures, assisted students in projects and grading their work.
-* During 2019's summer school, taught first-year students the fundamentals of Python and tutored them the concepts of Computer Vision (creating a CNN using Transfer Learning), creating a Blockchain, developing a cryptocurrency using OOPS in Python, and testing the built API using Postman.
+<div style="font-size: 16px;">
+ <ul>
+<li> Worked in labs under the supervision of professors from the Computer Engineering Department. Conducted successful research and published papers in high-impact journals and conferences. </li>
+<li> Devised a course curriculum of 40 hrs under the Experiential Learning Centre of college, which introduced use-cases of robotic arm to first-year students. Prepared pre-workshop lectures, assisted students in projects and grading their work.</li>
+<li> During 2019's summer school, taught first-year students the fundamentals of Python and tutored them the concepts of Computer Vision (creating a CNN using Transfer Learning), creating a Blockchain, developing a cryptocurrency using OOPS in Python, and testing the built API using Postman.</li>
+</ul>
+</div>
