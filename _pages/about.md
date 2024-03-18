@@ -23,7 +23,7 @@ Actively looking for Spring 2024 coop/intern and full-time opportunities beginni
 <div style="background-color: #ff0; color: #f00; padding: 10px; border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); max-width: 600px; margin: 0 auto;">
 
         <p style="font-size: 16px; margin: 10px 0;">
-            Actively looking for full-time opportunities beginning May 2024
+            Actively looking for full-time opportunities beginning July 2024
             in the field of <strong style="color: #f00;">Data Science</strong> and 
             <strong style="color: #f00;">Machine Learning</strong>.
         </p>
@@ -44,7 +44,7 @@ As a Master of Science student in Computer Science at USC, I bring a wealth of e
 </p>
 
 <p style='text-align: justify; font-size: 16px;'> 
-I am passionate about staying up-to-date with the latest developments in Artificial Intelligence and Machine Learning, and apply this curiosity to learn new approaches and tools. This drive has allowed me to act as a liaison between development, analytics, and business teams. As a person who values empathy and collaboration, I am a team player and have contributed to the successful execution of multiple projects at my previous organization.
+I am passionate about staying up-to-date with the latest developments in Artificial Intelligence and Machine Learning, and apply this curiosity to learn new approaches and tools. This drive has allowed me to act as a liaison between development, analytics, and business teams. As someone who values empathy and collaboration, I thrive as a team player and have made significant contributions to the successful execution of multiple projects during my tenure at my previous organization.
 </p>
 
 <p style='text-align: justify; font-size: 16px;'> 
@@ -58,9 +58,9 @@ To give back to the community, I write articles detailing things I have learned 
 <p style='text-align: justify; font-size: 16px;'> 
 <b> <u> Programming Languages:</u> </b> Python, C++, R, Matlab, SQL. <br>
 <b> <u> Development Tools: </u> </b> HTML, CSS, Javascript, Angular, NodeJS, SwiftUI. <br>
-<b> <u> Machine Learning & Deep Learning Frameworks: </u></b> PyTorch, Keras, Tensorflow, HuggingFace, NLTK, OpenCV, Spacy, LangChain, Scikit-learn, Flask, PySpark, MLFlow. <br>
-<b> <u> Tools: </u></b> Databricks, Jenkins, Git, Docker, OpenVINO, SonarQube, Postman. <br>
-<b> <u> Cloud Platforms: </u></b> AWS and GCP.
+<b> <u> Machine Learning & Deep Learning Frameworks: </u></b> PyTorch, Tensorflow, Keras, ONNX, HuggingFace, NLTK, OpenCV, Spacy, LangChain, Scikit-learn, Flask, PySpark, MLFlow. <br>
+<b> <u> Tools: </u></b> Databricks, Weights & Biases (wandb), Jenkins, Gradio, Git, Docker, OpenVINO, SonarQube, Postman, Google Analytics. <br>
+<b> <u> Cloud Platforms: </u></b> AWS (EC2, S3, Lambda, SageMaker, RDS) and GCP (Compute Engine, Cloud Storage, Cloud Functions, BigQuery).
 </p>
 
 <hr />
