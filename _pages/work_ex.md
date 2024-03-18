@@ -56,7 +56,7 @@ author_profile: true
 
 
 <hr />
-<img src="/images/proptiger.png" alt="Proptiger logo" style="height: 60px; width:60px; background-size: cover;"/>
+<img src="/images/proptiger.png" alt="Proptiger logo" style="height: 50px; width:50px; background-size: cover; border-radius: 10px"/>
 <b> Data Scientist </b> - [PropTiger.com](https://www.proptiger.com) (*Jan 2020 - July 2020*)
 <div style="font-size: 16px;">
  <ul>
