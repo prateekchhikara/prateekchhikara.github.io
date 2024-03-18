@@ -95,7 +95,7 @@ To give back to the community, I write articles detailing things I have learned 
               </a>
             </div>
             
-            <div style="font-size: 12px; font-weight: 4; margin-bottom: 5px;">Product @ Reliance Retail </div>
+            <div style="font-size: 12px; font-weight: 4; margin-bottom: 5px;">Product Manager @ Reliance Retail </div>
             <div style="font-size: 13px; color: #666;">I managed Prateek at Housing.com for a couple of years. His work and die hard problem solving attitude always impressed his stakeholders. Every project given to him had elements of complexity which he navigated very well. Prateek’s technical skills, his ability to learn on the go and research driven attitude are going to take him a long way. He will definitely be an asset to any team he joins!</div>
         </div>
 
