@@ -13,7 +13,7 @@ redirect_from:
 </center> -->
 
 <center>
-<img src="/images/pc_cover.jpg" alt="USC logo" style="height: 90%; width:90%; background-size: cover"/>
+    <img src="/images/pc_cover.jpg" alt="USC logo" style="height: 90%; width:90%; background-size: cover; box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);"/>
 </center>
 
 <!-- <img src="/images/usc-logo.png" alt="USC logo" style="height: 100px; width:100px; background-size: cover"/> -->
