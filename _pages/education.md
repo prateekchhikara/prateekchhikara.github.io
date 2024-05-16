@@ -8,7 +8,7 @@ author_profile: true
 <img src="/images/usc-logo.png" alt="usc logo" style=" align: top; height: 60px; width:60px; background-size: cover;"/>
 <b> Master of Science in Computer Science </b> - [University of Southern California](https://www.usc.edu) (*August 2022 - May 2024*)
 
-**[GPA: 3.83/4.00]**
+**[GPA: 3.85/4.00]**
 
 ### Coursework
 * Analysis of Algorithms (CSCI 570)
@@ -40,3 +40,5 @@ Machine Learning, Artificial Intelligence, Data Analytics & Visualization, Image
 <li> During 2019's summer school, taught first-year students the fundamentals of Python and tutored them the concepts of Computer Vision (creating a CNN using Transfer Learning), creating a Blockchain, developing a cryptocurrency using OOPS in Python, and testing the built API using Postman.</li>
 </ul>
 </div>
+
+

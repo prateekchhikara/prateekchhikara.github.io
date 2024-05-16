@@ -171,6 +171,9 @@ You can find all my publications at [Google Scholar](https://scholar.google.com/
 
 ## Quartile 1 (Q1) 
 
+* A Barnawi, **P Chhikara**, R Tekchandani, N Kumar, and B Alzahrani. *'A Differentially Privacy Assisted Federated Learning Scheme to Preserve Data Privacy for IoMT Applications'*, 2024. **IEEE Transactions on Network and Service Management**.\
+[[Impact Factor: 5.300](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=4275028)] [[Published Version](https://ieeexplore.ieee.org/abstract/document/10509607)]
+
 * D Chaurasia and **P Chhikara**. *'Sea-Pix-GAN: Underwater image enhancement using adversarial neural network'*, 2024. **Journal of Visual Communication and Image Representation**. \
 [[Impact Factor: 2.600](https://www.sciencedirect.com/journal/journal-of-visual-communication-and-image-representation)] [[Published Version](https://www.sciencedirect.com/science/article/pii/S1047320323002717)]
 

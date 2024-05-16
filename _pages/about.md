@@ -8,8 +8,12 @@ redirect_from:
   - /about.html
 ---
 
-<center>
+<!-- <center>
 <img src="/images/usc-banner.png" alt="USC logo" style="height: 90%; width:90%; background-size: cover"/>
+</center> -->
+
+<center>
+<img src="/images/pc_cover.jpg" alt="USC logo" style="height: 90%; width:90%; background-size: cover"/>
 </center>
 
 <!-- <img src="/images/usc-logo.png" alt="USC logo" style="height: 100px; width:100px; background-size: cover"/> -->
@@ -35,12 +39,12 @@ Actively looking for Spring 2024 coop/intern and full-time opportunities beginni
 <br>
 
 <p style='text-align: justify; font-size: 16px;'> 
-As a Master of Science student in Computer Science at USC, I bring a wealth of experience and knowledge to the table. With around three years of professional experience as a full-stack Data Scientist in the real-estate industry, I am well-versed in advanced analytics, machine learning, language modeling, and computer vision. My expertise in these areas, combined with my ability to solve complex problems through data, has led to the publication of more than 20 research papers in top-tier conferences and journals with over 400 citations.
+As a Master of Science graduate in Computer Science at USC, I bring a wealth of experience and knowledge to the table. With <b>3+ years of professional experience</b> as a full-stack Data Scientist in the real-estate industry, I am well-versed in advanced analytics, machine learning, language modeling, and computer vision. My expertise in these areas, combined with my ability to solve complex problems through data, has led to the publication of more than 20 research papers in top-tier conferences and journals with <b>over 500 citations</b>.
 </p>
 
 <p style='text-align: justify; font-size: 16px;'> 
 <b>Conferences/Workshops:</b> ACL, NeurIPS, WACV, ECML, KCap, CODS-COMAD, GLOBECOM, MOBICOM, etc.<br>
-<b>Journals:</b> IEEE Internet of Things, Elsevier Future Generation Computer Systems, etc.
+<b>Journals:</b> IEEE Internet of Things, Elsevier Future Generation Computer Systems, IEEE Transactions on Network and Service Management, etc.
 </p>
 
 <p style='text-align: justify; font-size: 16px;'> 
