@@ -77,6 +77,8 @@ analytics:
   google:
     tracking_id          :
 
+google_analytics: "G-TK3H3SZLFK"
+
 
 # Site Author
 author:
