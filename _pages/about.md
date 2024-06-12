@@ -117,7 +117,7 @@ To give back to the community, I write articles detailing things I have learned 
               <img src="/images/linkedin.png" alt="LinkedIn" style="width: 15px; height: 15px; vertical-align: middle;"> 
               </a>
             </div>
-            <div style="font-size: 12px; font-weight: 4; margin-bottom: 5px;">Principal Data Scientist @ Housing.com </div>
+            <div style="font-size: 12px; font-weight: 10; margin-bottom: 5px;">Senior Research Scientist @ Amazon </div>
             <div style="font-size: 13px; color: #666;">Prateek is a meticulous data scientist and brilliant researcher. He has a deep understanding of data science concepts and understands how machine learning can generate value for real-world problems. We have collaborated on multiple projects (Image classification, fraud detection, etc.) and submitted multiple research papers at top conferences. I wish him all the best and success for his future career.</div>
         </div>
 </div>

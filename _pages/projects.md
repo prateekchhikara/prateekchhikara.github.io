@@ -14,6 +14,27 @@ author_profile: true
 
 
 <table style="width: 100%; border-collapse: collapse; border: none;">
+
+  <tr>
+    <td style="padding: 8px; vertical-align: top; border: none;">
+      <img src="../images/aisr.jpeg" alt="Paper 1 Image" style="width: 250px; height: auto; box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);">
+    </td>
+    <td style="width: 650px; padding: 8px; vertical-align: top; border: none;">
+      <div style="font-weight: bold;">AISR: AI Sports Recap --
+        <a href="https://github.com/prateekchhikara/sports-highlights/" target="_blank">
+                <img src="/images/github.png" alt="usc logo" style="align: top; height: 30px; background-size: cover;"/>
+        </a>
+      
+      </div>
+      
+      <ul>
+        <li>Developed an AI-powered tool that generates concise summaries and engaging highlight reels from sports press conference videos, enhancing fan and media experience.</li>
+        <li>Integrated advanced NLP and video analysis models, including GPT-4 and Pegasus1 (from Twelve Labs), to automate post-game recaps, interview snippets, and social media content creation.</li>
+        <li> <span style="color: red;"> Secured second place at "Twelve Labs: Multimodal AI Media & Entertainment" Hackathon. 🏆🏆 </span>  </li>
+    </ul>
+
+    </td>
+  </tr>
   
   <tr>
     <td style="padding: 8px; vertical-align: top; border: none;">
