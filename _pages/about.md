@@ -20,22 +20,6 @@ redirect_from:
 
 <!-- I am a Master of Science student in Computer Science (*specialization in Artificial Intelligence*) at Viterbi School of Engineering at USC.  -->
 
-<!-- <p>
-Actively looking for Spring 2024 coop/intern and full-time opportunities beginning May 2024 in the field of **Data Science** and **Machine Learning**.
-</p> -->
-<br>
-<div style="background-color: #ff0; color: #f00; padding: 10px; border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); max-width: 600px; margin: 0 auto;">
-
-        <p style="font-size: 16px; margin: 10px 0;">
-            Actively looking for full-time opportunities beginning July 2024
-            in the field of <strong style="color: #f00;">Data Science</strong> and 
-            <strong style="color: #f00;">Machine Learning</strong>.
-        </p>
-        <p style='text-align: center; font-size: 16px;'>
-          Feel free to contact me at <strong style="color: #f00;">pchhikar@usc.edu</strong>
-        </p>
-
-</div>
 <br>
 
 <p style='text-align: justify; font-size: 16px;'> 

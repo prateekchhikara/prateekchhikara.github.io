@@ -4,18 +4,33 @@ title: "Work Experience"
 permalink: /work_ex/
 author_profile: true
 ---
+<br>
+
+<img src="/images/mem0.jpeg" alt="Mem0 logo" style=" align: top; height: 50px; width:50px; background-size: cover; border-radius: 10px"/>
+<b> Founding Artificial Intelligence (AI) Engineer </b> - [Mem0.ai](https://github.com/mem0ai/mem0) (*July 2024 - Present*) 
+
+ <div style="font-size: 16px;">
+ <ul>
+    <li> Contributing to the development of cutting-edge, memory-centric AI solutions, enhancing AI applications and human productivity. </li>
+ </ul>
+
+</div>
+<hr />
 
 <img src="/images/autoenhance.jpeg" alt="Autoenhance logo" style=" align: top; height: 50px; width:50px; background-size: cover; border-radius: 10px"/>
-<b> Artificial Intelligence (AI) Engineer Intern </b> - [Autoenhance.ai](https://www.autoenhance.ai) (*January 2024 - May 2024*) 
+<b> Artificial Intelligence (AI) Engineer Intern </b> - [Autoenhance.ai](https://www.autoenhance.ai) (*January 2024 - July 2024*) 
 
  <div style="font-size: 16px;">
  <ul>
     <li> Enhancing image quality globally and locally, focusing on selective detail enhancement and comprehensive filtering via deep learning. </li>
+    <li> Developed a deep learning network for detecting similar HDR bracket images, achieving artifact-free merging. </li>
     <li> Engineering automated censoring for license plates, faces, and other sensitive data, ensuring image compliance with data protection laws. </li>
  </ul>
 
 </div>
 <hr />
+
+
 <img src="/images/usc-isi.png" alt="USC-ISI logo" style=" align: top; height: 50px; width:50px; background-size: cover; border-radius: 10px"/>
 <b> Graduate Researcher </b> - [Information Sciences Institute](https://www.isi.edu/) (*August 2022 - December 2023*) 
 

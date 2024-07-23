@@ -17,6 +17,24 @@ author_profile: true
 
   <tr>
     <td style="padding: 8px; vertical-align: top; border: none;">
+      <img src="../images/sifra.png" alt="Paper 1 Image" style="width: 250px; height: auto; box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);">
+    </td>
+    <td style="width: 650px; padding: 8px; vertical-align: top; border: none;">
+      <div style="font-weight: bold;">SIFRA: Super Intelligent & Friendly Responsive Agent --
+        <a href="https://github.com/prateekchhikara/sifra" target="_blank">
+                <img src="/images/github.png" alt="usc logo" style="align: top; height: 30px; background-size: cover;"/>
+        </a>
+      
+      </div>
+      <ul>
+        <li>Implemented an AI agent using LangChain and RAG to seamlessly process and personalize user interactions from unstructured data.</li>
+        <li>Applied generative AI methods to deliver highly adaptive, contextual, and tailored user experiences, significantly boosting engagement.</li>
+    </ul>
+    </td>
+  </tr>
+
+  <tr>
+    <td style="padding: 8px; vertical-align: top; border: none;">
       <img src="../images/aisr.jpeg" alt="Paper 1 Image" style="width: 250px; height: auto; box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);">
     </td>
     <td style="width: 650px; padding: 8px; vertical-align: top; border: none;">
