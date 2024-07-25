@@ -57,6 +57,20 @@ To give back to the community, I write articles detailing things I have learned 
 
 <div style="display: flex; flex-wrap: wrap; justify-content: center;">
         <!-- First recommendation card -->
+         <div style="width: 300px; margin: 20px; text-align: center;">
+            <div style="width: 70px; height: 70px; border-radius: 50%; margin: 0 auto 10px; overflow: hidden;">
+                <img src="/images/jamie.jpeg" alt="Person 1" style="width: 100%; height: 100%; object-fit: cover;">
+            </div>
+            <div style="font-weight: bold;">
+              Jamie McInally
+              <a href="https://uk.linkedin.com/in/jamie-mcinally-75453766">
+              <img src="/images/linkedin.png" alt="LinkedIn" style="width: 15px; height: 15px; vertical-align: middle;"> 
+              </a>
+            </div>
+            <div style="font-size: 15px; margin-bottom: 5px;">CEO of Autoenhance.ai </div>
+            <div style="font-size: 13px; color: #666;">Working with Prateek has been a pleasure. Working in a startup with a small team requires everyone to think on their toes and deliver quality consistently and quickly. Prateek was always keen to get involved with any challenge and communicated his ideas and results well to the team. He has a broad and in-depth understanding of computer vision and AI and is always keen to explore new and novel ways to improve the product.</div>
+        </div>
+
         <div style="width: 300px; margin: 20px; text-align: center;">
             <div style="width: 70px; height: 70px; border-radius: 50%; margin: 0 auto 10px; overflow: hidden;">
                 <img src="/images/filip.jpeg" alt="Person 1" style="width: 100%; height: 100%; object-fit: cover;">
@@ -67,7 +81,7 @@ To give back to the community, I write articles detailing things I have learned 
               <img src="/images/linkedin.png" alt="LinkedIn" style="width: 15px; height: 15px; vertical-align: middle;"> 
               </a>
             </div>
-            <div style="font-size: 12px; font-weight: 4; margin-bottom: 5px;">Assistant Professor (Sr.) at VU Amsterdam</div>
+            <div style="font-size: 15px; margin-bottom: 5px;">Assistant Professor (Sr.) at VU Amsterdam</div>
             <div style="font-size: 13px; color: #666;">Prateek worked with me as a research assistant for 1.5 years at USC's Information Sciences Institute, on several projects covering both interactive text-based tasks and computer vision tasks. Prateek came in already as a mature researcher, with the most solid publication history of a Master's student I've ever seen. Week by week, he was extremely respectful, hard-working, and very well-organized. His reports were always extensive with experimental results, findings, and future steps. Besides coding and discussions, he also excelled in writing - he has a clear and informative writing style, at the level of a third-year PhD student. Finally, he is a great team player, very understandable and constructive in the research process.</div>
         </div>
 
@@ -83,7 +97,7 @@ To give back to the community, I write articles detailing things I have learned 
               </a>
             </div>
             
-            <div style="font-size: 12px; font-weight: 4; margin-bottom: 5px;">Product Manager @ Reliance Retail </div>
+            <div style="font-size: 15px; margin-bottom: 5px;">Product Manager @ Reliance Retail </div>
             <div style="font-size: 13px; color: #666;">I managed Prateek at Housing.com for a couple of years. His work and die hard problem solving attitude always impressed his stakeholders. Every project given to him had elements of complexity which he navigated very well. Prateek’s technical skills, his ability to learn on the go and research driven attitude are going to take him a long way. He will definitely be an asset to any team he joins!</div>
         </div>
 
@@ -101,7 +115,7 @@ To give back to the community, I write articles detailing things I have learned 
               <img src="/images/linkedin.png" alt="LinkedIn" style="width: 15px; height: 15px; vertical-align: middle;"> 
               </a>
             </div>
-            <div style="font-size: 12px; font-weight: 10; margin-bottom: 5px;">Senior Research Scientist @ Amazon </div>
+            <div style="font-size: 15px; margin-bottom: 5px;">Senior Research Scientist @ Amazon </div>
             <div style="font-size: 13px; color: #666;">Prateek is a meticulous data scientist and brilliant researcher. He has a deep understanding of data science concepts and understands how machine learning can generate value for real-world problems. We have collaborated on multiple projects (Image classification, fraud detection, etc.) and submitted multiple research papers at top conferences. I wish him all the best and success for his future career.</div>
         </div>
 </div>
