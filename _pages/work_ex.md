@@ -6,80 +6,252 @@ author_profile: true
 ---
 <br>
 
-<img src="/images/mem0.jpeg" alt="Mem0 logo" style=" align: top; height: 50px; width:50px; background-size: cover; border-radius: 10px"/>
-<b> Founding Artificial Intelligence (AI) Engineer </b> - [Mem0.ai](https://github.com/mem0ai/mem0) (*July 2024 - Present*) 
+<div class="work-experience">
+    <div class="experience-item">
+        <div class="experience-header">
+            <div class="company-logo">
+                <img src="/images/mem0.jpeg" alt="Mem0 logo"/>
+            </div>
+            <div class="company-info">
+                <h3>Founding Artificial Intelligence (AI) Engineer</h3>
+                <p><a href="https://github.com/mem0ai/mem0">Mem0.ai</a> <span class="date">July 2024 - Present</span></p>
+            </div>
+        </div>
+        <div class="experience-content">
+            <ul>
+                <li>Contributing to the development of cutting-edge, memory-centric AI solutions, enhancing AI applications and human productivity.</li>
+            </ul>
+        </div>
+    </div>
 
- <div style="font-size: 16px;">
- <ul>
-    <li> Contributing to the development of cutting-edge, memory-centric AI solutions, enhancing AI applications and human productivity. </li>
- </ul>
+    <hr class="divider"/>
 
+    <div class="experience-item">
+        <div class="experience-header">
+            <div class="company-logo">
+                <img src="/images/autoenhance.jpeg" alt="Autoenhance logo"/>
+            </div>
+            <div class="company-info">
+                <h3>Artificial Intelligence (AI) Engineer Intern</h3>
+                <p><a href="https://www.autoenhance.ai">Autoenhance.ai</a> <span class="date">January 2024 - July 2024</span></p>
+            </div>
+        </div>
+        <div class="experience-content">
+            <ul>
+                <li>Enhancing image quality globally and locally, focusing on selective detail enhancement and comprehensive filtering via deep learning.</li>
+                <li>Developed a deep learning network for detecting similar HDR bracket images, achieving artifact-free merging.</li>
+                <li>Engineering automated censoring for license plates, faces, and other sensitive data, ensuring image compliance with data protection laws.</li>
+            </ul>
+        </div>
+    </div>
+
+    <hr class="divider"/>
+
+    <div class="experience-item">
+        <div class="experience-header">
+            <div class="company-logo">
+                <img src="/images/usc-isi.png" alt="USC-ISI logo"/>
+            </div>
+            <div class="company-info">
+                <h3>Graduate Researcher</h3>
+                <p><a href="https://www.isi.edu/">Information Sciences Institute</a> <span class="date">August 2022 - December 2023</span></p>
+            </div>
+        </div>
+        <div class="experience-content">
+            <ul>
+                <li>Utilized prompt engineering and memory-based approaches in large language models for text-based game playing.</li>
+                <li>Designed reinforcement learning agents with enhanced memory, language grounding, and object affordances. (<a href="https://arxiv.org/abs/2305.05091" class="publication-link">Published at KCap 2023</a>)</li>
+                <li>Enhanced visual question answering system by implementing visual cropping methods to focus specific region in images. (<a href="https://arxiv.org/abs/2310.16033" class="publication-link">Published at NeurIPS Workshop 2023</a>)</li>
+                <li>Developed a multimodal approach for recipe generation from food images using attention-based vision and language models. (<a href="https://arxiv.org/abs/2308.14391" class="publication-link">Published at WACV 2024</a>)</li>
+            </ul>
+        </div>
+    </div>
+
+    <hr class="divider"/>
+
+    <div class="experience-item">
+        <div class="experience-header">
+            <div class="company-logo">
+                <img src="/images/housing_logo.png" alt="Housing logo"/>
+            </div>
+            <div class="company-info">
+                <h3>Data Scientist</h3>
+                <p><a href="https://www.housing.com">Housing.com</a> <span class="date">July 2020 - August 2022</span></p>
+            </div>
+        </div>
+        <div class="experience-content">
+            <ul>
+                <li>Utilized analytical and technical expertise to deliver insights and suggestions for <span class="highlight">business progress</span>.</li>
+                <li>Achieved <span class="highlight">92% precision</span> on fraud engine by leveraging historical and session-level attributes to block fake leads.</li>
+                <li>Developed a computer vision pipeline creating 3D floor plans from spherical projections, <span class="highlight">saving 400 work hours/month</span>.</li>
+                <li>Automated image auditing process, saving $40k/year and increasing online traffic by 12%.</li>
+                <li>Devised an image classifier with <span class="highlight">93% precision</span> and <span class="highlight">89% recall</span>, labeling real-estate tags in real-time at <span class="highlight">6 FPS on CPU</span>. (<a href="https://medium.com/engineering-housing/re-tagger-a-light-weight-real-estate-image-classifier-43573d915b6" class="publication-link">Article</a>)</li>
+                <li>Published two research papers in top international conferences: <a href="https://link.springer.com/chapter/10.1007/978-3-031-26422-1_44" class="publication-link">ECML'22</a> and <a href="https://dl.acm.org/doi/abs/10.1145/3570991.3571060" class="publication-link">CODS-COMAD'23</a></li>
+            </ul>
+        </div>
+        <div class="image-gallery">
+            <a class="image-link" href="/images/carousel1-4.png"><img src="/images/carousel1-4-small.png" alt="image"></a>
+            <a class="image-link" href="/images/carousel1-3.png"><img src="/images/carousel1-3-small.png" alt="image"></a>
+            <a class="image-link" href="/images/carousel1-2.png"><img src="/images/carousel1-2-small.png" alt="image"></a>
+            <a class="image-link" href="/images/carousel1-1.png"><img src="/images/carousel1-1-small.png" alt="image"></a>
+        </div>
+    </div>
+
+    <hr class="divider"/>
+
+    <div class="experience-item">
+        <div class="experience-header">
+            <div class="company-logo">
+                <img src="/images/proptiger.png" alt="Proptiger logo"/>
+            </div>
+            <div class="company-info">
+                <h3>Data Scientist</h3>
+                <p><a href="https://www.proptiger.com">PropTiger.com</a> <span class="date">Jan 2020 - July 2020</span></p>
+            </div>
+        </div>
+        <div class="experience-content">
+            <ul>
+                <li>Improved image quality (contrast, brightness, sharpness, blur) resulting in <span class="highlight">8% increase</span> in CTR on social media campaigns. <a href="https://medium.com/engineering-housing/real-estate-image-quality-enhancement-a9242b5b052c" class="publication-link">(Article)</a></li>
+                <li>Developed a No-Reference Image Quality Ranking tool to select the most visually appealing real estate property images. <a href="https://medium.com/engineering-housing/image-scoring-allocating-percentage-score-to-images-for-their-quality-6169abbf850e" class="publication-link">(Article)</a></li>
+                <li>Launched a service that extracts real-estate entity tags from WhatsApp group messages with <span class="highlight">87% f1-score</span>.</li>
+            </ul>
+        </div>
+    </div>
 </div>
-<hr />
 
-<img src="/images/autoenhance.jpeg" alt="Autoenhance logo" style=" align: top; height: 50px; width:50px; background-size: cover; border-radius: 10px"/>
-<b> Artificial Intelligence (AI) Engineer Intern </b> - [Autoenhance.ai](https://www.autoenhance.ai) (*January 2024 - July 2024*) 
+<style>
+.work-experience {
+    font-size: 16px;
+    line-height: 1.6;
+    max-width: 1200px;
+    margin: 0 auto;
+}
 
- <div style="font-size: 16px;">
- <ul>
-    <li> Enhancing image quality globally and locally, focusing on selective detail enhancement and comprehensive filtering via deep learning. </li>
-    <li> Developed a deep learning network for detecting similar HDR bracket images, achieving artifact-free merging. </li>
-    <li> Engineering automated censoring for license plates, faces, and other sensitive data, ensuring image compliance with data protection laws. </li>
- </ul>
+.experience-item {
+    background: #ffffff;
+    border-radius: 12px;
+    padding: 25px;
+    margin-bottom: 30px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
 
-</div>
-<hr />
+.experience-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
 
+.experience-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
 
-<img src="/images/usc-isi.png" alt="USC-ISI logo" style=" align: top; height: 50px; width:50px; background-size: cover; border-radius: 10px"/>
-<b> Graduate Researcher </b> - [Information Sciences Institute](https://www.isi.edu/) (*August 2022 - December 2023*) 
+.company-logo {
+    width: 60px;
+    height: 60px;
+    margin-right: 20px;
+    flex-shrink: 0;
+}
 
-<div style="font-size: 16px;">
- <ul>
-<li> Utilized prompt engineering and memory-based approaches in large language models for text-based game playing. </li>
-<li> Designed reinforcement learning agents with enhanced memory, language grounding, and object affordances. (<a href="https://arxiv.org/abs/2305.05091"><b>Published at KCap 2023</b></a>)   </li>
-<li> Enhanced visual question answering system by implementing visual cropping methods to focus specific region in images.
-(<a href="https://arxiv.org/abs/2310.16033"><b>Published at NeurIPS Workshop 2023</b></a>)   </li>
-<li> Developed a multimodal approach for recipe generation from food images using attention-based vision and language models. 
-(<a href="https://arxiv.org/abs/2308.14391"><b>Published at WACV 2024</b></a>)   </li>
-   </ul>
+.company-logo img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    object-fit: cover;
+}
 
-</div>
-<hr />
-<img src="/images/housing_logo.png" alt="Housing logo" style=" align: top; height: 60px; width:60px; background-size: cover; border-radius: 98px"/>
-<b> Data Scientist </b> - [Housing.com](https://www.housing.com) (*July 2020 - August 2022*) 
-<div style="font-size: 16px;">
- <ul>
-    <li> Utilized analytical and technical expertise to deliver insights and suggestions for <b>business progress</b>. </li>
-    <li> Achieved <b>92% precision</b> on fraud engine by leveraging historical and session-level attributes to block fake leads. </li>
-    <li> Developed a computer vision pipeline creating 3D floor plans from spherical projections, <b>saving 400 work hours/month</b>. </li>
-    <li> Automated image auditing process, saving $40k/year and increasing online traffic by 12%. </li>
-    <li> Devised an image classifier with <b>93% precision</b> and <b>89% recall</b>, labeling real-estate tags in real-time at <b>6 FPS on CPU</b>. 
-    (<a href="https://medium.com/engineering-housing/re-tagger-a-light-weight-real-estate-image-classifier-43573d915b6"><b>Article</b></a>)   </li>
-    <li> Published two research papers in top international conferences: 
-    <a href="https://link.springer.com/chapter/10.1007/978-3-031-26422-1_44"><b>ECML'22</b></a> and
-    <a href="https://dl.acm.org/doi/abs/10.1145/3570991.3571060"><b>CODS-COMAD’23</b></a> </li>
- </ul>
-  </div>
+.company-info h3 {
+    margin: 0;
+    color: #2c3e50;
+    font-size: 1.3em;
+}
 
-<div>
-<a class="image-link" href="/images/carousel1-4.png"><img src="/images/carousel1-4-small.png" alt="image"></a>
-<a class="image-link" href="/images/carousel1-3.png"><img src="/images/carousel1-3-small.png" alt="image"></a>
-<a class="image-link" href="/images/carousel1-2.png"><img src="/images/carousel1-2-small.png" alt="image"></a>
-<a class="image-link" href="/images/carousel1-1.png"><img src="/images/carousel1-1-small.png" alt="image"></a>
-  </div>
+.company-info p {
+    margin: 5px 0 0;
+    color: #666;
+}
 
+.date {
+    color: #666;
+    font-style: italic;
+    font-size: 0.9em;
+}
 
-<hr />
-<img src="/images/proptiger.png" alt="Proptiger logo" style="height: 50px; width:50px; background-size: cover; border-radius: 10px"/>
-<b> Data Scientist </b> - [PropTiger.com](https://www.proptiger.com) (*Jan 2020 - July 2020*)
-<div style="font-size: 16px;">
- <ul>
-<li> Improved image quality (contrast, brightness, sharpness, blur) resulting in <b>8% increase</b> in CTR on social media campaigns. 
-<a href="https://medium.com/engineering-housing/real-estate-image-quality-enhancement-a9242b5b052c"><b>(Article)</b></a></li>
-<li> Developed a No-Reference Image Quality Ranking tool to select the most visually appealing real estate property images. 
-<a href="https://medium.com/engineering-housing/image-scoring-allocating-percentage-score-to-images-for-their-quality-6169abbf850e"><b>(Article)</b></a></li>
-<li> Launched a service that extracts real-estate entity tags from WhatsApp group messages with <b>87% f1-score</b>. </li>
+.experience-content {
+    margin-left: 80px;
+}
 
- </ul>
-</div>
+.experience-content ul {
+    padding-left: 20px;
+    margin: 0;
+}
+
+.experience-content li {
+    margin-bottom: 10px;
+    color: #2c3e50;
+}
+
+.highlight {
+    color: #2980b9;
+    font-weight: bold;
+}
+
+.publication-link {
+    color: #e74c3c;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.2s ease;
+}
+
+.publication-link:hover {
+    color: #c0392b;
+}
+
+.image-gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 15px;
+    margin-top: 20px;
+    margin-left: 80px;
+}
+
+.image-link img {
+    width: 100%;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.image-link img:hover {
+    transform: scale(1.05);
+}
+
+.divider {
+    margin: 30px 0;
+    border: 0;
+    height: 1px;
+    background: linear-gradient(to right, transparent, #ddd, transparent);
+}
+
+@media (max-width: 768px) {
+    .experience-content {
+        margin-left: 0;
+    }
+    
+    .image-gallery {
+        margin-left: 0;
+        grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    }
+    
+    .experience-header {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .company-logo {
+        margin-right: 0;
+        margin-bottom: 15px;
+    }
+}
+</style>
