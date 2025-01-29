@@ -23,11 +23,11 @@ redirect_from:
 <br>
 
 <p style='text-align: justify; font-size: 16px;'> 
-As a Master of Science graduate in Computer Science at USC, I bring a wealth of experience and knowledge to the table. With <b>3+ years of professional experience</b> as a full-stack Data Scientist in the real-estate industry, I am well-versed in advanced analytics, machine learning, language modeling, and computer vision. My expertise in these areas, combined with my ability to solve complex problems through data, has led to the publication of more than 20 research papers in top-tier conferences and journals with <b>over 500 citations</b>.
+As a Master of Science graduate in Computer Science at USC, I bring a wealth of experience and knowledge to the table. With <b>3+ years of professional experience</b> as a full-stack Data Scientist in the real-estate industry, I am well-versed in advanced analytics, machine learning, language modeling, and computer vision. My expertise in these areas, combined with my ability to solve complex problems through data, has led to the publication of more than 20 research papers in top-tier conferences and journals with <b>over 700 citations</b>.
 </p>
 
 <p style='text-align: justify; font-size: 16px;'> 
-<b>Conferences/Workshops:</b> ACL, NeurIPS, WACV, ECML, KCap, CODS-COMAD, GLOBECOM, MOBICOM, etc.<br>
+<b>Conferences/Workshops:</b> ICML, ACL, NeurIPS, WACV, ECML, KCap, CODS-COMAD, GLOBECOM, MOBICOM, etc.<br>
 <b>Journals:</b> IEEE Internet of Things, Elsevier Future Generation Computer Systems, IEEE Transactions on Network and Service Management, etc.
 </p>
 
