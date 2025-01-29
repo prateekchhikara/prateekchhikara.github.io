@@ -139,112 +139,397 @@ author_profile: true
 
 ## All Publications
 
-
 You can find all my publications at [Google Scholar](https://scholar.google.com/citations?user=RQTJ_aIAAAAJ&hl) or [ResearchGate](https://www.researchgate.net/profile/Prateek-Chhikara).
 
-<center>  <h1> <u> Conferences / Workshops</u> </h1> </center>
+<center><h1><u>Conferences / Workshops</u></h1></center>
 
 ## CORE A*
 
-* J Zhang, M Khayatkhoei, **P Chhikara**, and F Ilievski. *'MLLMs Know Where to Look: Training-free Perception of Small Visual Details with Multimodal LLMs'*, 2025. **International Conference on Learning Representations (ICLR)**\
-[[Accepted Version](https://openreview.net/forum?id=DgaY5mDdmT)]
-[![Static Badge](https://img.shields.io/badge/-Main Conference Paper-purple)]()
+<div style="margin-bottom: 20px;">
+  <div style="font-weight: bold;">
+    <a href="https://openreview.net/forum?id=DgaY5mDdmT" target="_blank" rel="noopener noreferrer">
+      MLLMs Know Where to Look: Training-free Perception of Small Visual Details with Multimodal LLMs
+    </a>
+  </div>
+  <div style="font-style: italic;">International Conference on Learning Representations (ICLR) -- 2025</div>
+  <div>J Zhang, M Khayatkhoei, <b>P Chhikara</b>, and F Ilievski</div>
+  <div>
+    <a href="https://openreview.net/forum?id=DgaY5mDdmT" target="_blank" rel="noopener noreferrer">
+      <img src="https://img.shields.io/badge/-Main Conference Paper-purple" alt="Main Conference Paper">
+    </a>
+  </div>
+</div>
 
+<div style="margin-bottom: 20px;">
+  <div style="font-weight: bold;">
+    <a href="https://openreview.net/forum?id=YrYcoV2dAk" target="_blank" rel="noopener noreferrer">
+      Visual Cropping Improves Zero-Shot Question Answering of Multimodal Large Language Models
+    </a>
+  </div>
+  <div style="font-style: italic;">NeurIPS Workshop on Robustness of Few-shot and Zero-shot Learning in Foundation Models -- 2023</div>
+  <div>J Zhang, M Khayatkhoei, <b>P Chhikara</b>, and F Ilievski</div>
+  <div>
+    <a href="https://openreview.net/forum?id=YrYcoV2dAk" target="_blank" rel="noopener noreferrer">
+      <img src="https://img.shields.io/badge/-Workshop Paper-blue" alt="Workshop Paper">
+    </a>
+    <a href="https://drive.google.com/file/d/1CXwK4IQqOrEWjD_huOiOnrhzoN3sphZD/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+      <img src="https://img.shields.io/badge/-Poster-blue" alt="Poster">
+    </a>
+  </div>
+</div>
 
-* J Zhang, M Khayatkhoei, **P Chhikara**, and F Ilievski. *'Visual Cropping Improves Zero-Shot Question Answering of Multimodal Large Language Models'*, 2023. **NeurIPS Workshop on Robustness of Few-shot and Zero-shot Learning in Foundation Models**\
-[[Published Version](https://openreview.net/forum?id=YrYcoV2dAk)][[Poster](https://drive.google.com/file/d/1CXwK4IQqOrEWjD_huOiOnrhzoN3sphZD/view?usp=sharing)]
-[![Static Badge](https://img.shields.io/badge/-Workshop Paper-blue)]()
+<div style="margin-bottom: 20px;">
+  <div style="font-weight: bold;">
+    <a href="https://aclanthology.org/2023.bionlp-1.18/" target="_blank" rel="noopener noreferrer">
+      Privacy Aware Question-Answering System for Online Mental Health Risk Assessment
+    </a>
+  </div>
+  <div style="font-style: italic;">ACL Proceedings of the 22nd Workshop on Biomedical Language Processing -- 2023</div>
+  <div><b>P Chhikara</b>, U Pasupulety, J Marshall, D Chaurasia, and S Kumari</div>
+  <div>
+    <a href="https://aclanthology.org/2023.bionlp-1.18/" target="_blank" rel="noopener noreferrer">
+      <img src="https://img.shields.io/badge/-Workshop Paper-blue" alt="Workshop Paper">
+    </a>
+    <a href="https://drive.google.com/file/d/1tubM-8KApksVXA4pNzFCMR1VlvN7fB-2/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+      <img src="https://img.shields.io/badge/-Presentation-blue" alt="Presentation">
+    </a>
+    <a href="https://drive.google.com/file/d/1f-G1bvK2EvSkPW2cJfVacUQ3gJk64MQx/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+      <img src="https://img.shields.io/badge/-Poster-blue" alt="Poster">
+    </a>
+  </div>
+</div>
 
-* **P Chhikara**, U Pasupulety, J Marshall, D Chaurasia, and S Kumari. *'Privacy Aware Question-Answering System for Online Mental Health Risk Assessment'*, 2023. **ACL Proceedings of the 22nd Workshop on Biomedical Language Processing**. \
-[[Published Version](https://aclanthology.org/2023.bionlp-1.18/)][[Presentation](https://drive.google.com/file/d/1tubM-8KApksVXA4pNzFCMR1VlvN7fB-2/view?usp=sharing)][[Poster](https://drive.google.com/file/d/1f-G1bvK2EvSkPW2cJfVacUQ3gJk64MQx/view?usp=sharing)]
-[![Static Badge](https://img.shields.io/badge/-Workshop Paper-blue)]()
-
-* **P Chhikara**, R Tekchandani, N Kumar, and S Tanwar. *'Federated Learning-based Aerial Image Segmentation for collision-free Movement and Landing'*, 2021. **Proceedings of the 4th ACM MobiCom Workshops**. \
-[[Published Version](https://dl.acm.org/doi/abs/10.1145/3477090.3481051)]
-[![Static Badge](https://img.shields.io/badge/-Workshop Paper-blue)]()
+<div style="margin-bottom: 20px;">
+  <div style="font-weight: bold;">
+    <a href="https://dl.acm.org/doi/abs/10.1145/3477090.3481051" target="_blank" rel="noopener noreferrer">
+      Federated Learning-based Aerial Image Segmentation for collision-free Movement and Landing
+    </a>
+  </div>
+  <div style="font-style: italic;">Proceedings of the 4th ACM MobiCom Workshops -- 2021</div>
+  <div><b>P Chhikara</b>, R Tekchandani, N Kumar, and S Tanwar</div>
+  <div>
+    <a href="https://dl.acm.org/doi/abs/10.1145/3477090.3481051" target="_blank" rel="noopener noreferrer">
+      <img src="https://img.shields.io/badge/-Workshop Paper-blue" alt="Workshop Paper">
+    </a>
+  </div>
+</div>
 
 ## CORE A
-* **P Chhikara**, D Chaurasia, Y Jiang, O Masur, and F Ilievski. *'FIRE: Food Image to REcipe generation'*, 2024. **IEEE/CVF Winter Conference on Applications of Computer Vision (WACV)**.\
-[[Published Version](https://openaccess.thecvf.com/content/WACV2024/html/Chhikara_FIRE_Food_Image_to_REcipe_Generation_WACV_2024_paper.html)][[Poster](https://drive.google.com/file/d/1zf2NA6ga8PWndZAgu5QjSwO8EPsvt-yt/view?usp=sharing)][[Presentation](https://docs.google.com/presentation/d/1bRYwpjBn6cgybcvtev1BNlqLS3iAbwr_8EA5vZ2wRHc/edit?usp=sharing)]
-[![Static Badge](https://img.shields.io/badge/-Main Conference Paper-purple)]()
 
-* **P Chhikara**, A Goyal, and C Sharma. *'RE-Tagger: A light-weight Real-Estate Image Classifier'*, 2022. **European Conference on Machine Learning and Principles and Practice of Knowledge Discovery in Databases (ECML-PKDD)**. \
-[[Published Version](https://link.springer.com/chapter/10.1007/978-3-031-26422-1_44)][[Video](https://www.youtube.com/watch?v=eVWkU7yb-3M)]
-[![Static Badge](https://img.shields.io/badge/-Main Conference Paper (Demo Track)-purple)]()
+<div style="margin-bottom: 20px;">
+  <div style="font-weight: bold;">
+    <a href="https://openaccess.thecvf.com/content/WACV2024/html/Chhikara_FIRE_Food_Image_to_REcipe_Generation_WACV_2024_paper.html" target="_blank" rel="noopener noreferrer">
+      FIRE: Food Image to REcipe generation
+    </a>
+  </div>
+  <div style="font-style: italic;">IEEE/CVF Winter Conference on Applications of Computer Vision (WACV) -- 2024</div>
+  <div><b>P Chhikara</b>, D Chaurasia, Y Jiang, O Masur, and F Ilievski</div>
+  <div>
+    <a href="https://openaccess.thecvf.com/content/WACV2024/html/Chhikara_FIRE_Food_Image_to_REcipe_Generation_WACV_2024_paper.html" target="_blank" rel="noopener noreferrer">
+      <img src="https://img.shields.io/badge/-Main Conference Paper-purple" alt="Main Conference Paper">
+    </a>
+    <a href="https://drive.google.com/file/d/1zf2NA6ga8PWndZAgu5QjSwO8EPsvt-yt/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+      <img src="https://img.shields.io/badge/-Poster-purple" alt="Poster">
+    </a>
+    <a href="https://docs.google.com/presentation/d/1bRYwpjBn6cgybcvtev1BNlqLS3iAbwr_8EA5vZ2wRHc/edit?usp=sharing" target="_blank" rel="noopener noreferrer">
+      <img src="https://img.shields.io/badge/-Presentation-purple" alt="Presentation">
+    </a>
+  </div>
+</div>
+
+<div style="margin-bottom: 20px;">
+  <div style="font-weight: bold;">
+    <a href="https://link.springer.com/chapter/10.1007/978-3-031-26422-1_44" target="_blank" rel="noopener noreferrer">
+      RE-Tagger: A light-weight Real-Estate Image Classifier
+    </a>
+  </div>
+  <div style="font-style: italic;">European Conference on Machine Learning and Principles and Practice of Knowledge Discovery in Databases (ECML-PKDD) -- 2022</div>
+  <div><b>P Chhikara</b>, A Goyal, and C Sharma</div>
+  <div>
+    <a href="https://link.springer.com/chapter/10.1007/978-3-031-26422-1_44" target="_blank" rel="noopener noreferrer">
+      <img src="https://img.shields.io/badge/-Main Conference Paper (Demo Track)-purple" alt="Main Conference Paper (Demo Track)">
+    </a>
+    <a href="https://www.youtube.com/watch?v=eVWkU7yb-3M" target="_blank" rel="noopener noreferrer">
+      <img src="https://img.shields.io/badge/-Video-purple" alt="Video">
+    </a>
+  </div>
+</div>
 
 ## CORE B
-* **P Chhikara**, J Zhang, F Ilievski, J Francis, and K Ma. *'Knowledge-enhanced Agents for Interactive Text Games'*, 2023. **International Conference on Knowledge Capture (KCap)**.   <span style="color: red;">🏆🏆 Best Student Paper Award 🏆🏆</span>\
-[[Published Version](https://dl.acm.org/doi/10.1145/3587259.3627561)][[Presentation](https://docs.google.com/presentation/d/1G8KG8qNLnWITcdfIONhAQDGnd2uqaO_djqGh7hwIXmo/edit?usp=sharing)]
-[![Static Badge](https://img.shields.io/badge/-Main Conference Paper-purple)]()
 
-* **P Chhikara**, H Kuhar, A Goyal, and C Sharma. *'DIGITOUR: Automatic Digital Tours for Real-Estate Properties'*, 2023. **ACM CODS-COMAD**. \
-[[Published Version](https://dl.acm.org/doi/10.1145/3570991.3571060)]
-[![Static Badge](https://img.shields.io/badge/-Main Conference Paper-purple)]()
+<div style="margin-bottom: 20px;">
+  <div style="font-weight: bold;">
+    <a href="https://dl.acm.org/doi/10.1145/3587259.3627561" target="_blank" rel="noopener noreferrer">
+      Knowledge-enhanced Agents for Interactive Text Games
+    </a>
+  </div>
+  <div style="font-style: italic;">International Conference on Knowledge Capture (KCap) -- 2023</div>
+  <div><b>P Chhikara</b>, J Zhang, F Ilievski, J Francis, and K Ma</div>
+  <div>
+    <span style="color: red;">🏆🏆 Best Student Paper Award 🏆🏆</span>
+    <a href="https://dl.acm.org/doi/10.1145/3587259.3627561" target="_blank" rel="noopener noreferrer">
+      <img src="https://img.shields.io/badge/-Main Conference Paper-purple" alt="Main Conference Paper">
+    </a>
+    <a href="https://docs.google.com/presentation/d/1G8KG8qNLnWITcdfIONhAQDGnd2uqaO_djqGh7hwIXmo/edit?usp=sharing" target="_blank" rel="noopener noreferrer">
+      <img src="https://img.shields.io/badge/-Presentation-purple" alt="Presentation">
+    </a>
+  </div>
+</div>
 
-* **P Chhikara**, R Tekchandani, N Kumar, S Tanwar, and JJPC Rodrigues. *'Federated Learning for Air Quality Index Prediction using UAV Swarm Networks'*, 2021. **IEEE Global Communications Conference (GLOBECOM)**. \
-[[Published Version](https://ieeexplore.ieee.org/abstract/document/9685991)]
-[![Static Badge](https://img.shields.io/badge/-Main Conference Paper-purple)]()
+<div style="margin-bottom: 20px;">
+  <div style="font-weight: bold;">
+    <a href="https://dl.acm.org/doi/10.1145/3570991.3571060" target="_blank" rel="noopener noreferrer">
+      DIGITOUR: Automatic Digital Tours for Real-Estate Properties
+    </a>
+  </div>
+  <div style="font-style: italic;">ACM CODS-COMAD -- 2023</div>
+  <div><b>P Chhikara</b>, H Kuhar, A Goyal, and C Sharma</div>
+  <div>
+    <a href="https://dl.acm.org/doi/10.1145/3570991.3571060" target="_blank" rel="noopener noreferrer">
+      <img src="https://img.shields.io/badge/-Main Conference Paper-purple" alt="Main Conference Paper">
+    </a>
+  </div>
+</div>
 
-* S Arora, S Goel, **P Chhikara**, H Singh, N Kumar, and PS Rana. *'An efficient scheme for wireless charging of electric vehicles using RFID with an optimal path planning'*, 2019. **IEEE Globecom Workshops (GC Wkshps)**. \
-[[Published Version](https://ieeexplore.ieee.org/abstract/document/9024537)]
-[![Static Badge](https://img.shields.io/badge/-Workshop Paper-blue)]()
+<div style="margin-bottom: 20px;">
+  <div style="font-weight: bold;">
+    <a href="https://ieeexplore.ieee.org/abstract/document/9685991" target="_blank" rel="noopener noreferrer">
+      Federated Learning for Air Quality Index Prediction using UAV Swarm Networks
+    </a>
+  </div>
+  <div style="font-style: italic;">IEEE Global Communications Conference (GLOBECOM) -- 2021</div>
+  <div><b>P Chhikara</b>, R Tekchandani, N Kumar, S Tanwar, and JJPC Rodrigues</div>
+  <div>
+    <a href="https://ieeexplore.ieee.org/abstract/document/9685991" target="_blank" rel="noopener noreferrer">
+      <img src="https://img.shields.io/badge/-Main Conference Paper-purple" alt="Main Conference Paper">
+    </a>
+  </div>
+</div>
+
+<div style="margin-bottom: 20px;">
+  <div style="font-weight: bold;">
+    <a href="https://ieeexplore.ieee.org/abstract/document/9024537" target="_blank" rel="noopener noreferrer">
+      An efficient scheme for wireless charging of electric vehicles using RFID with an optimal path planning
+    </a>
+  </div>
+  <div style="font-style: italic;">IEEE Globecom Workshops (GC Wkshps) -- 2019</div>
+  <div>S Arora, S Goel, <b>P Chhikara</b>, H Singh, N Kumar, and PS Rana</div>
+  <div>
+    <a href="https://ieeexplore.ieee.org/abstract/document/9024537" target="_blank" rel="noopener noreferrer">
+      <img src="https://img.shields.io/badge/-Workshop Paper-blue" alt="Workshop Paper">
+    </a>
+  </div>
+</div>
 
 ## Unranked
-* P Singh, **P Chhikara**, and J Singh. *'An ensemble approach for extractive text summarization'*, 2020. **International Conference on Emerging Trends in Information Technology and Engineering**. \
-[[Published Version](https://ieeexplore.ieee.org/abstract/document/9077805)]
-[![Static Badge](https://img.shields.io/badge/-Main Conference Paper-purple)]()
+
+<div style="margin-bottom: 20px;">
+  <div style="font-weight: bold;">
+    <a href="https://ieeexplore.ieee.org/abstract/document/9077805" target="_blank" rel="noopener noreferrer">
+      An ensemble approach for extractive text summarization
+    </a>
+  </div>
+  <div style="font-style: italic;">International Conference on Emerging Trends in Information Technology and Engineering -- 2020</div>
+  <div>P Singh, <b>P Chhikara</b>, and J Singh</div>
+  <div>
+    <a href="https://ieeexplore.ieee.org/abstract/document/9077805" target="_blank" rel="noopener noreferrer">
+      <img src="https://img.shields.io/badge/-Main Conference Paper-purple" alt="Main Conference Paper">
+    </a>
+  </div>
+</div>
 
 <hr />
 <br>
 
+<center><h1><u>Journals</u></h1></center>
 
+## Quartile 1 (Q1)
 
-<center>  <h1> <u> Journals </u> </h1> </center>
+<div style="margin-bottom: 20px;">
+  <div style="font-weight: bold;">
+    <a href="https://ieeexplore.ieee.org/abstract/document/10509607" target="_blank" rel="noopener noreferrer">
+      A Differentially Privacy Assisted Federated Learning Scheme to Preserve Data Privacy for IoMT Applications
+    </a>
+  </div>
+  <div style="font-style: italic;">IEEE Transactions on Network and Service Management -- 2024</div>
+  <div>A Barnawi, <b>P Chhikara</b>, R Tekchandani, N Kumar, and B Alzahrani</div>
+  <div>
+    <a href="https://ieeexplore.ieee.org/abstract/document/10509607" target="_blank" rel="noopener noreferrer">
+      <img src="https://img.shields.io/badge/-Impact Factor: 4.7-brown" alt="Impact Factor: 4.7">
+    </a>
+  </div>
+</div>
 
-## Quartile 1 (Q1) 
+<div style="margin-bottom: 20px;">
+  <div style="font-weight: bold;">
+    <a href="https://www.sciencedirect.com/science/article/pii/S1047320323002717" target="_blank" rel="noopener noreferrer">
+      Sea-Pix-GAN: Underwater image enhancement using adversarial neural network
+    </a>
+  </div>
+  <div style="font-style: italic;">Journal of Visual Communication and Image Representation -- 2024</div>
+  <div>D Chaurasia and <b>P Chhikara</b></div>
+  <div>
+    <a href="https://www.sciencedirect.com/science/article/pii/S1047320323002717" target="_blank" rel="noopener noreferrer">
+      <img src="https://img.shields.io/badge/-Impact Factor: 2.6-brown" alt="Impact Factor: 2.6">
+    </a>
+  </div>
+</div>
 
-* A Barnawi, **P Chhikara**, R Tekchandani, N Kumar, and B Alzahrani. *'A Differentially Privacy Assisted Federated Learning Scheme to Preserve Data Privacy for IoMT Applications'*, 2024. **IEEE Transactions on Network and Service Management**.\
-[[Impact Factor: 4.7](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=4275028)] [[Published Version](https://ieeexplore.ieee.org/abstract/document/10509607)]
+<div style="margin-bottom: 20px;">
+  <div style="font-weight: bold;">
+    <a href="https://ieeexplore.ieee.org/abstract/document/9409140" target="_blank" rel="noopener noreferrer">
+      Federated learning and autonomous UAVs for hazardous zone detection and AQI prediction in IoT environment
+    </a>
+  </div>
+  <div style="font-style: italic;">IEEE Internet of Things Journal -- 2021</div>
+  <div><b>P Chhikara</b>, R Tekchandani, N Kumar, M Guizani, and MM Hassan</div>
+  <div>
+    <a href="https://ieeexplore.ieee.org/abstract/document/9409140" target="_blank" rel="noopener noreferrer">
+      <img src="https://img.shields.io/badge/-Impact Factor: 8.2-brown" alt="Impact Factor: 8.2">
+    </a>
+  </div>
+</div>
 
-* D Chaurasia and **P Chhikara**. *'Sea-Pix-GAN: Underwater image enhancement using adversarial neural network'*, 2024. **Journal of Visual Communication and Image Representation**. \
-[[Impact Factor: 2.6](https://www.sciencedirect.com/journal/journal-of-visual-communication-and-image-representation)] [[Published Version](https://www.sciencedirect.com/science/article/pii/S1047320323002717)]
+<div style="margin-bottom: 20px;">
+  <div style="font-weight: bold;">
+    <a href="https://www.sciencedirect.com/science/article/pii/S0167739X21001692" target="_blank" rel="noopener noreferrer">
+      Artificial intelligence-enabled Internet of Things-based system for COVID-19 screening using aerial thermal imaging
+    </a>
+  </div>
+  <div style="font-style: italic;">Future Generation Computer Systems -- 2021</div>
+  <div>A Barnawi, <b>P Chhikara</b>, R Tekchandani, N Kumar, and B Alzahrani</div>
+  <div>
+    <a href="https://www.sciencedirect.com/science/article/pii/S0167739X21001692" target="_blank" rel="noopener noreferrer">
+      <img src="https://img.shields.io/badge/-Impact Factor: 6.2-brown" alt="Impact Factor: 6.2">
+    </a>
+  </div>
+</div>
 
-* **P Chhikara**, R Tekchandani, N Kumar, M Guizani, and MM Hassan. *'Federated learning and autonomous UAVs for hazardous zone detection and AQI prediction in IoT environment'*, 2021. **IEEE Internet of Things Journal**. \
-[[Impact Factor: 8.2](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=6488907)] [[Published Version](https://ieeexplore.ieee.org/abstract/document/9409140)]
+<div style="margin-bottom: 20px;">
+  <div style="font-weight: bold;">
+    <a href="https://ieeexplore.ieee.org/abstract/document/9207753" target="_blank" rel="noopener noreferrer">
+      DCNN-GA: A Deep Neural Net Architecture for Navigation of UAV in Indoor Environment
+    </a>
+  </div>
+  <div style="font-style: italic;">IEEE Internet of Things Journal -- 2020</div>
+  <div><b>P Chhikara</b>, R Tekchandani, N Kumar, V Chamola, and M Guizani</div>
+  <div>
+    <a href="https://ieeexplore.ieee.org/abstract/document/9207753" target="_blank" rel="noopener noreferrer">
+      <img src="https://img.shields.io/badge/-Impact Factor: 8.2-brown" alt="Impact Factor: 8.2">
+    </a>
+  </div>
+</div>
 
-* A Barnawi, **P Chhikara**, R Tekchandani, N Kumar, and B Alzahrani. *'Artificial intelligence-enabled Internet of Things-based system for COVID-19 screening using aerial thermal imaging'*, 2021. **Future Generation Computer Systems**.\
-[[Impact Factor: 6.2](https://www.sciencedirect.com/journal/future-generation-computer-systems)] [[Published Version](https://www.sciencedirect.com/science/article/pii/S0167739X21001692)]
+<div style="margin-bottom: 20px;">
+  <div style="font-weight: bold;">
+    <a href="https://ieeexplore.ieee.org/abstract/document/9253631" target="_blank" rel="noopener noreferrer">
+      Federated Learning meets Human Emotions: a Decentralized Framework for Human-Computer Interaction for IoT Applications
+    </a>
+  </div>
+  <div style="font-style: italic;">IEEE Internet of Things Journal -- 2020</div>
+  <div><b>P Chhikara</b>, P Singh, R Tekchandani, N Kumar, and M Guizani</div>
+  <div>
+    <a href="https://ieeexplore.ieee.org/abstract/document/9253631" target="_blank" rel="noopener noreferrer">
+      <img src="https://img.shields.io/badge/-Impact Factor: 8.2-brown" alt="Impact Factor: 8.2">
+    </a>
+  </div>
+</div>
 
-* **P Chhikara**, R Tekchandani, N Kumar, V Chamola, and M Guizani. *'DCNN-GA: A Deep Neural Net Architecture for Navigation of UAV in Indoor Environment'*, 2020. **IEEE Internet of Things Journal**. \
-[[Impact Factor: 8.2](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=6488907)] [[Published Version](https://ieeexplore.ieee.org/abstract/document/9207753)]
-
-* **P Chhikara**, P Singh, R Tekchandani, N Kumar, and M Guizani. *'Federated Learning meets Human Emotions: a Decentralized Framework for Human-Computer Interaction for IoT Applications'*, 2020. **IEEE Internet of Things Journal**. \
-[[Impact Factor: 8.2](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=6488907)] [[Published Version](https://ieeexplore.ieee.org/abstract/document/9253631)]
-
-* **P Chhikara**, R Tekchandani, N Kumar, and MS Obaidat. *'An Efficient Container Management Scheme for Resource Constrained Intelligent IoT Devices'*, 2020. **IEEE Internet of Things Journal**. \
-[[Impact Factor: 8.2](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=6488907)] [[Published Version](https://ieeexplore.ieee.org/abstract/document/9253547)]
+<div style="margin-bottom: 20px;">
+  <div style="font-weight: bold;">
+    <a href="https://ieeexplore.ieee.org/abstract/document/9253547" target="_blank" rel="noopener noreferrer">
+      An Efficient Container Management Scheme for Resource Constrained Intelligent IoT Devices
+    </a>
+  </div>
+  <div style="font-style: italic;">IEEE Internet of Things Journal -- 2020</div>
+  <div><b>P Chhikara</b>, R Tekchandani, N Kumar, and MS Obaidat</div>
+  <div>
+    <a href="https://ieeexplore.ieee.org/abstract/document/9253547" target="_blank" rel="noopener noreferrer">
+      <img src="https://img.shields.io/badge/-Impact Factor: 8.2-brown" alt="Impact Factor: 8.2">
+    </a>
+  </div>
+</div>
 
 ## Quartile 2 (Q2)
 
-* **P Chhikara**, R Tekchandani, and N Kumar. *'Adaptive federated learning scheme for recognition of malicious attacks in an IoT network'*, 2023. **Computing**. \
-[[Impact Factor: 3.3](https://www.springer.com/journal/607)] [[Published Version](https://link.springer.com/article/10.1007/s00607-022-01146-6)]
+<div style="margin-bottom: 20px;">
+  <div style="font-weight: bold;">
+    <a href="https://link.springer.com/article/10.1007/s00607-022-01146-6" target="_blank" rel="noopener noreferrer">
+      Adaptive federated learning scheme for recognition of malicious attacks in an IoT network
+    </a>
+  </div>
+  <div style="font-style: italic;">Computing -- 2023</div>
+  <div><b>P Chhikara</b>, R Tekchandani, and N Kumar</div>
+  <div>
+    <a href="https://link.springer.com/article/10.1007/s00607-022-01146-6" target="_blank" rel="noopener noreferrer">
+      <img src="https://img.shields.io/badge/-Impact Factor: 3.3-brown" alt="Impact Factor: 3.3">
+    </a>
+  </div>
+</div>
 
-* A Barnawi, **P Chhikara**, R Tekchandani, N Kumar, and M Boulares. *'A CNN-based scheme for COVID-19 detection with emergency services provisions using an optimal path planning'*, 2021. **Multimedia Systems**. \
-[[Impact Factor: 3.5](https://www.springer.com/journal/530)] [[Published Version](https://link.springer.com/article/10.1007/s00530-021-00833-2)]
+<div style="margin-bottom: 20px;">
+  <div style="font-weight: bold;">
+    <a href="https://link.springer.com/article/10.1007/s00530-021-00833-2" target="_blank" rel="noopener noreferrer">
+      A CNN-based scheme for COVID-19 detection with emergency services provisions using an optimal path planning
+    </a>
+  </div>
+  <div style="font-style: italic;">Multimedia Systems -- 2021</div>
+  <div>A Barnawi, <b>P Chhikara</b>, R Tekchandani, N Kumar, and M Boulares</div>
+  <div>
+    <a href="https://link.springer.com/article/10.1007/s00530-021-00833-2" target="_blank" rel="noopener noreferrer">
+      <img src="https://img.shields.io/badge/-Impact Factor: 3.5-brown" alt="Impact Factor: 3.5">
+    </a>
+  </div>
+</div>
 
-* **P Chhikara**, N Jain, R Tekchandani, and N Kumar. *'Data dimensionality reduction techniques for Industry 4.0: Research results, challenges, and future research directions'*, 2020. **Software: Practice and Experience**. \
-[[Impact Factor: 2.6](https://onlinelibrary.wiley.com/journal/1097024x)] [[Published Version](https://onlinelibrary.wiley.com/doi/abs/10.1002/spe.2876)]
+<div style="margin-bottom: 20px;">
+  <div style="font-weight: bold;">
+    <a href="https://onlinelibrary.wiley.com/doi/abs/10.1002/spe.2876" target="_blank" rel="noopener noreferrer">
+      Data dimensionality reduction techniques for Industry 4.0: Research results, challenges, and future research directions
+    </a>
+  </div>
+  <div style="font-style: italic;">Software: Practice and Experience -- 2020</div>
+  <div><b>P Chhikara</b>, N Jain, R Tekchandani, and N Kumar</div>
+  <div>
+    <a href="https://onlinelibrary.wiley.com/doi/abs/10.1002/spe.2876" target="_blank" rel="noopener noreferrer">
+      <img src="https://img.shields.io/badge/-Impact Factor: 2.6-brown" alt="Impact Factor: 2.6">
+    </a>
+  </div>
+</div>
 
 ## Quartile 3 (Q3)
 
-* **P Chhikara**, P Gupta, P Singh, and T Bhatia. *'A Deep Transfer Learning based model for Automatic Detection of COVID-19 from Chest X-Rays'*, 2021. **Turkish Journal of Electrical Engineering and Computer Sciences**. \
-[[Impact Factor: 1.2](https://journals.tubitak.gov.tr/elektrik/)] [[Published Version](https://journals.tubitak.gov.tr/elektrik/vol29/iss8/6/)]
+<div style="margin-bottom: 20px;">
+  <div style="font-weight: bold;">
+    <a href="https://journals.tubitak.gov.tr/elektrik/vol29/iss8/6/" target="_blank" rel="noopener noreferrer">
+      A Deep Transfer Learning based model for Automatic Detection of COVID-19 from Chest X-Rays
+    </a>
+  </div>
+  <div style="font-style: italic;">Turkish Journal of Electrical Engineering and Computer Sciences -- 2021</div>
+  <div><b>P Chhikara</b>, P Gupta, P Singh, and T Bhatia</div>
+  <div>
+    <a href="https://journals.tubitak.gov.tr/elektrik/vol29/iss8/6/" target="_blank" rel="noopener noreferrer">
+      <img src="https://img.shields.io/badge/-Impact Factor: 1.2-brown" alt="Impact Factor: 1.2">
+    </a>
+  </div>
+</div>
+
 <hr />
 <br>
 
+<center><h1><u>Book Chapter</u></h1></center>
 
-<center>  <h1> <u> Book Chapter </u> </h1> </center>
-
-* **P Chhikara**, P Singh, P Gupta, and T Bhatia. *'Deep convolutional neural network with transfer learning for detecting pneumonia on chest X-rays
-'*, 2019. **Advances in Bioinformatics, Multimedia, and Electronics Circuits and Signals**. \
-[[Published Version](https://link.springer.com/chapter/10.1007/978-981-15-0339-9_13)]
+<div style="margin-bottom: 20px;">
+  <div style="font-weight: bold;">
+    <a href="https://link.springer.com/chapter/10.1007/978-981-15-0339-9_13" target="_blank" rel="noopener noreferrer">
+      Deep convolutional neural network with transfer learning for detecting pneumonia on chest X-rays
+    </a>
+  </div>
+  <div style="font-style: italic;">Advances in Bioinformatics, Multimedia, and Electronics Circuits and Signals -- 2019</div>
+  <div><b>P Chhikara</b>, P Singh, P Gupta, and T Bhatia</div>
+  <div>
+    <a href="https://link.springer.com/chapter/10.1007/978-981-15-0339-9_13" target="_blank" rel="noopener noreferrer">
+      <img src="https://img.shields.io/badge/-Published Version-blue" alt="Published Version">
+    </a>
+  </div>
+</div>

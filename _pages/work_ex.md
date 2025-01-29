@@ -198,7 +198,7 @@ author_profile: true
 }
 
 .publication-link {
-    color: #e74c3c;
+    color:rgb(0, 119, 255);
     text-decoration: none;
     font-weight: bold;
     transition: color 0.2s ease;
