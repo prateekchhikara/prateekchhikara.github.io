@@ -27,7 +27,7 @@ redirect_from:
         As a Master of Science graduate in Computer Science from USC, I bring a wealth of experience and knowledge to the table. With <strong>3+ years of professional experience</strong> as a full-stack Data Scientist in the real-estate industry, I am well-versed in advanced analytics, machine learning, language modeling, and computer vision. My expertise in these areas, combined with my ability to solve complex problems through data, has led to the publication of more than 20 research papers in top-tier conferences and journals with <strong>over 700 citations</strong>.
     </p>
     <p>
-        <strong>Conferences/Workshops:</strong> ICML, ACL, NeurIPS, WACV, ECML, KCap, CODS-COMAD, GLOBECOM, MOBICOM, etc.<br>
+        <strong>Conferences/Workshops:</strong> ICLR, ACL, NeurIPS, WACV, ECML, KCap, CODS-COMAD, GLOBECOM, MOBICOM, etc.<br>
         <strong>Journals:</strong> IEEE Internet of Things, Elsevier Future Generation Computer Systems, IEEE Transactions on Network and Service Management, etc.
     </p>
     <p>
