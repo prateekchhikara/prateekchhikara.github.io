@@ -24,14 +24,20 @@ redirect_from:
 
 <div style="font-size: 16px; line-height: 1.8; text-align: justify; margin-bottom: 30px; background-color: #f9f9f9; padding: 20px; border-radius: 8px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
     <p>
-        As a Master of Science graduate in Computer Science from USC, I bring a wealth of experience and knowledge to the table. With <strong>3+ years of professional experience</strong> as a full-stack Data Scientist in the real-estate industry, I am well-versed in advanced analytics, machine learning, language modeling, and computer vision. My expertise in these areas, combined with my ability to solve complex problems through data, has led to the publication of more than 20 research papers in top-tier conferences and journals with <strong>over 700 citations</strong>.
+        I'm a Machine Learning Engineer and Data Scientist with over 3 years of experience building impactful AI solutions. As a Computer Science graduate from USC specializing in AI, I've developed deep expertise in natural language processing, computer vision, and AI infrastructure development. Throughout my career spanning startups, research labs, and industry, I've focused on translating complex technical concepts into practical solutions that drive business value. My passion for innovation and research has led to more than 20 publications in top-tier conferences and journals, garnering <strong>over 700 citations</strong>. I thrive on tackling challenging problems at the intersection of cutting-edge AI technology and real-world applications.
+    </p>
+    <p style="margin-top: 15px; padding: 15px; background: #f5f5f5; border-radius: 8px; border-left: 4px solid #2980b9;">
+        <span style="display: block; margin-bottom: 10px;">
+            <strong style="color: #2c3e50;">Conferences/Workshops:</strong>
+            <span style="color: #34495e;">ICLR, ACL, NeurIPS, WACV, ECML, KCap, CODS-COMAD, GLOBECOM, MOBICOM, etc.</span>
+        </span>
+        <span style="display: block;">
+            <strong style="color: #2c3e50;">Journals:</strong>
+            <span style="color: #34495e;">IEEE Internet of Things, Elsevier Future Generation Computer Systems, IEEE Transactions on Network and Service Management, etc.</span>
+        </span>
     </p>
     <p>
-        <strong>Conferences/Workshops:</strong> ICLR, ACL, NeurIPS, WACV, ECML, KCap, CODS-COMAD, GLOBECOM, MOBICOM, etc.<br>
-        <strong>Journals:</strong> IEEE Internet of Things, Elsevier Future Generation Computer Systems, IEEE Transactions on Network and Service Management, etc.
-    </p>
-    <p>
-        I am passionate about staying up-to-date with the latest developments in Artificial Intelligence and Machine Learning, and apply this curiosity to learn new approaches and tools. This drive has allowed me to act as a liaison between development, analytics, and business teams. As someone who values empathy and collaboration, I thrive as a team player and have made significant contributions to the successful execution of multiple projects during my tenure at my previous organization.
+        I am deeply passionate about advancing the frontiers of Artificial Intelligence and Machine Learning, constantly exploring cutting-edge developments and innovative approaches. This intellectual curiosity drives me to not only master new technologies but also effectively bridge gaps between technical and business domains. My strong communication skills and collaborative mindset have enabled me to successfully lead cross-functional teams and deliver high-impact projects. I take pride in fostering an inclusive environment that encourages knowledge sharing and collective growth, having mentored junior engineers and contributed to building robust AI solutions that directly address business challenges.
     </p>
     <p>
         To give back to the community, I write articles detailing things I have learned and post them on Medium. If you are a data science aspirant, please check out my <a href="https://medium.com/@prateekchhikara" style="color: #2980b9; text-decoration: none; font-weight: bold;">Medium</a> account.
