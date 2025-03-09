@@ -15,7 +15,7 @@ author_profile: true
             <div class="company-info">
                 <h3>Founding Artificial Intelligence (AI) Engineer</h3>
                 <p><a href="https://github.com/mem0ai/mem0">Mem0.ai</a> <span class="date">July 2024 - Present</span></p>
-                <p class="location"><i class="fa fa-map-marker"></i> San Francisco, CA</p>
+                <p class="location"><i class="fa fa-map-marker"></i> San Francisco, CA <span class="flag">🇺🇸</span></p>
             </div>
         </div>
         <div class="experience-content">
@@ -36,7 +36,7 @@ author_profile: true
             <div class="company-info">
                 <h3>Artificial Intelligence (AI) Engineer Intern</h3>
                 <p><a href="https://www.autoenhance.ai">Autoenhance.ai</a> <span class="date">January 2024 - July 2024</span></p>
-                <p class="location"><i class="fa fa-map-marker"></i> London, UK</p>
+                <p class="location"><i class="fa fa-map-marker"></i> London, UK <span class="flag">🇬🇧</span></p>
             </div>
         </div>
         <div class="experience-content">
@@ -58,7 +58,7 @@ author_profile: true
             <div class="company-info">
                 <h3>Graduate Researcher</h3>
                 <p><a href="https://www.isi.edu/">Information Sciences Institute</a> <span class="date">August 2022 - December 2023</span></p>
-                <p class="location"><i class="fa fa-map-marker"></i> Marina del Rey, CA</p>
+                <p class="location"><i class="fa fa-map-marker"></i> Marina del Rey, CA <span class="flag">🇺🇸</span></p>
             </div>
         </div>
         <div class="experience-content">
@@ -81,7 +81,7 @@ author_profile: true
             <div class="company-info">
                 <h3>Data Scientist</h3>
                 <p><a href="https://www.housing.com">Housing.com</a> <span class="date">July 2020 - August 2022</span></p>
-                <p class="location"><i class="fa fa-map-marker"></i> Gurgaon, India</p>
+                <p class="location"><i class="fa fa-map-marker"></i> Gurgaon, India <span class="flag">🇮🇳</span></p>
             </div>
         </div>
         <div class="experience-content">
@@ -112,7 +112,7 @@ author_profile: true
             <div class="company-info">
                 <h3>Data Scientist</h3>
                 <p><a href="https://www.proptiger.com">PropTiger.com</a> <span class="date">Jan 2020 - July 2020</span></p>
-                <p class="location"><i class="fa fa-map-marker"></i> Gurgaon, India</p>
+                <p class="location"><i class="fa fa-map-marker"></i> Gurgaon, India <span class="flag">🇮🇳</span></p>
             </div>
         </div>
         <div class="experience-content">
@@ -252,6 +252,11 @@ author_profile: true
 .location i {
     color: #e74c3c;
     font-size: 1em;
+}
+
+.flag {
+    font-size: 0.9em;
+    margin-left: 5px;
 }
 
 @media (max-width: 768px) {
