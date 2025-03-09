@@ -24,7 +24,7 @@ redirect_from:
 
 <div style="font-size: 16px; line-height: 1.8; text-align: justify; margin-bottom: 30px; background-color: #f9f9f9; padding: 20px; border-radius: 8px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
     <p>
-        I'm a Machine Learning Engineer and Data Scientist with over 4 years of experience building impactful AI solutions. As a Computer Science graduate from USC specializing in AI, I've developed deep expertise in natural language processing, computer vision, and AI infrastructure development. Throughout my career spanning startups, research labs, and industry, I've focused on translating complex technical concepts into practical solutions that drive business value. My passion for innovation and research has led to more than 20 publications in top-tier conferences and journals, garnering <strong>over 700 citations</strong>. I thrive on tackling challenging problems at the intersection of cutting-edge AI technology and real-world applications.
+        I'm a Machine Learning Engineer and Data Scientist with over <b>4 years of experience</b> building impactful AI solutions. As a Computer Science graduate from USC specializing in AI, I've developed deep expertise in natural language processing, computer vision, and AI infrastructure development. Throughout my career spanning startups, research labs, and industry, I've focused on translating complex technical concepts into practical solutions that drive business value. My passion for innovation and research has led to more than 20 publications in top-tier conferences and journals, garnering <strong>over 700 citations</strong> <a href="https://scholar.google.com/citations?user=RQTJ_aIAAAAJ&hl" style="color: #2980b9; text-decoration: none; font-weight: bold;">on Google Scholar</a>. I thrive on tackling challenging problems at the intersection of cutting-edge AI technology and real-world applications.
     </p>
     <p style="margin-top: 15px; padding: 15px; background: #f5f5f5; border-radius: 8px; border-left: 4px solid #2980b9;">
         <span style="display: block; margin-bottom: 10px;">
@@ -138,10 +138,6 @@ redirect_from:
 <hr />
 <br>
 <br>
-
-<p style='text-align: center;'> 
-<a href="http://s01.flagcounter.com/more/nxX"><img src="https://s01.flagcounter.com/count2/nxX/bg_FFFFFF/txt_000000/border_CCCCCC/columns_5/maxflags_20/viewers_0/labels_0/pageviews_0/flags_0/percent_0/" alt="Flag Counter" border="0"></a>
-</p>
 
 
 

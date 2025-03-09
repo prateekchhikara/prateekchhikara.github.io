@@ -255,7 +255,7 @@ author_profile: true
 }
 
 .flag {
-    font-size: 0.9em;
+    font-size: 1.1em;
     margin-left: 5px;
 }
 
