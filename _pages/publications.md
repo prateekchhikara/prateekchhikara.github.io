@@ -14,13 +14,28 @@ author_profile: true
 
 ## Selected Publications
 
-<table style="width: 100%; border-collapse: collapse; border: none;">
+<style>
+.publication-row {
+  transition: all 0.3s ease-in-out;
+  border-radius: 12px;
+  margin-bottom: 15px;
+}
 
-  <tr>
-    <td style="padding: 8px; vertical-align: top; border: none;">
+.publication-row:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
+  border-top: 3px solid #2980b9;
+  background-color: white;
+}
+</style>
+
+<table style="width: 100%; border-collapse: separate; border-spacing: 0 15px; border: none;">
+
+  <tr class="publication-row">
+    <td style="padding: 15px; vertical-align: top; border: none;">
       <img src="../images/mllm_knows.png" alt="Paper 1 Image" style="width: 350px; height: auto; box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);">
     </td>
-    <td style="width: 650px; padding: 8px; vertical-align: top; border: none;">
+    <td style="width: 650px; padding: 15px; vertical-align: top; border: none;">
       <div style="font-weight: bold;">
         <a href="https://openreview.net/forum?id=DgaY5mDdmT" target="_blank" rel="noopener noreferrer">
           MLLMs Know Where to Look: Training-free Perception of Small Visual Details with Multimodal LLMs
@@ -32,11 +47,11 @@ author_profile: true
   </tr>
 
 
-  <tr>
-    <td style="padding: 8px; vertical-align: top; border: none;">
+  <tr class="publication-row">
+    <td style="padding: 15px; vertical-align: top; border: none;">
       <img src="../images/wacv.png" alt="Paper 1 Image" style="width: 350px; height: auto; box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);">
     </td>
-    <td style="width: 650px; padding: 8px; vertical-align: top; border: none;">
+    <td style="width: 650px; padding: 15px; vertical-align: top; border: none;">
       <div style="font-weight: bold;">
         <a href="https://openaccess.thecvf.com/content/WACV2024/html/Chhikara_FIRE_Food_Image_to_REcipe_Generation_WACV_2024_paper.html" target="_blank" rel="noopener noreferrer">
           FIRE: Food Image to REcipe generation
@@ -47,11 +62,11 @@ author_profile: true
     </td>
   </tr>
 
-  <tr>
-    <td style="padding: 8px; vertical-align: top; border: none;">
+  <tr class="publication-row">
+    <td style="padding: 15px; vertical-align: top; border: none;">
       <img src="../images/kcap.png" alt="Paper 1 Image" style="width: 350px; height: auto; box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);">
     </td>
-    <td style="width: 650px; padding: 8px; vertical-align: top; border: none;">
+    <td style="width: 650px; padding: 15px; vertical-align: top; border: none;">
         <div style="font-weight: bold;">
             <a href="https://dl.acm.org/doi/10.1145/3587259.3627561" target="_blank" rel="noopener noreferrer">
               Knowledge-enhanced Agents for Interactive Text Games
@@ -68,11 +83,11 @@ author_profile: true
     </td>
   </tr>
 
-  <tr>
-    <td style="padding: 8px; vertical-align: top; border: none;">
+  <tr class="publication-row">
+    <td style="padding: 15px; vertical-align: top; border: none;">
       <img src="../images/acl_bionlp.png" alt="Paper 1 Image" style="width: 350px; height: auto; box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);">
     </td>
-    <td style="width: 650px; padding: 8px; vertical-align: top; border: none;">
+    <td style="width: 650px; padding: 15px; vertical-align: top; border: none;">
       <div style="font-weight: bold;">
         <a href="https://aclanthology.org/2023.bionlp-1.18/" target="_blank" rel="noopener noreferrer">
           Privacy Aware Question-Answering System for Online Mental Health Risk Assessment
@@ -83,11 +98,11 @@ author_profile: true
     </td>
   </tr>
 
-  <tr>
-    <td style="padding: 8px; vertical-align: top; border: none;">
+  <tr class="publication-row">
+    <td style="padding: 15px; vertical-align: top; border: none;">
       <img src="../images/nips_romo.png" alt="Paper 1 Image" style="width: 350px; height: auto; box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);">
     </td>
-    <td style="width: 650px; padding: 8px; vertical-align: top; border: none;">
+    <td style="width: 650px; padding: 15px; vertical-align: top; border: none;">
       <div style="font-weight: bold;">
           <a href="https://openreview.net/forum?id=YrYcoV2dAk" target="_blank" rel="noopener noreferrer">
             Visual Cropping Improves Zero-Shot Question Answering of Multimodal Large Language Models
@@ -99,11 +114,11 @@ author_profile: true
   </tr>
 
 
-  <tr>
-    <td style="padding: 8px; vertical-align: top; border: none;">
+  <tr class="publication-row">
+    <td style="padding: 15px; vertical-align: top; border: none;">
       <img src="../images/cods.png" alt="Paper 1 Image" style="width: 350px; height: auto; box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);">
     </td>
-    <td style="width: 650px; padding: 8px; vertical-align: top; border: none;">
+    <td style="width: 650px; padding: 15px; vertical-align: top; border: none;">
       <div style="font-weight: bold;">
         <a href="https://dl.acm.org/doi/10.1145/3570991.3571060" target="_blank" rel="noopener noreferrer">
           DIGITOUR: Automatic Digital Tours for Real-Estate Properties
@@ -114,11 +129,11 @@ author_profile: true
     </td>
   </tr>
 
-  <tr>
-    <td style="padding: 8px; vertical-align: top; border: none;">
+  <tr class="publication-row">
+    <td style="padding: 15px; vertical-align: top; border: none;">
       <img src="../images/ecml.png" alt="Paper 1 Image" style="width: 350px; height: auto; box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);">
     </td>
-    <td style="width: 650px; padding: 8px; vertical-align: top; border: none;">
+    <td style="width: 650px; padding: 15px; vertical-align: top; border: none;">
       <div style="font-weight: bold;">
           <a href="https://link.springer.com/chapter/10.1007/978-3-031-26422-1_44" target="_blank" rel="noopener noreferrer">
             RE-Tagger: A light-weight Real-Estate Image Classifier
