@@ -165,15 +165,15 @@ author_profile: true
 .work-container {
     max-width: 1200px;
     margin: 0 auto;
-    padding: 20px;
+    padding: 15px;
 }
 
 .work-card {
     background: linear-gradient(135deg, #ffffff 0%, #f8f9fa 100%);
-    border-radius: 20px;
-    padding: 35px;
-    margin-bottom: 40px;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    padding: 25px;
+    margin-bottom: 25px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
     transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
     border: 1px solid rgba(255, 255, 255, 0.2);
     position: relative;
@@ -199,15 +199,15 @@ author_profile: true
 .work-header {
     display: flex;
     align-items: center;
-    margin-bottom: 30px;
-    gap: 25px;
+    margin-bottom: 20px;
+    gap: 20px;
 }
 
 .logo-container {
-    width: 80px;
-    height: 80px;
+    width: 70px;
+    height: 70px;
     background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
-    border-radius: 15px;
+    border-radius: 12px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -216,8 +216,8 @@ author_profile: true
 }
 
 .work-logo {
-    width: 60px;
-    height: 60px;
+    width: 50px;
+    height: 50px;
     object-fit: contain;
     border-radius: 8px;
 }
@@ -272,7 +272,7 @@ author_profile: true
 }
 
 .work-details {
-    margin-left: 105px;
+    margin-left: 90px;
 }
 
 .work-content {
@@ -288,9 +288,9 @@ author_profile: true
 .achievement-list li {
     position: relative;
     padding-left: 25px;
-    margin-bottom: 12px;
+    margin-bottom: 10px;
     color: #2c3e50;
-    line-height: 1.6;
+    line-height: 1.5;
     font-size: 0.9em;
 }
 
@@ -323,8 +323,8 @@ author_profile: true
 .image-gallery {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-    gap: 15px;
-    margin-top: 25px;
+    gap: 12px;
+    margin-top: 20px;
 }
 
 .image-link {

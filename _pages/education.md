@@ -125,15 +125,15 @@ author_profile: true
 .education-container {
     max-width: 1200px;
     margin: 0 auto;
-    padding: 20px;
+    padding: 15px;
 }
 
 .education-card {
     background: linear-gradient(135deg, #ffffff 0%, #f8f9fa 100%);
-    border-radius: 20px;
-    padding: 35px;
-    margin-bottom: 40px;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    padding: 25px;
+    margin-bottom: 25px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
     transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
     border: 1px solid rgba(255, 255, 255, 0.2);
     position: relative;
@@ -159,15 +159,15 @@ author_profile: true
 .education-header {
     display: flex;
     align-items: center;
-    margin-bottom: 30px;
-    gap: 25px;
+    margin-bottom: 20px;
+    gap: 20px;
 }
 
 .logo-container {
-    width: 80px;
-    height: 80px;
+    width: 70px;
+    height: 70px;
     background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
-    border-radius: 15px;
+    border-radius: 12px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -176,8 +176,8 @@ author_profile: true
 }
 
 .education-logo {
-    width: 60px;
-    height: 60px;
+    width: 50px;
+    height: 50px;
     object-fit: contain;
     border-radius: 8px;
 }
@@ -214,7 +214,7 @@ author_profile: true
 }
 
 .education-details {
-    margin-left: 105px;
+    margin-left: 90px;
 }
 
 .gpa-badge {
@@ -222,9 +222,9 @@ author_profile: true
     align-items: center;
     background: linear-gradient(135deg, #2980b9, #3498db);
     color: white;
-    padding: 10px 16px;
-    border-radius: 20px;
-    margin-bottom: 25px;
+    padding: 8px 14px;
+    border-radius: 18px;
+    margin-bottom: 20px;
     box-shadow: 0 4px 15px rgba(41, 128, 185, 0.3);
     font-weight: 600;
     font-size: 0.9em;
@@ -244,7 +244,7 @@ author_profile: true
 .section-divider {
     height: 2px;
     background: linear-gradient(90deg, #ecf0f1, #bdc3c7, #ecf0f1);
-    margin: 25px 0;
+    margin: 20px 0;
     border-radius: 1px;
 }
 
@@ -252,7 +252,7 @@ author_profile: true
     color: #2c3e50;
     font-size: 1.1em;
     font-weight: 600;
-    margin: 25px 0 20px 0;
+    margin: 20px 0 15px 0;
     display: flex;
     align-items: center;
     gap: 10px;
@@ -261,8 +261,8 @@ author_profile: true
 .coursework-grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
-    gap: 15px;
-    margin-bottom: 20px;
+    gap: 12px;
+    margin-bottom: 15px;
 }
 
 .coursework-item {
@@ -299,7 +299,7 @@ author_profile: true
 .responsibilities-container {
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 15px;
 }
 
 .responsibility-item {

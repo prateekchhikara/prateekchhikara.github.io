@@ -379,6 +379,21 @@ You can find all my publications at [Google Scholar](https://scholar.google.com/
 
 <div style="margin-bottom: 20px;">
   <div style="font-weight: bold;">
+    <a href="https://arxiv.org/abs/2507.09751" target="_blank" rel="noopener noreferrer">
+      Sound and Complete Neuro-symbolic Reasoning with LLM-Grounded Interpretations
+    </a>
+  </div>
+  <div style="font-style: italic;">International Conference on Neurosymbolic Learning and Reasoning (NeSy) -- 2025</div>
+  <div>BP Allen, <b>P Chhikara</b>, TM Ferguson, F Ilievski, and P Groth </div>
+  <div>
+    <a href="https://arxiv.org/abs/2507.09751" target="_blank" rel="noopener noreferrer">
+      <img src="https://img.shields.io/badge/-Main Conference Paper-purple" alt="Main Conference Paper">
+    </a>
+  </div>
+</div>
+
+<div style="margin-bottom: 20px;">
+  <div style="font-weight: bold;">
     <a href="https://ieeexplore.ieee.org/abstract/document/9077805" target="_blank" rel="noopener noreferrer">
       An ensemble approach for extractive text summarization
     </a>
