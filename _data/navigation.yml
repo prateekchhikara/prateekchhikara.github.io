@@ -13,7 +13,10 @@ main:
     url: /projects/
         
   - title: "Artworks"
-    url: /year-archive/
+    url: /artworks/
+    
+  - title: "Writing"
+    url: /writing/
     
   # - title: "CV"
   #   url: /cv/

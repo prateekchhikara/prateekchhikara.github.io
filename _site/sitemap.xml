@@ -69,6 +69,9 @@
 <loc>http://localhost:4000/archive-layout-with-content/</loc>
 </url>
 <url>
+<loc>http://localhost:4000/artworks/</loc>
+</url>
+<url>
 <loc>http://localhost:4000/categories/</loc>
 </url>
 <url>
@@ -120,7 +123,7 @@
 <loc>http://localhost:4000/work_ex/</loc>
 </url>
 <url>
-<loc>http://localhost:4000/year-archive/</loc>
+<loc>http://localhost:4000/writing/</loc>
 </url>
 <url>
 <loc>http://localhost:4000/markdown_generator/</loc>
