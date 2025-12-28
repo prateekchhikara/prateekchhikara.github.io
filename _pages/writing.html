@@ -18,37 +18,39 @@ author_profile: true
 </div>
 
 <script>
-(function() {
-  var buttons = document.querySelectorAll('.filter-btn');
-  
-  for (var i = 0; i < buttons.length; i++) {
-    buttons[i].addEventListener('click', function(e) {
-      e.preventDefault();
-      e.stopPropagation();
-      
-      var filterValue = this.getAttribute('data-filter');
-      console.log('=== FILTER CLICKED ===', filterValue);
-      
-      // Deactivate all buttons
-      var allButtons = document.querySelectorAll('.filter-btn');
-      for (var j = 0; j < allButtons.length; j++) {
-        allButtons[j].classList.remove('active');
-      }
-      // Activate clicked button
-      this.classList.add('active');
-      
-      // Filter rows
-      var rows = document.querySelectorAll('.writing-row');
-      for (var k = 0; k < rows.length; k++) {
-        var rowCategory = rows[k].getAttribute('data-category');
-        var shouldDisplay = (filterValue === 'all' || rowCategory === filterValue);
-        rows[k].style.display = shouldDisplay ? '' : 'none';
-      }
-    });
-  }
-  
-  console.log('Filter script initialized with', buttons.length, 'buttons');
-})();
+document.addEventListener('DOMContentLoaded', function() {
+  (function() {
+    var buttons = document.querySelectorAll('.filter-btn');
+    
+    for (var i = 0; i < buttons.length; i++) {
+      buttons[i].addEventListener('click', function(e) {
+        e.preventDefault();
+        e.stopPropagation();
+        
+        var filterValue = this.getAttribute('data-filter');
+        console.log('=== FILTER CLICKED ===', filterValue);
+        
+        // Deactivate all buttons
+        var allButtons = document.querySelectorAll('.filter-btn');
+        for (var j = 0; j < allButtons.length; j++) {
+          allButtons[j].classList.remove('active');
+        }
+        // Activate clicked button
+        this.classList.add('active');
+        
+        // Filter rows
+        var rows = document.querySelectorAll('.writing-row');
+        for (var k = 0; k < rows.length; k++) {
+          var rowCategory = rows[k].getAttribute('data-category');
+          var shouldDisplay = (filterValue === 'all' || rowCategory === filterValue);
+          rows[k].style.display = shouldDisplay ? '' : 'none';
+        }
+      });
+    }
+    
+    console.log('Filter script initialized with', buttons.length, 'buttons');
+  })();
+});
 </script>
 
 <style>
