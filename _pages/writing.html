@@ -253,63 +253,7 @@ author_profile: true
 
 </table>
 
-<!-- Filter Script -->
-<script type="text/javascript">
-function setupFilterButtons() {
-  var buttons = document.querySelectorAll('.filter-btn');
-  console.log('setupFilterButtons called, found', buttons.length, 'buttons');
-  
-  if (buttons.length === 0) {
-    console.warn('No filter buttons found, retrying...');
-    setTimeout(setupFilterButtons, 500);
-    return;
-  }
-  
-  buttons.forEach(function(button) {
-    button.addEventListener('click', function(event) {
-      event.preventDefault();
-      event.stopPropagation();
-      
-      var filterValue = this.getAttribute('data-filter');
-      console.log('Button clicked with filter:', filterValue);
-      
-      // Update button states
-      buttons.forEach(function(btn) {
-        btn.classList.remove('active');
-      });
-      this.classList.add('active');
-      
-      // Filter table rows
-      var rows = document.querySelectorAll('.writing-row');
-      console.log('Found', rows.length, 'rows to filter');
-      
-      rows.forEach(function(row) {
-        var category = row.getAttribute('data-category');
-        if (filterValue === 'all' || category === filterValue) {
-          row.style.display = '';
-          console.log('Showing row with category:', category);
-        } else {
-          row.style.display = 'none';
-          console.log('Hiding row with category:', category);
-        }
-      });
-    });
-  });
-  
-  console.log('Filter buttons setup complete');
-}
-
-// Execute when script loads
-setupFilterButtons();
-
-// Also set up when DOM is ready
-if (document.readyState === 'loading') {
-  document.addEventListener('DOMContentLoaded', setupFilterButtons);
-}
-
-// And again after a short delay
-setTimeout(setupFilterButtons, 200);
-</script>
+<!-- ...existing code... -->
 
 <!-- Responsive design -->
 <style>
