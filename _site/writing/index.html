@@ -509,27 +509,47 @@
 
 <!-- Filter Script -->
 <script>
-document.querySelectorAll('.filter-btn').forEach(button => {
-  button.addEventListener('click', function(event) {
-    const filter = event.currentTarget.getAttribute('data-filter');
-
-    // Update active button
-    document.querySelectorAll('.filter-btn').forEach(btn => {
-      btn.classList.remove('active');
+(function() {
+  function initializeFilters() {
+    const buttons = document.querySelectorAll('.filter-btn');
+    const rows = document.querySelectorAll('.writing-row');
+    
+    if (buttons.length === 0 || rows.length === 0) {
+      console.warn('Filter elements not found');
+      return;
+    }
+    
+    buttons.forEach(button => {
+      button.addEventListener('click', function(event) {
+        event.preventDefault();
+        const filter = this.getAttribute('data-filter');
+        
+        // Update active button
+        buttons.forEach(btn => {
+          btn.classList.remove('active');
+        });
+        this.classList.add('active');
+        
+        // Filter articles
+        rows.forEach(row => {
+          const category = row.getAttribute('data-category');
+          if (filter === 'all' || category === filter) {
+            row.classList.remove('hidden');
+          } else {
+            row.classList.add('hidden');
+          }
+        });
+      });
     });
-    event.currentTarget.classList.add('active');
-
-    // Filter articles
-    document.querySelectorAll('.writing-row').forEach(row => {
-      const category = row.getAttribute('data-category');
-      if (filter === 'all' || category === filter) {
-        row.classList.remove('hidden');
-      } else {
-        row.classList.add('hidden');
-      }
-    });
-  });
-});
+  }
+  
+  // Wait for DOM to be ready
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', initializeFilters);
+  } else {
+    initializeFilters();
+  }
+})();
 </script>
 
 <!-- Responsive design -->
