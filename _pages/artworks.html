@@ -13,31 +13,95 @@ redirect_from:
   </p>
 </div>
 
-<div class="artworks-gallery">
-  <div class="artwork-item">
-    <img src="/images/artwork-placeholder-1.jpg" alt="Anime Artwork 1" loading="lazy">
+  <h2 class="artworks-section-title" style="text-align:center; margin-bottom:2rem; font-size:2rem; font-weight:700; letter-spacing:0.02em;">Selected Artworks</h2>
+  <div class="artworks-gallery">
+    <div class="artwork-item">
+      <img src="/artworks/pokemon_emerald.png" alt="Pokemon Emerald" loading="lazy">
+      <div class="artwork-meta-capsules">
+        <span class="artwork-capsule artwork-title-capsule">Pokemon</span>
+        <span class="artwork-capsule artwork-date-capsule">2025-01-12</span>
+      </div>
+    </div>
+    <div class="artwork-item">
+      <img src="/artworks/one_piece_gear5.png" alt="One Piece Gear 5" loading="lazy">
+      <div class="artwork-meta-capsules">
+        <span class="artwork-capsule artwork-title-capsule">One Piece</span>
+        <span class="artwork-capsule artwork-date-capsule">2022-03-27</span>
+      </div>
+    </div>
+    <div class="artwork-item">
+      <img src="/artworks/demon_slayer.png" alt="Demon Slayer" loading="lazy">
+      <div class="artwork-meta-capsules">
+        <span class="artwork-capsule artwork-title-capsule">Demon Slayer</span>
+        <span class="artwork-capsule artwork-date-capsule">2021-05-30</span>
+      </div>
+    </div>
+    <div class="artwork-item">
+      <img src="/artworks/attack_on_titan.png" alt="Attack on Titan" loading="lazy">
+      <div class="artwork-meta-capsules">
+        <span class="artwork-capsule artwork-title-capsule">Attack on Titan</span>
+        <span class="artwork-capsule artwork-date-capsule">2018-11-08</span>
+      </div>
+    </div>
+    <div class="artwork-item">
+      <img src="/artworks/eminem.png" alt="Eminem" loading="lazy">
+      <div class="artwork-meta-capsules">
+        <span class="artwork-capsule artwork-title-capsule">Eminem</span>
+        <span class="artwork-capsule artwork-date-capsule">2018-10-17</span>
+      </div>
+    </div>
+    <div class="artwork-item">
+      <img src="/artworks/gengar_nidorino.png" alt="Gengar vs Nidorino" loading="lazy">
+      <div class="artwork-meta-capsules">
+        <span class="artwork-capsule artwork-title-capsule">Pokemon</span>
+        <span class="artwork-capsule artwork-date-capsule">2018-06-06</span>
+      </div>
+    </div>
+    <div class="artwork-item">
+      <img src="/artworks/mha.png" alt="My Hero Academia" loading="lazy">
+      <div class="artwork-meta-capsules">
+        <span class="artwork-capsule artwork-title-capsule">My Hero Academia</span>
+        <span class="artwork-capsule artwork-date-capsule">2018-04-14</span>
+      </div>
+    </div>
+    <div class="artwork-item">
+      <img src="/artworks/op_gold.png" alt="One Piece Gold" loading="lazy">
+      <div class="artwork-meta-capsules">
+        <span class="artwork-capsule artwork-title-capsule">One Piece</span>
+        <span class="artwork-capsule artwork-date-capsule">2018-03-24</span>
+      </div>
+    </div>
+    <div class="artwork-item">
+      <img src="/artworks/naruto.png" alt="Naruto" loading="lazy">
+      <div class="artwork-meta-capsules">
+        <span class="artwork-capsule artwork-title-capsule">Naruto</span>
+        <span class="artwork-capsule artwork-date-capsule">2018-03-01</span>
+      </div>
+    </div>
+    <div class="artwork-item">
+      <img src="/artworks/goku.png" alt="Goku" loading="lazy">
+      <div class="artwork-meta-capsules">
+        <span class="artwork-capsule artwork-title-capsule">Dragon Ball Z</span>
+        <span class="artwork-capsule artwork-date-capsule">2018-02-17</span>
+      </div>
+    </div>
+    <div class="artwork-item">
+      <img src="/artworks/tokyo_ghoul.png" alt="Tokyo Ghoul" loading="lazy">
+      <div class="artwork-meta-capsules">
+        <span class="artwork-capsule artwork-title-capsule">Tokyo Ghoul</span>
+        <span class="artwork-capsule artwork-date-capsule">2018-01-10</span>
+      </div>
+    </div>
+    <div class="artwork-item">
+      <img src="/artworks/fmab.png" alt="Fullmetal Alchemist" loading="lazy">
+      <div class="artwork-meta-capsules">
+        <span class="artwork-capsule artwork-title-capsule">Fullmetal Alchemist</span>
+        <span class="artwork-capsule artwork-date-capsule">2017-06-29</span>
+      </div>
+    </div>
   </div>
 
-  <div class="artwork-item">
-    <img src="/images/artwork-placeholder-2.jpg" alt="Anime Artwork 2" loading="lazy">
-  </div>
 
-  <div class="artwork-item">
-    <img src="/images/artwork-placeholder-3.jpg" alt="Anime Artwork 3" loading="lazy">
-  </div>
-
-  <div class="artwork-item">
-    <img src="/images/artwork-placeholder-4.jpg" alt="Anime Artwork 4" loading="lazy">
-  </div>
-
-  <div class="artwork-item">
-    <img src="/images/artwork-placeholder-5.jpg" alt="Anime Artwork 5" loading="lazy">
-  </div>
-
-  <div class="artwork-item">
-    <img src="/images/artwork-placeholder-6.jpg" alt="Anime Artwork 6" loading="lazy">
-  </div>
-</div>
 
 <style>
 .artworks-intro {
@@ -75,6 +139,42 @@ redirect_from:
   overflow: hidden;
   background: #f8f9fa;
   transition: transform 0.2s ease;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+
+.artwork-meta-capsules {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  margin: 0.5rem 0 0.5rem 0;
+  padding: 0 1rem 0 1rem;
+  flex-wrap: nowrap;
+  white-space: nowrap;
+  overflow-x: auto;
+}
+.artwork-capsule {
+  display: inline-block;
+  padding: 0.18em 0.7em;
+  border-radius: 999px;
+  font-size: 0.85em;
+  font-weight: 500;
+  background: #e0e7ef;
+  color: #2d3a4a;
+  margin-bottom: 0.2em;
+  white-space: nowrap;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.04);
+}
+.artwork-title-capsule {
+  background: #111;
+  color: #fff;
+}
+.artwork-date-capsule {
+  background: #fff;
+  color: #111;
+  border: 1px solid #111;
 }
 
 .artwork-item:hover {
