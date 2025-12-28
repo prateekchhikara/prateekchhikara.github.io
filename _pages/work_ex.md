@@ -14,7 +14,7 @@ author_profile: true
             <div class="work-info">
                 <h3>Research Engineer</h3>
                 <a href="https://www.mistral.ai" class="work-link">Mistral AI</a>
-                <span class="work-date">December 2025 - Present</span>
+                <span class="work-date">Dec 2025 - Present</span>
                 <div class="work-location">
                     <span class="location-icon">📍</span>
                     <span>Palo Alto, CA</span>
@@ -38,7 +38,7 @@ author_profile: true
             <div class="work-info">
                 <h3>Member of Technical Staff - Founding Engineer</h3>
                 <a href="https://github.com/mem0ai/mem0" class="work-link">Mem0.ai</a>
-                <span class="work-date">July 2024 - November 2025</span>
+                <span class="work-date">July 2024 - Nov 2025</span>
                 <div class="work-location">
                     <span class="location-icon">📍</span>
                     <span>San Francisco, CA</span>
@@ -66,7 +66,7 @@ author_profile: true
             <div class="work-info">
                 <h3>Artificial Intelligence (AI) Engineer Intern</h3>
                 <a href="https://www.autoenhance.ai" class="work-link">Autoenhance.ai</a>
-                <span class="work-date">January 2024 - July 2024</span>
+                <span class="work-date">Jan 2024 - July 2024</span>
                 <div class="work-location">
                     <span class="location-icon">📍</span>
                     <span>London, UK</span>
@@ -93,7 +93,7 @@ author_profile: true
             <div class="work-info">
                 <h3>Graduate Researcher</h3>
                 <a href="https://www.isi.edu/" class="work-link">Information Sciences Institute</a>
-                <span class="work-date">August 2022 - December 2023</span>
+                <span class="work-date">Aug 2022 - Dec 2023</span>
                 <div class="work-location">
                     <span class="location-icon">📍</span>
                     <span>Marina del Rey, CA</span>
@@ -121,7 +121,7 @@ author_profile: true
             <div class="work-info">
                 <h3>Data Scientist</h3>
                 <a href="https://www.housing.com" class="work-link">Housing.com</a>
-                <span class="work-date">July 2020 - August 2022</span>
+                <span class="work-date">July 2020 - Aug 2022</span>
                 <div class="work-location">
                     <span class="location-icon">📍</span>
                     <span>Gurgaon, India</span>
