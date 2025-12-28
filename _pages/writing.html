@@ -324,39 +324,5 @@ author_profile: true
   }
 }
 </style>
-<script>
-document.addEventListener('DOMContentLoaded', function() {
-  console.log('DOM Content Loaded - initializing filters');
-  
-  var buttons = document.querySelectorAll('.filter-btn');
-  console.log('Found', buttons.length, 'filter buttons');
-  
-  buttons.forEach(function(button) {
-    button.addEventListener('click', function(e) {
-      e.preventDefault();
-      e.stopPropagation();
-      
-      var filterValue = this.getAttribute('data-filter');
-      console.log('Filter clicked:', filterValue);
-      
-      // Deactivate all buttons
-      document.querySelectorAll('.filter-btn').forEach(function(btn) {
-        btn.classList.remove('active');
-      });
-      
-      // Activate clicked button
-      this.classList.add('active');
-      
-      // Filter rows
-      var rows = document.querySelectorAll('.writing-row');
-      console.log('Found', rows.length, 'writing rows');
-      
-      rows.forEach(function(row) {
-        var rowCategory = row.getAttribute('data-category');
-        var shouldDisplay = (filterValue === 'all' || rowCategory === filterValue);
-        row.style.display = shouldDisplay ? '' : 'none';
-      });
-    });
-  });
-});
-</script>
+<!-- Writing filter script -->
+<script src="{{ '/assets/js/writing-filter.js' | relative_url }}"></script>
