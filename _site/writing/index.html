@@ -513,6 +513,71 @@
 
 </table>
 
+<!-- Filter Script -->
+<script type="text/javascript">
+(function() {
+  'use strict';
+  
+  function initializeFilters() {
+    var buttons = document.querySelectorAll('.filter-btn');
+    
+    // Verify buttons were found
+    if (buttons.length === 0) {
+      console.log('No filter buttons found');
+      return;
+    }
+    
+    console.log('Initializing filters with', buttons.length, 'buttons');
+    
+    // Add click event listener to each button
+    Array.from(buttons).forEach(function(button) {
+      button.addEventListener('click', function(e) {
+        e.preventDefault();
+        e.stopPropagation();
+        
+        var filterValue = this.getAttribute('data-filter');
+        console.log('Filter clicked:', filterValue);
+        
+        // Remove active class from all buttons
+        Array.from(buttons).forEach(function(btn) {
+          btn.classList.remove('active');
+        });
+        
+        // Add active class to clicked button
+        this.classList.add('active');
+        
+        // Filter the rows
+        var rows = document.querySelectorAll('.writing-row');
+        console.log('Filtering', rows.length, 'rows for category:', filterValue);
+        
+        Array.from(rows).forEach(function(row) {
+          var rowCategory = row.getAttribute('data-category');
+          var shouldDisplay = (filterValue === 'all' || rowCategory === filterValue);
+          
+          if (shouldDisplay) {
+            row.style.display = '';
+          } else {
+            row.style.display = 'none';
+          }
+        });
+      });
+    });
+    
+    console.log('Filter initialization complete');
+  }
+  
+  // Try multiple methods to ensure the DOM is ready
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', initializeFilters);
+  } else {
+    // DOM is already loaded
+    initializeFilters();
+  }
+  
+  // Also try immediately in case everything is ready
+  setTimeout(initializeFilters, 100);
+})();
+</script>
 
 <!-- Responsive design -->
 <style>
