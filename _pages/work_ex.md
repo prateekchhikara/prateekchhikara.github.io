@@ -37,7 +37,7 @@ author_profile: true
             </div>
             <div class="work-info">
                 <h3>Member of Technical Staff - Founding Engineer</h3>
-                <a href="https://github.com/mem0ai/mem0" class="work-link">Mem0.ai</a>
+                <a href="https://mem0.ai" class="work-link">Mem0.ai</a>
                 <span class="work-date">July 2024 - Nov 2025</span>
                 <div class="work-location">
                     <span class="location-icon">📍</span>
