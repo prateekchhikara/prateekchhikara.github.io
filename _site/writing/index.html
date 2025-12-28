@@ -193,7 +193,7 @@
 
   <div class="author__content">
     <h3 class="author__name">Prateek Chhikara</h3>
-    <p class="author__bio">AI/ML Engineer and full-stack Data Scientist • 4+ yrs experience • USC Graduate</p>
+    <p class="author__bio">Applied AI/ML • 4+ yrs experience • USC Graduate</p>
   </div>
 
   <div class="author__urls-wrapper">
@@ -276,42 +276,6 @@
   <button type="button" class="filter-btn" data-filter="personal">Personal</button>
   <!-- <button type="button" class="filter-btn" data-filter="design">Technology</button> -->
 </div>
-
-<script>
-document.addEventListener('DOMContentLoaded', function() {
-  (function() {
-    var buttons = document.querySelectorAll('.filter-btn');
-    
-    for (var i = 0; i < buttons.length; i++) {
-      buttons[i].addEventListener('click', function(e) {
-        e.preventDefault();
-        e.stopPropagation();
-        
-        var filterValue = this.getAttribute('data-filter');
-        console.log('=== FILTER CLICKED ===', filterValue);
-        
-        // Deactivate all buttons
-        var allButtons = document.querySelectorAll('.filter-btn');
-        for (var j = 0; j < allButtons.length; j++) {
-          allButtons[j].classList.remove('active');
-        }
-        // Activate clicked button
-        this.classList.add('active');
-        
-        // Filter rows
-        var rows = document.querySelectorAll('.writing-row');
-        for (var k = 0; k < rows.length; k++) {
-          var rowCategory = rows[k].getAttribute('data-category');
-          var shouldDisplay = (filterValue === 'all' || rowCategory === filterValue);
-          rows[k].style.display = shouldDisplay ? '' : 'none';
-        }
-      });
-    }
-    
-    console.log('Filter script initialized with', buttons.length, 'buttons');
-  })();
-});
-</script>
 
 <style>
 .writing-filters {
@@ -619,7 +583,42 @@ document.addEventListener('DOMContentLoaded', function() {
   }
 }
 </style>
-
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  console.log('DOM Content Loaded - initializing filters');
+  
+  var buttons = document.querySelectorAll('.filter-btn');
+  console.log('Found', buttons.length, 'filter buttons');
+  
+  buttons.forEach(function(button) {
+    button.addEventListener('click', function(e) {
+      e.preventDefault();
+      e.stopPropagation();
+      
+      var filterValue = this.getAttribute('data-filter');
+      console.log('Filter clicked:', filterValue);
+      
+      // Deactivate all buttons
+      document.querySelectorAll('.filter-btn').forEach(function(btn) {
+        btn.classList.remove('active');
+      });
+      
+      // Activate clicked button
+      this.classList.add('active');
+      
+      // Filter rows
+      var rows = document.querySelectorAll('.writing-row');
+      console.log('Found', rows.length, 'writing rows');
+      
+      rows.forEach(function(row) {
+        var rowCategory = row.getAttribute('data-category');
+        var shouldDisplay = (filterValue === 'all' || rowCategory === filterValue);
+        row.style.display = shouldDisplay ? '' : 'none';
+      });
+    });
+  });
+});
+</script>
   </div>
 </div>
 
