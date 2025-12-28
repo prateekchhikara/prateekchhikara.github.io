@@ -510,15 +510,15 @@
 <!-- Filter Script -->
 <script>
 document.querySelectorAll('.filter-btn').forEach(button => {
-  button.addEventListener('click', function() {
-    const filter = this.getAttribute('data-filter');
-    
+  button.addEventListener('click', function(event) {
+    const filter = event.currentTarget.getAttribute('data-filter');
+
     // Update active button
     document.querySelectorAll('.filter-btn').forEach(btn => {
       btn.classList.remove('active');
     });
-    this.classList.add('active');
-    
+    event.currentTarget.classList.add('active');
+
     // Filter articles
     document.querySelectorAll('.writing-row').forEach(row => {
       const category = row.getAttribute('data-category');
