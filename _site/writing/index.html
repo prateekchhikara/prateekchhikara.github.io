@@ -271,10 +271,10 @@
 
 <!-- Filter Buttons -->
 <div class="writing-filters" id="filter-container">
-  <button type="button" class="filter-btn active" data-filter="all" onclick="window.filterWriting('all')">All</button>
-  <button type="button" class="filter-btn" data-filter="career" onclick="window.filterWriting('career')">Career</button>
-  <button type="button" class="filter-btn" data-filter="personal" onclick="window.filterWriting('personal')">Personal</button>
-  <!-- <button type="button" class="filter-btn" data-filter="design" onclick="window.filterWriting('design')">Technology</button> -->
+  <button type="button" class="filter-btn active" data-filter="all">All</button>
+  <button type="button" class="filter-btn" data-filter="career">Career</button>
+  <button type="button" class="filter-btn" data-filter="personal">Personal</button>
+  <!-- <button type="button" class="filter-btn" data-filter="design">Technology</button> -->
 </div>
 
 <style>
@@ -284,6 +284,8 @@
   gap: 10px;
   margin-bottom: 30px;
   flex-wrap: wrap;
+  position: relative;
+  z-index: 100;
 }
 
 .filter-btn {
@@ -296,6 +298,9 @@
   font-size: 1rem;
   font-weight: 500;
   transition: all 0.3s ease;
+  position: relative;
+  z-index: 101;
+  pointer-events: auto;
 }
 
 .filter-btn:hover {
@@ -509,32 +514,46 @@
 
 <!-- Filter Script -->
 <script>
-window.filterWriting = function(filterValue) {
-  console.log('filterWriting called with:', filterValue);
-  
-  // Update active button
-  const buttons = document.querySelectorAll('.filter-btn');
-  buttons.forEach(btn => {
-    if (btn.getAttribute('data-filter') === filterValue) {
-      btn.classList.add('active');
-    } else {
-      btn.classList.remove('active');
+(function() {
+  // Bind filter buttons when DOM is ready
+  function attachFilterHandlers() {
+    const filterContainer = document.getElementById('filter-container');
+    if (!filterContainer) {
+      console.error('filter-container not found');
+      return;
     }
-  });
-  
-  // Filter articles
-  const rows = document.querySelectorAll('.writing-row');
-  rows.forEach(row => {
-    const category = row.getAttribute('data-category');
-    if (filterValue === 'all' || category === filterValue) {
-      row.classList.remove('hidden');
-      row.style.display = '';
-    } else {
-      row.classList.add('hidden');
-      row.style.display = 'none';
-    }
-  });
-};
+
+    filterContainer.addEventListener('click', function(event) {
+      const button = event.target;
+      if (!button.classList.contains('filter-btn')) return;
+
+      const filterValue = button.getAttribute('data-filter');
+      console.log('Button clicked, filter:', filterValue);
+
+      // Update active button
+      document.querySelectorAll('.filter-btn').forEach(btn => {
+        btn.classList.toggle('active', btn === button);
+      });
+
+      // Filter articles
+      document.querySelectorAll('.writing-row').forEach(row => {
+        const category = row.getAttribute('data-category');
+        const shouldShow = filterValue === 'all' || category === filterValue;
+        row.classList.toggle('hidden', !shouldShow);
+        row.style.display = shouldShow ? '' : 'none';
+      });
+    });
+
+    console.log('Filter handlers attached');
+  }
+
+  // Attach when DOM is ready
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', attachFilterHandlers);
+  } else {
+    attachFilterHandlers();
+  }
+})();
 </script>
 
 <!-- Responsive design -->
