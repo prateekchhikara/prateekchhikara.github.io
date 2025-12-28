@@ -271,10 +271,10 @@
 
 <!-- Filter Buttons -->
 <div class="writing-filters" id="filter-container">
-  <button type="button" class="filter-btn active" data-filter="all">All</button>
-  <button type="button" class="filter-btn" data-filter="career">Career</button>
-  <button type="button" class="filter-btn" data-filter="personal">Personal</button>
-  <!-- <button type="button" class="filter-btn" data-filter="design">Technology</button> -->
+  <button type="button" class="filter-btn active" data-filter="all" onclick="window.filterWriting('all')">All</button>
+  <button type="button" class="filter-btn" data-filter="career" onclick="window.filterWriting('career')">Career</button>
+  <button type="button" class="filter-btn" data-filter="personal" onclick="window.filterWriting('personal')">Personal</button>
+  <!-- <button type="button" class="filter-btn" data-filter="design" onclick="window.filterWriting('design')">Technology</button> -->
 </div>
 
 <style>
@@ -509,60 +509,32 @@
 
 <!-- Filter Script -->
 <script>
-(function() {
-  function initializeFilters() {
-    const container = document.getElementById('filter-container');
-    const rows = document.querySelectorAll('.writing-row');
-    
-    if (!container) {
-      console.error('Filter container not found');
-      return;
-    }
-    
-    if (rows.length === 0) {
-      console.warn('Writing rows not found');
-      return;
-    }
-    
-    // Event delegation on container
-    container.addEventListener('click', function(e) {
-      const button = e.target.closest('.filter-btn');
-      if (!button) return;
-      
-      e.preventDefault();
-      e.stopPropagation();
-      
-      const filter = button.getAttribute('data-filter');
-      
-      // Update active button
-      document.querySelectorAll('.filter-btn').forEach(btn => {
-        btn.classList.remove('active');
-      });
-      button.classList.add('active');
-      
-      // Filter articles
-      rows.forEach(row => {
-        const category = row.getAttribute('data-category');
-        if (filter === 'all' || category === filter) {
-          row.classList.remove('hidden');
-        } else {
-          row.classList.add('hidden');
-        }
-      });
-      
-      console.log('Filter applied:', filter);
-    });
-    
-    console.log('Filter initialized successfully');
-  }
+window.filterWriting = function(filterValue) {
+  console.log('filterWriting called with:', filterValue);
   
-  // Wait for DOM to be ready
-  if (document.readyState === 'loading') {
-    document.addEventListener('DOMContentLoaded', initializeFilters);
-  } else {
-    initializeFilters();
-  }
-})();
+  // Update active button
+  const buttons = document.querySelectorAll('.filter-btn');
+  buttons.forEach(btn => {
+    if (btn.getAttribute('data-filter') === filterValue) {
+      btn.classList.add('active');
+    } else {
+      btn.classList.remove('active');
+    }
+  });
+  
+  // Filter articles
+  const rows = document.querySelectorAll('.writing-row');
+  rows.forEach(row => {
+    const category = row.getAttribute('data-category');
+    if (filterValue === 'all' || category === filterValue) {
+      row.classList.remove('hidden');
+      row.style.display = '';
+    } else {
+      row.classList.add('hidden');
+      row.style.display = 'none';
+    }
+  });
+};
 </script>
 
 <!-- Responsive design -->
