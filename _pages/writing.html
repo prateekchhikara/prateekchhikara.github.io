@@ -17,6 +17,40 @@ author_profile: true
   <!-- <button type="button" class="filter-btn" data-filter="design">Technology</button> -->
 </div>
 
+<script>
+(function() {
+  var buttons = document.querySelectorAll('.filter-btn');
+  
+  for (var i = 0; i < buttons.length; i++) {
+    buttons[i].addEventListener('click', function(e) {
+      e.preventDefault();
+      e.stopPropagation();
+      
+      var filterValue = this.getAttribute('data-filter');
+      console.log('=== FILTER CLICKED ===', filterValue);
+      
+      // Deactivate all buttons
+      var allButtons = document.querySelectorAll('.filter-btn');
+      for (var j = 0; j < allButtons.length; j++) {
+        allButtons[j].classList.remove('active');
+      }
+      // Activate clicked button
+      this.classList.add('active');
+      
+      // Filter rows
+      var rows = document.querySelectorAll('.writing-row');
+      for (var k = 0; k < rows.length; k++) {
+        var rowCategory = rows[k].getAttribute('data-category');
+        var shouldDisplay = (filterValue === 'all' || rowCategory === filterValue);
+        rows[k].style.display = shouldDisplay ? '' : 'none';
+      }
+    });
+  }
+  
+  console.log('Filter script initialized with', buttons.length, 'buttons');
+})();
+</script>
+
 <style>
 .writing-filters {
   display: flex;
@@ -253,60 +287,6 @@ author_profile: true
 
 </table>
 
-<!-- Filter Script -->
-<script>
-// Wait a bit for DOM to fully settle
-setTimeout(function() {
-  console.log('Starting filter initialization...');
-  
-  const buttons = document.querySelectorAll('.filter-btn');
-  console.log('Found', buttons.length, 'buttons');
-  
-  if (buttons.length === 0) {
-    console.error('No buttons found!');
-    return;
-  }
-  
-  buttons.forEach(function(button) {
-    button.addEventListener('click', function(e) {
-      e.preventDefault();
-      e.stopPropagation();
-      
-      console.log('BUTTON CLICKED');
-      
-      const filterValue = this.getAttribute('data-filter');
-      console.log('Filter value:', filterValue);
-      
-      // Update buttons
-      document.querySelectorAll('.filter-btn').forEach(function(btn) {
-        if (btn === button) {
-          btn.classList.add('active');
-        } else {
-          btn.classList.remove('active');
-        }
-      });
-      
-      // Update rows
-      document.querySelectorAll('.writing-row').forEach(function(row) {
-        const category = row.getAttribute('data-category');
-        const match = (filterValue === 'all') || (category === filterValue);
-        
-        if (match) {
-          row.style.display = '';
-          row.classList.remove('hidden');
-        } else {
-          row.style.display = 'none';
-          row.classList.add('hidden');
-        }
-      });
-      
-      return false;
-    });
-  });
-  
-  console.log('Filter listeners attached to all buttons');
-}, 100);
-</script>
 
 <!-- Responsive design -->
 <style>
