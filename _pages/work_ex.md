@@ -9,12 +9,36 @@ author_profile: true
     <div class="work-card">
         <div class="work-header">
             <div class="logo-container">
+                <img src="/images/mistral.png" alt="Mistral AI Logo" class="work-logo"/>
+            </div>
+            <div class="work-info">
+                <h3>Research Engineer</h3>
+                <a href="https://www.mistral.ai" class="work-link">Mistral AI</a>
+                <span class="work-date">December 2025 - Present</span>
+                <div class="work-location">
+                    <span class="location-icon">📍</span>
+                    <span>Palo Alto, CA</span>
+                    <span class="flag">🇺🇸</span>
+                </div>
+            </div>
+        </div>
+        <div class="work-details">
+            <div class="work-content">
+                <ul class="achievement-list">
+                    <li>Working in a customer-facing role: creating AI pipelines, synthetic data generation, and fine-tuning models.</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="work-card">
+        <div class="work-header">
+            <div class="logo-container">
                 <img src="/images/mem0.jpeg" alt="Mem0 Logo" class="work-logo"/>
             </div>
             <div class="work-info">
                 <h3>Member of Technical Staff - Founding Engineer</h3>
                 <a href="https://github.com/mem0ai/mem0" class="work-link">Mem0.ai</a>
-                <span class="work-date">July 2024 - Present</span>
+                <span class="work-date">July 2024 - November 2025</span>
                 <div class="work-location">
                     <span class="location-icon">📍</span>
                     <span>San Francisco, CA</span>

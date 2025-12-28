@@ -9,115 +9,99 @@ author_profile: true
   <p>Thoughts, insights, and reflections on technology, life, and everything in between.</p>
 </div>
 
-<div class="writing-list">
-  <!-- Sample writing items - you can add more by duplicating this structure -->
-  <article class="writing-item">
-    <div class="writing-meta">
-      <time datetime="2024-01-15">January 15, 2024</time>
-      <span class="writing-category">Technology</span>
-    </div>
-    <h2 class="writing-title">
-      <a href="/writing/sample-post-1/">The Future of AI in Creative Industries</a>
-    </h2>
-    <p class="writing-excerpt">Exploring how artificial intelligence is transforming creative workflows and what it means for artists, writers, and designers...</p>
-    <div class="writing-tags">
-      <span class="tag">AI</span>
-      <span class="tag">Creativity</span>
-      <span class="tag">Technology</span>
-    </div>
-  </article>
-
-  <article class="writing-item">
-    <div class="writing-meta">
-      <time datetime="2024-01-10">January 10, 2024</time>
-      <span class="writing-category">Personal</span>
-    </div>
-    <h2 class="writing-title">
-      <a href="/writing/sample-post-2/">Lessons from Building My First Side Project</a>
-    </h2>
-    <p class="writing-excerpt">Reflecting on the challenges, failures, and unexpected learnings from creating my first independent project...</p>
-    <div class="writing-tags">
-      <span class="tag">Learning</span>
-      <span class="tag">Projects</span>
-      <span class="tag">Growth</span>
-    </div>
-  </article>
-
-  <article class="writing-item">
-    <div class="writing-meta">
-      <time datetime="2024-01-05">January 5, 2024</time>
-      <span class="writing-category">Design</span>
-    </div>
-    <h2 class="writing-title">
-      <a href="/writing/sample-post-3/">Minimalism in Digital Design</a>
-    </h2>
-    <p class="writing-excerpt">Why less is often more when it comes to creating user experiences that truly resonate with people...</p>
-    <div class="writing-tags">
-      <span class="tag">Design</span>
-      <span class="tag">UX</span>
-      <span class="tag">Minimalism</span>
-    </div>
-  </article>
-
-  <article class="writing-item">
-    <div class="writing-meta">
-      <time datetime="2023-12-28">December 28, 2023</time>
-      <span class="writing-category">Career</span>
-    </div>
-    <h2 class="writing-title">
-      <a href="/writing/sample-post-4/">Building a Personal Brand as a Developer</a>
-    </h2>
-    <p class="writing-excerpt">Practical tips for developers who want to establish their presence in the tech community...</p>
-    <div class="writing-tags">
-      <span class="tag">Career</span>
-      <span class="tag">Personal Brand</span>
-      <span class="tag">Networking</span>
-    </div>
-  </article>
+<!-- Filter Buttons -->
+<div class="writing-filters">
+  <button class="filter-btn active" data-filter="all">All</button>
+  <button class="filter-btn" data-filter="career">Career</button>
+  <button class="filter-btn" data-filter="personal">Personal</button>
+  <!-- <button class="filter-btn" data-filter="design">Technology</button> -->
 </div>
 
 <style>
-.writing-intro {
-  text-align: center;
-  margin-bottom: 3rem;
-  padding: 1rem;
+.writing-filters {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 30px;
+  flex-wrap: wrap;
 }
 
-.writing-intro p {
-  margin: 0;
+.filter-btn {
+  padding: 10px 20px;
+  border: 2px solid #ddd;
+  background-color: white;
+  color: #333;
+  border-radius: 25px;
+  cursor: pointer;
   font-size: 1rem;
-  color: #666;
-  line-height: 1.6;
-  font-style: italic;
+  font-weight: 500;
+  transition: all 0.3s ease;
 }
 
-.writing-list {
-  max-width: 800px;
-  margin: 0 auto;
+.filter-btn:hover {
+  border-color: #2980b9;
+  color: #2980b9;
 }
 
-.writing-item {
-  margin-bottom: 2.5rem;
-  padding-bottom: 2rem;
-  border-bottom: 1px solid #eee;
+.filter-btn.active {
+  background-color: #2980b9;
+  color: white;
+  border-color: #2980b9;
 }
 
-.writing-item:last-child {
-  border-bottom: none;
-  margin-bottom: 0;
+.writing-row.hidden {
+  display: none;
+}
+</style>
+
+<style>
+.writing-row {
+  transition: all 0.3s ease-in-out;
+  border-radius: 12px;
+  margin-bottom: 15px;
+}
+
+.writing-row:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
+  border-top: 3px solid #2980b9;
+  background-color: white;
+}
+
+.writing-image {
+  width: 350px;
+  height: auto;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+  border-radius: 8px;
+}
+
+.writing-content {
+  width: 650px;
+  padding: 15px;
+  vertical-align: top;
+  border: none;
+}
+
+.writing-title {
+  font-weight: bold;
+  margin-bottom: 8px;
+  font-size: 1.2rem;
+}
+
+.writing-title a {
+  color: #333;
+  text-decoration: none;
+}
+
+.writing-title a:hover {
+  color: #2980b9;
+  text-decoration: underline;
 }
 
 .writing-meta {
-  display: flex;
-  align-items: center;
-  gap: 1rem;
-  margin-bottom: 0.75rem;
-  font-size: 0.9rem;
-  color: #888;
-}
-
-.writing-meta time {
-  font-weight: 500;
+  font-style: italic;
+  margin-bottom: 10px;
+  color: #666;
 }
 
 .writing-category {
@@ -129,27 +113,11 @@ author_profile: true
   font-weight: 500;
   text-transform: uppercase;
   letter-spacing: 0.5px;
-}
-
-.writing-title {
-  margin: 0 0 1rem 0;
-  font-size: 1.5rem;
-  line-height: 1.3;
-}
-
-.writing-title a {
-  color: #333;
-  text-decoration: none;
-  transition: color 0.2s ease;
-}
-
-.writing-title a:hover {
-  color: #666;
-  text-decoration: underline;
+  margin-left: 10px;
 }
 
 .writing-excerpt {
-  margin: 0 0 1rem 0;
+  margin: 10px 0;
   color: #666;
   line-height: 1.6;
   font-size: 1rem;
@@ -159,6 +127,7 @@ author_profile: true
   display: flex;
   flex-wrap: wrap;
   gap: 0.5rem;
+  margin-top: 10px;
 }
 
 .tag {
@@ -169,45 +138,206 @@ author_profile: true
   font-size: 0.8rem;
   border: 1px solid #e9ecef;
 }
+</style>
 
-/* Responsive design */
+<table style="width: 100%; border-collapse: separate; border-spacing: 0 15px; border: none;">
+  <tr class="writing-row" data-category="career">
+    <td style="padding: 15px; vertical-align: top; border: none;">
+      <img src="../images/reaching_1000_citations.png" alt="Reaching 1,000 Citations: My Research Journey" class="writing-image">
+    </td>
+    <td class="writing-content">
+      <div class="writing-title">
+        <a href="https://medium.com/data-science-collective/reaching-1-000-citations-my-research-journey-421fd02d9c98" target="_blank" rel="noopener noreferrer">Reaching 1,000 Citations: My Research Journey</a>
+      </div>
+      <div class="writing-meta">
+        November 6, 2025
+        <span class="writing-category">Career</span>
+      </div>
+      <p class="writing-excerpt">I hit 1,000+ citations on Google Scholar, a milestone that reflects over five years of steady research effort—reading, building, writing, and learning from rejections. Starting in undergrad, I taught myself machine learning, joined research groups, balanced projects with classes and jobs, and kept pushing even when things didn’t go as planned. I learned that consistency, collaboration, and patience matter more than quick wins. </p>
+      <div class="writing-tags">
+        <span class="tag">Research</span>
+        <span class="tag">Achievement</span>
+        <span class="tag">Technology</span>
+      </div>
+    </td>
+  </tr>
+
+  <tr class="writing-row" data-category="personal">
+    <td style="padding: 15px; vertical-align: top; border: none;">
+      <img src="../images/basanti_part2.png" alt="Lessons from Building My First Side Project" class="writing-image">
+    </td>
+    <td class="writing-content">
+      <div class="writing-title">
+        <a href="https://medium.com/illumination/lessons-in-resilience-what-basanti-taught-me-ff209a7b05f5">Lessons in Resilience: What Basanti Taught Me [Basanti - Part 2]</a>
+      </div>
+      <div class="writing-meta">
+        June 14, 2025
+        <span class="writing-category">Personal</span>
+      </div>
+      <p class="writing-excerpt">In this article, I share how raising my puppy Basanti taught me what true resilience looks like. From teaching her first bark and protecting her from disease, to the day she fell and broke her legs, I witnessed her refuse to stay down and recover step by step. Despite her physical challenges, she kept getting up, learning to walk, and later even run again. Basanti’s spirit reshaped how I understand strength, persistence, and unconditional determination—reminding me that resilience isn’t about perfection, but the courage to rise after every fall.</p>
+      <div class="writing-tags">
+        <span class="tag">Dogs</span>
+        <span class="tag">Pet</span>
+        <span class="tag">Family</span>
+      </div>
+    </td>
+  </tr>
+
+  <tr class="writing-row" data-category="personal">
+    <td style="padding: 15px; vertical-align: top; border: none;">
+      <img src="../images/basanti_part1.png" alt="Minimalism in Digital Design" class="writing-image">
+    </td>
+    <td class="writing-content">
+      <div class="writing-title">
+        <a href="https://medium.com/illumination/the-day-basanti-found-me-80b6a0f456b4">The Day Basanti Found Me [Basanti - Part 1]</a>
+      </div>
+      <div class="writing-meta">
+        January 5, 2024
+        <span class="writing-category">Personal</span>
+      </div>
+      <p class="writing-excerpt">In this article, I tell the story of how a tiny, shivering puppy wandered into my life on a cold February morning just as I was preparing for a standup call. I found her alone and frail, fed her, and soon learned she had difficulty walking. I brought her inside, named her Basanti, and over the day my family rallied around her. What began as a chance moment quickly turned into love and responsibility, and Basanti became a cherished part of our family—mischievous, beloved, and impossible to imagine life without.</p>
+      <div class="writing-tags">
+        <span class="tag">Dogs</span>
+        <span class="tag">Pet</span>
+        <span class="tag">Family</span>
+      </div>
+    </td>
+  </tr>
+
+  <tr class="writing-row" data-category="career">
+    <td style="padding: 15px; vertical-align: top; border: none;">
+      <img src="../images/the_path_to_becoming.png" alt="The Path to Becoming: Reflections on Struggle and Perseverance" class="writing-image">
+    </td>
+    <td class="writing-content">
+      <div class="writing-title">
+        <a href="https://medium.com/illumination/the-path-to-becoming-reflections-on-struggle-and-perseverance-5c9802a8f202">The Path to Becoming: Reflections on Struggle and Perseverance</a>
+      </div>
+      <div class="writing-meta">
+        October 6, 2024
+        <span class="writing-category">Career</span>
+      </div>
+      <p class="writing-excerpt">In this article, I reflect on my personal journey of ambition, struggle, and perseverance through graduate life, balancing tough coursework, jobs, and emotional ups and downs. I wrote this for my future self to remember what it felt like to push through frustration, doubt, and setbacks while still chasing meaningful success. My message is simple: growth isn’t linear, effort doesn’t always show immediate results, and perseverance matters—not just for outcomes, but for the strength you gain along the way. I hope others can relate and find courage in their own journey.</p>
+      <div class="writing-tags">
+        <span class="tag">Career</span>
+        <span class="tag">Life</span>
+        <span class="tag">Jobs</span>
+      </div>
+    </td>
+  </tr>
+
+  <tr class="writing-row" data-category="career">
+    <td style="padding: 15px; vertical-align: top; border: none;">
+      <img src="../images/research_journey.png" alt="The Path to Becoming: Reflections on Struggle and Perseverance" class="writing-image">
+    </td>
+    <td class="writing-content">
+      <div class="writing-title">
+        <a href="https://medium.com/illumination/my-research-journey-at-usc-isi-42555e83b0f7">The My Research Journey at USC-ISI</a>
+      </div>
+      <div class="writing-meta">
+        October 6, 2024
+        <span class="writing-category">Career</span>
+      </div>
+      <p class="writing-excerpt">In this article, I share how I navigated the competitive path from applying to USC to joining the USC Information Sciences Institute (ISI) as a research assistant. Over 1.5 years, I worked on projects from text-based agents to VQA, learned to write and publish strong papers (including a Best Student Paper award), and grew as a researcher through collaborations and challenges. Leaving ISI was bittersweet, but the experience profoundly shaped my skills and perspective.</p>
+      <div class="writing-tags">
+        <span class="tag">Career</span>
+        <span class="tag">Life</span>
+        <span class="tag">Jobs</span>
+      </div>
+    </td>
+  </tr>
+</table>
+
+<!-- Filter Script -->
+<script>
+document.querySelectorAll('.filter-btn').forEach(button => {
+  button.addEventListener('click', function() {
+    const filter = this.getAttribute('data-filter');
+    
+    // Update active button
+    document.querySelectorAll('.filter-btn').forEach(btn => {
+      btn.classList.remove('active');
+    });
+    this.classList.add('active');
+    
+    // Filter articles
+    document.querySelectorAll('.writing-row').forEach(row => {
+      const category = row.getAttribute('data-category');
+      if (filter === 'all' || category === filter) {
+        row.classList.remove('hidden');
+      } else {
+        row.classList.add('hidden');
+      }
+    });
+  });
+});
+</script>
+
+<!-- Responsive design -->
+<style>
+@media (max-width: 1024px) {
+  .writing-image {
+    width: 280px;
+  }
+  
+  .writing-content {
+    width: auto;
+  }
+}
+
 @media (max-width: 768px) {
-  .writing-list {
-    padding: 0 1rem;
+  table {
+    border-spacing: 0 !important;
   }
   
-  .writing-item {
-    margin-bottom: 2rem;
-    padding-bottom: 1.5rem;
+  .writing-row td {
+    display: block !important;
+    width: 100% !important;
+    padding: 15px !important;
   }
   
-  .writing-title {
-    font-size: 1.3rem;
+  .writing-image {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    margin-bottom: 15px;
   }
   
-  .writing-meta {
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 0.5rem;
+  .writing-content {
+    width: 100% !important;
+    padding: 15px !important;
+  }
+  
+  .writing-filters {
+    gap: 8px;
+  }
+  
+  .filter-btn {
+    padding: 8px 16px;
+    font-size: 0.9rem;
   }
 }
 
 @media (max-width: 480px) {
-  .writing-intro {
-    margin-bottom: 2rem;
-  }
-  
-  .writing-item {
-    margin-bottom: 1.5rem;
-    padding-bottom: 1rem;
+  .writing-image {
+    height: 180px;
   }
   
   .writing-title {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
   }
   
   .writing-excerpt {
     font-size: 0.9rem;
+  }
+  
+  .writing-filters {
+    gap: 6px;
+    margin-bottom: 20px;
+  }
+  
+  .filter-btn {
+    padding: 7px 14px;
+    font-size: 0.85rem;
   }
 }
 </style>
