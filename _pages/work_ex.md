@@ -12,7 +12,7 @@ author_profile: true
                 <img src="/images/mistral.png" alt="Mistral AI Logo" class="work-logo"/>
             </div>
             <div class="work-info">
-                <h3>Research Engineer</h3>
+                <h3>Applied AI Engineer</h3>
                 <a href="https://www.mistral.ai" class="work-link">Mistral AI</a>
                 <span class="work-date">Dec 2025 - Present</span>
                 <div class="work-location">
@@ -36,7 +36,7 @@ author_profile: true
                 <img src="/images/mem0.jpeg" alt="Mem0 Logo" class="work-logo"/>
             </div>
             <div class="work-info">
-                <h3>Member of Technical Staff - Founding Engineer</h3>
+                <h3>Founding AI Engineer</h3>
                 <a href="https://mem0.ai" class="work-link">Mem0.ai</a>
                 <span class="work-date">July 2024 - Nov 2025</span>
                 <div class="work-location">
