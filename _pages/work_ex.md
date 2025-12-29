@@ -64,7 +64,7 @@ author_profile: true
                 <img src="/images/autoenhance.jpeg" alt="Autoenhance Logo" class="work-logo"/>
             </div>
             <div class="work-info">
-                <h3>Artificial Intelligence (AI) Engineer Intern</h3>
+                <h3>AI Engineer Intern</h3>
                 <a href="https://www.autoenhance.ai" class="work-link">Autoenhance.ai</a>
                 <span class="work-date">Jan 2024 - July 2024</span>
                 <div class="work-location">
