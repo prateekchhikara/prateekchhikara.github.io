@@ -70,7 +70,7 @@ author_profile: true
                 <div class="work-location">
                     <span class="location-icon">📍</span>
                     <span>London, UK</span>
-                    <span class="flag">🇬🇧</span>
+                    <span class="flag">🇬🇧 [Remote]</span>
                 </div>
             </div>
         </div>
