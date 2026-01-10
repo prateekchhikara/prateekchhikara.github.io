@@ -14,12 +14,14 @@ author_profile: true
             <div class="work-info">
                 <h3>Applied AI Engineer</h3>
                 <a href="https://www.mistral.ai" class="work-link">Mistral AI</a>
+            </div>
+            <div class="work-meta">
                 <span class="work-date">Dec 2025 - Present</span>
-                <div class="work-location">
+                <span class="work-location">
                     <span class="location-icon">📍</span>
                     <span>Palo Alto, CA</span>
                     <span class="flag">🇺🇸</span>
-                </div>
+                </span>
             </div>
         </div>
         <div class="work-details">
@@ -38,12 +40,14 @@ author_profile: true
             <div class="work-info">
                 <h3>Founding AI Engineer</h3>
                 <a href="https://mem0.ai" class="work-link">Mem0.ai</a>
+            </div>
+            <div class="work-meta">
                 <span class="work-date">July 2024 - Nov 2025</span>
-                <div class="work-location">
+                <span class="work-location">
                     <span class="location-icon">📍</span>
                     <span>San Francisco, CA</span>
                     <span class="flag">🇺🇸</span>
-                </div>
+                </span>
             </div>
         </div>
         <div class="work-details">
@@ -66,12 +70,15 @@ author_profile: true
             <div class="work-info">
                 <h3>AI Engineer Intern</h3>
                 <a href="https://www.autoenhance.ai" class="work-link">Autoenhance.ai</a>
+            </div>
+            <div class="work-meta">
                 <span class="work-date">Jan 2024 - July 2024</span>
-                <div class="work-location">
+                <span class="work-location">
                     <span class="location-icon">📍</span>
                     <span>London, UK</span>
-                    <span class="flag">🇬🇧 [Remote]</span>
-                </div>
+                    <span class="flag">🇬🇧</span>
+                    <span>[Remote]</span>
+                </span>
             </div>
         </div>
         <div class="work-details">
@@ -93,12 +100,14 @@ author_profile: true
             <div class="work-info">
                 <h3>Graduate Researcher</h3>
                 <a href="https://www.isi.edu/" class="work-link">Information Sciences Institute</a>
+            </div>
+            <div class="work-meta">
                 <span class="work-date">Aug 2022 - Dec 2023</span>
-                <div class="work-location">
+                <span class="work-location">
                     <span class="location-icon">📍</span>
                     <span>Marina del Rey, CA</span>
                     <span class="flag">🇺🇸</span>
-                </div>
+                </span>
             </div>
         </div>
         <div class="work-details">
@@ -121,12 +130,14 @@ author_profile: true
             <div class="work-info">
                 <h3>Data Scientist</h3>
                 <a href="https://www.housing.com" class="work-link">Housing.com</a>
+            </div>
+            <div class="work-meta">
                 <span class="work-date">July 2020 - Aug 2022</span>
-                <div class="work-location">
+                <span class="work-location">
                     <span class="location-icon">📍</span>
                     <span>Gurgaon, India</span>
                     <span class="flag">🇮🇳</span>
-                </div>
+                </span>
             </div>
         </div>
         <div class="work-details">
@@ -165,12 +176,14 @@ author_profile: true
             <div class="work-info">
                 <h3>Data Scientist</h3>
                 <a href="https://www.proptiger.com" class="work-link">PropTiger.com</a>
+            </div>
+            <div class="work-meta">
                 <span class="work-date">Jan 2020 - July 2020</span>
-                <div class="work-location">
+                <span class="work-location">
                     <span class="location-icon">📍</span>
                     <span>Gurgaon, India</span>
                     <span class="flag">🇮🇳</span>
-                </div>
+                </span>
             </div>
         </div>
         <div class="work-details">
@@ -189,16 +202,16 @@ author_profile: true
 .work-container {
     max-width: 1200px;
     margin: 0 auto;
-    padding: 15px;
+    padding: 8px;
 }
 
 .work-card {
     background: linear-gradient(135deg, #ffffff 0%, #f8f9fa 100%);
-    border-radius: 15px;
-    padding: 25px;
-    margin-bottom: 25px;
-    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
-    transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    border-radius: 12px;
+    padding: 16px;
+    margin-bottom: 16px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+    transition: all 0.3s ease;
     border: 1px solid rgba(255, 255, 255, 0.2);
     position: relative;
     overflow: hidden;
@@ -210,97 +223,112 @@ author_profile: true
     top: 0;
     left: 0;
     right: 0;
-    height: 4px;
+    height: 3px;
     background: linear-gradient(90deg, #e74c3c, #f39c12, #f1c40f);
     border-radius: 20px 20px 0 0;
 }
 
 .work-card:hover {
-    transform: translateY(-8px) scale(1.02);
-    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+    transform: translateY(-4px);
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.12);
 }
 
 .work-header {
     display: flex;
-    align-items: center;
-    margin-bottom: 20px;
-    gap: 20px;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-bottom: 12px;
+    gap: 12px;
 }
 
 .logo-container {
-    width: 70px;
-    height: 70px;
+    width: 55px;
+    height: 55px;
     background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
-    border-radius: 12px;
+    border-radius: 10px;
     display: flex;
     align-items: center;
     justify-content: center;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 3px 12px rgba(0, 0, 0, 0.08);
     flex-shrink: 0;
 }
 
 .work-logo {
-    width: 50px;
-    height: 50px;
+    width: 40px;
+    height: 40px;
     object-fit: contain;
-    border-radius: 8px;
+    border-radius: 6px;
+}
+
+.work-info {
+    flex: 1;
+    min-width: 0;
 }
 
 .work-info h3 {
-    margin: 0 0 8px 0;
+    margin: 0 0 3px 0;
     color: #2c3e50;
-    font-size: 1.2em;
+    font-size: 1.05em;
     font-weight: 700;
-    line-height: 1.3;
+    line-height: 1.2;
 }
 
 .work-link {
     color: #2980b9;
     text-decoration: none;
     font-weight: 600;
-    font-size: 1em;
+    font-size: 0.9em;
     transition: all 0.3s ease;
     display: inline-block;
-    margin-bottom: 5px;
+    margin-bottom: 2px;
 }
 
 .work-link:hover {
     color: #1f5f8b;
-    transform: translateX(5px);
+    transform: translateX(3px);
+}
+
+.work-meta {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 2px;
+    font-size: 0.8em;
+    text-align: right;
+    flex-shrink: 0;
 }
 
 .work-date {
     color: #7f8c8d;
     font-style: italic;
-    font-size: 0.85em;
     font-weight: 500;
-    display: block;
-    margin-bottom: 8px;
+    white-space: nowrap;
 }
 
 .work-location {
     display: flex;
     align-items: center;
-    gap: 8px;
+    gap: 4px;
     color: #7f8c8d;
-    font-size: 0.85em;
     font-weight: 500;
+    flex-wrap: wrap;
+    justify-content: flex-end;
 }
 
 .location-icon {
-    font-size: 1em;
+    font-size: 0.9em;
 }
 
 .flag {
-    font-size: 1.1em;
+    font-size: 0.95em;
 }
 
 .work-details {
-    margin-left: 90px;
+    margin-left: 67px;
 }
 
 .work-content {
-    margin-bottom: 20px;
+    margin-bottom: 12px;
 }
 
 .achievement-list {
@@ -311,11 +339,11 @@ author_profile: true
 
 .achievement-list li {
     position: relative;
-    padding-left: 25px;
-    margin-bottom: 10px;
+    padding-left: 20px;
+    margin-bottom: 6px;
     color: #2c3e50;
-    line-height: 1.5;
-    font-size: 0.9em;
+    line-height: 1.4;
+    font-size: 0.85em;
 }
 
 .achievement-list li::before {
@@ -324,7 +352,7 @@ author_profile: true
     left: 0;
     color: #2980b9;
     font-weight: bold;
-    font-size: 1.1em;
+    font-size: 0.9em;
 }
 
 .highlight {
@@ -346,27 +374,27 @@ author_profile: true
 
 .image-gallery {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-    gap: 12px;
-    margin-top: 20px;
+    grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+    gap: 10px;
+    margin-top: 12px;
 }
 
 .image-link {
     display: block;
-    border-radius: 12px;
+    border-radius: 10px;
     overflow: hidden;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 3px 12px rgba(0, 0, 0, 0.08);
     transition: all 0.3s ease;
 }
 
 .image-link:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+    transform: translateY(-3px);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
 }
 
 .image-link img {
     width: 100%;
-    height: 150px;
+    height: 120px;
     object-fit: cover;
     transition: transform 0.3s ease;
 }
@@ -377,18 +405,24 @@ author_profile: true
 
 @media (max-width: 768px) {
     .work-container {
-        padding: 10px;
+        padding: 5px;
     }
     
     .work-card {
-        padding: 25px;
-        margin-bottom: 30px;
+        padding: 12px;
+        margin-bottom: 12px;
     }
     
     .work-header {
         flex-direction: column;
         text-align: center;
-        gap: 15px;
+        align-items: center;
+        gap: 10px;
+    }
+    
+    .work-meta {
+        align-items: center;
+        text-align: center;
     }
     
     .work-details {
@@ -396,7 +430,7 @@ author_profile: true
     }
     
     .image-gallery {
-        grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+        grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
     }
 }
 </style>
