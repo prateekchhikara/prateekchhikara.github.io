@@ -15,136 +15,206 @@ author_profile: true
 ## Selected Publications
 
 <style>
-.publication-row {
-  transition: all 0.3s ease-in-out;
+.publication-card {
+  background: linear-gradient(135deg, #ffffff 0%, #f8f9fa 100%);
   border-radius: 12px;
-  margin-bottom: 15px;
+  padding: 16px;
+  margin-bottom: 16px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+  transition: all 0.3s ease;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  gap: 15px;
+  align-items: flex-start;
+  width: 100%;
+  box-sizing: border-box;
+  max-width: 100%;
 }
 
-.publication-row:hover {
-  transform: translateY(-10px);
-  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
-  border-top: 3px solid #2980b9;
-  background-color: white;
+.publication-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 3px;
+  background: linear-gradient(90deg, #e74c3c, #f39c12, #f1c40f);
+  border-radius: 20px 20px 0 0;
+}
+
+.publication-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.12);
+}
+
+.publication-image {
+  width: 200px;
+  min-width: 200px;
+  height: auto;
+  object-fit: contain;
+  box-shadow: 0 3px 12px rgba(0, 0, 0, 0.08);
+  border-radius: 8px;
+  flex-shrink: 0;
+}
+
+.publication-content {
+  flex: 1;
+  padding: 0;
+  vertical-align: top;
+  border: none;
+}
+
+.publication-title {
+  font-weight: bold;
+  margin-bottom: 8px;
+  font-size: 1.05em;
+}
+
+.publication-title a {
+  color: #2c3e50;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.publication-title a:hover {
+  color: #1f5f8b;
+  text-decoration: none;
+}
+
+.publication-meta {
+  font-style: italic;
+  margin-bottom: 10px;
+  color: #7f8c8d;
+  font-size: 0.8em;
+  font-weight: 500;
+}
+
+.publication-excerpt {
+  margin: 10px 0;
+  color: #555;
+  line-height: 1.6;
+  font-size: 0.85em;
+}
+
+.publication-card {
+  font-size: 1em;
 }
 </style>
 
-<table style="width: 100%; border-collapse: separate; border-spacing: 0 15px; border: none;">
-    <tr class="publication-row">
-    <td style="padding: 15px; vertical-align: top; border: none;">
-      <img src="../images/calibration.png" alt="Paper 1 Image" style="width: 350px; height: auto; box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);">
-    </td>
-    <td style="width: 650px; padding: 15px; vertical-align: top; border: none;">
-      <div style="font-weight: bold;">
-          <a href="https://openreview.net/forum?id=lyaHnHDdZl" target="_blank" rel="noopener noreferrer">
-            Mind the confidence gap: Overconfidence, calibration, and distractor effects in Large Language Models
-          </a>
+<div style="width: 100%; box-sizing: border-box;">
+  <div class="publication-card">
+    <img src="../images/calibration.png" alt="Mind the confidence gap paper" class="publication-image">
+    <div class="publication-content">
+      <div class="publication-title">
+        <a href="https://openreview.net/forum?id=lyaHnHDdZl" target="_blank" rel="noopener noreferrer">
+          Mind the confidence gap: Overconfidence, calibration, and distractor effects in Large Language Models
+        </a>
       </div>
-      <div style="font-style: italic;">Transactions on Machine Learning Research (TMLR) -- 2025</div>
-      This paper studies confidence calibration in LLMs across nine models and three factual QA datasets, comparing standard free-generation with distractor-augmented prompting. It shows that explicitly adding distractors greatly reduces overconfidence, yielding up to 460% relative accuracy gains and 90% ECE reductions. While large RLHF-tuned models are generally better calibrated, they can become miscalibrated on easy questions. Smaller models benefit more from distractors but remain imperfect. The study highlights persistent failures, especially on person-based queries, and offers practical guidance for more reliable LLM deployment.
-    </td>
-  </tr>
+      <div class="publication-meta">Transactions on Machine Learning Research (TMLR) -- 2025</div>
+      <div class="publication-excerpt">
+        This paper studies confidence calibration in LLMs across nine models and three factual QA datasets, comparing standard free-generation with distractor-augmented prompting. It shows that explicitly adding distractors greatly reduces overconfidence, yielding up to 460% relative accuracy gains and 90% ECE reductions. While large RLHF-tuned models are generally better calibrated, they can become miscalibrated on easy questions. Smaller models benefit more from distractors but remain imperfect. The study highlights persistent failures, especially on person-based queries, and offers practical guidance for more reliable LLM deployment.
+      </div>
+    </div>
+  </div>
 
-  <tr class="publication-row">
-    <td style="padding: 15px; vertical-align: top; border: none;">
-      <img src="../images/mem0_paper.png" alt="Paper 1 Image" style="width: 350px; height: auto; box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);">
-    </td>
-    <td style="width: 650px; padding: 15px; vertical-align: top; border: none;">
-      <div style="font-weight: bold;">
+  <div class="publication-card">
+    <img src="../images/mem0_paper.png" alt="Mem0 paper" class="publication-image">
+    <div class="publication-content">
+      <div class="publication-title">
         <a href="https://arxiv.org/abs/2504.19413" target="_blank" rel="noopener noreferrer">
           Mem0: Building Production-Ready AI Agents with Scalable Long-Term Memory
         </a>
       </div>
-      <div style="font-style: italic;">European Conference on Artificial Intelligence (ECAI) -- 2025</div>
-      Mem0 is a scalable memory-centric architecture that dynamically extracts, consolidates, and retrieves salient conversational information to extend LLM context. Its graph-based variant captures relational structures. On the LOCOMO benchmark, both outperform six baselines—boosting accuracy by up to 26%, while cutting latency by 91% and token cost by over 90%.
-    </td>
-  </tr>
+      <div class="publication-meta">European Conference on Artificial Intelligence (ECAI) -- 2025</div>
+      <div class="publication-excerpt">
+        Mem0 is a scalable memory-centric architecture that dynamically extracts, consolidates, and retrieves salient conversational information to extend LLM context. Its graph-based variant captures relational structures. On the LOCOMO benchmark, both outperform six baselines—boosting accuracy by up to 26%, while cutting latency by 91% and token cost by over 90%.
+      </div>
+    </div>
+  </div>
 
 
-  <tr class="publication-row">
-    <td style="padding: 15px; vertical-align: top; border: none;">
-      <img src="../images/mllm_knows.png" alt="Paper 1 Image" style="width: 350px; height: auto; box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);">
-    </td>
-    <td style="width: 650px; padding: 15px; vertical-align: top; border: none;">
-      <div style="font-weight: bold;">
+  <div class="publication-card">
+    <img src="../images/mllm_knows.png" alt="MLLMs Know Where to Look paper" class="publication-image">
+    <div class="publication-content">
+      <div class="publication-title">
         <a href="https://openreview.net/forum?id=DgaY5mDdmT" target="_blank" rel="noopener noreferrer">
           MLLMs Know Where to Look: Training-free Perception of Small Visual Details with Multimodal LLMs
         </a>
       </div>
-      <div style="font-style: italic;">International Conference on Learning Representations (ICLR) -- 2025</div>
-      This work investigates Multimodal Large Language Models' (MLLMs) ability to perceive small versus large visual details in question answering tasks. The study shows that MLLMs' accuracy is sensitive to subject size and can be improved using visual cropping methods. These findings suggest caution and potential improvements for detail-sensitive applications. 
-    </td>
-  </tr>
+      <div class="publication-meta">International Conference on Learning Representations (ICLR) -- 2025</div>
+      <div class="publication-excerpt">
+        This work investigates Multimodal Large Language Models' (MLLMs) ability to perceive small versus large visual details in question answering tasks. The study shows that MLLMs' accuracy is sensitive to subject size and can be improved using visual cropping methods. These findings suggest caution and potential improvements for detail-sensitive applications.
+      </div>
+    </div>
+  </div>
 
 
-  <tr class="publication-row">
-    <td style="padding: 15px; vertical-align: top; border: none;">
-      <img src="../images/wacv.png" alt="Paper 1 Image" style="width: 350px; height: auto; box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);">
-    </td>
-    <td style="width: 650px; padding: 15px; vertical-align: top; border: none;">
-      <div style="font-weight: bold;">
+  <div class="publication-card">
+    <img src="../images/wacv.png" alt="FIRE paper" class="publication-image">
+    <div class="publication-content">
+      <div class="publication-title">
         <a href="https://openaccess.thecvf.com/content/WACV2024/html/Chhikara_FIRE_Food_Image_to_REcipe_Generation_WACV_2024_paper.html" target="_blank" rel="noopener noreferrer">
           FIRE: Food Image to REcipe generation
         </a>
       </div>
-      <div style="font-style: italic;">IEEE/CVF Winter Conference on Applications of Computer Vision (WACV) -- 2024</div>
-      This paper introduces FIRE, a novel multimodal methodology for generating recipes from food images, contributing to the growing field of food computing. FIRE effectively produces food titles, ingredients, and cooking instructions using the BLIP model, a Vision Transformer with a decoder, and the T5 model. The paper also explores practical applications like recipe customization and recipe-to-code generation for automated cooking. 
-    </td>
-  </tr>
+      <div class="publication-meta">IEEE/CVF Winter Conference on Applications of Computer Vision (WACV) -- 2024</div>
+      <div class="publication-excerpt">
+        This paper introduces FIRE, a novel multimodal methodology for generating recipes from food images, contributing to the growing field of food computing. FIRE effectively produces food titles, ingredients, and cooking instructions using the BLIP model, a Vision Transformer with a decoder, and the T5 model. The paper also explores practical applications like recipe customization and recipe-to-code generation for automated cooking.
+      </div>
+    </div>
+  </div>
 
-  <tr class="publication-row">
-    <td style="padding: 15px; vertical-align: top; border: none;">
-      <img src="../images/kcap.png" alt="Paper 1 Image" style="width: 350px; height: auto; box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);">
-    </td>
-    <td style="width: 650px; padding: 15px; vertical-align: top; border: none;">
-        <div style="font-weight: bold;">
-            <a href="https://dl.acm.org/doi/10.1145/3587259.3627561" target="_blank" rel="noopener noreferrer">
-              Knowledge-enhanced Agents for Interactive Text Games
-            </a>
-        </div>
-        <div style="display: flex; align-items: center;">
-            <div style="font-style: italic; margin-right: 10px;">
-                International Conference on Knowledge Capture (KCap) -- 2023
-            </div>
-            <span style="color: red;">🏆 Best Student Paper Award 🏆 </span>
-        </div>
+  <div class="publication-card">
+    <img src="../images/kcap.png" alt="KCap paper" class="publication-image">
+    <div class="publication-content">
+      <div class="publication-title">
+        <a href="https://dl.acm.org/doi/10.1145/3587259.3627561" target="_blank" rel="noopener noreferrer">
+          Knowledge-enhanced Agents for Interactive Text Games
+        </a>
+      </div>
+      <div class="publication-meta">International Conference on Knowledge Capture (KCap) -- 2023</div>
+      <div style="display: flex; align-items: center; margin-bottom: 8px;">
+        <span style="color: red;">🏆 Best Student Paper Award 🏆</span>
+      </div>
+      <div class="publication-excerpt">
+        This paper introduces a knowledge-injection framework to enhance the functional grounding of agents in text-based games, addressing existing limitations in coherence, contextual awareness, and learning. It incorporates domain knowledge through memory of past actions and object affordances, aiding two types of agents: reinforcement learning and language model agents. The framework employs strategies like knowledge graphs and input encoding augmentations. Tested on 10 tasks in the ScienceWorld environment, the study reveals how task properties, model architectures, and domain knowledge interact in interactive contexts.
+      </div>
+    </div>
+  </div>
 
-      This paper introduces a knowledge-injection framework to enhance the functional grounding of agents in text-based games, addressing existing limitations in coherence, contextual awareness, and learning. It incorporates domain knowledge through memory of past actions and object affordances, aiding two types of agents: reinforcement learning and language model agents. The framework employs strategies like knowledge graphs and input encoding augmentations. Tested on 10 tasks in the ScienceWorld environment, the study reveals how task properties, model architectures, and domain knowledge interact in interactive contexts.
-    </td>
-  </tr>
-
-  <tr class="publication-row">
-    <td style="padding: 15px; vertical-align: top; border: none;">
-      <img src="../images/acl_bionlp.png" alt="Paper 1 Image" style="width: 350px; height: auto; box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);">
-    </td>
-    <td style="width: 650px; padding: 15px; vertical-align: top; border: none;">
-      <div style="font-weight: bold;">
+  <div class="publication-card">
+    <img src="../images/acl_bionlp.png" alt="BioNLP paper" class="publication-image">
+    <div class="publication-content">
+      <div class="publication-title">
         <a href="https://aclanthology.org/2023.bionlp-1.18/" target="_blank" rel="noopener noreferrer">
           Privacy Aware Question-Answering System for Online Mental Health Risk Assessment
         </a>
       </div>
-      <div style="font-style: italic;">ACL Workshop on Biomedical Natural Language Processing (BioNLP) -- 2023</div>
-      This paper explores using pre-trained Language Models (LMs) for assessing mental health risk from social media data. A Question-Answering (QA) approach, utilizing the Unified-QA model, is proposed for analyzing two large mental health datasets. To ensure user privacy, the model is trained with differential privacy techniques. The results show that treating risk assessment as a QA task is effective for mental health scenarios, with minimal performance loss (less than 1%) due to privacy safeguards. This approach signifies a promising direction for creating privacy-conscious diagnostic systems in mental health.
-    </td>
-  </tr>
-
-  <tr class="publication-row">
-    <td style="padding: 15px; vertical-align: top; border: none;">
-      <img src="../images/nips_romo.png" alt="Paper 1 Image" style="width: 350px; height: auto; box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);">
-    </td>
-    <td style="width: 650px; padding: 15px; vertical-align: top; border: none;">
-      <div style="font-weight: bold;">
-          <a href="https://openreview.net/forum?id=YrYcoV2dAk" target="_blank" rel="noopener noreferrer">
-            Visual Cropping Improves Zero-Shot Question Answering of Multimodal Large Language Models
-          </a>
+      <div class="publication-meta">ACL Workshop on Biomedical Natural Language Processing (BioNLP) -- 2023</div>
+      <div class="publication-excerpt">
+        This paper explores using pre-trained Language Models (LMs) for assessing mental health risk from social media data. A Question-Answering (QA) approach, utilizing the Unified-QA model, is proposed for analyzing two large mental health datasets. To ensure user privacy, the model is trained with differential privacy techniques. The results show that treating risk assessment as a QA task is effective for mental health scenarios, with minimal performance loss (less than 1%) due to privacy safeguards. This approach signifies a promising direction for creating privacy-conscious diagnostic systems in mental health.
       </div>
-      <div style="font-style: italic;">NeurIPS Workshop on Robustness of Few-shot and Zero-shot Learning in Foundation Models -- 2023</div>
-      This paper examines the limitations of Multimodal Large Language Models (LLMs) in visual question answering (VQA), particularly their sensitivity to the size of visual details in images. The study finds that the zero-shot accuracy of these models decreases by up to 46% with smaller visual subjects. Human visual cropping is shown to mitigate this issue, indicating a causal relationship. The paper proposes three automatic visual cropping methods to enhance zero-shot performance in multimodal LLMs. These methods are evaluated on four VQA datasets and a VQAv2 subset focused on fine details. The results highlight the need for caution in using multimodal LLMs for detail-sensitive VQA tasks and suggest visual cropping as a viable solution for improving performance.
-    </td>
-  </tr>
+    </div>
+  </div>
 
-  <!-- Repeat the pattern for more papers -->
-</table>
+  <div class="publication-card">
+    <img src="../images/nips_romo.png" alt="NeurIPS paper" class="publication-image">
+    <div class="publication-content">
+      <div class="publication-title">
+        <a href="https://openreview.net/forum?id=YrYcoV2dAk" target="_blank" rel="noopener noreferrer">
+          Visual Cropping Improves Zero-Shot Question Answering of Multimodal Large Language Models
+        </a>
+      </div>
+      <div class="publication-meta">NeurIPS Workshop on Robustness of Few-shot and Zero-shot Learning in Foundation Models -- 2023</div>
+      <div class="publication-excerpt">
+        This paper examines the limitations of Multimodal Large Language Models (LLMs) in visual question answering (VQA), particularly their sensitivity to the size of visual details in images. The study finds that the zero-shot accuracy of these models decreases by up to 46% with smaller visual subjects. Human visual cropping is shown to mitigate this issue, indicating a causal relationship. The paper proposes three automatic visual cropping methods to enhance zero-shot performance in multimodal LLMs. These methods are evaluated on four VQA datasets and a VQAv2 subset focused on fine details. The results highlight the need for caution in using multimodal LLMs for detail-sensitive VQA tasks and suggest visual cropping as a viable solution for improving performance.
+      </div>
+    </div>
+  </div>
+
+</div>
 
 
 
