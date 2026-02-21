@@ -184,36 +184,6 @@ author_profile: true
     </div>
   </div>
 
-  <div class="publication-card">
-    <img src="../images/acl_bionlp.png" alt="BioNLP paper" class="publication-image">
-    <div class="publication-content">
-      <div class="publication-title">
-        <a href="https://aclanthology.org/2023.bionlp-1.18/" target="_blank" rel="noopener noreferrer">
-          Privacy Aware Question-Answering System for Online Mental Health Risk Assessment
-        </a>
-      </div>
-      <div class="publication-meta">ACL Workshop on Biomedical Natural Language Processing (BioNLP) -- 2023</div>
-      <div class="publication-excerpt">
-        This paper explores using pre-trained Language Models (LMs) for assessing mental health risk from social media data. A Question-Answering (QA) approach, utilizing the Unified-QA model, is proposed for analyzing two large mental health datasets. To ensure user privacy, the model is trained with differential privacy techniques. The results show that treating risk assessment as a QA task is effective for mental health scenarios, with minimal performance loss (less than 1%) due to privacy safeguards. This approach signifies a promising direction for creating privacy-conscious diagnostic systems in mental health.
-      </div>
-    </div>
-  </div>
-
-  <div class="publication-card">
-    <img src="../images/nips_romo.png" alt="NeurIPS paper" class="publication-image">
-    <div class="publication-content">
-      <div class="publication-title">
-        <a href="https://openreview.net/forum?id=YrYcoV2dAk" target="_blank" rel="noopener noreferrer">
-          Visual Cropping Improves Zero-Shot Question Answering of Multimodal Large Language Models
-        </a>
-      </div>
-      <div class="publication-meta">NeurIPS Workshop on Robustness of Few-shot and Zero-shot Learning in Foundation Models -- 2023</div>
-      <div class="publication-excerpt">
-        This paper examines the limitations of Multimodal Large Language Models (LLMs) in visual question answering (VQA), particularly their sensitivity to the size of visual details in images. The study finds that the zero-shot accuracy of these models decreases by up to 46% with smaller visual subjects. Human visual cropping is shown to mitigate this issue, indicating a causal relationship. The paper proposes three automatic visual cropping methods to enhance zero-shot performance in multimodal LLMs. These methods are evaluated on four VQA datasets and a VQAv2 subset focused on fine details. The results highlight the need for caution in using multimodal LLMs for detail-sensitive VQA tasks and suggest visual cropping as a viable solution for improving performance.
-      </div>
-    </div>
-  </div>
-
 </div>
 
 
@@ -373,13 +343,13 @@ You can find all my publications at [Google Scholar](https://scholar.google.com/
   <div style="font-style: italic;">International Conference on Knowledge Capture (KCap) -- 2023</div>
   <div><b>P Chhikara</b>, J Zhang, F Ilievski, J Francis, and K Ma</div>
   <div>
-    <span style="color: red;">🏆 Best Student Paper Award 🏆</span>
     <a href="https://dl.acm.org/doi/10.1145/3587259.3627561" target="_blank" rel="noopener noreferrer">
       <img src="https://img.shields.io/badge/-Main Conference Paper-purple" alt="Main Conference Paper">
     </a>
     <a href="https://docs.google.com/presentation/d/1G8KG8qNLnWITcdfIONhAQDGnd2uqaO_djqGh7hwIXmo/edit?usp=sharing" target="_blank" rel="noopener noreferrer">
       <img src="https://img.shields.io/badge/-Presentation-purple" alt="Presentation">
     </a>
+    <span style="color: red;">🏆 Best Student Paper Award 🏆</span>
   </div>
 </div>
 
