@@ -489,6 +489,12 @@
   height: 250px;
   object-fit: cover;
   display: block;
+  filter: grayscale(100%);
+  transition: filter 0.3s ease;
+}
+
+.artwork-item:hover img {
+  filter: grayscale(0%);
 }
 
 /* Responsive design */
