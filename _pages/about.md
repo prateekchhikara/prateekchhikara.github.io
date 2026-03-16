@@ -165,17 +165,14 @@ redirect_from:
             </div>
 
             <!-- Previous Button -->
-            <button onclick="changeRecSlide(-1)" style="position: absolute; left: -50px; top: 50%; transform: translateY(-50%); background: #2980b9; color: white; border: none; width: 40px; height: 40px; border-radius: 50%; cursor: pointer; font-size: 20px; transition: all 0.3s ease;" onmouseover="this.style.background='#1f5f8b'; this.style.boxShadow='0 4px 12px rgba(0,0,0,0.2);'" onmouseout="this.style.background='#2980b9'; this.style.boxShadow='none';">❮</button>
+            <button onclick="changeRecSlide(-1)" style="position: absolute; left: 10px; top: 50%; transform: translateY(-50%); background: #2980b9; color: white; border: none; width: 40px; height: 40px; border-radius: 50%; cursor: pointer; font-size: 20px; transition: all 0.3s ease;" onmouseover="this.style.background='#1f5f8b'; this.style.boxShadow='0 4px 12px rgba(0,0,0,0.2);'" onmouseout="this.style.background='#2980b9'; this.style.boxShadow='none';">❮</button>
 
             <!-- Next Button -->
-            <button onclick="changeRecSlide(1)" style="position: absolute; right: -50px; top: 50%; transform: translateY(-50%); background: #2980b9; color: white; border: none; width: 40px; height: 40px; border-radius: 50%; cursor: pointer; font-size: 20px; transition: all 0.3s ease;" onmouseover="this.style.background='#1f5f8b'; this.style.boxShadow='0 4px 12px rgba(0,0,0,0.2);'" onmouseout="this.style.background='#2980b9'; this.style.boxShadow='none';">❯</button>
+            <button onclick="changeRecSlide(1)" style="position: absolute; right: 10px; top: 50%; transform: translateY(-50%); background: #2980b9; color: white; border: none; width: 40px; height: 40px; border-radius: 50%; cursor: pointer; font-size: 20px; transition: all 0.3s ease;" onmouseover="this.style.background='#1f5f8b'; this.style.boxShadow='0 4px 12px rgba(0,0,0,0.2);'" onmouseout="this.style.background='#2980b9'; this.style.boxShadow='none';">❯</button>
 
-            <!-- Indicators -->
-            <div style="display: flex; justify-content: center; gap: 10px; margin-top: 20px;">
-                <span class="rec-indicator active-rec-indicator" onclick="currentRecSlide(0)" style="width: 12px; height: 12px; border-radius: 50%; background: #2980b9; cursor: pointer; transition: all 0.3s ease;"></span>
-                <span class="rec-indicator" onclick="currentRecSlide(1)" style="width: 12px; height: 12px; border-radius: 50%; background: #bdc3c7; cursor: pointer; transition: all 0.3s ease;"></span>
-                <span class="rec-indicator" onclick="currentRecSlide(2)" style="width: 12px; height: 12px; border-radius: 50%; background: #bdc3c7; cursor: pointer; transition: all 0.3s ease;"></span>
-                <span class="rec-indicator" onclick="currentRecSlide(3)" style="width: 12px; height: 12px; border-radius: 50%; background: #bdc3c7; cursor: pointer; transition: all 0.3s ease;"></span>
+            <!-- Slider -->
+            <div style="margin-top: 20px; display: flex; align-items: center; justify-content: center; gap: 5px;">
+                <span style="font-size: 12px; color: #999; font-weight: bold;" id="recSlideCounter">1 / 4</span>
             </div>
         </div>
     </div>
@@ -271,18 +268,13 @@ redirect_from:
 
 <script>
 let currentRecIndex = 0;
-let recAutoPlayInterval;
 
 function changeRecSlide(n) {
-    clearInterval(recAutoPlayInterval);
     showRecSlide(currentRecIndex += n);
-    startRecAutoPlay();
 }
 
 function currentRecSlide(n) {
-    clearInterval(recAutoPlayInterval);
     showRecSlide(currentRecIndex = n);
-    startRecAutoPlay();
 }
 
 function showRecSlide(n) {
@@ -308,30 +300,20 @@ function showRecSlide(n) {
         }
     });
     
-    indicators.forEach((indicator, index) => {
-        if (index === currentRecIndex) {
-            indicator.classList.add('active-rec-indicator');
-            indicator.style.background = '#2980b9';
-        } else {
-            indicator.classList.remove('active-rec-indicator');
-            indicator.style.background = '#bdc3c7';
-        }
-    });
+    const slider = document.getElementById('recSlider');
+    const counter = document.getElementById('recSlideCounter');
+    if (counter) {
+        counter.textContent = (currentRecIndex + 1) + ' / 4';
+    }
 }
 
-function startRecAutoPlay() {
-    recAutoPlayInterval = setInterval(() => {
-        currentRecIndex++;
-        const slides = document.querySelectorAll('.rec-slide');
-        if (currentRecIndex >= slides.length) {
-            currentRecIndex = 0;
-        }
-        showRecSlide(currentRecIndex);
-    }, 10000);
-}
-
-// Start auto-play when page loads
-document.addEventListener('DOMContentLoaded', startRecAutoPlay);
+// Initialize counter on page load
+document.addEventListener('DOMContentLoaded', function() {
+    const counter = document.getElementById('recSlideCounter');
+    if (counter) {
+        counter.textContent = '1 / 4';
+    }
+});
 </script>
 
 <hr />
