@@ -232,12 +232,15 @@ redirect_from:
     }
     
     button[onclick*="changeRecSlide"] {
-        position: static !important;
-        display: none;
+        position: absolute !important;
+        display: block !important;
+        width: 35px !important;
+        height: 35px !important;
+        font-size: 18px !important;
     }
     
     div[style*="position: relative; background: white; border-radius: 12px; padding: 30px 50px"] {
-        padding: 20px 15px 20px 15px !important;
+        padding: 20px 50px 20px 50px !important;
     }
 }
 
@@ -261,7 +264,22 @@ redirect_from:
     }
     
     div[style*="position: relative; background: white; border-radius: 12px; padding: 30px 50px"] {
-        padding: 15px 10px 15px 10px !important;
+        padding: 15px 45px 15px 45px !important;
+    }
+    
+    button[onclick*="changeRecSlide"] {
+        position: absolute !important;
+        display: block !important;
+        width: 30px !important;
+        height: 30px !important;
+        font-size: 16px !important;
+        left: 5px !important;
+        right: auto !important;
+    }
+    
+    button[onclick*="changeRecSlide"]:last-of-type {
+        left: auto !important;
+        right: 5px !important;
     }
 }
 </style>
