@@ -364,9 +364,9 @@
 <div style="font-size: 16px; line-height: 1.6; margin-bottom: 30px; background-color: #f9f9f9; padding: 20px; border-radius: 8px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
     <div style="max-width: 800px; margin: 0 auto;">
         <!-- Carousel Container -->
-        <div style="position: relative; background: white; border-radius: 12px; padding: 30px 50px 30px 50px; box-shadow: 0 3px 10px rgba(0,0,0,0.08);">
+        <div style="position: relative; background: white; border-radius: 12px; padding: 30px 50px 30px 50px; box-shadow: 0 3px 10px rgba(0,0,0,0.08); box-sizing: border-box; overflow: hidden;">
             <!-- Carousel Slides -->
-            <div class="recommendations-carousel" style="position: relative; border-radius: 8px; min-height: 250px;">
+            <div class="recommendations-carousel" style="position: relative; border-radius: 8px; min-height: 250px; overflow: hidden;">
                 <!-- Slide 1 -->
                 <div class="rec-slide active-rec-slide" style="display: block; opacity: 1; visibility: visible; z-index: 10;">
                     <div style="display: flex; gap: 15px; margin-bottom: 12px;">
@@ -475,6 +475,8 @@
     left: 0;
     right: 0;
     width: 100%;
+    box-sizing: border-box;
+    padding: 0 10px;
 }
 
 .rec-slide[style*="display: block"] {
@@ -497,6 +499,53 @@
 
 .rec-indicator:hover {
     transform: scale(1.2);
+}
+
+@media (max-width: 768px) {
+    .recommendations-carousel {
+        padding: 20px 0;
+    }
+    
+    .rec-slide {
+        padding: 0 5px;
+    }
+    
+    .rec-slide div[style*="display: flex; gap: 15px"] {
+        gap: 10px !important;
+    }
+    
+    button[onclick*="changeRecSlide"] {
+        position: static !important;
+        display: none;
+    }
+    
+    div[style*="position: relative; background: white; border-radius: 12px; padding: 30px 50px"] {
+        padding: 20px 15px 20px 15px !important;
+    }
+}
+
+@media (max-width: 480px) {
+    .rec-slide {
+        padding: 0;
+        font-size: 12px;
+    }
+    
+    .rec-slide div[style*="font-size: 13px"] {
+        font-size: 12px !important;
+        line-height: 1.4;
+    }
+    
+    .rec-slide div[style*="font-size: 14px"] {
+        font-size: 12px !important;
+    }
+    
+    .rec-slide div[style*="font-weight: bold; font-size: 16px"] {
+        font-size: 14px !important;
+    }
+    
+    div[style*="position: relative; background: white; border-radius: 12px; padding: 30px 50px"] {
+        padding: 15px 10px 15px 10px !important;
+    }
 }
 </style>
 
