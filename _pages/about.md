@@ -13,7 +13,7 @@ redirect_from:
         <h1 style="margin-bottom: 20px;">About me</h1>
         <div style="font-size: 16px; line-height: 1.8; text-align: justify; background-color: #f9f9f9; padding: 20px; border-radius: 8px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
             <p>
-                I'm a passionate <b>AI/ML Engineer</b> with <b>4+ years of experience</b> designing and deploying impactful AI solutions. I hold a Master's degree in Computer Science from <b>University of Southern California</b> (✌️) with a specialization in Artificial Intelligence, and have honed my expertise across <b>natural language processing</b>, <b>computer vision</b>, and <b>AI infrastructure</b>.
+                I'm a passionate <b>AI/ML Engineer</b> with <b>5+ years of experience</b> designing and deploying impactful AI solutions. I hold a Master's degree in Computer Science from <b>University of Southern California</b> (✌️) with a specialization in Artificial Intelligence, and have honed my expertise across <b>natural language processing</b>, <b>computer vision</b>, and <b>AI infrastructure</b>.
             </p>
             <p>
                 Currently, I work as an <b style="color: #FF6D2D; background: linear-gradient(120deg, rgba(255, 109, 45, 0.1) 0%, rgba(255, 109, 45, 0.05) 100%); padding: 2px 6px; border-radius: 4px;">Applied AI Engineer at Mistral AI</b>, where I design and deploy innovative AI solutions for customer-facing projects and real-world use cases.
