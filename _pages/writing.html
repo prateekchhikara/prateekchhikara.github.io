@@ -391,16 +391,25 @@ author_profile: true
 
 <script>
   // Make entire card clickable
-  document.querySelectorAll('.writing-card').forEach(card => {
-    card.addEventListener('click', function(e) {
-      // Don't navigate if clicking on a tag (which might have its own styles)
-      if (e.target.classList.contains('tag')) {
-        return;
-      }
-      const link = this.querySelector('.writing-title a');
-      if (link) {
-        link.click();
-      }
+  function initCardClicks() {
+    document.querySelectorAll('.writing-card').forEach(card => {
+      card.addEventListener('click', function(e) {
+        // Don't navigate if clicking on a tag (which might have its own styles)
+        if (e.target.classList.contains('tag')) {
+          return;
+        }
+        const link = this.querySelector('.writing-title a');
+        if (link) {
+          window.open(link.href, link.target || '_self');
+        }
+      });
     });
-  });
+  }
+  
+  // Run when DOM is ready
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', initCardClicks);
+  } else {
+    initCardClicks();
+  }
 </script>
