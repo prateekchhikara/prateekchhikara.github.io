@@ -19,7 +19,7 @@ redirect_from:
                 Currently, I work as an <b style="color: #FF6D2D; background: linear-gradient(120deg, rgba(255, 109, 45, 0.1) 0%, rgba(255, 109, 45, 0.05) 100%); padding: 2px 6px; border-radius: 4px;">Applied AI Engineer at Mistral AI</b>, where I design and deploy innovative AI solutions for customer-facing projects and real-world use cases.
             </p>
             <p>
-                My journey spans startups, research labs, and industry, where I excel at transforming complex ideas into practical, business-driven solutions. I am deeply committed to innovation and research, with <b>25+ publications</b> in leading conferences and journals, and <b>1400+ citations</b> <a href="https://scholar.google.com/citations?user=RQTJ_aIAAAAJ&hl" style="color: #2980b9; text-decoration: none; font-weight: bold;">on Google Scholar</a>. I thrive on solving challenging problems at the intersection of advanced AI and real-world impact.
+                My journey spans startups, research labs, and industry, where I excel at transforming complex ideas into practical, business-driven solutions. I am deeply committed to innovation and research, with <b>25+ publications</b> in leading conferences and journals, and <b>1500+ citations</b> <a href="https://scholar.google.com/citations?user=RQTJ_aIAAAAJ&hl" style="color: #2980b9; text-decoration: none; font-weight: bold;">on Google Scholar</a>. I thrive on solving challenging problems at the intersection of advanced AI and real-world impact.
             </p>
         </div>
     </div>
