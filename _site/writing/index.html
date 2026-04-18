@@ -349,6 +349,10 @@
   border-radius: 20px 20px 0 0;
 }
 
+.writing-card {
+  cursor: pointer;
+}
+
 .writing-card:hover {
   transform: translateY(-4px);
   box-shadow: 0 12px 30px rgba(0, 0, 0, 0.12);
@@ -644,6 +648,22 @@
 </style>
 <!-- Writing filter script -->
 <script src="/assets/js/writing-filter.js"></script>
+
+<script>
+  // Make entire card clickable
+  document.querySelectorAll('.writing-card').forEach(card => {
+    card.addEventListener('click', function(e) {
+      // Don't navigate if clicking on a tag (which might have its own styles)
+      if (e.target.classList.contains('tag')) {
+        return;
+      }
+      const link = this.querySelector('.writing-title a');
+      if (link) {
+        link.click();
+      }
+    });
+  });
+</script>
   </div>
 </div>
 
