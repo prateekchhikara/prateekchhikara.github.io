@@ -1,0 +1,11 @@
+.DS_Store
+.jekyll-cache/
+.sass-cache/
+.bundle/
+vendor/
+node_modules/
+npm-debug.log*
+Gemfile.lock.tmp
+
+# Generated locally by Jekyll. GitHub Pages rebuilds the site from source.
+_site/

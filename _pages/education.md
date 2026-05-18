@@ -9,7 +9,7 @@ author_profile: true
     <div class="education-card">
         <div class="education-header">
             <div class="logo-container">
-                <img src="/images/usc-logo.png" alt="USC Logo" class="education-logo"/>
+                <img src="/images/usc-logo.png" alt="USC Logo" class="education-logo" decoding="async"/>
             </div>
             <div class="education-info">
                 <h3>Master of Science in Computer Science</h3>
@@ -67,7 +67,7 @@ author_profile: true
     <div class="education-card">
         <div class="education-header">
             <div class="logo-container">
-                <img src="/images/thapar.png" alt="Thapar Logo" class="education-logo"/>
+                <img src="/images/thapar.png" alt="Thapar Logo" class="education-logo" loading="lazy" decoding="async"/>
             </div>
             <div class="education-info">
                 <h3>Bachelor of Engineering in Computer Engineering</h3>

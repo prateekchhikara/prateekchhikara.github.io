@@ -128,11 +128,10 @@ author_profile: true
   box-shadow: none;
 }
 
-.github-link img {
-  height: auto;
-  width: auto;
-  max-height: 32px;
-  max-width: 32px;
+.github-link i {
+  color: #24292f;
+  font-size: 1.8rem;
+  line-height: 1;
   margin: 0;
 }
 
@@ -150,15 +149,15 @@ author_profile: true
   <tr class="projects-row">
     <td style="padding: 0; vertical-align: top; border: none; width: 100%; box-sizing: border-box;">
       <div class="projects-card">
-        <img src="../images/sifra.png" alt="SIFRA: Super Intelligent & Friendly Responsive Agent" class="projects-image">
+        <img src="/images/sifra.png" alt="SIFRA: Super Intelligent & Friendly Responsive Agent" class="projects-image" loading="lazy" decoding="async" width="200" height="200">
         <div class="projects-content">
           <div class="projects-header">
             <div class="projects-title">
               SIFRA: Super Intelligent & Friendly Responsive Agent
             </div>
             <div class="projects-links">
-              <a href="https://github.com/prateekchhikara/sifra" target="_blank" class="github-link" title="GitHub Repository">
-                <img src="https://github.com/favicon.ico" alt="GitHub" />
+              <a href="https://github.com/prateekchhikara/sifra" target="_blank" rel="noopener noreferrer" class="github-link" title="GitHub Repository" aria-label="SIFRA GitHub repository">
+                <i class="fab fa-github" aria-hidden="true"></i>
               </a>
             </div>
           </div>
@@ -174,15 +173,15 @@ author_profile: true
   <tr class="projects-row">
     <td style="padding: 0; vertical-align: top; border: none; width: 100%; box-sizing: border-box;">
       <div class="projects-card">
-        <img src="../images/aisr.jpeg" alt="AISR: AI Sports Recap" class="projects-image">
+        <img src="/images/aisr.jpeg" alt="AISR: AI Sports Recap" class="projects-image" loading="lazy" decoding="async" width="200" height="200">
         <div class="projects-content">
           <div class="projects-header">
             <div class="projects-title">
               AISR: AI Sports Recap
             </div>
             <div class="projects-links">
-              <a href="https://github.com/prateekchhikara/sports-highlights/" target="_blank" class="github-link" title="GitHub Repository">
-                <img src="https://github.com/favicon.ico" alt="GitHub" />
+              <a href="https://github.com/prateekchhikara/sports-highlights/" target="_blank" rel="noopener noreferrer" class="github-link" title="GitHub Repository" aria-label="AI Sports Recap GitHub repository">
+                <i class="fab fa-github" aria-hidden="true"></i>
               </a>
             </div>
           </div>
@@ -199,15 +198,15 @@ author_profile: true
   <tr class="projects-row">
     <td style="padding: 0; vertical-align: top; border: none; width: 100%; box-sizing: border-box;">
       <div class="projects-card">
-        <img src="../images/mario.png" alt="Super Mario Brothers Gameplay using Reinforcement Learning" class="projects-image">
+        <img src="/images/mario.png" alt="Super Mario Brothers Gameplay using Reinforcement Learning" class="projects-image" loading="lazy" decoding="async" width="200" height="200">
         <div class="projects-content">
           <div class="projects-header">
             <div class="projects-title">
               Super Mario Brothers Gameplay using Reinforcement Learning
             </div>
             <div class="projects-links">
-              <a href="https://github.com/prateekchhikara/supermario" target="_blank" class="github-link" title="GitHub Repository">
-                <img src="https://github.com/favicon.ico" alt="GitHub" />
+              <a href="https://github.com/prateekchhikara/supermario" target="_blank" rel="noopener noreferrer" class="github-link" title="GitHub Repository" aria-label="Super Mario reinforcement learning GitHub repository">
+                <i class="fab fa-github" aria-hidden="true"></i>
               </a>
             </div>
           </div>
@@ -223,15 +222,15 @@ author_profile: true
   <tr class="projects-row">
     <td style="padding: 0; vertical-align: top; border: none; width: 100%; box-sizing: border-box;">
       <div class="projects-card">
-        <img src="../images/hmm.png" alt="Hidden Markov Model for Part of Speech Tagging" class="projects-image">
+        <img src="/images/hmm.png" alt="Hidden Markov Model for Part of Speech Tagging" class="projects-image" loading="lazy" decoding="async" width="200" height="200">
         <div class="projects-content">
           <div class="projects-header">
             <div class="projects-title">
               Hidden Markov Model for Part of Speech Tagging
             </div>
             <div class="projects-links">
-              <a href="https://github.com/prateekchhikara/POSTagging_HMM" target="_blank" class="github-link" title="GitHub Repository">
-                <img src="https://github.com/favicon.ico" alt="GitHub" />
+              <a href="https://github.com/prateekchhikara/POSTagging_HMM" target="_blank" rel="noopener noreferrer" class="github-link" title="GitHub Repository" aria-label="Hidden Markov Model POS tagging GitHub repository">
+                <i class="fab fa-github" aria-hidden="true"></i>
               </a>
             </div>
           </div>
@@ -247,15 +246,15 @@ author_profile: true
   <tr class="projects-row">
     <td style="padding: 0; vertical-align: top; border: none; width: 100%; box-sizing: border-box;">
       <div class="projects-card">
-        <img src="../images/vae.png" alt="Variational Autoencoders for Digit Generation" class="projects-image">
+        <img src="/images/vae.png" alt="Variational Autoencoders for Digit Generation" class="projects-image" loading="lazy" decoding="async" width="200" height="200">
         <div class="projects-content">
           <div class="projects-header">
             <div class="projects-title">
               Variational Autoencoders for Digit Generation
             </div>
             <div class="projects-links">
-              <a href="https://github.com/prateekchhikara/deep-learning-assignment2" target="_blank" class="github-link" title="GitHub Repository">
-                <img src="https://github.com/favicon.ico" alt="GitHub" />
+              <a href="https://github.com/prateekchhikara/deep-learning-assignment2" target="_blank" rel="noopener noreferrer" class="github-link" title="GitHub Repository" aria-label="Variational autoencoders GitHub repository">
+                <i class="fab fa-github" aria-hidden="true"></i>
               </a>
             </div>
           </div>
@@ -271,15 +270,15 @@ author_profile: true
   <tr class="projects-row">
     <td style="padding: 0; vertical-align: top; border: none; width: 100%; box-sizing: border-box;">
       <div class="projects-card">
-        <img src="../images/gan.png" alt="Generative Adversarial Networks for Image Generation" class="projects-image">
+        <img src="/images/gan.png" alt="Generative Adversarial Networks for Image Generation" class="projects-image" loading="lazy" decoding="async" width="200" height="200">
         <div class="projects-content">
           <div class="projects-header">
             <div class="projects-title">
               Generative Adversarial Networks for Image Generation
             </div>
             <div class="projects-links">
-              <a href="https://github.com/prateekchhikara/deep-learning-assignment2" target="_blank" class="github-link" title="GitHub Repository">
-                <img src="https://github.com/favicon.ico" alt="GitHub" />
+              <a href="https://github.com/prateekchhikara/deep-learning-assignment2" target="_blank" rel="noopener noreferrer" class="github-link" title="GitHub Repository" aria-label="Generative adversarial networks GitHub repository">
+                <i class="fab fa-github" aria-hidden="true"></i>
               </a>
             </div>
           </div>
@@ -296,15 +295,15 @@ author_profile: true
   <tr class="projects-row">
     <td style="padding: 0; vertical-align: top; border: none; width: 100%; box-sizing: border-box;">
       <div class="projects-card">
-        <img src="../images/white_balance.png" alt="Image White Balance Correction using Variational Autoencoders" class="projects-image">
+        <img src="/images/white_balance.png" alt="Image White Balance Correction using Variational Autoencoders" class="projects-image" loading="lazy" decoding="async" width="200" height="200">
         <div class="projects-content">
           <div class="projects-header">
             <div class="projects-title">
               Image White Balance Correction using Variational Autoencoders
             </div>
             <div class="projects-links">
-              <a href="https://github.com/prateekchhikara/white_balance_correction" target="_blank" class="github-link" title="GitHub Repository">
-                <img src="https://github.com/favicon.ico" alt="GitHub" />
+              <a href="https://github.com/prateekchhikara/white_balance_correction" target="_blank" rel="noopener noreferrer" class="github-link" title="GitHub Repository" aria-label="White balance correction GitHub repository">
+                <i class="fab fa-github" aria-hidden="true"></i>
               </a>
             </div>
           </div>
@@ -321,15 +320,15 @@ author_profile: true
   <tr class="projects-row">
     <td style="padding: 0; vertical-align: top; border: none; width: 100%; box-sizing: border-box;">
       <div class="projects-card">
-        <img src="../images/ner.png" alt="Bidirectional LSTM for Named Entity Recognition" class="projects-image">
+        <img src="/images/ner.png" alt="Bidirectional LSTM for Named Entity Recognition" class="projects-image" loading="lazy" decoding="async" width="200" height="200">
         <div class="projects-content">
           <div class="projects-header">
             <div class="projects-title">
               Bidirectional LSTM for Named Entity Recognition
             </div>
             <div class="projects-links">
-              <a href="https://github.com/prateekchhikara/NER_biLSTM" target="_blank" class="github-link" title="GitHub Repository">
-                <img src="https://github.com/favicon.ico" alt="GitHub" />
+              <a href="https://github.com/prateekchhikara/NER_biLSTM" target="_blank" rel="noopener noreferrer" class="github-link" title="GitHub Repository" aria-label="Named entity recognition GitHub repository">
+                <i class="fab fa-github" aria-hidden="true"></i>
               </a>
             </div>
           </div>
@@ -402,5 +401,3 @@ author_profile: true
   }
 }
 </style>
-
-

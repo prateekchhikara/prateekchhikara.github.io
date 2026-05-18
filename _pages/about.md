@@ -3,7 +3,7 @@ permalink: /
 title: ""
 excerpt: "About me"
 author_profile: true
-redirect_from: 
+redirect_from:
   - /about/
   - /about.html
 ---
@@ -24,10 +24,10 @@ redirect_from:
         </div>
     </div>
     <div style="flex: 1; min-width: 280px; display: flex; flex-direction: column; gap: 20px;">
-        <img src="/images/pc_grad.jpg" alt="Profile Picture" style="width: 100%; border-radius: 8px; box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);"/>
+        <img src="/images/pc_grad.jpg" alt="Prateek Chhikara at graduation" style="width: 100%; border-radius: 8px; box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);" decoding="async" width="1200" height="1796"/>
         <!-- Mistral AI Banner -->
         <div style="border-radius: 8px; overflow: hidden; box-shadow: 0 4px 12px rgba(255, 109, 45, 0.2); border: 2px solid #FF6D2D;">
-            <img src="/images/mistral-banner.png" alt="Mistral AI" style="width: 100%; height: auto; display: block;"/>
+            <img src="/images/mistral-banner.png" alt="Mistral AI" style="width: 100%; height: auto; display: block;" loading="lazy" decoding="async" width="1080" height="675"/>
         </div>
     </div>
 </div>
@@ -91,13 +91,13 @@ redirect_from:
                 <div class="rec-slide active-rec-slide" style="display: block; opacity: 1; visibility: visible; z-index: 10;">
                     <div style="display: flex; gap: 15px; margin-bottom: 12px;">
                         <div style="width: 60px; height: 60px; border-radius: 50%; overflow: hidden; border: 2px solid #f0f0f0; flex-shrink: 0;">
-                            <img src="/images/jamie.jpeg" alt="Jamie McInally" style="width: 100%; height: 100%; object-fit: cover;">
+                            <img src="/images/jamie.jpeg" alt="Jamie McInally" style="width: 100%; height: 100%; object-fit: cover;" loading="lazy" decoding="async">
                         </div>
                         <div style="flex-grow: 1;">
                             <div style="font-weight: bold; font-size: 16px; margin-bottom: 3px;">
                                 Jamie McInally
                                 <a href="https://uk.linkedin.com/in/jamie-mcinally-75453766" style="text-decoration: none;">
-                                    <img src="/images/linkedin.png" alt="LinkedIn" style="width: 16px; height: 16px; vertical-align: middle; margin-left: 4px;"> 
+                            <img src="/images/linkedin.png" alt="LinkedIn" style="width: 16px; height: 16px; vertical-align: middle; margin-left: 4px;" loading="lazy" decoding="async">
                                 </a>
                             </div>
                             <div style="font-size: 14px; color: #666;">CEO of Autoenhance.ai</div>
@@ -110,13 +110,13 @@ redirect_from:
                 <div class="rec-slide" style="display: block; opacity: 0; visibility: hidden; z-index: 0;">
                     <div style="display: flex; gap: 15px; margin-bottom: 12px;">
                         <div style="width: 60px; height: 60px; border-radius: 50%; overflow: hidden; border: 2px solid #f0f0f0; flex-shrink: 0;">
-                            <img src="/images/filip.jpeg" alt="Filip Ilievski" style="width: 100%; height: 100%; object-fit: cover;">
+                            <img src="/images/filip.jpeg" alt="Filip Ilievski" style="width: 100%; height: 100%; object-fit: cover;" loading="lazy" decoding="async">
                         </div>
                         <div style="flex-grow: 1;">
                             <div style="font-weight: bold; font-size: 16px; margin-bottom: 3px;">
                                 Filip Ilievski
                                 <a href="https://www.linkedin.com/in/filipilievski91" style="text-decoration: none;">
-                                    <img src="/images/linkedin.png" alt="LinkedIn" style="width: 16px; height: 16px; vertical-align: middle; margin-left: 4px;"> 
+                                    <img src="/images/linkedin.png" alt="LinkedIn" style="width: 16px; height: 16px; vertical-align: middle; margin-left: 4px;" loading="lazy" decoding="async">
                                 </a>
                             </div>
                             <div style="font-size: 14px; color: #666;">Assistant Professor (Sr.) at VU Amsterdam</div>
@@ -129,13 +129,13 @@ redirect_from:
                 <div class="rec-slide" style="display: block; opacity: 0; visibility: hidden; z-index: 0;">
                     <div style="display: flex; gap: 15px; margin-bottom: 12px;">
                         <div style="width: 60px; height: 60px; border-radius: 50%; overflow: hidden; border: 2px solid #f0f0f0; flex-shrink: 0;">
-                            <img src="/images/chirag.jpeg" alt="Chirag Sharma" style="width: 100%; height: 100%; object-fit: cover;">
+                            <img src="/images/chirag.jpeg" alt="Chirag Sharma" style="width: 100%; height: 100%; object-fit: cover;" loading="lazy" decoding="async">
                         </div>
                         <div style="flex-grow: 1;">
                             <div style="font-weight: bold; font-size: 16px; margin-bottom: 3px;">
                                 Chirag Sharma
                                 <a href="https://www.linkedin.com/in/chiraggemini" style="text-decoration: none;">
-                                    <img src="/images/linkedin.png" alt="LinkedIn" style="width: 16px; height: 16px; vertical-align: middle; margin-left: 4px;"> 
+                                    <img src="/images/linkedin.png" alt="LinkedIn" style="width: 16px; height: 16px; vertical-align: middle; margin-left: 4px;" loading="lazy" decoding="async">
                                 </a>
                             </div>
                             <div style="font-size: 14px; color: #666;">Product Manager @ Jio Platforms</div>
@@ -148,13 +148,13 @@ redirect_from:
                 <div class="rec-slide" style="display: block; opacity: 0; visibility: hidden; z-index: 0;">
                     <div style="display: flex; gap: 15px; margin-bottom: 12px;">
                         <div style="width: 60px; height: 60px; border-radius: 50%; overflow: hidden; border: 2px solid #f0f0f0; flex-shrink: 0;">
-                            <img src="/images/anil.jpeg" alt="Anil Goyal" style="width: 100%; height: 100%; object-fit: cover;">
+                            <img src="/images/anil.jpeg" alt="Anil Goyal" style="width: 100%; height: 100%; object-fit: cover;" loading="lazy" decoding="async">
                         </div>
                         <div style="flex-grow: 1;">
                             <div style="font-weight: bold; font-size: 16px; margin-bottom: 3px;">
                                 Anil Goyal
                                 <a href="https://www.linkedin.com/in/anilgoyal91" style="text-decoration: none;">
-                                    <img src="/images/linkedin.png" alt="LinkedIn" style="width: 16px; height: 16px; vertical-align: middle; margin-left: 4px;"> 
+                                    <img src="/images/linkedin.png" alt="LinkedIn" style="width: 16px; height: 16px; vertical-align: middle; margin-left: 4px;" loading="lazy" decoding="async">
                                 </a>
                             </div>
                             <div style="font-size: 14px; color: #666;">Principal Data Scientist @ Mastercard</div>
@@ -165,14 +165,14 @@ redirect_from:
             </div>
 
             <!-- Previous Button -->
-            <button onclick="changeRecSlide(-1)" style="position: absolute; left: 10px; top: 50%; transform: translateY(-50%); background: #2980b9; color: white; border: none; width: 40px; height: 40px; border-radius: 50%; cursor: pointer; font-size: 20px; transition: all 0.3s ease;" onmouseover="this.style.background='#1f5f8b'; this.style.boxShadow='0 4px 12px rgba(0,0,0,0.2);'" onmouseout="this.style.background='#2980b9'; this.style.boxShadow='none';">❮</button>
+            <button type="button" aria-label="Previous recommendation" onclick="changeRecSlide(-1)" style="position: absolute; left: 10px; top: 50%; transform: translateY(-50%); background: #2980b9; color: white; border: none; width: 40px; height: 40px; border-radius: 50%; cursor: pointer; font-size: 20px; transition: all 0.3s ease;" onmouseover="this.style.background='#1f5f8b'; this.style.boxShadow='0 4px 12px rgba(0,0,0,0.2);'" onmouseout="this.style.background='#2980b9'; this.style.boxShadow='none';">❮</button>
 
             <!-- Next Button -->
-            <button onclick="changeRecSlide(1)" style="position: absolute; right: 10px; top: 50%; transform: translateY(-50%); background: #2980b9; color: white; border: none; width: 40px; height: 40px; border-radius: 50%; cursor: pointer; font-size: 20px; transition: all 0.3s ease;" onmouseover="this.style.background='#1f5f8b'; this.style.boxShadow='0 4px 12px rgba(0,0,0,0.2);'" onmouseout="this.style.background='#2980b9'; this.style.boxShadow='none';">❯</button>
+            <button type="button" aria-label="Next recommendation" onclick="changeRecSlide(1)" style="position: absolute; right: 10px; top: 50%; transform: translateY(-50%); background: #2980b9; color: white; border: none; width: 40px; height: 40px; border-radius: 50%; cursor: pointer; font-size: 20px; transition: all 0.3s ease;" onmouseover="this.style.background='#1f5f8b'; this.style.boxShadow='0 4px 12px rgba(0,0,0,0.2);'" onmouseout="this.style.background='#2980b9'; this.style.boxShadow='none';">❯</button>
 
             <!-- Slider -->
             <div style="margin-top: 20px; display: flex; align-items: center; justify-content: center; gap: 5px;">
-                <span style="font-size: 12px; color: #999; font-weight: bold;" id="recSlideCounter">1 / 4</span>
+                <span style="font-size: 12px; color: #999; font-weight: bold;" id="recSlideCounter" aria-live="polite">1 / 4</span>
             </div>
         </div>
     </div>
@@ -222,15 +222,15 @@ redirect_from:
     .recommendations-carousel {
         padding: 20px 0;
     }
-    
+
     .rec-slide {
         padding: 0 5px;
     }
-    
+
     .rec-slide div[style*="display: flex; gap: 15px"] {
         gap: 10px !important;
     }
-    
+
     button[onclick*="changeRecSlide"] {
         position: absolute !important;
         display: block !important;
@@ -238,7 +238,7 @@ redirect_from:
         height: 35px !important;
         font-size: 18px !important;
     }
-    
+
     div[style*="position: relative; background: white; border-radius: 12px; padding: 30px 50px"] {
         padding: 20px 50px 20px 50px !important;
     }
@@ -249,24 +249,24 @@ redirect_from:
         padding: 0;
         font-size: 12px;
     }
-    
+
     .rec-slide div[style*="font-size: 13px"] {
         font-size: 12px !important;
         line-height: 1.4;
     }
-    
+
     .rec-slide div[style*="font-size: 14px"] {
         font-size: 12px !important;
     }
-    
+
     .rec-slide div[style*="font-weight: bold; font-size: 16px"] {
         font-size: 14px !important;
     }
-    
+
     div[style*="position: relative; background: white; border-radius: 12px; padding: 30px 50px"] {
         padding: 15px 45px 15px 45px !important;
     }
-    
+
     button[onclick*="changeRecSlide"] {
         position: absolute !important;
         display: block !important;
@@ -276,7 +276,7 @@ redirect_from:
         left: 5px !important;
         right: auto !important;
     }
-    
+
     button[onclick*="changeRecSlide"]:last-of-type {
         left: auto !important;
         right: 5px !important;
@@ -297,28 +297,27 @@ function currentRecSlide(n) {
 
 function showRecSlide(n) {
     const slides = document.querySelectorAll('.rec-slide');
-    const indicators = document.querySelectorAll('.rec-indicator');
-    
     if (n >= slides.length) {
         currentRecIndex = 0;
     }
     if (n < 0) {
         currentRecIndex = slides.length - 1;
     }
-    
+
     slides.forEach((slide, index) => {
         if (index === currentRecIndex) {
             slide.style.opacity = '1';
             slide.style.visibility = 'visible';
             slide.style.zIndex = '10';
+            slide.setAttribute('aria-hidden', 'false');
         } else {
             slide.style.opacity = '0';
             slide.style.visibility = 'hidden';
             slide.style.zIndex = '0';
+            slide.setAttribute('aria-hidden', 'true');
         }
     });
-    
-    const slider = document.getElementById('recSlider');
+
     const counter = document.getElementById('recSlideCounter');
     if (counter) {
         counter.textContent = (currentRecIndex + 1) + ' / 4';
@@ -331,6 +330,7 @@ document.addEventListener('DOMContentLoaded', function() {
     if (counter) {
         counter.textContent = '1 / 4';
     }
+    showRecSlide(currentRecIndex);
 });
 </script>
 
@@ -340,11 +340,13 @@ document.addEventListener('DOMContentLoaded', function() {
 
 <div style="text-align: center; margin: 30px 0; padding: 15px; background: linear-gradient(to right, #f9f9f9, #ffffff, #f9f9f9); border-radius: 10px; box-shadow: 0 2px 10px rgba(0,0,0,0.05);">
     <p style="font-size: 14px; color: #666; margin-bottom: 10px;">Visitors from around the world</p>
-    <a href="http://s01.flagcounter.com/more/nxX">
-        <img src="https://s01.flagcounter.com/count2/nxX/bg_FFFFFF/txt_000000/border_CCCCCC/columns_5/maxflags_20/viewers_0/labels_0/pageviews_0/flags_0/percent_0/" 
-             alt="Flag Counter" 
-             style="border: 0; border-radius: 5px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); transition: transform 0.2s ease-in-out;" 
-             onmouseover="this.style.transform='scale(1.02)'" 
+    <a href="https://s01.flagcounter.com/more/nxX">
+        <img src="https://s01.flagcounter.com/count2/nxX/bg_FFFFFF/txt_000000/border_CCCCCC/columns_5/maxflags_20/viewers_0/labels_0/pageviews_0/flags_0/percent_0/"
+             alt="Flag Counter"
+             style="border: 0; border-radius: 5px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); transition: transform 0.2s ease-in-out;"
+             loading="lazy"
+             decoding="async"
+             onmouseover="this.style.transform='scale(1.02)'"
              onmouseout="this.style.transform='scale(1)'">
     </a>
 </div>

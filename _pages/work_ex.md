@@ -9,7 +9,7 @@ author_profile: true
     <div class="work-card">
         <div class="work-header">
             <div class="logo-container">
-                <img src="/images/mistral.png" alt="Mistral AI Logo" class="work-logo"/>
+                <img src="/images/mistral.png" alt="Mistral AI Logo" class="work-logo" decoding="async"/>
             </div>
             <div class="work-info">
                 <h3>Applied AI Engineer</h3>
@@ -35,7 +35,7 @@ author_profile: true
     <div class="work-card">
         <div class="work-header">
             <div class="logo-container">
-                <img src="/images/mem0.jpeg" alt="Mem0 Logo" class="work-logo"/>
+                <img src="/images/mem0.jpeg" alt="Mem0 Logo" class="work-logo" loading="lazy" decoding="async"/>
             </div>
             <div class="work-info">
                 <h3>Founding AI Engineer</h3>
@@ -65,7 +65,7 @@ author_profile: true
     <div class="work-card">
         <div class="work-header">
             <div class="logo-container">
-                <img src="/images/autoenhance.jpeg" alt="Autoenhance Logo" class="work-logo"/>
+                <img src="/images/autoenhance.jpeg" alt="Autoenhance Logo" class="work-logo" loading="lazy" decoding="async"/>
             </div>
             <div class="work-info">
                 <h3>AI Engineer Intern</h3>
@@ -95,7 +95,7 @@ author_profile: true
     <div class="work-card">
         <div class="work-header">
             <div class="logo-container">
-                <img src="/images/usc-isi.png" alt="USC-ISI Logo" class="work-logo"/>
+                <img src="/images/usc-isi.png" alt="USC-ISI Logo" class="work-logo" loading="lazy" decoding="async"/>
             </div>
             <div class="work-info">
                 <h3>Graduate Researcher</h3>
@@ -125,7 +125,7 @@ author_profile: true
     <div class="work-card">
         <div class="work-header">
             <div class="logo-container">
-                <img src="/images/housing_logo.png" alt="Housing Logo" class="work-logo"/>
+                <img src="/images/housing_logo.png" alt="Housing.com Logo" class="work-logo" loading="lazy" decoding="async"/>
             </div>
             <div class="work-info">
                 <h3>Data Scientist</h3>
@@ -152,16 +152,16 @@ author_profile: true
             </div>
             <div class="image-gallery">
                 <a class="image-link" href="/images/carousel1-4.png">
-                    <img src="/images/carousel1-4-small.png" alt="Project Image 1"/>
+                    <img src="/images/carousel1-4-small.png" alt="Real-estate image processing result preview 1" loading="lazy" decoding="async" width="160" height="120"/>
                 </a>
                 <a class="image-link" href="/images/carousel1-3.png">
-                    <img src="/images/carousel1-3-small.png" alt="Project Image 2"/>
+                    <img src="/images/carousel1-3-small.png" alt="Real-estate image processing result preview 2" loading="lazy" decoding="async" width="160" height="120"/>
                 </a>
                 <a class="image-link" href="/images/carousel1-2.png">
-                    <img src="/images/carousel1-2-small.png" alt="Project Image 3"/>
+                    <img src="/images/carousel1-2-small.png" alt="Real-estate image processing result preview 3" loading="lazy" decoding="async" width="160" height="120"/>
                 </a>
                 <a class="image-link" href="/images/carousel1-1.png">
-                    <img src="/images/carousel1-1-small.png" alt="Project Image 4"/>
+                    <img src="/images/carousel1-1-small.png" alt="Real-estate image processing result preview 4" loading="lazy" decoding="async" width="160" height="120"/>
                 </a>
             </div>
         </div>
@@ -170,7 +170,7 @@ author_profile: true
     <div class="work-card">
         <div class="work-header">
             <div class="logo-container">
-                <img src="/images/proptiger.png" alt="Proptiger Logo" class="work-logo"/>
+                <img src="/images/proptiger.png" alt="PropTiger Logo" class="work-logo" loading="lazy" decoding="async"/>
             </div>
             <div class="work-info">
                 <h3>Data Scientist</h3>

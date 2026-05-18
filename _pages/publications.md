@@ -105,7 +105,7 @@ author_profile: true
 
 <div style="width: 100%; box-sizing: border-box;">
   <div class="publication-card">
-    <img src="../images/calibration.png" alt="Mind the confidence gap paper" class="publication-image">
+    <img src="/images/calibration.png" alt="Mind the confidence gap paper" class="publication-image" loading="lazy" decoding="async" width="800" height="611">
     <div class="publication-content">
       <div class="publication-title">
         <a href="https://openreview.net/forum?id=lyaHnHDdZl" target="_blank" rel="noopener noreferrer">
@@ -120,7 +120,7 @@ author_profile: true
   </div>
 
   <div class="publication-card">
-    <img src="../images/mem0_paper.png" alt="Mem0 paper" class="publication-image">
+    <img src="/images/mem0_paper.png" alt="Mem0 paper" class="publication-image" loading="lazy" decoding="async" width="1626" height="790">
     <div class="publication-content">
       <div class="publication-title">
         <a href="https://arxiv.org/abs/2504.19413" target="_blank" rel="noopener noreferrer">
@@ -136,7 +136,7 @@ author_profile: true
 
 
   <div class="publication-card">
-    <img src="../images/mllm_knows.png" alt="MLLMs Know Where to Look paper" class="publication-image">
+    <img src="/images/mllm_knows.png" alt="MLLMs Know Where to Look paper" class="publication-image" loading="lazy" decoding="async" width="1000" height="482">
     <div class="publication-content">
       <div class="publication-title">
         <a href="https://openreview.net/forum?id=DgaY5mDdmT" target="_blank" rel="noopener noreferrer">
@@ -152,7 +152,7 @@ author_profile: true
 
 
   <div class="publication-card">
-    <img src="../images/wacv.png" alt="FIRE paper" class="publication-image">
+    <img src="/images/wacv.png" alt="FIRE paper" class="publication-image" loading="lazy" decoding="async" width="576" height="250">
     <div class="publication-content">
       <div class="publication-title">
         <a href="https://openaccess.thecvf.com/content/WACV2024/html/Chhikara_FIRE_Food_Image_to_REcipe_Generation_WACV_2024_paper.html" target="_blank" rel="noopener noreferrer">
@@ -167,7 +167,7 @@ author_profile: true
   </div>
 
   <div class="publication-card">
-    <img src="../images/kcap.png" alt="KCap paper" class="publication-image">
+    <img src="/images/kcap.png" alt="KCap paper" class="publication-image" loading="lazy" decoding="async" width="576" height="378">
     <div class="publication-content">
       <div class="publication-title">
         <a href="https://dl.acm.org/doi/10.1145/3587259.3627561" target="_blank" rel="noopener noreferrer">
