@@ -283,7 +283,7 @@ a.badge:hover {
 
   <div class="publication-card">
     <div class="publication-image-wrap">
-      <img src="/images/calibration.png" alt="Mind the confidence gap paper" class="publication-image" loading="lazy" decoding="async">
+      <img src="/images/calibration.webp" alt="Mind the confidence gap paper" class="publication-image" loading="lazy" decoding="async">
     </div>
     <div class="publication-content">
       <div class="publication-title">
@@ -300,7 +300,7 @@ a.badge:hover {
 
   <div class="publication-card">
     <div class="publication-image-wrap">
-      <img src="/images/mem0_paper.png" alt="Mem0 paper" class="publication-image" loading="lazy" decoding="async">
+      <img src="/images/mem0_paper.webp" alt="Mem0 paper" class="publication-image" loading="lazy" decoding="async">
     </div>
     <div class="publication-content">
       <div class="publication-title">
@@ -317,7 +317,7 @@ a.badge:hover {
 
   <div class="publication-card">
     <div class="publication-image-wrap">
-      <img src="/images/mllm_knows.png" alt="MLLMs Know Where to Look paper" class="publication-image" loading="lazy" decoding="async">
+      <img src="/images/mllm_knows.webp" alt="MLLMs Know Where to Look paper" class="publication-image" loading="lazy" decoding="async">
     </div>
     <div class="publication-content">
       <div class="publication-title">
@@ -334,7 +334,7 @@ a.badge:hover {
 
   <div class="publication-card">
     <div class="publication-image-wrap">
-      <img src="/images/wacv.png" alt="FIRE paper" class="publication-image" loading="lazy" decoding="async">
+      <img src="/images/wacv.webp" alt="FIRE paper" class="publication-image" loading="lazy" decoding="async">
     </div>
     <div class="publication-content">
       <div class="publication-title">
@@ -351,7 +351,7 @@ a.badge:hover {
 
   <div class="publication-card">
     <div class="publication-image-wrap">
-      <img src="/images/kcap.png" alt="KCap paper" class="publication-image" loading="lazy" decoding="async">
+      <img src="/images/kcap.webp" alt="KCap paper" class="publication-image" loading="lazy" decoding="async">
     </div>
     <div class="publication-content">
       <div class="publication-title">

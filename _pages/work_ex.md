@@ -9,7 +9,7 @@ author_profile: true
     <div class="work-card">
         <div class="work-header">
             <div class="logo-container">
-                <img src="/images/mistral.png" alt="Mistral AI Logo" class="work-logo" decoding="async"/>
+                <img src="/images/mistral.webp" alt="Mistral AI Logo" class="work-logo" decoding="async"/>
             </div>
             <div class="work-info">
                 <h2>Applied AI Engineer</h2>
@@ -95,7 +95,7 @@ author_profile: true
     <div class="work-card">
         <div class="work-header">
             <div class="logo-container">
-                <img src="/images/usc-isi.png" alt="USC-ISI Logo" class="work-logo" loading="lazy" decoding="async"/>
+                <img src="/images/usc-isi.webp" alt="USC-ISI Logo" class="work-logo" loading="lazy" decoding="async"/>
             </div>
             <div class="work-info">
                 <h2>Graduate Researcher</h2>
@@ -125,7 +125,7 @@ author_profile: true
     <div class="work-card">
         <div class="work-header">
             <div class="logo-container">
-                <img src="/images/housing_logo.png" alt="Housing.com Logo" class="work-logo" loading="lazy" decoding="async"/>
+                <img src="/images/housing_logo.webp" alt="Housing.com Logo" class="work-logo" loading="lazy" decoding="async"/>
             </div>
             <div class="work-info">
                 <h2>Data Scientist</h2>
@@ -151,17 +151,17 @@ author_profile: true
                 </ul>
             </div>
             <div class="image-gallery">
-                <a class="image-link" href="/images/carousel1-4.png">
-                    <img src="/images/carousel1-4-small.png" alt="Real-estate image processing result preview 1" loading="lazy" decoding="async" width="160" height="120"/>
+                <a class="image-link" href="/images/carousel1-4.webp">
+                    <img src="/images/carousel1-4-small.webp" alt="Real-estate image processing result preview 1" loading="lazy" decoding="async" width="160" height="120"/>
                 </a>
-                <a class="image-link" href="/images/carousel1-3.png">
-                    <img src="/images/carousel1-3-small.png" alt="Real-estate image processing result preview 2" loading="lazy" decoding="async" width="160" height="120"/>
+                <a class="image-link" href="/images/carousel1-3.webp">
+                    <img src="/images/carousel1-3-small.webp" alt="Real-estate image processing result preview 2" loading="lazy" decoding="async" width="160" height="120"/>
                 </a>
-                <a class="image-link" href="/images/carousel1-2.png">
-                    <img src="/images/carousel1-2-small.png" alt="Real-estate image processing result preview 3" loading="lazy" decoding="async" width="160" height="120"/>
+                <a class="image-link" href="/images/carousel1-2.webp">
+                    <img src="/images/carousel1-2-small.webp" alt="Real-estate image processing result preview 3" loading="lazy" decoding="async" width="160" height="120"/>
                 </a>
-                <a class="image-link" href="/images/carousel1-1.png">
-                    <img src="/images/carousel1-1-small.png" alt="Real-estate image processing result preview 4" loading="lazy" decoding="async" width="160" height="120"/>
+                <a class="image-link" href="/images/carousel1-1.webp">
+                    <img src="/images/carousel1-1-small.webp" alt="Real-estate image processing result preview 4" loading="lazy" decoding="async" width="160" height="120"/>
                 </a>
             </div>
         </div>
@@ -170,7 +170,7 @@ author_profile: true
     <div class="work-card">
         <div class="work-header">
             <div class="logo-container">
-                <img src="/images/proptiger.png" alt="PropTiger Logo" class="work-logo" loading="lazy" decoding="async"/>
+                <img src="/images/proptiger.webp" alt="PropTiger Logo" class="work-logo" loading="lazy" decoding="async"/>
             </div>
             <div class="work-info">
                 <h2>Data Scientist</h2>

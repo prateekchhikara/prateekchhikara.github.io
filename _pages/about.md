@@ -27,7 +27,7 @@ redirect_from:
         <img src="/images/pc_grad.jpg" alt="Prateek Chhikara at graduation" style="width: 100%; border-radius: 8px; box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);" decoding="async" width="1200" height="1796"/>
         <!-- Mistral AI Banner -->
         <div style="border-radius: 8px; overflow: hidden; box-shadow: 0 4px 12px rgba(255, 109, 45, 0.2); border: 2px solid #FF6D2D;">
-            <img src="/images/mistral-banner.png" alt="Mistral AI" style="width: 100%; height: auto; display: block;" loading="lazy" decoding="async" width="1080" height="675"/>
+            <img src="/images/mistral-banner.webp" alt="Mistral AI" style="width: 100%; height: auto; display: block;" loading="lazy" decoding="async" width="1080" height="675"/>
         </div>
     </div>
 </div>
@@ -97,7 +97,7 @@ redirect_from:
                             <div style="font-weight: bold; font-size: 16px; margin-bottom: 3px;">
                                 Jamie McInally
                                 <a href="https://uk.linkedin.com/in/jamie-mcinally-75453766" style="text-decoration: none;">
-                            <img src="/images/linkedin.png" alt="LinkedIn" style="width: 16px; height: 16px; vertical-align: middle; margin-left: 4px;" loading="lazy" decoding="async">
+                            <img src="/images/linkedin.webp" alt="LinkedIn" style="width: 16px; height: 16px; vertical-align: middle; margin-left: 4px;" loading="lazy" decoding="async">
                                 </a>
                             </div>
                             <div style="font-size: 14px; color: #666;">CEO of Autoenhance.ai</div>
@@ -116,7 +116,7 @@ redirect_from:
                             <div style="font-weight: bold; font-size: 16px; margin-bottom: 3px;">
                                 Filip Ilievski
                                 <a href="https://www.linkedin.com/in/filipilievski91" style="text-decoration: none;">
-                                    <img src="/images/linkedin.png" alt="LinkedIn" style="width: 16px; height: 16px; vertical-align: middle; margin-left: 4px;" loading="lazy" decoding="async">
+                                    <img src="/images/linkedin.webp" alt="LinkedIn" style="width: 16px; height: 16px; vertical-align: middle; margin-left: 4px;" loading="lazy" decoding="async">
                                 </a>
                             </div>
                             <div style="font-size: 14px; color: #666;">Assistant Professor (Sr.) at VU Amsterdam</div>
@@ -135,7 +135,7 @@ redirect_from:
                             <div style="font-weight: bold; font-size: 16px; margin-bottom: 3px;">
                                 Chirag Sharma
                                 <a href="https://www.linkedin.com/in/chiraggemini" style="text-decoration: none;">
-                                    <img src="/images/linkedin.png" alt="LinkedIn" style="width: 16px; height: 16px; vertical-align: middle; margin-left: 4px;" loading="lazy" decoding="async">
+                                    <img src="/images/linkedin.webp" alt="LinkedIn" style="width: 16px; height: 16px; vertical-align: middle; margin-left: 4px;" loading="lazy" decoding="async">
                                 </a>
                             </div>
                             <div style="font-size: 14px; color: #666;">Product Manager @ Jio Platforms</div>
@@ -154,7 +154,7 @@ redirect_from:
                             <div style="font-weight: bold; font-size: 16px; margin-bottom: 3px;">
                                 Anil Goyal
                                 <a href="https://www.linkedin.com/in/anilgoyal91" style="text-decoration: none;">
-                                    <img src="/images/linkedin.png" alt="LinkedIn" style="width: 16px; height: 16px; vertical-align: middle; margin-left: 4px;" loading="lazy" decoding="async">
+                                    <img src="/images/linkedin.webp" alt="LinkedIn" style="width: 16px; height: 16px; vertical-align: middle; margin-left: 4px;" loading="lazy" decoding="async">
                                 </a>
                             </div>
                             <div style="font-size: 14px; color: #666;">Principal Data Scientist @ Mastercard</div>

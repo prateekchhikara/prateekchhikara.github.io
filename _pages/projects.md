@@ -241,7 +241,7 @@ author_profile: true
 
   <div class="projects-card">
     <div class="projects-image-wrap">
-      <img src="/images/sifra.png" alt="SIFRA: Super Intelligent & Friendly Responsive Agent" class="projects-image" loading="lazy" decoding="async">
+      <img src="/images/sifra.webp" alt="SIFRA: Super Intelligent & Friendly Responsive Agent" class="projects-image" loading="lazy" decoding="async">
     </div>
     <div class="projects-content">
       <div class="projects-header">
@@ -295,7 +295,7 @@ author_profile: true
 
   <div class="projects-card">
     <div class="projects-image-wrap">
-      <img src="/images/mario.png" alt="Super Mario Brothers Gameplay using Reinforcement Learning" class="projects-image" loading="lazy" decoding="async">
+      <img src="/images/mario.webp" alt="Super Mario Brothers Gameplay using Reinforcement Learning" class="projects-image" loading="lazy" decoding="async">
     </div>
     <div class="projects-content">
       <div class="projects-header">
@@ -321,7 +321,7 @@ author_profile: true
 
   <div class="projects-card">
     <div class="projects-image-wrap">
-      <img src="/images/hmm.png" alt="Hidden Markov Model for Part of Speech Tagging" class="projects-image" loading="lazy" decoding="async">
+      <img src="/images/hmm.webp" alt="Hidden Markov Model for Part of Speech Tagging" class="projects-image" loading="lazy" decoding="async">
     </div>
     <div class="projects-content">
       <div class="projects-header">
@@ -347,7 +347,7 @@ author_profile: true
 
   <div class="projects-card">
     <div class="projects-image-wrap">
-      <img src="/images/vae.png" alt="Variational Autoencoders for Digit Generation" class="projects-image" loading="lazy" decoding="async">
+      <img src="/images/vae.webp" alt="Variational Autoencoders for Digit Generation" class="projects-image" loading="lazy" decoding="async">
     </div>
     <div class="projects-content">
       <div class="projects-header">
@@ -373,7 +373,7 @@ author_profile: true
 
   <div class="projects-card">
     <div class="projects-image-wrap">
-      <img src="/images/gan.png" alt="Generative Adversarial Networks for Image Generation" class="projects-image" loading="lazy" decoding="async">
+      <img src="/images/gan.webp" alt="Generative Adversarial Networks for Image Generation" class="projects-image" loading="lazy" decoding="async">
     </div>
     <div class="projects-content">
       <div class="projects-header">
@@ -400,7 +400,7 @@ author_profile: true
 
   <div class="projects-card">
     <div class="projects-image-wrap">
-      <img src="/images/white_balance.png" alt="Image White Balance Correction using Variational Autoencoders" class="projects-image" loading="lazy" decoding="async">
+      <img src="/images/white_balance.webp" alt="Image White Balance Correction using Variational Autoencoders" class="projects-image" loading="lazy" decoding="async">
     </div>
     <div class="projects-content">
       <div class="projects-header">
@@ -427,7 +427,7 @@ author_profile: true
 
   <div class="projects-card">
     <div class="projects-image-wrap">
-      <img src="/images/ner.png" alt="Bidirectional LSTM for Named Entity Recognition" class="projects-image" loading="lazy" decoding="async">
+      <img src="/images/ner.webp" alt="Bidirectional LSTM for Named Entity Recognition" class="projects-image" loading="lazy" decoding="async">
     </div>
     <div class="projects-content">
       <div class="projects-header">
