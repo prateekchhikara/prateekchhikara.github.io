@@ -139,21 +139,34 @@ author_profile: true
 .education-container {
     max-width: 1200px;
     margin: 0 auto;
-    padding: 8px;
+    padding: 8px 8px 8px 58px;
+    position: relative;
+}
+
+/* Timeline spine */
+.education-container::before {
+    content: '';
+    position: absolute;
+    left: 22px;
+    top: 22px;
+    bottom: 22px;
+    width: 3px;
+    background: linear-gradient(180deg, #e74c3c, #f39c12, #f1c40f);
+    border-radius: 3px;
 }
 
 .education-card {
     background: linear-gradient(135deg, #ffffff 0%, #f8f9fa 100%);
-    border-radius: 12px;
-    padding: 16px;
-    margin-bottom: 16px;
+    border-radius: 14px;
+    padding: 18px 20px;
+    margin-bottom: 22px;
     box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
-    transition: all 0.3s ease;
-    border: 1px solid rgba(255, 255, 255, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border: 1px solid rgba(0, 0, 0, 0.05);
     position: relative;
-    overflow: hidden;
 }
 
+/* Top accent bar */
 .education-card::before {
     content: '';
     position: absolute;
@@ -162,12 +175,33 @@ author_profile: true
     right: 0;
     height: 3px;
     background: linear-gradient(90deg, #e74c3c, #f39c12, #f1c40f);
-    border-radius: 20px 20px 0 0;
+    border-radius: 14px 14px 0 0;
+}
+
+/* Timeline node dot */
+.education-card::after {
+    content: '';
+    position: absolute;
+    left: -44px;
+    top: 24px;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background: #fff;
+    border: 4px solid #e74c3c;
+    box-shadow: 0 0 0 4px #fff, 0 2px 8px rgba(0, 0, 0, 0.18);
+    z-index: 2;
+    transition: transform 0.3s ease, border-color 0.3s ease;
 }
 
 .education-card:hover {
     transform: translateY(-4px);
     box-shadow: 0 12px 30px rgba(0, 0, 0, 0.12);
+}
+
+.education-card:hover::after {
+    border-color: #f39c12;
+    transform: scale(1.2);
 }
 
 .education-header {
@@ -227,27 +261,41 @@ author_profile: true
 
 .education-meta {
     display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-    gap: 2px;
-    font-size: 0.8em;
-    text-align: right;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    gap: 8px;
+    font-size: 0.78em;
     flex-shrink: 0;
 }
 
-.education-date {
-    color: #7f8c8d;
-    font-style: italic;
-    font-weight: 500;
+.education-date,
+.education-location {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    padding: 3px 11px;
+    border-radius: 20px;
+    font-weight: 600;
     white-space: nowrap;
+    line-height: 1.5;
+}
+
+.education-date {
+    background: #eaf2fa;
+    color: #2471a3;
+    font-style: normal;
+}
+
+.education-date::before {
+    content: '🎓';
+    font-size: 0.95em;
 }
 
 .education-location {
-    display: flex;
-    align-items: center;
-    gap: 4px;
-    color: #7f8c8d;
-    font-weight: 500;
+    background: #f0f2f4;
+    color: #566573;
     flex-wrap: wrap;
     justify-content: flex-end;
 }
@@ -393,37 +441,48 @@ author_profile: true
 
 @media (max-width: 768px) {
     .education-container {
-        padding: 5px;
+        padding: 5px 5px 5px 32px;
     }
-    
+
+    .education-container::before {
+        left: 10px;
+    }
+
     .education-card {
-        padding: 12px;
-        margin-bottom: 12px;
+        padding: 14px;
+        margin-bottom: 16px;
     }
-    
+
+    .education-card::after {
+        left: -28px;
+        top: 20px;
+        width: 14px;
+        height: 14px;
+    }
+
     .education-header {
         flex-direction: column;
-        text-align: center;
-        align-items: center;
+        text-align: left;
+        align-items: flex-start;
         gap: 10px;
     }
-    
+
     .education-meta {
-        align-items: center;
-        text-align: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        justify-content: flex-start;
     }
-    
+
     .education-details {
         margin-left: 0;
     }
-    
+
     .coursework-grid {
         grid-template-columns: 1fr;
     }
-    
+
     .responsibility-item {
-        flex-direction: column;
-        text-align: center;
         gap: 12px;
     }
 }
