@@ -39,3 +39,17 @@
 @import "vendor/font-awesome/brands";
 @import "vendor/magnific-popup/magnific-popup";
 @import "print";
+
+/* ==========================================================================
+   Custom: wider desktop content (mobile/tablet layout unchanged)
+   ========================================================================== */
+
+$content-max-width-wide: 1440px;
+
+@include breakpoint($large) {
+  #main,
+  .masthead__inner-wrap,
+  .page__footer footer {
+    max-width: $content-max-width-wide;
+  }
+}

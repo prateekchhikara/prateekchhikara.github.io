@@ -12,7 +12,7 @@ author_profile: true
                 <img src="/images/mistral.png" alt="Mistral AI Logo" class="work-logo" decoding="async"/>
             </div>
             <div class="work-info">
-                <h3>Applied AI Engineer</h3>
+                <h2>Applied AI Engineer</h2>
                 <a href="https://mistral.ai/" class="work-link">Mistral AI</a>
             </div>
             <div class="work-meta">
@@ -38,7 +38,7 @@ author_profile: true
                 <img src="/images/mem0.jpeg" alt="Mem0 Logo" class="work-logo" loading="lazy" decoding="async"/>
             </div>
             <div class="work-info">
-                <h3>Founding AI Engineer</h3>
+                <h2>Founding AI Engineer</h2>
                 <a href="https://mem0.ai" class="work-link">Mem0.ai</a>
             </div>
             <div class="work-meta">
@@ -68,7 +68,7 @@ author_profile: true
                 <img src="/images/autoenhance.jpeg" alt="Autoenhance Logo" class="work-logo" loading="lazy" decoding="async"/>
             </div>
             <div class="work-info">
-                <h3>AI Engineer Intern</h3>
+                <h2>AI Engineer Intern</h2>
                 <a href="https://www.autoenhance.ai" class="work-link">Autoenhance.ai</a>
             </div>
             <div class="work-meta">
@@ -98,7 +98,7 @@ author_profile: true
                 <img src="/images/usc-isi.png" alt="USC-ISI Logo" class="work-logo" loading="lazy" decoding="async"/>
             </div>
             <div class="work-info">
-                <h3>Graduate Researcher</h3>
+                <h2>Graduate Researcher</h2>
                 <a href="https://www.isi.edu/" class="work-link">Information Sciences Institute</a>
             </div>
             <div class="work-meta">
@@ -128,7 +128,7 @@ author_profile: true
                 <img src="/images/housing_logo.png" alt="Housing.com Logo" class="work-logo" loading="lazy" decoding="async"/>
             </div>
             <div class="work-info">
-                <h3>Data Scientist</h3>
+                <h2>Data Scientist</h2>
                 <a href="https://www.housing.com" class="work-link">Housing.com</a>
             </div>
             <div class="work-meta">
@@ -173,7 +173,7 @@ author_profile: true
                 <img src="/images/proptiger.png" alt="PropTiger Logo" class="work-logo" loading="lazy" decoding="async"/>
             </div>
             <div class="work-info">
-                <h3>Data Scientist</h3>
+                <h2>Data Scientist</h2>
                 <a href="https://www.proptiger.com" class="work-link">PropTiger.com</a>
             </div>
             <div class="work-meta">
@@ -201,21 +201,34 @@ author_profile: true
 .work-container {
     max-width: 1200px;
     margin: 0 auto;
-    padding: 8px;
+    padding: 8px 8px 8px 58px;
+    position: relative;
+}
+
+/* Timeline spine */
+.work-container::before {
+    content: '';
+    position: absolute;
+    left: 22px;
+    top: 22px;
+    bottom: 22px;
+    width: 3px;
+    background: linear-gradient(180deg, #e74c3c, #f39c12, #f1c40f);
+    border-radius: 3px;
 }
 
 .work-card {
     background: linear-gradient(135deg, #ffffff 0%, #f8f9fa 100%);
-    border-radius: 12px;
-    padding: 16px;
-    margin-bottom: 16px;
+    border-radius: 14px;
+    padding: 18px 20px;
+    margin-bottom: 22px;
     box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
-    transition: all 0.3s ease;
-    border: 1px solid rgba(255, 255, 255, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border: 1px solid rgba(0, 0, 0, 0.05);
     position: relative;
-    overflow: hidden;
 }
 
+/* Top accent bar */
 .work-card::before {
     content: '';
     position: absolute;
@@ -224,7 +237,23 @@ author_profile: true
     right: 0;
     height: 3px;
     background: linear-gradient(90deg, #e74c3c, #f39c12, #f1c40f);
-    border-radius: 20px 20px 0 0;
+    border-radius: 14px 14px 0 0;
+}
+
+/* Timeline node dot */
+.work-card::after {
+    content: '';
+    position: absolute;
+    left: -44px;
+    top: 24px;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background: #fff;
+    border: 4px solid #e74c3c;
+    box-shadow: 0 0 0 4px #fff, 0 2px 8px rgba(0, 0, 0, 0.18);
+    z-index: 2;
+    transition: transform 0.3s ease, border-color 0.3s ease;
 }
 
 .work-card:hover {
@@ -232,29 +261,37 @@ author_profile: true
     box-shadow: 0 12px 30px rgba(0, 0, 0, 0.12);
 }
 
+.work-card:hover::after {
+    border-color: #f39c12;
+    transform: scale(1.2);
+}
+
 .work-header {
     display: flex;
     align-items: flex-start;
     justify-content: space-between;
-    margin-bottom: 12px;
-    gap: 12px;
+    gap: 14px;
+    padding-bottom: 14px;
+    margin-bottom: 14px;
+    border-bottom: 1px solid #eef0f2;
 }
 
 .logo-container {
-    width: 55px;
-    height: 55px;
-    background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
-    border-radius: 10px;
+    width: 58px;
+    height: 58px;
+    background: #fff;
+    border-radius: 14px;
     display: flex;
     align-items: center;
     justify-content: center;
-    box-shadow: 0 3px 12px rgba(0, 0, 0, 0.08);
+    box-shadow: 0 3px 12px rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(0, 0, 0, 0.05);
     flex-shrink: 0;
 }
 
 .work-logo {
-    width: 40px;
-    height: 40px;
+    width: 42px;
+    height: 42px;
     object-fit: contain;
     border-radius: 6px;
 }
@@ -264,10 +301,10 @@ author_profile: true
     min-width: 0;
 }
 
-.work-info h3 {
-    margin: 0 0 3px 0;
-    color: #2c3e50;
-    font-size: 1.05em;
+.work-info h2 {
+    margin: 0 0 4px 0;
+    color: #1a2533;
+    font-size: 1.2em;
     font-weight: 700;
     line-height: 1.2;
 }
@@ -276,40 +313,53 @@ author_profile: true
     color: #2980b9;
     text-decoration: none;
     font-weight: 600;
-    font-size: 0.9em;
-    transition: all 0.3s ease;
+    font-size: 0.95em;
+    transition: color 0.3s ease;
     display: inline-block;
-    margin-bottom: 2px;
 }
 
 .work-link:hover {
     color: #1f5f8b;
-    transform: translateX(3px);
+    text-decoration: underline;
 }
 
 .work-meta {
     display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-    gap: 2px;
-    font-size: 0.8em;
-    text-align: right;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    gap: 8px;
+    font-size: 0.78em;
     flex-shrink: 0;
 }
 
-.work-date {
-    color: #7f8c8d;
-    font-style: italic;
-    font-weight: 500;
+.work-date,
+.work-location {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    padding: 3px 11px;
+    border-radius: 20px;
+    font-weight: 600;
     white-space: nowrap;
+    line-height: 1.5;
+}
+
+.work-date {
+    background: #eaf2fa;
+    color: #2471a3;
+    font-style: normal;
+}
+
+.work-date::before {
+    content: '📅';
+    font-size: 0.95em;
 }
 
 .work-location {
-    display: flex;
-    align-items: center;
-    gap: 4px;
-    color: #7f8c8d;
-    font-weight: 500;
+    background: #f0f2f4;
+    color: #566573;
     flex-wrap: wrap;
     justify-content: flex-end;
 }
@@ -323,7 +373,7 @@ author_profile: true
 }
 
 .work-details {
-    margin-left: 67px;
+    margin-left: 72px;
 }
 
 .work-content {
@@ -404,30 +454,43 @@ author_profile: true
 
 @media (max-width: 768px) {
     .work-container {
-        padding: 5px;
+        padding: 5px 5px 5px 32px;
     }
-    
+
+    .work-container::before {
+        left: 10px;
+    }
+
     .work-card {
-        padding: 12px;
-        margin-bottom: 12px;
+        padding: 14px;
+        margin-bottom: 16px;
     }
-    
+
+    .work-card::after {
+        left: -28px;
+        top: 20px;
+        width: 14px;
+        height: 14px;
+    }
+
     .work-header {
         flex-direction: column;
-        text-align: center;
-        align-items: center;
+        text-align: left;
+        align-items: flex-start;
         gap: 10px;
     }
-    
+
     .work-meta {
-        align-items: center;
-        text-align: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        justify-content: flex-start;
     }
-    
+
     .work-details {
         margin-left: 0;
     }
-    
+
     .image-gallery {
         grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
     }

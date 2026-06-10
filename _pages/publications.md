@@ -5,13 +5,6 @@ permalink: /publications/
 author_profile: true
 ---
 
-
-<!-- <center>  <h1> <u> Pre-prints </u> </h1> </center> -->
-
-
-<!-- <hr />
-<br> -->
-
 ## Selected Publications
 
 <style>
@@ -195,9 +188,9 @@ author_profile: true
 
 You can find all my publications at [Google Scholar](https://scholar.google.com/citations?user=RQTJ_aIAAAAJ&hl) or [ResearchGate](https://www.researchgate.net/profile/Prateek-Chhikara).
 
-<center><h1><u>Conferences / Workshops</u></h1></center>
+<center><h2><u>Conferences / Workshops</u></h2></center>
 
-## CORE A*
+### CORE A*
 
 <div style="margin-bottom: 20px;">
   <div style="font-weight: bold;">
@@ -268,7 +261,7 @@ You can find all my publications at [Google Scholar](https://scholar.google.com/
   </div>
 </div>
 
-## CORE A
+### CORE A
 
 
 <div style="margin-bottom: 20px;">
@@ -332,7 +325,7 @@ You can find all my publications at [Google Scholar](https://scholar.google.com/
   </div>
 </div>
 
-## CORE B
+### CORE B
 
 <div style="margin-bottom: 20px;">
   <div style="font-weight: bold;">
@@ -398,7 +391,7 @@ You can find all my publications at [Google Scholar](https://scholar.google.com/
   </div>
 </div>
 
-## Unranked
+### Unranked
 
 <div style="margin-bottom: 20px;">
   <div style="font-weight: bold;">
@@ -433,9 +426,9 @@ You can find all my publications at [Google Scholar](https://scholar.google.com/
 <hr />
 <br>
 
-<center><h1><u>Journals</u></h1></center>
+<center><h2><u>Journals</u></h2></center>
 
-## Quartile 1 (Q1)
+### Quartile 1 (Q1)
 <div style="margin-bottom: 20px;">
   <div style="font-weight: bold;">
     <a href="https://openreview.net/forum?id=lyaHnHDdZl" target="_blank" rel="noopener noreferrer">
@@ -556,7 +549,7 @@ You can find all my publications at [Google Scholar](https://scholar.google.com/
   </div>
 </div>
 
-## Quartile 2 (Q2)
+### Quartile 2 (Q2)
 
 <div style="margin-bottom: 20px;">
   <div style="font-weight: bold;">
@@ -603,7 +596,7 @@ You can find all my publications at [Google Scholar](https://scholar.google.com/
   </div>
 </div>
 
-## Quartile 3 (Q3)
+### Quartile 3 (Q3)
 
 <div style="margin-bottom: 20px;">
   <div style="font-weight: bold;">
@@ -623,7 +616,7 @@ You can find all my publications at [Google Scholar](https://scholar.google.com/
 <hr />
 <br>
 
-<center><h1><u>Book Chapter</u></h1></center>
+<center><h2><u>Book Chapter</u></h2></center>
 
 <div style="margin-bottom: 20px;">
   <div style="font-weight: bold;">

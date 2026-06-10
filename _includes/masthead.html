@@ -6,14 +6,15 @@
       <nav id="site-nav" class="greedy-nav">
         <button type="button" aria-label="Toggle menu"><div class="navicon"></div></button>
         <ul class="visible-links">
-          <li class="masthead__menu-item masthead__menu-item--lg"><a href="{{ base_path }}/">{{ site.title }}</a></li>
+          <li class="masthead__menu-item masthead__menu-item--lg"><a href="{{ '/' | relative_url }}">{{ site.title }}</a></li>
           {% for link in site.data.navigation.main %}
             {% if link.url contains 'http' %}
-              {% assign domain = '' %}
-              {% else %}
-              {% assign domain = base_path %}
+              {% assign link_href = link.url %}
+            {% else %}
+              {% assign link_href = link.url | relative_url %}
             {% endif %}
-            <li class="masthead__menu-item"><a href="{{ domain }}{{ link.url }}">{{ link.title }}</a></li>
+            {% if page.url contains link.url %}{% assign is_active = true %}{% else %}{% assign is_active = false %}{% endif %}
+            <li class="masthead__menu-item"><a href="{{ link_href }}"{% if is_active %} class="active" aria-current="page"{% endif %}>{{ link.title }}</a></li>
           {% endfor %}
         </ul>
         <ul class="hidden-links hidden"></ul>

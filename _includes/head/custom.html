@@ -2,12 +2,12 @@
 
 <!-- start custom head snippets -->
 
-<link rel="apple-touch-icon" sizes="180x180" href="{{ base_path }}/images/apple-touch-icon.png">
-<link rel="icon" type="image/png" href="{{ base_path }}/images/favicon-32x32.png" sizes="32x32">
-<link rel="icon" type="image/png" href="{{ base_path }}/images/favicon-16x16.png" sizes="16x16">
-<link rel="manifest" href="{{ base_path }}/images/manifest.json">
+<link rel="apple-touch-icon" sizes="180x180" href="{{ '/images/apple-touch-icon.png' | relative_url }}">
+<link rel="icon" type="image/png" href="{{ '/images/favicon-32x32.png' | relative_url }}" sizes="32x32">
+<link rel="icon" type="image/png" href="{{ '/images/favicon-16x16.png' | relative_url }}" sizes="16x16">
+<link rel="manifest" href="{{ '/images/manifest.json' | relative_url }}">
 <meta name="theme-color" content="#ffffff">
-<link rel="stylesheet" href="{{ base_path }}/assets/css/academicons.css"/>
+<link rel="stylesheet" href="{{ '/assets/css/academicons.css' | relative_url }}"/>
 
 {% if page.mathjax %}
 <script type="text/x-mathjax-config"> MathJax.Hub.Config({ TeX: { equationNumbers: { autoNumber: "all" } } }); </script>

@@ -12,7 +12,7 @@ author_profile: true
                 <img src="/images/usc-logo.png" alt="USC Logo" class="education-logo" decoding="async"/>
             </div>
             <div class="education-info">
-                <h3>Master of Science in Computer Science</h3>
+                <h2>Master of Science in Computer Science</h2>
                 <a href="https://www.usc.edu" class="education-link">University of Southern California</a>
             </div>
             <div class="education-meta">
@@ -30,7 +30,7 @@ author_profile: true
                 <span class="gpa-value">3.85/4.00</span>
             </div>
             <div class="section-divider"></div>
-            <h4 class="section-title">📚 Coursework</h4>
+            <h3 class="section-title">📚 Coursework</h3>
             <div class="coursework-grid">
                 <div class="coursework-item">
                     <span class="course-code">CSCI 570</span>
@@ -70,7 +70,7 @@ author_profile: true
                 <img src="/images/thapar.png" alt="Thapar Logo" class="education-logo" loading="lazy" decoding="async"/>
             </div>
             <div class="education-info">
-                <h3>Bachelor of Engineering in Computer Engineering</h3>
+                <h2>Bachelor of Engineering in Computer Engineering</h2>
                 <a href="https://www.thapar.edu" class="education-link">Thapar Institute of Engineering and Technology</a>
             </div>
             <div class="education-meta">
@@ -88,7 +88,7 @@ author_profile: true
                 <span class="gpa-value">9.64/10.00</span>
             </div>
             <div class="section-divider"></div>
-            <h4 class="section-title">🎯 Major Coursework</h4>
+            <h3 class="section-title">🎯 Major Coursework</h3>
             <div class="coursework-grid">
                 <div class="coursework-item">
                     <span class="course-name">Machine Learning</span>
@@ -110,7 +110,7 @@ author_profile: true
                 </div>
             </div>
             <div class="section-divider"></div>
-            <h4 class="section-title">🌟 Key Responsibilities</h4>
+            <h3 class="section-title">🌟 Key Responsibilities</h3>
             <div class="responsibilities-container">
                 <div class="responsibility-item">
                     <div class="responsibility-icon">🔬</div>
@@ -202,7 +202,7 @@ author_profile: true
     min-width: 0;
 }
 
-.education-info h3 {
+.education-info h2 {
     margin: 0 0 3px 0;
     color: #2c3e50;
     font-size: 1.05em;

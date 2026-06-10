@@ -10,7 +10,7 @@ redirect_from:
 
 <div style="display: flex; align-items: flex-end; gap: 30px; flex-wrap: wrap;">
     <div style="flex: 2; min-width: 300px;">
-        <h1 style="margin-bottom: 20px;">About me</h1>
+        <h2 style="margin-bottom: 20px;">About me</h2>
         <div style="font-size: 16px; line-height: 1.8; text-align: justify; background-color: #f9f9f9; padding: 20px; border-radius: 8px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
             <p>
                 I'm a passionate <b>AI/ML Engineer</b> with <b>5+ years of experience</b> designing and deploying impactful AI solutions. I hold a Master's degree in Computer Science from <b>University of Southern California</b> (✌️) with a specialization in Artificial Intelligence, and have honed my expertise across <b>natural language processing</b>, <b>computer vision</b>, and <b>AI infrastructure</b>.
@@ -54,7 +54,7 @@ redirect_from:
 
 <hr />
 
-# Skills
+## Skills
 
 <div style="font-size: 16px; line-height: 1.6; margin-bottom: 30px; background-color: #f9f9f9; padding: 20px; border-radius: 8px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
     <!-- <h3 style="margin-bottom: 10px; color: #2c3e50;">Skills</h3> -->
@@ -79,7 +79,7 @@ redirect_from:
 
 <hr />
 
-# Recommendations
+## Recommendations
 
 <div style="font-size: 16px; line-height: 1.6; margin-bottom: 30px; background-color: #f9f9f9; padding: 20px; border-radius: 8px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
     <div style="max-width: 800px; margin: 0 auto;">
