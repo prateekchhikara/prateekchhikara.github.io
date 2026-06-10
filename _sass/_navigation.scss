@@ -317,6 +317,59 @@
 }
 
 
+/* On small screens, show the full nav as a horizontally scrollable bar
+   instead of the priority-plus hamburger dropdown. */
+@media screen and (max-width: $large - 1) {
+  .greedy-nav {
+    button {
+      display: none;
+    }
+
+    .hidden-links {
+      display: none;
+    }
+
+    .visible-links {
+      display: flex;
+      flex-wrap: nowrap;
+      overflow-x: auto;
+      overflow-y: hidden;
+      -webkit-overflow-scrolling: touch;
+      scrollbar-width: none; // Firefox
+
+      &::-webkit-scrollbar {
+        display: none; // Chrome/Safari/Edge
+      }
+
+      li {
+        display: inline-flex;
+        flex: 0 0 auto;
+        white-space: nowrap;
+      }
+
+      // Scroll affordance: fade the edge(s) that have more content beyond them.
+      // Classes are toggled by updateNavFade() in jquery.greedy-navigation.js.
+      $nav-fade: 32px;
+
+      &.nav-fade-right:not(.nav-fade-left) {
+        -webkit-mask-image: linear-gradient(to right, #000 calc(100% - #{$nav-fade}), transparent);
+                mask-image: linear-gradient(to right, #000 calc(100% - #{$nav-fade}), transparent);
+      }
+
+      &.nav-fade-left:not(.nav-fade-right) {
+        -webkit-mask-image: linear-gradient(to right, transparent, #000 #{$nav-fade});
+                mask-image: linear-gradient(to right, transparent, #000 #{$nav-fade});
+      }
+
+      &.nav-fade-left.nav-fade-right {
+        -webkit-mask-image: linear-gradient(to right, transparent, #000 #{$nav-fade}, #000 calc(100% - #{$nav-fade}), transparent);
+                mask-image: linear-gradient(to right, transparent, #000 #{$nav-fade}, #000 calc(100% - #{$nav-fade}), transparent);
+      }
+    }
+  }
+}
+
+
 /*
    Navigation list
    ========================================================================== */

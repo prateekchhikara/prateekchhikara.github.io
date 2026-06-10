@@ -14,6 +14,19 @@ var breaks = [];
 
 function updateNav() {
 
+  // On small screens, skip the priority-plus collapsing and show every link
+  // in a horizontally scrollable bar (CSS handles the overflow scrolling).
+  if ($(window).width() < 1200) {
+    while ($hlinks.children().length) {
+      $hlinks.children().first().appendTo($vlinks);
+    }
+    breaks = [];
+    $btn.addClass('hidden');
+    $hlinks.addClass('hidden');
+    $btn.attr('count', 0);
+    return;
+  }
+
   var availableSpace = $btn.hasClass('hidden') ? $nav.width() : $nav.width() - $btn.width() - 30;
 
   // The visible list is overflowing the nav
@@ -70,3 +83,21 @@ $btn.on('click', function() {
 });
 
 updateNav();
+
+// Scroll affordance for the mobile horizontal nav: fade whichever edge has
+// more content beyond it, so it's obvious the bar can be scrolled. The fade
+// disappears once that end is reached. CSS applies the fades on mobile only.
+function updateNavFade() {
+  var el = $vlinks[0];
+  if (!el) { return; }
+  var scrollable = el.scrollWidth > el.clientWidth + 1;
+  var atStart = el.scrollLeft <= 1;
+  var atEnd = el.scrollLeft + el.clientWidth >= el.scrollWidth - 1;
+  $vlinks
+    .toggleClass('nav-fade-left', scrollable && !atStart)
+    .toggleClass('nav-fade-right', scrollable && !atEnd);
+}
+
+$vlinks.on('scroll', updateNavFade);
+$(window).on('resize', updateNavFade);
+updateNavFade();
