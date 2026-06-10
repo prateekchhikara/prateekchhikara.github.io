@@ -52,9 +52,23 @@ $(document).ready(function(){
 
   // Follow menu drop down
 
-  $(".author__urls-wrapper button").on("click", function() {
+  $(".author__urls-wrapper button").on("click", function(e) {
+    e.stopPropagation();
     $(".author__urls").fadeToggle("fast", function() {});
     $(".author__urls-wrapper button").toggleClass("open");
+  });
+
+  // Close the dropdown when clicking/tapping anywhere outside it.
+  // Guarded to mobile (button visible) so the inline desktop grid is never hidden.
+  $(document).on("click", function(e) {
+    var $button = $(".author__urls-wrapper button");
+    if (!$button.is(":visible") || !$button.hasClass("open")) {
+      return;
+    }
+    if ($(e.target).closest(".author__urls-wrapper").length === 0) {
+      $(".author__urls").fadeOut("fast");
+      $button.removeClass("open");
+    }
   });
 
   // init smooth scroll

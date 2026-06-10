@@ -240,48 +240,63 @@
    Redesigned author profile card
    ========================================================================== */
 
+$profile-ink:      #1a2533;
+$profile-muted:    #566573;
+$profile-accent:   #e74c3c;
+$profile-chip-bg:  #f4f6f8;
+$profile-icon-bg:  #eef1f4;
+$profile-icon-ink: #4a5568;
+
 .author-profile {
   text-align: center;
 }
 
-/* Avatar with gradient ring */
-.sidebar .author__avatar {
-  width: 168px;
-  height: 168px;
-  margin: 4px auto 16px;
-  padding: 4px;
-  border-radius: 50%;
-  background: linear-gradient(135deg, #e74c3c, #f39c12, #f1c40f);
-  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.14);
-  display: block;
-
-  img {
-    width: 100%;
-    height: 100%;
-    max-width: none;
-    object-fit: cover;
-    border-radius: 50%;
-    border: 4px solid #fff;
-    padding: 0;
+/* Stack the card vertically — neutralises the theme's legacy table-cell layout */
+.sidebar {
+  .author__content,
+  .author__urls-wrapper {
     display: block;
+    width: 100%;
+    padding: 0;
+    text-align: center;
   }
-}
 
-/* Name & bio */
-.sidebar .author__name {
-  font-weight: 700;
-  color: #1a2533;
-  margin: 6px 0 8px;
-  text-align: center;
-}
+  /* Avatar with gradient ring */
+  .author__avatar {
+    display: block;
+    width: 168px;
+    height: 168px;
+    margin: 4px auto 16px;
+    padding: 4px;
+    border-radius: 50%;
+    background: linear-gradient(135deg, #e74c3c, #f39c12, #f1c40f);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.14);
 
-.author__bio {
-  color: #566573;
-  font-size: 0.92em;
-  line-height: 1.55;
-  text-align: center;
-  margin: 0 auto 14px;
-  max-width: 220px;
+    img {
+      display: block;
+      width: 100%;
+      height: 100%;
+      max-width: none;
+      padding: 0;
+      object-fit: cover;
+      border: 4px solid #fff;
+      border-radius: 50%;
+    }
+  }
+
+  .author__name {
+    margin: 6px 0 8px;
+    color: $profile-ink;
+    font-weight: 700;
+  }
+
+  .author__bio {
+    max-width: 220px;
+    margin: 0 auto 14px;
+    color: $profile-muted;
+    font-size: 0.92em;
+    line-height: 1.55;
+  }
 }
 
 /* Location / employer meta chips */
@@ -291,61 +306,101 @@
   align-items: center;
   gap: 8px;
   margin-bottom: 16px;
-}
 
-.author-meta__item {
-  display: inline-flex;
-  align-items: center;
-  gap: 8px;
-  background: #f4f6f8;
-  color: #2c3e50;
-  font-size: 0.82em;
-  font-weight: 600;
-  padding: 6px 14px;
-  border-radius: 20px;
-  line-height: 1.3;
+  &__item {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 6px 14px;
+    background: $profile-chip-bg;
+    color: #2c3e50;
+    font-size: 0.82em;
+    font-weight: 600;
+    line-height: 1.3;
+    border-radius: 20px;
 
-  i {
-    color: #e74c3c;
-    font-size: 0.95em;
+    i {
+      color: $profile-accent;
+      font-size: 0.95em;
+    }
   }
 }
 
-/* Social icon grid */
+/* "Follow" toggle — only used on mobile; the grid shows inline on desktop */
+.sidebar .author__urls-wrapper button {
+  display: inline-block;
+  margin: 0 auto;
+
+  @include breakpoint($large) {
+    display: none;
+  }
+}
+
+/* Social links: a centred popover on mobile, an inline grid on desktop.
+   Everything lives in one rule so there are no competing overrides. */
 .author__urls.social-grid {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   gap: 10px;
-  margin: 0;
-  padding: 0;
   list-style: none;
+
+  /* Mobile popover chrome */
+  left: 50%;
+  right: auto;
+  transform: translateX(-50%);
+  width: max-content;
+  max-width: 290px;
+  margin-top: 14px;
+  padding: 16px;
+  background: #fff;
+  border: 1px solid $border-color;
+  border-radius: 16px;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.16);
+  z-index: 20;
+
+  &::before,
+  &::after {
+    left: calc(50% - 10px); // centre the pointer under the Follow button
+  }
+
+  /* Desktop: drop the popover chrome and sit inline in the sidebar */
+  @include breakpoint($large) {
+    position: static;
+    transform: none;
+    width: auto;
+    max-width: none;
+    margin: 0;
+    padding: 0;
+    background: transparent;
+    border: 0;
+    box-shadow: none;
+    z-index: auto;
+  }
 
   li {
     margin: 0;
     white-space: normal;
-
-    &:last-child a { margin-bottom: 0; }
   }
 
   a {
-    width: 40px;
-    height: 40px;
     display: flex;
     align-items: center;
     justify-content: center;
+    width: 40px;
+    height: 40px;
     margin: 0;
     padding: 0;
-    border-radius: 50%;
-    background: #eef1f4;
-    color: #4a5568 !important;
+    background: $profile-icon-bg;
+    color: $profile-icon-ink !important;
     font-size: 1.05rem;
+    border-radius: 50%;
     box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.04);
     transition: transform 0.2s ease, background 0.2s ease, color 0.2s ease, box-shadow 0.2s ease;
 
     &:hover {
       transform: translateY(-3px);
-      background: #4a5568;
+      background: $profile-icon-ink;
       color: #fff !important;
       text-decoration: none;
       box-shadow: 0 6px 14px rgba(0, 0, 0, 0.18);
@@ -354,6 +409,7 @@
     i { line-height: 1; }
   }
 
+  /* Visually-hidden labels for screen readers */
   .link-label {
     position: absolute;
     width: 1px;
@@ -366,7 +422,7 @@
     border: 0;
   }
 
-  /* Brand-colored hover fills */
+  /* Brand-coloured hover fills */
   a:has(.fa-envelope):hover       { background: #ea4335; }
   a:has(.fa-researchgate):hover   { background: #00ccbb; }
   a:has(.fa-twitter-square):hover { background: #1da1f2; }
@@ -382,4 +438,73 @@
   a:has(.fa-google-plus):hover    { background: #db4437; }
   a:has(.fa-xing-square):hover    { background: #006567; }
   a:has(.fa-stack-overflow):hover { background: #f48024; }
+}
+
+/* Compact horizontal layout on phones/tablets: avatar on the left, the rest
+   of the text on the right — saves the vertical white space of the stacked card.
+   Restores to the centred column at the $large desktop breakpoint. */
+@media screen and (max-width: $large - 1) {
+  .author-profile {
+    display: grid;
+    grid-template-columns: 96px minmax(0, 1fr);
+    grid-template-areas:
+      "avatar content"
+      "avatar urls";
+    align-items: start;
+    column-gap: 18px;
+    text-align: left;
+  }
+
+  .sidebar {
+    .author__avatar {
+      grid-area: avatar;
+      align-self: start;
+      width: 96px;
+      height: 96px;
+      margin: 0;
+    }
+
+    .author__content {
+      grid-area: content;
+      min-width: 0;
+      text-align: left;
+    }
+
+    .author__name {
+      margin-top: 0;
+      text-align: left;
+    }
+
+    .author__bio {
+      max-width: none;
+      margin: 6px 0 12px;
+      text-align: left;
+    }
+
+    .author__urls-wrapper {
+      grid-area: urls;
+      margin-top: 10px;
+      text-align: left;
+    }
+  }
+
+  .author-meta {
+    align-items: flex-start;
+    margin-bottom: 0;
+
+    &__item {
+      max-width: 100%;
+    }
+  }
+
+  /* Anchor the popover under the now left-aligned Follow button */
+  .author__urls.social-grid {
+    left: 0;
+    transform: none;
+
+    &::before,
+    &::after {
+      left: 24px;
+    }
+  }
 }
