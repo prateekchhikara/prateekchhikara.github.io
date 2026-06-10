@@ -482,9 +482,20 @@ author_profile: true
 
     .work-meta {
         flex-direction: row;
-        flex-wrap: wrap;
-        align-items: flex-start;
+        flex-wrap: nowrap;
+        align-items: stretch;
         justify-content: flex-start;
+        gap: 6px;
+        width: 100%;
+    }
+
+    .work-date,
+    .work-location {
+        flex: 1 1 0;
+        min-width: 0;
+        white-space: normal;
+        justify-content: center;
+        text-align: center;
     }
 
     .work-details {
