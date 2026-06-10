@@ -30,37 +30,39 @@ author_profile: true
                 <span class="gpa-value">3.85/4.00</span>
             </div>
             <div class="section-divider"></div>
-            <h3 class="section-title">📚 Coursework</h3>
-            <div class="coursework-grid">
-                <div class="coursework-item">
-                    <span class="course-code">CSCI 570</span>
-                    <span class="course-name">Analysis of Algorithms</span>
+            <details class="coursework-details">
+                <summary class="section-title">📚 Coursework</summary>
+                <div class="coursework-grid">
+                    <div class="coursework-item">
+                        <span class="course-code">CSCI 570</span>
+                        <span class="course-name">Analysis of Algorithms</span>
+                    </div>
+                    <div class="coursework-item">
+                        <span class="course-code">CSCI 585</span>
+                        <span class="course-name">Database Systems</span>
+                    </div>
+                    <div class="coursework-item">
+                        <span class="course-code">CSCI 571</span>
+                        <span class="course-name">Web Technologies</span>
+                    </div>
+                    <div class="coursework-item">
+                        <span class="course-code">CSCI 561</span>
+                        <span class="course-name">Foundations of Artificial Intelligence</span>
+                    </div>
+                    <div class="coursework-item">
+                        <span class="course-code">DSCI 552</span>
+                        <span class="course-name">Machine Learning for Data Science</span>
+                    </div>
+                    <div class="coursework-item">
+                        <span class="course-code">CSCI 544</span>
+                        <span class="course-name">Applied Natural Language Processing</span>
+                    </div>
+                    <div class="coursework-item">
+                        <span class="course-code">CSCI 566</span>
+                        <span class="course-name">Deep Learning and Its Applications</span>
+                    </div>
                 </div>
-                <div class="coursework-item">
-                    <span class="course-code">CSCI 585</span>
-                    <span class="course-name">Database Systems</span>
-                </div>
-                <div class="coursework-item">
-                    <span class="course-code">CSCI 571</span>
-                    <span class="course-name">Web Technologies</span>
-                </div>
-                <div class="coursework-item">
-                    <span class="course-code">CSCI 561</span>
-                    <span class="course-name">Foundations of Artificial Intelligence</span>
-                </div>
-                <div class="coursework-item">
-                    <span class="course-code">DSCI 552</span>
-                    <span class="course-name">Machine Learning for Data Science</span>
-                </div>
-                <div class="coursework-item">
-                    <span class="course-code">CSCI 544</span>
-                    <span class="course-name">Applied Natural Language Processing</span>
-                </div>
-                <div class="coursework-item">
-                    <span class="course-code">CSCI 566</span>
-                    <span class="course-name">Deep Learning and Its Applications</span>
-                </div>
-            </div>
+            </details>
         </div>
     </div>
 
@@ -88,49 +90,53 @@ author_profile: true
                 <span class="gpa-value">9.64/10.00</span>
             </div>
             <div class="section-divider"></div>
-            <h3 class="section-title">🎯 Major Coursework</h3>
-            <div class="coursework-grid">
-                <div class="coursework-item">
-                    <span class="course-name">Machine Learning</span>
+            <details class="coursework-details">
+                <summary class="section-title">🎯 Major Coursework</summary>
+                <div class="coursework-grid">
+                    <div class="coursework-item">
+                        <span class="course-name">Machine Learning</span>
+                    </div>
+                    <div class="coursework-item">
+                        <span class="course-name">Artificial Intelligence</span>
+                    </div>
+                    <div class="coursework-item">
+                        <span class="course-name">Data Analytics & Visualization</span>
+                    </div>
+                    <div class="coursework-item">
+                        <span class="course-name">Image Processing</span>
+                    </div>
+                    <div class="coursework-item">
+                        <span class="course-name">Natural Language Processing</span>
+                    </div>
+                    <div class="coursework-item">
+                        <span class="course-name">Deep Learning</span>
+                    </div>
                 </div>
-                <div class="coursework-item">
-                    <span class="course-name">Artificial Intelligence</span>
-                </div>
-                <div class="coursework-item">
-                    <span class="course-name">Data Analytics & Visualization</span>
-                </div>
-                <div class="coursework-item">
-                    <span class="course-name">Image Processing</span>
-                </div>
-                <div class="coursework-item">
-                    <span class="course-name">Natural Language Processing</span>
-                </div>
-                <div class="coursework-item">
-                    <span class="course-name">Deep Learning</span>
-                </div>
-            </div>
+            </details>
             <div class="section-divider"></div>
-            <h3 class="section-title">🌟 Key Responsibilities</h3>
-            <div class="responsibilities-container">
-                <div class="responsibility-item">
-                    <div class="responsibility-icon">🔬</div>
-                    <div class="responsibility-content">
-                        <strong>Research & Publications:</strong> Worked in labs under the supervision of professors from the Computer Engineering Department. Conducted successful research and published papers in high-impact journals and conferences.
+            <details class="coursework-details">
+                <summary class="section-title">🌟 Key Responsibilities</summary>
+                <div class="responsibilities-container">
+                    <div class="responsibility-item">
+                        <div class="responsibility-icon">🔬</div>
+                        <div class="responsibility-content">
+                            <strong>Research & Publications:</strong> Worked in labs under the supervision of professors from the Computer Engineering Department. Conducted successful research and published papers in high-impact journals and conferences.
+                        </div>
+                    </div>
+                    <div class="responsibility-item">
+                        <div class="responsibility-icon">📚</div>
+                        <div class="responsibility-content">
+                            <strong>Course Curriculum Development:</strong> Devised a course curriculum of 40 hrs under the Experiential Learning Centre of college, which introduced use-cases of robotic arm to first-year students. Prepared pre-workshop lectures, assisted students in projects and grading their work.
+                        </div>
+                    </div>
+                    <div class="responsibility-item">
+                        <div class="responsibility-icon">👨‍🏫</div>
+                        <div class="responsibility-content">
+                            <strong>Teaching & Mentoring:</strong> During 2019's summer school, taught first-year students the fundamentals of Python and tutored them the concepts of Computer Vision (creating a CNN using Transfer Learning), creating a Blockchain, developing a cryptocurrency using OOPS in Python, and testing the built API using Postman.
+                        </div>
                     </div>
                 </div>
-                <div class="responsibility-item">
-                    <div class="responsibility-icon">📚</div>
-                    <div class="responsibility-content">
-                        <strong>Course Curriculum Development:</strong> Devised a course curriculum of 40 hrs under the Experiential Learning Centre of college, which introduced use-cases of robotic arm to first-year students. Prepared pre-workshop lectures, assisted students in projects and grading their work.
-                    </div>
-                </div>
-                <div class="responsibility-item">
-                    <div class="responsibility-icon">👨‍🏫</div>
-                    <div class="responsibility-content">
-                        <strong>Teaching & Mentoring:</strong> During 2019's summer school, taught first-year students the fundamentals of Python and tutored them the concepts of Computer Vision (creating a CNN using Transfer Learning), creating a Blockchain, developing a cryptocurrency using OOPS in Python, and testing the built API using Postman.
-                    </div>
-                </div>
-            </div>
+            </details>
         </div>
     </div>
 </div>
@@ -351,6 +357,57 @@ author_profile: true
     display: flex;
     align-items: center;
     gap: 8px;
+}
+
+/* Collapsible coursework dropdown */
+.coursework-details {
+    margin-bottom: 12px;
+}
+
+.coursework-details > summary.section-title {
+    cursor: pointer;
+    list-style: none;
+    user-select: none;
+    padding: 8px 12px;
+    border-radius: 10px;
+    background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+    border: 1px solid rgba(0, 0, 0, 0.05);
+    transition: background 0.3s ease;
+}
+
+.coursework-details > summary.section-title:hover {
+    background: linear-gradient(135deg, #e3f2fd 0%, #bbdefb 100%);
+}
+
+.coursework-details > summary.section-title::-webkit-details-marker {
+    display: none;
+}
+
+.coursework-details > summary.section-title::after {
+    content: '▸';
+    margin-left: auto;
+    color: #2980b9;
+    font-size: 0.9em;
+    transition: transform 0.3s ease;
+}
+
+.coursework-details[open] > summary.section-title::after {
+    transform: rotate(90deg);
+}
+
+.coursework-details[open] > summary.section-title {
+    margin-bottom: 0;
+    border-radius: 10px 10px 0 0;
+}
+
+.coursework-details > .coursework-grid,
+.coursework-details > .responsibilities-container {
+    margin: 0;
+    padding: 12px;
+    border: 1px solid rgba(0, 0, 0, 0.05);
+    border-top: none;
+    border-radius: 0 0 10px 10px;
+    background: rgba(248, 249, 250, 0.5);
 }
 
 .coursework-grid {

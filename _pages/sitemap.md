@@ -14,7 +14,7 @@ A list of all the posts and pages found on the site. For you robots out there is
 * [Home]({{ base_path }}/)
 * [Education]({{ base_path }}/education/)
 * [Work Experience]({{ base_path }}/work_ex/)
-* [Publications]({{ base_path }}/publications/)
+* [Research]({{ base_path }}/research/)
 * [Projects]({{ base_path }}/projects/)
 * [Artworks]({{ base_path }}/artworks/)
 * [Writing]({{ base_path }}/writing/)
