@@ -556,7 +556,7 @@ a.badge:hover {
   <div class="pub-entry-venue">IEEE Transactions on Network and Service Management · 2024</div>
   <div class="pub-entry-authors">A Barnawi, <span class="me">P Chhikara</span>, R Tekchandani, N Kumar, and B Alzahrani</div>
   <div class="pub-badges">
-    <a class="badge badge-if" href="https://ieeexplore.ieee.org/abstract/document/10509607" target="_blank" rel="noopener noreferrer">Impact Factor: 4.7</a>
+    <a class="badge badge-if" href="https://ieeexplore.ieee.org/abstract/document/10509607" target="_blank" rel="noopener noreferrer">Impact Factor: 5.7</a>
   </div>
 </div>
 
@@ -567,7 +567,7 @@ a.badge:hover {
   <div class="pub-entry-venue">Journal of Visual Communication and Image Representation · 2024</div>
   <div class="pub-entry-authors">D Chaurasia and <span class="me">P Chhikara</span></div>
   <div class="pub-badges">
-    <a class="badge badge-if" href="https://www.sciencedirect.com/science/article/pii/S1047320323002717" target="_blank" rel="noopener noreferrer">Impact Factor: 2.6</a>
+    <a class="badge badge-if" href="https://www.sciencedirect.com/science/article/pii/S1047320323002717" target="_blank" rel="noopener noreferrer">Impact Factor: 2.8</a>
   </div>
 </div>
 
@@ -578,7 +578,7 @@ a.badge:hover {
   <div class="pub-entry-venue">IEEE Internet of Things Journal · 2021</div>
   <div class="pub-entry-authors"><span class="me">P Chhikara</span>, R Tekchandani, N Kumar, M Guizani, and MM Hassan</div>
   <div class="pub-badges">
-    <a class="badge badge-if" href="https://ieeexplore.ieee.org/abstract/document/9409140" target="_blank" rel="noopener noreferrer">Impact Factor: 8.2</a>
+    <a class="badge badge-if" href="https://ieeexplore.ieee.org/abstract/document/9409140" target="_blank" rel="noopener noreferrer">Impact Factor: 8.7</a>
   </div>
 </div>
 
@@ -589,7 +589,7 @@ a.badge:hover {
   <div class="pub-entry-venue">Future Generation Computer Systems · 2021</div>
   <div class="pub-entry-authors">A Barnawi, <span class="me">P Chhikara</span>, R Tekchandani, N Kumar, and B Alzahrani</div>
   <div class="pub-badges">
-    <a class="badge badge-if" href="https://www.sciencedirect.com/science/article/pii/S0167739X21001692" target="_blank" rel="noopener noreferrer">Impact Factor: 6.2</a>
+    <a class="badge badge-if" href="https://www.sciencedirect.com/science/article/pii/S0167739X21001692" target="_blank" rel="noopener noreferrer">Impact Factor: 5.9</a>
   </div>
 </div>
 
@@ -600,7 +600,7 @@ a.badge:hover {
   <div class="pub-entry-venue">IEEE Internet of Things Journal · 2020</div>
   <div class="pub-entry-authors"><span class="me">P Chhikara</span>, R Tekchandani, N Kumar, V Chamola, and M Guizani</div>
   <div class="pub-badges">
-    <a class="badge badge-if" href="https://ieeexplore.ieee.org/abstract/document/9207753" target="_blank" rel="noopener noreferrer">Impact Factor: 8.2</a>
+    <a class="badge badge-if" href="https://ieeexplore.ieee.org/abstract/document/9207753" target="_blank" rel="noopener noreferrer">Impact Factor: 8.7</a>
   </div>
 </div>
 
@@ -611,7 +611,7 @@ a.badge:hover {
   <div class="pub-entry-venue">IEEE Internet of Things Journal · 2020</div>
   <div class="pub-entry-authors"><span class="me">P Chhikara</span>, P Singh, R Tekchandani, N Kumar, and M Guizani</div>
   <div class="pub-badges">
-    <a class="badge badge-if" href="https://ieeexplore.ieee.org/abstract/document/9253631" target="_blank" rel="noopener noreferrer">Impact Factor: 8.2</a>
+    <a class="badge badge-if" href="https://ieeexplore.ieee.org/abstract/document/9253631" target="_blank" rel="noopener noreferrer">Impact Factor: 8.7</a>
   </div>
 </div>
 
@@ -622,7 +622,7 @@ a.badge:hover {
   <div class="pub-entry-venue">IEEE Internet of Things Journal · 2020</div>
   <div class="pub-entry-authors"><span class="me">P Chhikara</span>, R Tekchandani, N Kumar, and MS Obaidat</div>
   <div class="pub-badges">
-    <a class="badge badge-if" href="https://ieeexplore.ieee.org/abstract/document/9253547" target="_blank" rel="noopener noreferrer">Impact Factor: 8.2</a>
+    <a class="badge badge-if" href="https://ieeexplore.ieee.org/abstract/document/9253547" target="_blank" rel="noopener noreferrer">Impact Factor: 8.7</a>
   </div>
 </div>
 
@@ -635,7 +635,7 @@ a.badge:hover {
   <div class="pub-entry-venue">Computing · 2023</div>
   <div class="pub-entry-authors"><span class="me">P Chhikara</span>, R Tekchandani, and N Kumar</div>
   <div class="pub-badges">
-    <a class="badge badge-if" href="https://link.springer.com/article/10.1007/s00607-022-01146-6" target="_blank" rel="noopener noreferrer">Impact Factor: 3.3</a>
+    <a class="badge badge-if" href="https://link.springer.com/article/10.1007/s00607-022-01146-6" target="_blank" rel="noopener noreferrer">Impact Factor: 3.6</a>
   </div>
 </div>
 
@@ -646,7 +646,7 @@ a.badge:hover {
   <div class="pub-entry-venue">Multimedia Systems · 2021</div>
   <div class="pub-entry-authors">A Barnawi, <span class="me">P Chhikara</span>, R Tekchandani, N Kumar, and M Boulares</div>
   <div class="pub-badges">
-    <a class="badge badge-if" href="https://link.springer.com/article/10.1007/s00530-021-00833-2" target="_blank" rel="noopener noreferrer">Impact Factor: 3.5</a>
+    <a class="badge badge-if" href="https://link.springer.com/article/10.1007/s00530-021-00833-2" target="_blank" rel="noopener noreferrer">Impact Factor: 2.8</a>
   </div>
 </div>
 
@@ -657,7 +657,7 @@ a.badge:hover {
   <div class="pub-entry-venue">Software: Practice and Experience · 2020</div>
   <div class="pub-entry-authors"><span class="me">P Chhikara</span>, N Jain, R Tekchandani, and N Kumar</div>
   <div class="pub-badges">
-    <a class="badge badge-if" href="https://onlinelibrary.wiley.com/doi/abs/10.1002/spe.2876" target="_blank" rel="noopener noreferrer">Impact Factor: 2.6</a>
+    <a class="badge badge-if" href="https://onlinelibrary.wiley.com/doi/abs/10.1002/spe.2876" target="_blank" rel="noopener noreferrer">Impact Factor: 3.5</a>
   </div>
 </div>
 
@@ -670,7 +670,7 @@ a.badge:hover {
   <div class="pub-entry-venue">Turkish Journal of Electrical Engineering and Computer Sciences · 2021</div>
   <div class="pub-entry-authors"><span class="me">P Chhikara</span>, P Gupta, P Singh, and T Bhatia</div>
   <div class="pub-badges">
-    <a class="badge badge-if" href="https://journals.tubitak.gov.tr/elektrik/vol29/iss8/6/" target="_blank" rel="noopener noreferrer">Impact Factor: 1.2</a>
+    <a class="badge badge-if" href="https://journals.tubitak.gov.tr/elektrik/vol29/iss8/6/" target="_blank" rel="noopener noreferrer">Impact Factor: 2.1</a>
   </div>
 </div>
 
