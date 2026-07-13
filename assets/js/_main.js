@@ -58,6 +58,42 @@ $(document).ready(function(){
     $(".author__urls-wrapper button").toggleClass("open");
   });
 
+  // macOS Dock-style magnification for author social links.
+  $(".author__urls.social-grid").each(function() {
+    var dock = this;
+    var links = Array.prototype.slice.call(dock.querySelectorAll("a"));
+    var maxScale = 1.9;
+    var maxLift = 22;
+    var influence = 118;
+
+    var resetDock = function() {
+      links.forEach(function(link) {
+        link.style.setProperty("--dock-scale", "1");
+        link.style.setProperty("--dock-lift", "0");
+        link.parentElement.classList.remove("dock-active");
+      });
+    };
+
+    dock.addEventListener("pointermove", function(event) {
+      links.forEach(function(link) {
+        var rect = link.getBoundingClientRect();
+        var center = rect.left + rect.width / 2;
+        var distance = Math.abs(event.clientX - center);
+        var closeness = Math.max(0, 1 - distance / influence);
+        var eased = Math.pow(closeness, 1.8);
+        var scale = 1 + (maxScale - 1) * eased;
+        var lift = maxLift * eased;
+
+        link.style.setProperty("--dock-scale", scale.toFixed(3));
+        link.style.setProperty("--dock-lift", lift.toFixed(2));
+        link.parentElement.classList.toggle("dock-active", scale > 1.12);
+      });
+    });
+
+    dock.addEventListener("pointerleave", resetDock);
+    dock.addEventListener("blur", resetDock, true);
+  });
+
   // Close the dropdown when clicking/tapping anywhere outside it.
   // Guarded to mobile (button visible) so the inline desktop grid is never hidden.
   $(document).on("click", function(e) {
