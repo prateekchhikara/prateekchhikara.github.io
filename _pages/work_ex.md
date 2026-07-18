@@ -9,7 +9,7 @@ author_profile: true
     <div class="work-card">
         <div class="work-header">
             <div class="logo-container">
-                <img src="/images/mistral.webp" alt="Mistral AI Logo" class="work-logo" decoding="async"/>
+                <img src="/images/mistral-gradient.png" alt="Mistral AI Logo" class="work-logo" decoding="async"/>
             </div>
             <div class="work-info">
                 <h2>Applied AI Engineer</h2>
