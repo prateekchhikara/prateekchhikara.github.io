@@ -7,12 +7,12 @@ main:
     url: /work_ex/
   - title: Education
     url: /education/
+    compact: true
   - title: Writing
     url: /writing/
   - title: Art
     url: /artworks/
+    compact: true
   - title: Projects
     url: /projects/
-more:
-  - title: Profile & recommendations
-    url: /profile/
+    compact: true
