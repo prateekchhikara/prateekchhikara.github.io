@@ -2,288 +2,17 @@
 layout: archive
 title: "Research"
 permalink: /research/
-author_profile: true
+author_profile: false
+description: "Research on memory, perception, and the reliability of AI systems."
 ---
-
-<style>
-/* ============ Shared ============ */
-.pub-wrap {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 0 8px;
-}
-
-.section-heading {
-  text-align: center;
-  margin: 34px 0 20px;
-}
-
-.section-heading span {
-  display: inline-block;
-  font-size: 1.5em;
-  font-weight: 800;
-  color: #1a2533;
-  padding-bottom: 8px;
-  position: relative;
-}
-
-.section-heading span::after {
-  content: '';
-  position: absolute;
-  left: 50%;
-  bottom: 0;
-  transform: translateX(-50%);
-  width: 70px;
-  height: 3px;
-  border-radius: 3px;
-  background: linear-gradient(90deg, #e74c3c, #f39c12, #f1c40f);
-}
-
-/* ============ Featured publication cards ============ */
-.publication-card {
-  background: linear-gradient(135deg, #ffffff 0%, #f8f9fa 100%);
-  border-radius: 14px;
-  padding: 18px;
-  margin-bottom: 22px;
-  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-  border: 1px solid rgba(0, 0, 0, 0.05);
-  position: relative;
-  overflow: hidden;
-  display: flex;
-  gap: 20px;
-  align-items: stretch;
-}
-
-.publication-card::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  height: 3px;
-  background: linear-gradient(90deg, #e74c3c, #f39c12, #f1c40f);
-  border-radius: 14px 14px 0 0;
-  z-index: 2;
-}
-
-.publication-card:hover {
-  transform: translateY(-4px);
-  box-shadow: 0 14px 32px rgba(0, 0, 0, 0.13);
-}
-
-.publication-image-wrap {
-  width: 230px;
-  min-width: 230px;
-  border-radius: 10px;
-  overflow: hidden;
-  flex-shrink: 0;
-  box-shadow: 0 3px 12px rgba(0, 0, 0, 0.1);
-  align-self: stretch;
-  background: #fff;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.publication-image {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  display: block;
-  transition: transform 0.4s ease;
-}
-
-.publication-card:hover .publication-image {
-  transform: scale(1.05);
-}
-
-.publication-content {
-  flex: 1;
-  min-width: 0;
-  display: flex;
-  flex-direction: column;
-}
-
-.publication-title {
-  font-weight: 700;
-  font-size: 1.12em;
-  line-height: 1.3;
-  margin-bottom: 10px;
-}
-
-.publication-title a {
-  color: #1a2533;
-  text-decoration: none;
-  transition: color 0.3s ease;
-}
-
-.publication-title a:hover {
-  color: #2980b9;
-  text-decoration: none;
-}
-
-.publication-meta {
-  display: inline-flex;
-  align-items: center;
-  align-self: flex-start;
-  gap: 6px;
-  background: #eaf2fa;
-  color: #2471a3;
-  padding: 3px 12px;
-  border-radius: 20px;
-  font-size: 0.74em;
-  font-weight: 600;
-  font-style: normal;
-  margin-bottom: 10px;
-}
-
-.publication-meta::before {
-  content: '📄';
-  font-size: 0.95em;
-}
-
-.publication-excerpt {
-  margin: 0 0 10px;
-  color: #2c3e50;
-  line-height: 1.55;
-  font-size: 0.85em;
-}
-
-.featured-award {
-  display: inline-flex;
-  align-items: center;
-  align-self: flex-start;
-  gap: 5px;
-  background: #fdf6e3;
-  color: #b7791f;
-  padding: 3px 11px;
-  border-radius: 20px;
-  font-weight: 700;
-  font-size: 0.78em;
-  margin-bottom: 10px;
-}
-
-/* ============ Full publication list ============ */
-.pub-rank {
-  display: inline-flex;
-  align-items: center;
-  gap: 8px;
-  font-size: 0.82em;
-  font-weight: 700;
-  letter-spacing: 0.5px;
-  text-transform: uppercase;
-  color: #566573;
-  background: #f0f2f4;
-  padding: 4px 14px;
-  border-radius: 20px;
-  margin: 22px 0 14px;
-}
-
-.pub-entry {
-  background: #ffffff;
-  border: 1px solid #eef0f2;
-  border-left: 4px solid #2980b9;
-  border-radius: 10px;
-  padding: 14px 16px;
-  margin-bottom: 12px;
-  transition: transform 0.25s ease, box-shadow 0.25s ease, border-left-color 0.25s ease;
-}
-
-.pub-entry:hover {
-  transform: translateX(3px);
-  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
-  border-left-color: #e74c3c;
-}
-
-.pub-entry-title {
-  font-weight: 700;
-  font-size: 0.98em;
-  line-height: 1.35;
-  margin-bottom: 4px;
-}
-
-.pub-entry-title a {
-  color: #1a2533;
-  text-decoration: none;
-  transition: color 0.25s ease;
-}
-
-.pub-entry-title a:hover {
-  color: #2980b9;
-}
-
-.pub-entry-venue {
-  font-style: italic;
-  color: #7f8c8d;
-  font-size: 0.82em;
-  margin-bottom: 3px;
-}
-
-.pub-entry-authors {
-  color: #566573;
-  font-size: 0.82em;
-  margin-bottom: 9px;
-}
-
-.pub-entry-authors .me {
-  color: #1a2533;
-  font-weight: 700;
-}
-
-.pub-badges {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 7px;
-}
-
-.badge {
-  display: inline-flex;
-  align-items: center;
-  gap: 4px;
-  padding: 3px 11px;
-  border-radius: 20px;
-  font-size: 0.72em;
-  font-weight: 600;
-  letter-spacing: 0.2px;
-  text-decoration: none;
-  white-space: nowrap;
-  transition: transform 0.2s ease, filter 0.2s ease;
-}
-
-a.badge:hover {
-  transform: translateY(-1px);
-  filter: brightness(0.96);
-  text-decoration: none;
-}
-
-.badge-paper   { background: #efeafd; color: #6b46c1; }
-.badge-workshop{ background: #eaf2fa; color: #2471a3; }
-.badge-resource{ background: #f0f2f4; color: #566573; }
-.badge-if      { background: #fdf3e7; color: #c0700f; }
-.badge-award   { background: #fdf6e3; color: #b7791f; }
-
-@media (max-width: 768px) {
-  .publication-card {
-    flex-direction: column;
-  }
-  .publication-image-wrap {
-    width: 100%;
-    min-width: unset;
-  }
-  .publication-image {
-    height: 200px;
-  }
-}
-</style>
 
 <div class="pub-wrap">
 
-<div class="section-heading"><span>Selected Publications</span></div>
+<h2 class="section-heading">Selected Publications</h2>
 
   <div class="publication-card">
     <div class="publication-image-wrap">
-      <img src="/images/calibration.webp" alt="Mind the confidence gap paper" class="publication-image" loading="lazy" decoding="async">
+      <img src="{{ '/images/calibration.webp' | relative_url }}" alt="Mind the confidence gap paper" class="publication-image" loading="lazy" decoding="async">
     </div>
     <div class="publication-content">
       <div class="publication-title">
@@ -300,7 +29,7 @@ a.badge:hover {
 
   <div class="publication-card">
     <div class="publication-image-wrap">
-      <img src="/images/mem0_paper.webp" alt="Mem0 paper" class="publication-image" loading="lazy" decoding="async">
+      <img src="{{ '/images/mem0_paper.webp' | relative_url }}" alt="Mem0 paper" class="publication-image" loading="lazy" decoding="async">
     </div>
     <div class="publication-content">
       <div class="publication-title">
@@ -317,7 +46,7 @@ a.badge:hover {
 
   <div class="publication-card">
     <div class="publication-image-wrap">
-      <img src="/images/mllm_knows.webp" alt="MLLMs Know Where to Look paper" class="publication-image" loading="lazy" decoding="async">
+      <img src="{{ '/images/mllm_knows.webp' | relative_url }}" alt="MLLMs Know Where to Look paper" class="publication-image" loading="lazy" decoding="async">
     </div>
     <div class="publication-content">
       <div class="publication-title">
@@ -334,7 +63,7 @@ a.badge:hover {
 
   <div class="publication-card">
     <div class="publication-image-wrap">
-      <img src="/images/wacv.webp" alt="FIRE paper" class="publication-image" loading="lazy" decoding="async">
+      <img src="{{ '/images/wacv.webp' | relative_url }}" alt="FIRE paper" class="publication-image" loading="lazy" decoding="async">
     </div>
     <div class="publication-content">
       <div class="publication-title">
@@ -351,7 +80,7 @@ a.badge:hover {
 
   <div class="publication-card">
     <div class="publication-image-wrap">
-      <img src="/images/kcap.webp" alt="KCap paper" class="publication-image" loading="lazy" decoding="async">
+      <img src="{{ '/images/kcap.webp' | relative_url }}" alt="KCap paper" class="publication-image" loading="lazy" decoding="async">
     </div>
     <div class="publication-content">
       <div class="publication-title">
@@ -367,13 +96,13 @@ a.badge:hover {
     </div>
   </div>
 
-<div class="section-heading"><span>All Publications</span></div>
+<h2 class="section-heading">All Publications</h2>
 
-<p style="text-align:center; color:#566573; font-size:0.9em; margin-top:-8px;">
+<p>
   You can find all my publications on <a href="https://scholar.google.com/citations?user=RQTJ_aIAAAAJ&hl" target="_blank" rel="noopener noreferrer">Google Scholar</a> or <a href="https://www.researchgate.net/profile/Prateek-Chhikara" target="_blank" rel="noopener noreferrer">ResearchGate</a>.
 </p>
 
-<div class="section-heading"><span>Conferences / Workshops</span></div>
+<h2 class="section-heading">Conferences / Workshops</h2>
 
 <span class="pub-rank">CORE A*</span>
 
@@ -534,7 +263,7 @@ a.badge:hover {
   </div>
 </div>
 
-<div class="section-heading"><span>Journals</span></div>
+<h2 class="section-heading">Journals</h2>
 
 <span class="pub-rank">Quartile 1 (Q1)</span>
 
@@ -674,7 +403,7 @@ a.badge:hover {
   </div>
 </div>
 
-<div class="section-heading"><span>Book Chapter</span></div>
+<h2 class="section-heading">Book Chapter</h2>
 
 <div class="pub-entry">
   <div class="pub-entry-title">

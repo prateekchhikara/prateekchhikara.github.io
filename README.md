@@ -19,3 +19,5 @@ The local site runs at `http://localhost:4000`.
 - Site-wide metadata lives in `_config.yml`.
 - Navigation lives in `_data/navigation.yml`.
 - Generated files in `_site/` should not be edited by hand.
+
+See [Writing and maintaining the site](docs/writing.md) for article publishing, data files, and theme customization.

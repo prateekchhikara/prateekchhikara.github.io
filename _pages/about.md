@@ -1,352 +1,48 @@
 ---
+layout: home
 permalink: /
-title: ""
-excerpt: "About me"
-author_profile: true
+title: Prateek Chhikara
+excerpt: "Applied AI Engineer at Mistral AI. Research and engineering across language, vision, and agent memory."
 redirect_from:
   - /about/
   - /about.html
 ---
-
-<div style="display: flex; align-items: flex-end; gap: 30px; flex-wrap: wrap;">
-    <div style="flex: 2; min-width: 300px;">
-        <h2 style="margin-bottom: 20px;">About me</h2>
-        <div style="font-size: 16px; line-height: 1.8; text-align: justify; background-color: #f9f9f9; padding: 20px; border-radius: 8px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
-            <p>
-                I'm a passionate <b>AI/ML Engineer</b> with <b>5+ years of experience</b> designing and deploying impactful AI solutions. I hold a Master's degree in Computer Science from <b>University of Southern California</b> (✌️) with a specialization in Artificial Intelligence, and have honed my expertise across <b>natural language processing</b>, <b>computer vision</b>, and <b>AI infrastructure</b>.
-            </p>
-            <p>
-                Currently, I work as an <b style="color: #FF6D2D; background: linear-gradient(120deg, rgba(255, 109, 45, 0.1) 0%, rgba(255, 109, 45, 0.05) 100%); padding: 2px 6px; border-radius: 4px;">Applied AI Engineer at Mistral AI</b>, where I design and deploy innovative AI solutions for customer-facing projects and real-world use cases.
-            </p>
-            <p>
-                My journey spans startups, research labs, and industry, where I excel at transforming complex ideas into practical, business-driven solutions. I am deeply committed to innovation and research, with <b>25+ publications</b> in leading conferences and journals, and <b>2000+ citations</b> <a href="https://scholar.google.com/citations?user=RQTJ_aIAAAAJ&hl" style="color: #2980b9; text-decoration: none; font-weight: bold;">on Google Scholar</a>. I thrive on solving challenging problems at the intersection of advanced AI and real-world impact.
-            </p>
-        </div>
+<section class="home-minimal" aria-labelledby="home-title">
+  <div>
+    <p class="eyebrow">Applied AI engineer · San Francisco</p>
+    <h1 id="home-title">Prateek Chhikara<span class="title-period">.</span></h1>
+    <p class="home-minimal__intro">I build AI systems that work beyond the demo.</p>
+    <div class="home-bio">
+      <p>I’m an Applied AI Engineer at <a href="https://mistral.ai/">Mistral AI</a>, working on production AI systems across language, vision, and agent memory.</p>
+      <p>Previously, I was a founding AI engineer at <a href="https://mem0.ai/">Mem0</a> and a researcher at <a href="https://www.isi.edu/">USC’s Information Sciences Institute</a>. I’m interested in how we make models more reliable, more perceptive, and better at remembering what matters.</p>
     </div>
-    <div style="flex: 1; min-width: 280px; display: flex; flex-direction: column; gap: 20px;">
-        <img src="/images/pc_grad.jpg" alt="Prateek Chhikara at graduation" style="width: 100%; border-radius: 8px; box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);" decoding="async" width="1200" height="1796"/>
-        <!-- Mistral AI Banner -->
-        <div style="border-radius: 8px; overflow: hidden; box-shadow: 0 4px 12px rgba(255, 109, 45, 0.2); border: 2px solid #FF6D2D;">
-            <img src="/images/mistral-banner.webp" alt="Mistral AI" style="width: 100%; height: auto; display: block;" loading="lazy" decoding="async" width="1080" height="675"/>
-        </div>
-    </div>
+    <div class="home-minimal__links"><a href="{{ '/research/' | relative_url }}">Explore my research <span aria-hidden="true">↗</span></a><a href="mailto:{{ site.author.email }}">Get in touch <span aria-hidden="true">↗</span></a></div>
+  </div>
+  <figure class="home-portrait"><img src="{{ '/images/profile.webp' | relative_url }}" alt="Prateek Chhikara" width="180" height="210" fetchpriority="high"><figcaption>Engineer. Researcher. Artist.</figcaption></figure>
+</section>
+<div class="home-minimal__facts" aria-label="At a glance">
+  <a href="{{ '/research/' | relative_url }}"><strong>25+</strong> publications</a>
+  <a href="{{ site.author.googlescholar }}"><strong>2,000+</strong> citations</a>
+  <a href="{{ '/work_ex/' | relative_url }}"><strong>5+</strong> years building AI</a>
+  <a href="{{ '/education/' | relative_url }}"><strong>MS</strong> Computer Science, USC</a>
 </div>
-
-<div style="font-size: 16px; line-height: 1.6; margin-top: 30px; margin-bottom: 30px; padding: 15px; background: #f5f5f5; border-radius: 8px; border-left: 4px solid #2980b9; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
-    <span style="display: block; margin-bottom: 10px;">
-        <strong style="color: #2c3e50;">Conferences/Workshops:</strong>
-        <span style="color: #34495e;">ICLR, ACL, NeurIPS, WACV, ECML, ECAI, etc.</span>
-    </span>
-    <span style="display: block;">
-        <strong style="color: #2c3e50;">Journals:</strong>
-        <span style="color: #34495e;">TMLR, IEEE IoT, Elsevier FGCS, etc.</span>
-    </span>
-</div>
-
-<div style="font-size: 16px; line-height: 1.8; text-align: justify; margin-top: 30px; margin-bottom: 30px; background-color: #f9f9f9; padding: 20px; border-radius: 8px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
-    <p>
-        I am deeply passionate about advancing the frontiers of Artificial Intelligence and Machine Learning, constantly exploring cutting-edge developments and innovative approaches. This intellectual curiosity drives me to not only master new technologies but also effectively bridge gaps between technical and business domains. My strong communication skills and collaborative mindset have enabled me to successfully lead cross-functional teams and deliver high-impact projects. I take pride in fostering an inclusive environment that encourages knowledge sharing and collective growth, having mentored junior engineers and contributed to building robust AI solutions that directly address business challenges.
-    </p>
-     <p>
-        I also enjoy sharing knowledge with the community. If you're interested in data science or AI, check out my articles and tutorials on <a href="https://medium.com/@prateekchhikara" style="color: #2980b9; text-decoration: none; font-weight: bold;">Medium</a>.
-    </p>
-</div>
-
-<hr />
-
-## Skills
-
-<div style="font-size: 16px; line-height: 1.6; margin-bottom: 30px; background-color: #f9f9f9; padding: 20px; border-radius: 8px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
-    <!-- <h3 style="margin-bottom: 10px; color: #2c3e50;">Skills</h3> -->
-    <ul style="list-style-type: none; padding: 0;">
-        <li style="margin-bottom: 10px;">
-            <strong style="color: #2980b9;">Programming Languages:</strong> Python, C++, R, Matlab, SQL
-        </li>
-        <li style="margin-bottom: 10px;">
-            <strong style="color: #2980b9;">Development Tools:</strong> HTML, CSS, Javascript, Angular, NodeJS, SwiftUI
-        </li>
-        <li style="margin-bottom: 10px;">
-            <strong style="color: #2980b9;">Machine Learning & Deep Learning Frameworks:</strong> PyTorch, Tensorflow, Keras, ONNX, HuggingFace, NLTK, OpenCV, Spacy, LangChain, Scikit-learn, Flask, PySpark, MLFlow
-        </li>
-        <li style="margin-bottom: 10px;">
-            <strong style="color: #2980b9;">Tools:</strong> Databricks, Weights & Biases (wandb), Jenkins, Gradio, Git, Docker, OpenVINO, SonarQube, Postman, Google Analytics
-        </li>
-        <li style="margin-bottom: 10px;">
-            <strong style="color: #2980b9;">Cloud Platforms:</strong> AWS (EC2, S3, Lambda, SageMaker, RDS) and GCP (Compute Engine, Cloud Storage, Cloud Functions, BigQuery)
-        </li>
-    </ul>
-</div>
-
-<hr />
-
-## Recommendations
-
-<div style="font-size: 16px; line-height: 1.6; margin-bottom: 30px; background-color: #f9f9f9; padding: 20px; border-radius: 8px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
-    <div style="max-width: 800px; margin: 0 auto;">
-        <!-- Carousel Container -->
-        <div style="position: relative; background: white; border-radius: 12px; padding: 30px 50px 30px 50px; box-shadow: 0 3px 10px rgba(0,0,0,0.08); box-sizing: border-box; overflow: hidden;">
-            <!-- Carousel Slides -->
-            <div class="recommendations-carousel" style="position: relative; border-radius: 8px; min-height: 350px; overflow: hidden;">
-                <!-- Slide 1 -->
-                <div class="rec-slide active-rec-slide" style="display: block; opacity: 1; visibility: visible; z-index: 10;">
-                    <div style="display: flex; gap: 15px; margin-bottom: 12px;">
-                        <div style="width: 60px; height: 60px; border-radius: 50%; overflow: hidden; border: 2px solid #f0f0f0; flex-shrink: 0;">
-                            <img src="/images/jamie.jpeg" alt="Jamie McInally" style="width: 100%; height: 100%; object-fit: cover;" loading="lazy" decoding="async">
-                        </div>
-                        <div style="flex-grow: 1;">
-                            <div style="font-weight: bold; font-size: 16px; margin-bottom: 3px;">
-                                Jamie McInally
-                                <a href="https://uk.linkedin.com/in/jamie-mcinally-75453766" style="text-decoration: none;">
-                            <img src="/images/linkedin.webp" alt="LinkedIn" style="width: 16px; height: 16px; vertical-align: middle; margin-left: 4px;" loading="lazy" decoding="async">
-                                </a>
-                            </div>
-                            <div style="font-size: 14px; color: #666;">CEO of Autoenhance.ai</div>
-                        </div>
-                    </div>
-                    <div style="font-size: 13px; color: #444; line-height: 1.5; text-align: justify;">Working with Prateek has been a pleasure. Working in a startup with a small team requires everyone to think on their toes and deliver quality consistently and quickly. Prateek was always keen to get involved with any challenge and communicated his ideas and results well to the team. He has a broad and in-depth understanding of computer vision and AI and is always keen to explore new and novel ways to improve the product.</div>
-                </div>
-
-                <!-- Slide 2 -->
-                <div class="rec-slide" style="display: block; opacity: 0; visibility: hidden; z-index: 0;">
-                    <div style="display: flex; gap: 15px; margin-bottom: 12px;">
-                        <div style="width: 60px; height: 60px; border-radius: 50%; overflow: hidden; border: 2px solid #f0f0f0; flex-shrink: 0;">
-                            <img src="/images/filip.jpeg" alt="Filip Ilievski" style="width: 100%; height: 100%; object-fit: cover;" loading="lazy" decoding="async">
-                        </div>
-                        <div style="flex-grow: 1;">
-                            <div style="font-weight: bold; font-size: 16px; margin-bottom: 3px;">
-                                Filip Ilievski
-                                <a href="https://www.linkedin.com/in/filipilievski91" style="text-decoration: none;">
-                                    <img src="/images/linkedin.webp" alt="LinkedIn" style="width: 16px; height: 16px; vertical-align: middle; margin-left: 4px;" loading="lazy" decoding="async">
-                                </a>
-                            </div>
-                            <div style="font-size: 14px; color: #666;">Assistant Professor (Sr.) at VU Amsterdam</div>
-                        </div>
-                    </div>
-                    <div style="font-size: 13px; color: #444; line-height: 1.5; text-align: justify;">Prateek worked with me as a research assistant for 1.5 years at USC's Information Sciences Institute, on several projects covering both interactive text-based tasks and computer vision tasks. Prateek came in already as a mature researcher, with the most solid publication history of a Master's student I've ever seen. Week by week, he was extremely respectful, hard-working, and very well-organized. His reports were always extensive with experimental results, findings, and future steps. Besides coding and discussions, he also excelled in writing - he has a clear and informative writing style, at the level of a third-year PhD student. Finally, he is a great team player, very understandable and constructive in the research process.</div>
-                </div>
-
-                <!-- Slide 3 -->
-                <div class="rec-slide" style="display: block; opacity: 0; visibility: hidden; z-index: 0;">
-                    <div style="display: flex; gap: 15px; margin-bottom: 12px;">
-                        <div style="width: 60px; height: 60px; border-radius: 50%; overflow: hidden; border: 2px solid #f0f0f0; flex-shrink: 0;">
-                            <img src="/images/chirag.jpeg" alt="Chirag Sharma" style="width: 100%; height: 100%; object-fit: cover;" loading="lazy" decoding="async">
-                        </div>
-                        <div style="flex-grow: 1;">
-                            <div style="font-weight: bold; font-size: 16px; margin-bottom: 3px;">
-                                Chirag Sharma
-                                <a href="https://www.linkedin.com/in/chiraggemini" style="text-decoration: none;">
-                                    <img src="/images/linkedin.webp" alt="LinkedIn" style="width: 16px; height: 16px; vertical-align: middle; margin-left: 4px;" loading="lazy" decoding="async">
-                                </a>
-                            </div>
-                            <div style="font-size: 14px; color: #666;">Product Manager @ Jio Platforms</div>
-                        </div>
-                    </div>
-                    <div style="font-size: 13px; color: #444; line-height: 1.5; text-align: justify;">I managed Prateek at Housing.com for a couple of years. His work and die hard problem solving attitude always impressed his stakeholders. Every project given to him had elements of complexity which he navigated very well. Prateek's technical skills, his ability to learn on the go and research driven attitude are going to take him a long way. He will definitely be an asset to any team he joins!</div>
-                </div>
-
-                <!-- Slide 4 -->
-                <div class="rec-slide" style="display: block; opacity: 0; visibility: hidden; z-index: 0;">
-                    <div style="display: flex; gap: 15px; margin-bottom: 12px;">
-                        <div style="width: 60px; height: 60px; border-radius: 50%; overflow: hidden; border: 2px solid #f0f0f0; flex-shrink: 0;">
-                            <img src="/images/anil.jpeg" alt="Anil Goyal" style="width: 100%; height: 100%; object-fit: cover;" loading="lazy" decoding="async">
-                        </div>
-                        <div style="flex-grow: 1;">
-                            <div style="font-weight: bold; font-size: 16px; margin-bottom: 3px;">
-                                Anil Goyal
-                                <a href="https://www.linkedin.com/in/anilgoyal91" style="text-decoration: none;">
-                                    <img src="/images/linkedin.webp" alt="LinkedIn" style="width: 16px; height: 16px; vertical-align: middle; margin-left: 4px;" loading="lazy" decoding="async">
-                                </a>
-                            </div>
-                            <div style="font-size: 14px; color: #666;">Principal Data Scientist @ Mastercard</div>
-                        </div>
-                    </div>
-                    <div style="font-size: 13px; color: #444; line-height: 1.5; text-align: justify;">Prateek is a meticulous data scientist and brilliant researcher. He has a deep understanding of data science concepts and understands how machine learning can generate value for real-world problems. We have collaborated on multiple projects (Image classification, fraud detection, etc.) and submitted multiple research papers at top conferences. I wish him all the best and success for his future career.</div>
-                </div>
-            </div>
-
-            <!-- Previous Button -->
-            <button type="button" aria-label="Previous recommendation" onclick="changeRecSlide(-1)" style="position: absolute; left: 10px; top: 50%; transform: translateY(-50%); background: #2980b9; color: white; border: none; width: 40px; height: 40px; border-radius: 50%; cursor: pointer; font-size: 20px; transition: all 0.3s ease;" onmouseover="this.style.background='#1f5f8b'; this.style.boxShadow='0 4px 12px rgba(0,0,0,0.2);'" onmouseout="this.style.background='#2980b9'; this.style.boxShadow='none';">❮</button>
-
-            <!-- Next Button -->
-            <button type="button" aria-label="Next recommendation" onclick="changeRecSlide(1)" style="position: absolute; right: 10px; top: 50%; transform: translateY(-50%); background: #2980b9; color: white; border: none; width: 40px; height: 40px; border-radius: 50%; cursor: pointer; font-size: 20px; transition: all 0.3s ease;" onmouseover="this.style.background='#1f5f8b'; this.style.boxShadow='0 4px 12px rgba(0,0,0,0.2);'" onmouseout="this.style.background='#2980b9'; this.style.boxShadow='none';">❯</button>
-
-            <!-- Slider -->
-            <div style="margin-top: 20px; display: flex; align-items: center; justify-content: center; gap: 5px;">
-                <span style="font-size: 12px; color: #999; font-weight: bold;" id="recSlideCounter" aria-live="polite">1 / 4</span>
-            </div>
-        </div>
-    </div>
-</div>
-
-<style>
-.active-rec-slide {
-    animation: fadeIn 0.5s ease-in-out;
-}
-
-.rec-slide {
-    opacity: 0;
-    visibility: hidden;
-    transition: opacity 0.5s ease-in-out, visibility 0.5s ease-in-out;
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    width: 100%;
-    box-sizing: border-box;
-    padding: 0 10px;
-}
-
-.rec-slide[style*="display: block"] {
-    opacity: 1;
-    visibility: visible;
-}
-
-@keyframes fadeIn {
-    from {
-        opacity: 0;
-    }
-    to {
-        opacity: 1;
-    }
-}
-
-.recommendations-carousel {
-    position: relative;
-}
-
-.rec-indicator:hover {
-    transform: scale(1.2);
-}
-
-@media (max-width: 768px) {
-    .recommendations-carousel {
-        padding: 20px 0;
-    }
-
-    .rec-slide {
-        padding: 0 5px;
-    }
-
-    .rec-slide div[style*="display: flex; gap: 15px"] {
-        gap: 10px !important;
-    }
-
-    button[onclick*="changeRecSlide"] {
-        position: absolute !important;
-        display: block !important;
-        width: 35px !important;
-        height: 35px !important;
-        font-size: 18px !important;
-    }
-
-    div[style*="position: relative; background: white; border-radius: 12px; padding: 30px 50px"] {
-        padding: 20px 50px 20px 50px !important;
-    }
-}
-
-@media (max-width: 480px) {
-    .rec-slide {
-        padding: 0;
-        font-size: 12px;
-    }
-
-    .rec-slide div[style*="font-size: 13px"] {
-        font-size: 12px !important;
-        line-height: 1.4;
-    }
-
-    .rec-slide div[style*="font-size: 14px"] {
-        font-size: 12px !important;
-    }
-
-    .rec-slide div[style*="font-weight: bold; font-size: 16px"] {
-        font-size: 14px !important;
-    }
-
-    div[style*="position: relative; background: white; border-radius: 12px; padding: 30px 50px"] {
-        padding: 15px 45px 15px 45px !important;
-    }
-
-    button[onclick*="changeRecSlide"] {
-        position: absolute !important;
-        display: block !important;
-        width: 30px !important;
-        height: 30px !important;
-        font-size: 16px !important;
-        left: 5px !important;
-        right: auto !important;
-    }
-
-    button[onclick*="changeRecSlide"]:last-of-type {
-        left: auto !important;
-        right: 5px !important;
-    }
-}
-</style>
-
-<script>
-let currentRecIndex = 0;
-
-function changeRecSlide(n) {
-    showRecSlide(currentRecIndex += n);
-}
-
-function currentRecSlide(n) {
-    showRecSlide(currentRecIndex = n);
-}
-
-function showRecSlide(n) {
-    const slides = document.querySelectorAll('.rec-slide');
-    if (n >= slides.length) {
-        currentRecIndex = 0;
-    }
-    if (n < 0) {
-        currentRecIndex = slides.length - 1;
-    }
-
-    slides.forEach((slide, index) => {
-        if (index === currentRecIndex) {
-            slide.style.opacity = '1';
-            slide.style.visibility = 'visible';
-            slide.style.zIndex = '10';
-            slide.setAttribute('aria-hidden', 'false');
-        } else {
-            slide.style.opacity = '0';
-            slide.style.visibility = 'hidden';
-            slide.style.zIndex = '0';
-            slide.setAttribute('aria-hidden', 'true');
-        }
-    });
-
-    const counter = document.getElementById('recSlideCounter');
-    if (counter) {
-        counter.textContent = (currentRecIndex + 1) + ' / 4';
-    }
-}
-
-// Initialize counter on page load
-document.addEventListener('DOMContentLoaded', function() {
-    const counter = document.getElementById('recSlideCounter');
-    if (counter) {
-        counter.textContent = '1 / 4';
-    }
-    showRecSlide(currentRecIndex);
-});
-</script>
-
-<hr />
-<br>
-<br>
-
-<div style="text-align: center; margin: 30px 0; padding: 15px; background: linear-gradient(to right, #f9f9f9, #ffffff, #f9f9f9); border-radius: 10px; box-shadow: 0 2px 10px rgba(0,0,0,0.05);">
-    <p style="font-size: 14px; color: #666; margin-bottom: 10px;">Visitors from around the world</p>
-    <a href="https://s01.flagcounter.com/more/nxX">
-        <img src="https://s01.flagcounter.com/count2/nxX/bg_FFFFFF/txt_000000/border_CCCCCC/columns_5/maxflags_20/viewers_0/labels_0/pageviews_0/flags_0/percent_0/"
-             alt="Flag Counter"
-             style="border: 0; border-radius: 5px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); transition: transform 0.2s ease-in-out;"
-             loading="lazy"
-             decoding="async"
-             onmouseover="this.style.transform='scale(1.02)'"
-             onmouseout="this.style.transform='scale(1)'">
-    </a>
-</div>
+<section class="home-minimal__section" aria-labelledby="selected-heading">
+  <div class="section-top"><h2 id="selected-heading">Selected research</h2><a href="{{ '/research/' | relative_url }}">All publications <span aria-hidden="true">→</span></a></div>
+  <ol class="editorial-list">
+    {% for item in site.data.selected_work %}
+      <li><a class="editorial-row" href="{{ item.url }}"><div><span class="row-meta">{{ item.venue }}</span><h3>{{ item.title }}</h3><p>{{ item.summary }}</p></div><span class="row-arrow" aria-hidden="true">↗</span></a></li>
+    {% endfor %}
+  </ol>
+</section>
+<section class="home-minimal__section" aria-labelledby="writing-heading">
+  <div class="section-top"><h2 id="writing-heading">Latest writing</h2><a href="{{ '/writing/' | relative_url }}">All writing <span aria-hidden="true">→</span></a></div>
+  <ol class="editorial-list">
+    {% for post in site.posts limit:3 %}
+      <li><a class="editorial-row writing-preview" href="{{ post.url | relative_url }}"><h3>{{ post.title }}</h3><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: '%b %-d, %Y' }}</time></a></li>
+    {% endfor %}
+  </ol>
+</section>
+<section class="home-minimal__section outside-section" aria-labelledby="outside-heading">
+  <h2 id="outside-heading">Outside the terminal</h2>
+  <p>I draw anime-inspired artwork and write about life, research, and the things I learn along the way. <a href="{{ '/artworks/' | relative_url }}">Visit the sketchbook <span aria-hidden="true">↗</span></a></p>
+</section>

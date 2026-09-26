@@ -1,0 +1,64 @@
+- title: "SIFRA: Super Intelligent & Friendly Responsive Agent"
+  url: "https://github.com/prateekchhikara/sifra"
+  image: "/images/sifra.webp"
+  details: ["Implemented an AI agent using LangChain and RAG to seamlessly process and personalize user interactions from unstructured data.","Applied generative AI methods to deliver highly adaptive, contextual, and tailored user experiences, significantly boosting engagement."]
+  tags: ["LangChain","RAG","Generative AI","LLM Agents"]
+  summary: "An agent built with LangChain and retrieval-augmented generation to personalize interactions using unstructured data."
+  year: "2024"
+  repository_created: "2024-06-23"
+- title: "AISR: AI Sports Recap"
+  url: "https://github.com/prateekchhikara/sports-highlights/"
+  image: "/images/aisr.jpeg"
+  details: ["Developed an AI-powered tool that generates concise summaries and engaging highlight reels from sports press conference videos, enhancing fan and media experience.","Integrated advanced NLP and video analysis models, including GPT-4 and Pegasus1 (from Twelve Labs), to automate post-game recaps, interview snippets, and social media content creation.","🏆 Secured second place at \"Twelve Labs: Multimodal AI Media & Entertainment\" Hackathon"]
+  tags: ["GPT-4","Pegasus 1","Multimodal AI","Video Analysis","NLP"]
+  summary: "Sports press-conference summaries and highlight reels using GPT-4 and Twelve Labs. Second place at the Twelve Labs multimodal AI hackathon."
+  year: "2024"
+  repository_created: "2024-06-08"
+- title: "Super Mario Brothers Gameplay using Reinforcement Learning"
+  url: "https://github.com/prateekchhikara/supermario"
+  image: "/images/mario.webp"
+  details: ["Utilized the Proximal Policy Optimization (PPO) algorithm to enhance gameplay strategies in \"Super Mario Bros,\" leveraging the OpenAI Gym environment for robust and dynamic interaction.","Employed frame extraction and grayscale conversion, integrating a history of the previous four frames with the current one for improved performance and analysis, with the agent designed to run for an extensive one million iterations."]
+  tags: ["Reinforcement Learning","PPO","OpenAI Gym","Python"]
+  summary: "A Super Mario Bros. agent trained with Proximal Policy Optimization and a four-frame observation history."
+  year: "2023"
+  repository_created: "2023-12-24"
+- title: "Hidden Markov Model for Part of Speech Tagging"
+  url: "https://github.com/prateekchhikara/POSTagging_HMM"
+  image: "/images/hmm.webp"
+  details: ["Implemented a Hidden Markov Model to perform Part of Speech (POS) tagging, leveraging the robustness of the Viterbi algorithm and greedy decoding for efficient and accurate analysis.","Employed statistical methods to calculate transition and emission probabilities, ensuring a high level of precision in identifying the grammatical parts of speech in text data."]
+  tags: ["HMM","Viterbi","NLP","Python"]
+  summary: "Part-of-speech tagging with a Hidden Markov Model, Viterbi decoding, and a greedy baseline."
+  year: "2023"
+  repository_created: "2023-12-24"
+- title: "Bidirectional LSTM for Named Entity Recognition"
+  url: "https://github.com/prateekchhikara/NER_biLSTM"
+  image: "/images/ner.webp"
+  details: ["Implemented a Bidirectional LSTM (BLSTM) for Named Entity Recognition (NER) using GloVe word embeddings. Initialized neural network embeddings with GloVe vectors, addressing the case-insensitivity of GloVe by adding a boolean mask for case-sensitive NER recognition.","Developed model architecture with components like Embedding, LSTM, Linear, Dropout, and ELU layers, and trained using hyperparameters such as a batch size of 64, SGD optimizer, and a learning rate of 0.5 over 50 epochs, achieving an accuracy of 98.43%."]
+  tags: ["BiLSTM","GloVe","NER","PyTorch","NLP"]
+  summary: "Named entity recognition with a bidirectional LSTM, GloVe embeddings, and an additional feature for capitalization."
+  year: "2023"
+  repository_created: "2023-12-24"
+- title: "Image White Balance Correction using Variational Autoencoders"
+  url: "https://github.com/prateekchhikara/white_balance_correction"
+  image: "/images/white_balance.webp"
+  details: ["Implemented a Variational Autoencoder Model for white balance correction in images, focusing on neutralizing color casts caused by different lighting conditions to achieve natural and accurate colors.","Utilized the Adobe White-Balanced Images Dataset, which includes 2,881 rendered images from various camera models, including mobile phones and a DSLR camera, for testing and experiments.","Developed an encoder with convolutional layers and ReLU activation, a reparameterization technique for sampling from the latent space, and a decoder with linear and transposed convolutional layers, complemented by a loss function combining reconstruction loss and Kullback-Leibler (KL) Divergence loss."]
+  tags: ["VAE","Computer Vision","PyTorch","Image Processing"]
+  summary: "Correcting image color casts with a variational autoencoder trained on the Adobe White-Balanced Images Dataset."
+  year: "2023"
+  repository_created: "2023-11-30"
+- title: "Variational Autoencoders for Digit Generation"
+  url: "https://github.com/prateekchhikara/deep-learning-assignment2"
+  image: "/images/vae.webp"
+  details: ["Developed a comprehensive project on \"Variational Autoencoders for Digit Generation,\" focusing on the implementation and analysis of Variational Auto-Encoders (VAEs) in machine learning. VAEs are renowned for their likelihood maximization and unsupervised representation learning capabilities.","Executed key tasks including setting up a PyTorch data loading pipeline, constructing an auto-encoder architecture, extending it to a VAE, tuning parameters, analyzing representations, and enhancing generative capabilities using the MNIST dataset of handwritten digits."]
+  tags: ["VAE","PyTorch","MNIST","Deep Learning"]
+  summary: "A PyTorch variational autoencoder for generating handwritten digits and exploring latent representations."
+  year: "2023"
+  repository_created: "2023-03-18"
+- title: "Generative Adversarial Networks for Image Generation"
+  url: "https://github.com/prateekchhikara/deep-learning-assignment2"
+  image: "/images/gan.webp"
+  details: ["Implemented a Generative Adversarial Network (GAN) based on \"Unsupervised Representation Learning with Deep Convolutional Generative Adversarial Networks\", utilizing the CIFAR-10 dataset for training, and developed both discriminator and generator components.","Conducted a comprehensive training process with a robust loop, loss computation, and parameter updates, accompanied by activation maximization technique for visualization.","Combined practical coding of advanced neural network architectures with theoretical analysis, resulting in a deepened understanding of GANs, all documented in the repository for reference."]
+  tags: ["GAN","DCGAN","CIFAR-10","PyTorch"]
+  summary: "Training and analyzing a deep convolutional GAN on CIFAR-10, including activation visualizations."
+  year: "2023"
+  repository_created: "2023-03-18"

@@ -1,24 +1,25 @@
-{% include base_path %}
-
-<div class="masthead">
+<header class="masthead">
   <div class="masthead__inner-wrap">
-    <div class="masthead__menu">
-      <nav id="site-nav" class="greedy-nav">
-        <button type="button" aria-label="Toggle menu"><div class="navicon"></div></button>
-        <ul class="visible-links">
-          <li class="masthead__menu-item masthead__menu-item--lg"><a href="{{ '/' | relative_url }}">Home</a></li>
-          {% for link in site.data.navigation.main %}
-            {% if link.url contains 'http' %}
-              {% assign link_href = link.url %}
-            {% else %}
-              {% assign link_href = link.url | relative_url %}
-            {% endif %}
-            {% if page.url contains link.url %}{% assign is_active = true %}{% else %}{% assign is_active = false %}{% endif %}
-            <li class="masthead__menu-item"><a href="{{ link_href }}"{% if is_active %} class="active" aria-current="page"{% endif %}>{{ link.title }}</a></li>
+    <a class="site-signature" href="{{ '/' | relative_url }}" aria-label="Prateek Chhikara, home"><span class="signature-mark" aria-hidden="true">pc.</span><span>Prateek Chhikara</span></a>
+    <nav class="site-navigation" aria-label="Main navigation">
+      {% for link in site.data.navigation.main %}
+        {% assign active = false %}
+        {% if page.url == link.url %}{% assign active = true %}{% endif %}
+        {% if link.url == '/writing/' and page.layout == 'article' %}{% assign active = true %}{% endif %}
+        <a href="{{ link.url | relative_url }}"{% if active %} aria-current="page"{% endif %}>{{ link.title }}</a>
+      {% endfor %}
+      <details class="more-menu">
+        <summary{% if page.url == '/work_ex/' or page.url == '/education/' or page.url == '/profile/' %} class="is-active"{% endif %}>More <span aria-hidden="true">⌄</span></summary>
+        <ul>
+          {% for link in site.data.navigation.more %}
+            <li><a href="{{ link.url | relative_url }}"{% if page.url == link.url %} aria-current="page"{% endif %}>{{ link.title }}</a></li>
           {% endfor %}
         </ul>
-        <ul class="hidden-links hidden"></ul>
-      </nav>
-    </div>
+      </details>
+    </nav>
+    <button class="theme-toggle" type="button" aria-label="Switch to dark theme" aria-pressed="false" hidden>
+      <svg class="theme-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M20.5 13A8.5 8.5 0 0 1 11 3.5 8.5 8.5 0 1 0 20.5 13Z"/></svg>
+      <svg class="theme-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2m0 16v2M2 12h2m16 0h2M5 5l1.5 1.5m11 11L19 19M5 19l1.5-1.5m11-11L19 5"/></svg>
+    </button>
   </div>
-</div>
+</header>

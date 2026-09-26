@@ -1,25 +1,18 @@
-# main links links
 main:
-  - title: "Work Experience"
-    url: /work_ex/
-
-  - title: "Research"
+  - title: About
+    url: /
+  - title: Research
     url: /research/
-
-  - title: "Education"
-    url: /education/
-
-  - title: "Projects"
+  - title: Projects
     url: /projects/
-        
-  - title: "Artworks"
-    url: /artworks/
-    
-  - title: "Writing"
+  - title: Writing
     url: /writing/
-    
-  # - title: "CV"
-  #   url: /cv/
-    
-  # - title: "Guide"
-  #   url: /markdown/
+  - title: Art
+    url: /artworks/
+more:
+  - title: Experience
+    url: /work_ex/
+  - title: Education
+    url: /education/
+  - title: Profile & recommendations
+    url: /profile/

@@ -154,6 +154,8 @@ exclude:
   - gulpfile.js
   - log
   - node_modules
+  - docs
+  - scripts
   - package.json
   - markdown_generator
   - talkmap
@@ -196,12 +198,12 @@ defaults:
       path: ""
       type: posts
     values:
-      layout: single
-      author_profile: true
+      layout: article
+      author_profile: false
       read_time: true
-      comments: true
-      share: true
-      related: true
+      comments: false
+      share: false
+      related: false
   # _pages
   - scope:
       path: ""
