@@ -116,7 +116,9 @@ pre code { padding: 0; background: none; }
 .footer-top, .footer-bottom { display: flex; align-items: center; justify-content: space-between; gap: 20px; }
 .footer-name { color: var(--ink); font: 17px var(--serif); text-decoration: none; }
 .footer-links { display: flex; flex-wrap: wrap; gap: 18px; }
-.footer-links a { color: var(--muted); font-size: 12px; text-decoration: none; }
+.footer-links a { color: var(--muted); display: inline-flex; align-items: center; gap: 6px; font-size: 12px; text-decoration: none; }
+.footer-links i, .footer-x-icon { width: 13px; height: 13px; flex: 0 0 13px; }
+.footer-x-icon { fill: currentColor; }
 .footer-bottom { font-size: 11px; color: var(--muted); margin-top: 24px; }
 .footer-bottom a { color: inherit; }
 /* Selected research remains visual; the full archive is a compact list. */
@@ -168,6 +170,13 @@ pre code { padding: 0; background: none; }
 .achievement-list .highlight { font-weight: 600; color: var(--ink); }
 .image-gallery { display: flex; gap: 12px; flex-wrap: wrap; margin-top: 20px; }
 .image-gallery img { width: 120px; height: 90px; object-fit: cover; border-radius: 3px; }
+.work-recommendations { margin-top: 22px; padding-top: 18px; border-top: 1px solid var(--rule); }
+.work-recommendations--grid { display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); gap: 24px; }
+.work-recommendation { margin: 0; }
+.work-recommendation blockquote { border: 0; padding: 0; margin: 0 0 14px; color: var(--muted); font: italic .95rem/1.65 var(--serif); }
+.work-recommendation figcaption { display: flex; align-items: center; gap: 10px; color: var(--muted); font-size: 11px; }
+.work-recommendation figcaption img { width: 34px; height: 34px; flex: 0 0 34px; object-fit: cover; border-radius: 50%; }
+.work-recommendation figcaption a { display: block; color: var(--ink); font-size: 12px; }
 .gpa-badge { color: var(--muted); font-size: 13px; margin-bottom: 15px; }
 .gpa-value { color: var(--ink); margin-left: 8px; }
 .coursework-details { border-top: 1px solid var(--rule); padding: 15px 0; }
@@ -179,7 +188,7 @@ pre code { padding: 0; background: none; }
 .profile-skills dt { color: var(--ink); font-size: 13px; font-weight: 600; margin-top: 18px; }
 .profile-skills dd { margin: 5px 0 20px; font-size: 14px; color: var(--muted); }
 .recommendation { padding: 24px 0; border-top: 1px solid var(--rule); }
-.recommendation blockquote { border: 0; padding: 0; font: 1.1rem/1.75 var(--serif); margin: 0 0 18px; }
+.recommendation blockquote { border: 0; padding: 0; font: italic 1.1rem/1.75 var(--serif); margin: 0 0 18px; }
 .recommendation figcaption { display: flex; gap: 12px; align-items: center; }
 .recommendation figcaption img { width: 38px; height: 38px; object-fit: cover; border-radius: 50%; }
 .recommendation figcaption a { display: block; }
@@ -197,7 +206,6 @@ pre code { padding: 0; background: none; }
 .filter-btn { padding: 7px 13px; font-size: 12px; border: 1px solid transparent; border-radius: 3px; background: transparent; color: var(--muted); }
 .filter-btn.active { color: var(--ink); border-color: var(--rule); background: var(--surface); }
 .filter-btn:hover { color: var(--accent); }
-.rss-link { font-size: 11px; color: var(--muted); }
 .writing-list h2 { font-size: 1.4rem; }
 .writing-list .editorial-row { padding: 28px 0; }
 /* Long-form articles and margin notes. */
@@ -286,6 +294,7 @@ div.highlighter-rouge .highlight, figure.highlight .highlight { font-size: 13px;
   .publication-card { grid-template-columns: 1fr; gap: 18px; }
   .publication-image-wrap { max-width: 100%; }
   .publication-image { height: 170px; }
+  .work-recommendations--grid { grid-template-columns: 1fr; }
   .project-entry { grid-template-columns: 30px minmax(0,1fr); gap: 14px; }
   .work-header, .education-header { flex-wrap: wrap; gap: 12px; }
   .work-meta, .education-meta { width: 100%; text-align: left; }

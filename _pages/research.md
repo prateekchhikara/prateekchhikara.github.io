@@ -4,6 +4,7 @@ title: "Research"
 permalink: /research/
 author_profile: false
 description: "Research on memory, perception, and the reliability of AI systems."
+prose: true
 ---
 
 <div class="pub-wrap">

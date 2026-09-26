@@ -3,9 +3,9 @@ layout: archive
 title: Profile
 permalink: /profile/
 prose: true
-description: "A little more about my background, toolkit, and the people I’ve worked with."
+description: "A little more about my background, toolkit, and the client-facing AI/ML work I do."
 ---
-<p>I’m an AI/ML engineer with experience across startups, research labs, and industry. I hold a Master’s degree in Computer Science from the University of Southern California, with a specialization in Artificial Intelligence.</p>
+<p>I’m an AI/ML engineer with experience across startups, research labs, and industry. Much of my work is client-facing: understanding use cases across different industries, shaping them into tractable AI problems, and building systems that can run in the real world. I hold a Master’s degree in Computer Science from the University of Southern California, with a specialization in Artificial Intelligence.</p>
 <p>My work spans natural language processing, computer vision, and AI infrastructure. I’ve published in venues including ICLR, ACL, NeurIPS workshops, WACV, ECML, ECAI, and TMLR.</p>
 <p><a href="{{ '/work_ex/' | relative_url }}">Work experience →</a> &nbsp; <a href="{{ '/education/' | relative_url }}">Education →</a></p>
 <h2>Toolkit</h2>

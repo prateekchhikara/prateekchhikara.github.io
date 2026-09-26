@@ -9,7 +9,7 @@
         <a href="{{ link.url | relative_url }}"{% if active %} aria-current="page"{% endif %}>{{ link.title }}</a>
       {% endfor %}
       <details class="more-menu">
-        <summary{% if page.url == '/work_ex/' or page.url == '/education/' or page.url == '/profile/' %} class="is-active"{% endif %}>More <span aria-hidden="true">⌄</span></summary>
+        <summary{% if page.url == '/profile/' %} class="is-active"{% endif %}>More <span aria-hidden="true">⌄</span></summary>
         <ul>
           {% for link in site.data.navigation.more %}
             <li><a href="{{ link.url | relative_url }}"{% if page.url == link.url %} aria-current="page"{% endif %}>{{ link.title }}</a></li>

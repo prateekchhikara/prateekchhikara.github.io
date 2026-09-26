@@ -3,16 +3,16 @@ main:
     url: /
   - title: Research
     url: /research/
-  - title: Projects
-    url: /projects/
-  - title: Writing
-    url: /writing/
-  - title: Art
-    url: /artworks/
-more:
   - title: Experience
     url: /work_ex/
   - title: Education
     url: /education/
+  - title: Writing
+    url: /writing/
+  - title: Art
+    url: /artworks/
+  - title: Projects
+    url: /projects/
+more:
   - title: Profile & recommendations
     url: /profile/

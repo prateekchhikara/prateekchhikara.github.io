@@ -3,7 +3,7 @@ layout: archive
 title: "Work Experience"
 permalink: /work_ex/
 author_profile: false
-description: "From research prototypes to production systems, across startups and industry."
+description: "Client-facing AI/ML work across industry use cases, research prototypes, and production systems."
 prose: true
 ---
 
@@ -29,6 +29,7 @@ prose: true
         <div class="work-details">
             <div class="work-content">
                 <ul class="achievement-list">
+                    <li>Partnering with clients across industries to translate business use cases into practical AI/ML solutions.</li>
                     <li>Building scalable pipelines, generating synthetic data, and fine-tuning foundational models for performance, reliability, and domain adaptation.</li>
                 </ul>
             </div>
@@ -91,6 +92,13 @@ prose: true
                     <li>Engineering automated censoring for license plates, faces, and other sensitive data, ensuring image compliance with data protection laws.</li>
                 </ul>
             </div>
+            {% assign jamie = site.data.recommendations | where: "name", "Jamie McInally" | first %}
+            <div class="work-recommendations">
+                <figure class="work-recommendation">
+                    <blockquote>{{ jamie.quote }}</blockquote>
+                    <figcaption><img src="{{ jamie.image | relative_url }}" alt="" width="34" height="34" loading="lazy" decoding="async"><span><a href="{{ jamie.url }}">{{ jamie.name }}</a>{{ jamie.role }}</span></figcaption>
+                </figure>
+            </div>
         </div>
     </div>
 
@@ -120,6 +128,13 @@ prose: true
                     <li>Enhanced visual question answering system by implementing visual cropping methods to focus specific region in images. (<a href="https://arxiv.org/abs/2310.16033" class="publication-link">Published at NeurIPS Workshop 2023</a>)</li>
                     <li>Developed a multimodal approach for recipe generation from food images using attention-based vision and language models. (<a href="https://arxiv.org/abs/2308.14391" class="publication-link">Published at WACV 2024</a>)</li>
                 </ul>
+            </div>
+            {% assign filip = site.data.recommendations | where: "name", "Filip Ilievski" | first %}
+            <div class="work-recommendations">
+                <figure class="work-recommendation">
+                    <blockquote>{{ filip.quote }}</blockquote>
+                    <figcaption><img src="{{ filip.image | relative_url }}" alt="" width="34" height="34" loading="lazy" decoding="async"><span><a href="{{ filip.url }}">{{ filip.name }}</a>{{ filip.role }}</span></figcaption>
+                </figure>
             </div>
         </div>
     </div>
@@ -165,6 +180,18 @@ prose: true
                 <a class="image-link" href="{{ '/images/carousel1-1.webp' | relative_url }}">
                     <img src="{{ '/images/carousel1-1-small.webp' | relative_url }}" alt="Real-estate image processing result preview 4" loading="lazy" decoding="async" width="160" height="120"/>
                 </a>
+            </div>
+            {% assign chirag = site.data.recommendations | where: "name", "Chirag Sharma" | first %}
+            {% assign anil = site.data.recommendations | where: "name", "Anil Goyal" | first %}
+            <div class="work-recommendations work-recommendations--grid">
+                <figure class="work-recommendation">
+                    <blockquote>{{ chirag.quote }}</blockquote>
+                    <figcaption><img src="{{ chirag.image | relative_url }}" alt="" width="34" height="34" loading="lazy" decoding="async"><span><a href="{{ chirag.url }}">{{ chirag.name }}</a>{{ chirag.role }}</span></figcaption>
+                </figure>
+                <figure class="work-recommendation">
+                    <blockquote>{{ anil.quote }}</blockquote>
+                    <figcaption><img src="{{ anil.image | relative_url }}" alt="" width="34" height="34" loading="lazy" decoding="async"><span><a href="{{ anil.url }}">{{ anil.name }}</a>{{ anil.role }}</span></figcaption>
+                </figure>
             </div>
         </div>
     </div>
