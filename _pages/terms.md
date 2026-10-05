@@ -1,7 +1,7 @@
 ---
 permalink: /terms/
 title: "Terms and Privacy Policy"
-modified: 2026-05-18
+modified: 2026-10-04
 sitemap: false
 ---
 
@@ -18,9 +18,10 @@ When you choose a light or dark theme, this site stores that preference in your 
 
 ### Analytics
 
-This site may use Google Analytics to understand aggregate traffic patterns, such as page views, referrers, device types, and approximate regions. Google Analytics may use cookies or similar technologies. The data is used only to improve the site and is not sold by me.
+This site may use Google Analytics and PostHog to understand aggregate traffic patterns, such as page views, referrers, device types, and approximate regions. These services may use cookies or similar technologies. The data is used only to improve the site and is not sold by me.
 
 You can learn more in the [Google Analytics Privacy Policy](https://policies.google.com/privacy).
+You can also learn more in the [PostHog Privacy Policy](https://posthog.com/privacy).
 
 ### External Links
 

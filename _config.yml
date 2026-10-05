@@ -85,6 +85,12 @@ analytics:
 
 google_analytics: "G-TK3H3SZLFK"
 
+# PostHog web analytics. Add your public project API key to enable it.
+# Use https://eu.i.posthog.com for an EU-hosted PostHog project.
+posthog:
+  project_api_key         : "phc_utwgBKUp4RzbXMi2FBa2rCkLwECGLWB4lavQRqwnfk"
+  api_host                : "https://us.i.posthog.com"
+
 
 # Site Author
 author:

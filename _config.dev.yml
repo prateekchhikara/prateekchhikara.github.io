@@ -5,6 +5,9 @@ url: http://localhost:4000
 analytics:
   provider: false
 
+posthog:
+  project_api_key: ""
+
 comments:
   disqus:
     shortname            : "mmistakes-dev"
